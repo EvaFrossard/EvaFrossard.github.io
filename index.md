@@ -18,11 +18,11 @@ Are you a Youtuber struggling with his stats ? Has the exponential increase of n
 <div style="overflow: auto;">
  <p style="float: left; margin-right: 10px;">
 
-  You are not alone, and our team of experts at 3Bs are here to dedicate their talents to make you regain your popularity, without judgement and with full confidence. May it be from a big controversy or a simple popularity decline, our goal is to <b>develop a data-driven strategy for navigating the aftermath of public disinterest using insights from YouTube’s ecosystem<b>. 
+  You are not alone, and our team of experts at 3Bs are here to dedicate their talents to make you regain your popularity, without judgement and with full confidence. May it be from a big controversy or a simple popularity decline, our goal is to <b>develop a data-driven strategy for navigating the aftermath of public disinterest using insights from YouTube’s ecosystem</b>. 
 
   By drawing on patterns from previous YouTuber experiences, we’ll analyse key metrics— such as your channel type, initial popularity, posting frequency—to offer tailored strategies for re-engagement, so that you can fully focus on the fun and creative aspect of your job ! 
 
-  Our motivation stems from the spread of <b>online backlash<b>, that has visibly impacted creators on YouTube and other platforms. Eager to offer them unforeseen solutions and break the stigma on subscribers loss, we aim to help you make informed decisions about your next steps to rebuild audience trust.
+  Our motivation stems from the spread of <b>online backlash</b>, that has visibly impacted creators on YouTube and other platforms. Eager to offer them unforeseen solutions and break the stigma on subscribers loss, we aim to help you make informed decisions about your next steps to rebuild audience trust.
   </p>
   <img src = '/assets/img/suit.jpg' style="float: left; margin-right: 10px;"/>
 </div>
