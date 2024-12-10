@@ -7,6 +7,7 @@ thumbnail-img: /assets/img/fond.png
 share-img: /assets/img/fond.png
 
 use-site-title: true
+full-width: true
 ---
 
 ## The 3Bs: meet our team of community managers
