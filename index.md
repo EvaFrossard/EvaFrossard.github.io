@@ -12,33 +12,32 @@ use-site-title: true
 
 ## The 3Bs: meet our team of community managers
 
-Are you a Youtuber struggling with his stats ? Has the exponential increase of new creators on the platform left you with a declining viewership ? Are you sick and tired of losing energy and time without figuring out how to be back on trends ? 
-
+Are you a Youtuber struggling with his stats ?
+Has the exponential increase of new creators on the platform left you with a declining viewership ? 
+Are you sick and tired of losing energy and time without figuring out how to be back on trends ? 
 
 <div style="overflow: auto;">
- <p style="float: left; margin-right: 10px;">
+  <p style="float: left; margin-right: 10px; max-width: 60%;">
+    You are not alone, and our team of experts at 3Bs are here to dedicate their talents to make you regain your popularity, without judgement and with full confidence. May it be from a big controversy or a simple popularity decline, our goal is to <b>develop a data-driven strategy for navigating the aftermath of public disinterest using insights from YouTube’s ecosystem</b>. 
 
-  You are not alone, and our team of experts at 3Bs are here to dedicate their talents to make you regain your popularity, without judgement and with full confidence. May it be from a big controversy or a simple popularity decline, our goal is to <b>develop a data-driven strategy for navigating the aftermath of public disinterest using insights from YouTube’s ecosystem</b>. 
+    By drawing on patterns from previous YouTuber experiences, we’ll analyse key metrics—such as your channel type, initial popularity, posting frequency—to offer tailored strategies for re-engagement, so that you can fully focus on the fun and creative aspect of your job! 
 
-  By drawing on patterns from previous YouTuber experiences, we’ll analyse key metrics— such as your channel type, initial popularity, posting frequency—to offer tailored strategies for re-engagement, so that you can fully focus on the fun and creative aspect of your job ! 
-
-  Our motivation stems from the spread of <b>online backlash</b>, that has visibly impacted creators on YouTube and other platforms. Eager to offer them unforeseen solutions and break the stigma on subscribers loss, we aim to help you make informed decisions about your next steps to rebuild audience trust.
+    Our motivation stems from the spread of <b>online backlash</b>, that has visibly impacted creators on YouTube and other platforms. Eager to offer them unforeseen solutions and break the stigma on subscribers loss, we aim to help you make informed decisions about your next steps to rebuild audience trust.
   </p>
-  <img src = '/assets/img/suit.jpg' style="float: left; margin-right: 10px;"/>
+  <img src="/assets/img/suit.jpg" alt="Your 3Bs team" style="float: left; margin-right: 10px; max-width: 30%;"/>
 </div>
 
 ## Research Questions
 
-<div style="border: 2px solid black; padding: 10px; display: inline-block;">
+<div style="border: 2px solid red; padding: 10px; display: inline-block;">
   - **How do we define decline for Youtubers ? How do we define a recovery**
   - **Is a Youtube channel category affecting the effective response strategies after a decline?**
   - **What timing and content strategies are best for re-engagement following public backlash? Should you change your posting strategy?**
   - **In the exact case of a ‘bad buzz’, how to define it using Youtuber statistics? Are apology videos really useful?**
 </div>
 
-
-
 ## Why should you trust us ? 
+
 
 
 
