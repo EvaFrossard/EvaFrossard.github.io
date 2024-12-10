@@ -23,25 +23,20 @@ By drawing on patterns from previous YouTuber experiences, we’ll analyse key m
 
 Our motivation stems from the spread of <b>online backlash</b>, that has visibly impacted creators on YouTube and other platforms. Eager to offer them unforeseen solutions and break the stigma on subscribers loss, we aim to help you make informed decisions about your next steps to rebuild audience trust.
 </p>
-  <img src = '/assets/img/suit.jpeg' style="margin-left: 30px;"/>
+  <img src = '/assets/img/suit.jpg' style="margin-left: 30px;"/>
 </div>
-
-
-## 
-
-
-
-
-
-Should they change their posting strategy ? Wait a specific period before posting new content? In case of big controversies, should they issue an apology video? Our recommendations will not be based on the cause of their decline but on optimal tactics for handling its impact.
-
 
 ## Research Questions
 
 - **How do we define decline for Youtubers ? How do we define a recovery**
 - **Is a Youtube channel category affecting the effective response strategies after a decline?**
-- **What timing and content strategies are best for re-engagement following public backlash?**
+- **What timing and content strategies are best for re-engagement following public backlash? Should you change your posting strategy?**
 - **In the exact case of a ‘bad buzz’, how to define it using Youtuber statistics? Are apology videos really useful?**
+
+
+## 
+
+
 
 ## Methods
 
