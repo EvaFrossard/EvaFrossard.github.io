@@ -44,6 +44,34 @@ Our motivation stems from the spread of <b>online backlash</b>, that has visibly
 
 
 
+
+
+
+
+
+
+### Before any pice of advice, how do we define a decline ?
+
+**You feel like your viewership is going down and your stats are struggling ?** We know how painful that can be when you're trying to be on your A-game and you're putting all of your time and energy into your channel. 
+Let's keep it real, there are very few chances you're actively losing subscribers (or maybe you actually did fumble, you can go check out our bad buzz section ;)). If you're not in the middle of a controversy and cancel culture hasn't got the best of you, chances are you are just experiencing a decline. In most cases, your situation will fix by itself. However, if this has been going on for more than a month, maybe you should check out our analytical tool ! 
+
+Since Youtube hasn't stopped gaining new users, we have reached the conclusion that very few channels will actively face a decrease in their total subscriber count. However, we can detect decline by noticing in your stats a significant slowdown in the growth rate, which may indicate potential issues such as reduced engagement or a negative reception by the audience. To go further, we compared the actual growth rate (`delta_subs`) against the rolling average growth rate (`rolling_growth_rate`). 
+
+**Why ?** Because the rolling average acts as a smoothed baseline, calculated using a defined window (we arbitrarily used a `ROLLING_WINDOW` of 20 weeks), which helps to identify deviations from the expected trend. When the growth of your channel falls below the rolling average, it suggests that the channel's performance has dipped relative to its typical trend. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Methods
 
 We chose not to explore another dataset, considering the size of YouNiverse.
