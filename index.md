@@ -2,13 +2,15 @@
 layout: page
 title: Buzz, bust and bounce-back
 subtitle: A data-driven strategy to deal with YouTubers’ decline
+subsubtitle: Names
 cover-img: /assets/img/fond.png
 thumbnail-img: /assets/img/fond.png
 share-img: /assets/img/fond.png
+
 use-site-title: true
 ---
 
-## Abstract
+### Abstract
 
 In this project, we take on the role of **community managers** helping a YouTuber recover from a recent popularity crisis. May it be from a big controversy or a simple popularity decline, our goal is to **develop a data-driven strategy for navigating the aftermath of public disinterest using insights from YouTube’s ecosystem**. Drawing on patterns from previous YouTuber experiences, we’ll analyse key metrics— such as channel type, initial popularity, posting frequency—to offer tailored strategies for re-engagement. Should they change their posting strategy ? Wait a specific period before posting new content? In case of big controversies, should they issue an apology video? Our recommendations will not be based on the cause of their decline but on optimal tactics for handling its impact.
 
