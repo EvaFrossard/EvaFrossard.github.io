@@ -23,8 +23,12 @@ By drawing on patterns from previous YouTuber experiences, we’ll analyse key m
 
 Our motivation stems from the spread of **online backlash**, that has visibly impacted creators on YouTube and other platforms. Eager to offer them unforeseen solutions and break the stigma on subscribers loss, we aim to help you make informed decisions about your next steps to rebuild audience trust.
 </p>
-  <img src = '/assets/data/suit.jpeg' alt="Your 3Bs team" style="margin-left: 30px;"/>
+  <img src = '/assets/data/img/suit.jpeg' style="margin-left: 30px;"/>
 </div>
+
+
+
+
 
 
 
