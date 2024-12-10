@@ -30,15 +30,15 @@ Are you sick and tired of losing energy and time without figuring out how to be 
 ## Research Questions
 
 <div style="border: 2px solid red; padding: 10px; display: inline-block;">
-  - **How do we define decline for Youtubers ? How do we define a recovery**
-  - **Is a Youtube channel category affecting the effective response strategies after a decline?**
-  - **What timing and content strategies are best for re-engagement following public backlash? Should you change your posting strategy?**
-  - **In the exact case of a ‘bad buzz’, how to define it using Youtuber statistics? Are apology videos really useful?**
+  <ol>
+    <li> How do we define decline for Youtubers ? How do we define a recovery ?</li>
+    <li> Is a Youtube channel category affecting the effective response strategies after a decline?</li>
+    <li> **What timing and content strategies are best for re-engagement following public backlash? Should you change your posting strategy?</li>
+    <li> In the exact case of a ‘bad buzz’, how to define it using Youtuber statistics? Are apology videos really useful?</li>
+  </ol>
 </div>
 
 ## Why should you trust us ? 
-
-
 
 
 
