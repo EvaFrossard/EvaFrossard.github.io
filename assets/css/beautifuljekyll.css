@@ -367,9 +367,9 @@ img {
   margin-left: -50%;
   {% unless site.round-avatar == false %}
     border-radius: 50%;
-    box-shadow: 0 0 0.5rem rgba(0, 0, 0, .8);
-    -webkit-box-shadow: 0 0 0.3125rem rgba(0, 0, 0, .8);
-    -moz-box-shadow: 0 0 0.5rem rgba(0, 0, 0, .8);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0);
   {% endunless %}
 }
 .navbar-custom .avatar-container .avatar-img {
