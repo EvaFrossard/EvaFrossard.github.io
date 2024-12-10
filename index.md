@@ -21,7 +21,7 @@ Are you a Youtuber struggling with his stats ? Has the exponential increase of n
 
 By drawing on patterns from previous YouTuber experiences, we’ll analyse key metrics— such as your channel type, initial popularity, posting frequency—to offer tailored strategies for re-engagement, so that you can fully focus on the fun and creative aspect of your job ! 
 
-Our motivation stems from the spread of <b>online backlash<b>, that has visibly impacted creators on YouTube and other platforms. Eager to offer them unforeseen solutions and break the stigma on subscribers loss, we aim to help you make informed decisions about your next steps to rebuild audience trust.
+Our motivation stems from the spread of <b>online backlash</b>, that has visibly impacted creators on YouTube and other platforms. Eager to offer them unforeseen solutions and break the stigma on subscribers loss, we aim to help you make informed decisions about your next steps to rebuild audience trust.
 </p>
   <img src = '/assets/img/suit.jpeg' style="margin-left: 30px;"/>
 </div>
@@ -36,10 +36,9 @@ Our motivation stems from the spread of <b>online backlash<b>, that has visibly 
 Should they change their posting strategy ? Wait a specific period before posting new content? In case of big controversies, should they issue an apology video? Our recommendations will not be based on the cause of their decline but on optimal tactics for handling its impact.
 
 
-
 ## Research Questions
 
-- **How do we define decline for Youtubers ?**
+- **How do we define decline for Youtubers ? How do we define a recovery**
 - **Is a Youtube channel category affecting the effective response strategies after a decline?**
 - **What timing and content strategies are best for re-engagement following public backlash?**
 - **In the exact case of a ‘bad buzz’, how to define it using Youtuber statistics? Are apology videos really useful?**
