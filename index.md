@@ -10,25 +10,21 @@ share-img: /assets/img/fond.png
 use-site-title: true
 ---
 
-## The 3Bs: meet your team of community managers
+## The 3Bs: meet our team of community managers
 
 Are you a Youtuber struggling with his stats ? Has the exponential increase of new creators on the platform left you with a declining viewership ? Are you sick and tired of losing energy and time without figuring out how to be back on trends ? 
 
 
 <div style="display: flex; justify-content: flex-start; align-items: center;">
+
  <p>You are not alone, and our team of experts at 3Bs are here to dedicate their talents to make you regain your popularity, without judgement and with full confidence. May it be from a big controversy or a simple popularity decline, our goal is to **develop a data-driven strategy for navigating the aftermath of public disinterest using insights from YouTube’s ecosystem**. 
 
 By drawing on patterns from previous YouTuber experiences, we’ll analyse key metrics— such as your channel type, initial popularity, posting frequency—to offer tailored strategies for re-engagement, so that you can fully focus on the fun and creative aspect of your job ! 
 
 Our motivation stems from the spread of **online backlash**, that has visibly impacted creators on YouTube and other platforms. Eager to offer them unforeseen solutions and break the stigma on subscribers loss, we aim to help you make informed decisions about your next steps to rebuild audience trust.
 </p>
-  <img src=/assets/data/suit.jpeg alt="Your 3Bs team" style="margin-left: 10px;"/>
+  <img /assets/data/suit.jpeg alt="Your 3Bs team" style="margin-left: 10px;"/>
 </div>
-
-
-![Your 3Bs team](/assets/data/suit.jpeg)
-
-
 
 
 
