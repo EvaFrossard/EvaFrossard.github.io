@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Datastory
+title: Buzz, bust and bounce-back
 
 # Your name to show in the footer
 author: ooohfada
@@ -34,7 +34,7 @@ navbar-links:
 avatar: "/assets/img/avatar.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-#round-avatar: true
+round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
@@ -53,7 +53,7 @@ avatar: "/assets/img/avatar.png"
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-#url-pretty: "MyWebsite.com"
+url-pretty: "Buzz_bust_and_bounce_back.com"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
