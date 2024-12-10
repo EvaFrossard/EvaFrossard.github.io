@@ -29,10 +29,14 @@ Are you a Youtuber struggling with his stats ? Has the exponential increase of n
 
 ## Research Questions
 
-- **How do we define decline for Youtubers ? How do we define a recovery**
-- **Is a Youtube channel category affecting the effective response strategies after a decline?**
-- **What timing and content strategies are best for re-engagement following public backlash? Should you change your posting strategy?**
-- **In the exact case of a ‘bad buzz’, how to define it using Youtuber statistics? Are apology videos really useful?**
+<div style="border: 2px solid black; padding: 10px; display: inline-block;">
+  - **How do we define decline for Youtubers ? How do we define a recovery**
+  - **Is a Youtube channel category affecting the effective response strategies after a decline?**
+  - **What timing and content strategies are best for re-engagement following public backlash? Should you change your posting strategy?**
+  - **In the exact case of a ‘bad buzz’, how to define it using Youtuber statistics? Are apology videos really useful?**
+</div>
+
+
 
 ## Why should you trust us ? 
 
