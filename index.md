@@ -41,6 +41,7 @@ Our motivation stems from the spread of <b>online backlash</b>, that has visibly
 
 
 
+HTML YOUTUBE + texte
 
 
 
@@ -50,7 +51,17 @@ Our motivation stems from the spread of <b>online backlash</b>, that has visibly
 
 
 
-### Before any pice of advice, how do we define a decline ?
+
+
+
+
+
+
+
+
+
+
+### Before any piece of advice, how do we define a decline ?
 
 **You feel like your viewership is going down and your stats are struggling ?** We know how painful that can be when you're trying to be on your A-game and you're putting all of your time and energy into your channel. 
 Let's keep it real, there are very few chances you're actively losing subscribers (or maybe you actually did fumble, you can go check out our bad buzz section ;)). If you're not in the middle of a controversy and cancel culture hasn't got the best of you, chances are you are just experiencing a decline. In most cases, your situation will fix by itself. However, if this has been going on for more than a month, maybe you should check out our analytical tool ! 
@@ -67,24 +78,7 @@ To make you visualise a bit more, here is a little glimpse at the biggest Youtub
 
 PUT subs trends for 5 big youtubers
 
-Okay, okay, we might just be rubbing salt on the wound right now with loss and declines, let's talk about more positive thingd... the recovery ! So what do we considered being an efficient recovery ? Since we do not want you to fall into the unknown for too long, but we still consider normal that a recovery is not happening in a flash, we consider that your recovery was successful if it happened in the span of 16 weeks, or 4 months. More and our model will sadly announce that you have one foot in the grave, and that Youtuber might not be a durable hobbie for you... sad, but your mom told you so ! 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Okay, okay, we might just be rubbing salt on the wound right now with loss and declines, let's talk about more positive things... the recovery ! So what do we considered being an efficient recovery ? Since we do not want you to fall into the unknown for too long, but we still consider normal that a recovery is not happening in a flash, we consider that your recovery was successful if it happened in the span of 16 weeks, or 4 months. More and our model will sadly announce that you have one foot in the grave, and that Youtuber might not be a durable hobbie for you... sad, but your mom told you so years ago! 
 
 
 

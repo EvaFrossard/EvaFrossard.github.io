@@ -4,6 +4,15 @@ layout: base
 
 {% include header.html type="page" %}
 
+<head>
+  <style>
+    div {
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+  </style>
+</head>
+
 <main class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
   <div class="row">
     <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-13 offset-lg-1 {% endif %}">
