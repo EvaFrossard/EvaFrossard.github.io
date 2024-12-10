@@ -11,7 +11,7 @@ use-site-title: true
 
 ## The 3Bs: meet our team of community managers
 
-Are you a Youtuber struggling with his stats ?
+Are you a Youtuber struggling with their stats ?
 
 Has the exponential increase of new creators on the platform left you with a declining viewership ? 
 
