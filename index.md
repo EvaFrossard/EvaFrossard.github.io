@@ -64,7 +64,11 @@ HTML YOUTUBE + texte
 ### Before any piece of advice, how do we define a decline ?
 
 **You feel like your viewership is going down and your stats are struggling ?** We know how painful that can be when you're trying to be on your A-game and you're putting all of your time and energy into your channel. 
-Let's keep it real, there are very few chances you're actively losing subscribers (or maybe you actually did fumble, you can go check out our bad buzz section ;)). If you're not in the middle of a controversy and cancel culture hasn't got the best of you, chances are you are just experiencing a decline. In most cases, your situation will fix by itself. However, if this has been going on for more than a month, maybe you should check out our analytical tool ! 
+
+<p>
+  <img src="/assets/img/arrow.png" alt="Description of image" style="float: right; margin-left: 20px;">
+  Let's keep it real, there are very few chances you're actively losing subscribers (or maybe you actually did fumble, you can go check out our bad buzz section ;)). If you're not in the middle of a controversy and cancel culture hasn't got the best of you, chances are you are just experiencing a decline. In most cases, your situation will fix by itself. However, if this has been going on for more than a month, maybe you should check out our analytical tool ! 
+</p>
 
 ![](/assets/img/arrow.png)
 
