@@ -60,14 +60,9 @@ to offer tailored strategies for re-engagement, so that you can fully focus on t
 Adress your decline in an apology video ? Post more often or change topics slightly ? Our motivation stems from the spread of <b>online backlash</b>, that has visibly impacted 
 creators on YouTube and other platforms. Eager to offer them unforeseen solutions and break the stigma on subscribers loss, we aim to help you make informed decisions about your next steps to rebuild audience trust.
 
-
-
-
-## Research Questions
-
 <div style="border: 2px solid red; padding: 10px; display: inline-block;">
+  <h2> Research Questions </h2>
   <ol>
-    <h2> Research Questions </h2>
     <li> How do we define decline for Youtubers ? How do we define a recovery ?</li>
     <li> Is a Youtube channel category affecting the effective response strategies after a decline?</li>
     <li> What timing and content strategies are best for re-engagement following public backlash? Should you change your posting strategy?</li>
