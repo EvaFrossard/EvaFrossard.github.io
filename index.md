@@ -11,11 +11,6 @@ use-site-title: true
 ![](/assets/img/comments_intro.png)
 Does that sound (too) familiar ? Then you might just need our help...
 
-
-
-![](/assets/img/thumbnail.jpg)
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -23,7 +18,7 @@ Does that sound (too) familiar ? Then you might just need our help...
     <title>Text with Image</title>
     <style>
         .container {
-            max-width: 600px;
+            max-width: 800px;
             margin: auto;
         }
         .text {
