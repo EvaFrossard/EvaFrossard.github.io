@@ -9,15 +9,14 @@ share-img: /assets/img/fond.png
 use-site-title: true
 ---
 
-<p class="big-text">
-
-Are you a Youtuber struggling with their stats ?
+<p style="font-size: 3em; font-family: 'Georgia', serif; color: #FF5733; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); line-height: 1.5; text-align: center; font-weight: bold;">
+  Are you a Youtuber struggling with their stats ?
 
 Has the exponential increase of new creators on the platform left you with a declining viewership ? 
 
 Are you sick and tired of losing energy and time without figuring out how to be back on trends ? 
-
 </p>
+
 
 ## The 3Bs: meet our team of community managers
 
