@@ -9,20 +9,20 @@ share-img: /assets/img/fond.png
 use-site-title: true
 ---
 
-<p style="font-size: 2em; font-family: 'Georgia', serif; color: #8B0000; line-height: 1.5; text-align: center; font-weight: bold;">
-  Are you a Youtuber struggling with their stats ?
+<p style="font-size: 1em; font-family: 'Georgia', serif; color: ##800503; line-height: 1.5; text-align: center; font-weight: bold;">
+  Are you a Youtuber struggling with their stats ? <br>
 
-Has the exponential increase of new creators on the platform left you with a declining viewership ? 
+Has the exponential increase of new creators on the platform left you with a declining viewership ? <br>
 
-Are you sick and tired of losing energy and time without figuring out how to be back on trends ? 
+Are you sick and tired of losing energy and time without figuring out how to be back on trends ? <br>
 </p>
 
 
 ## The 3Bs: meet our team of community managers
 
-![](/assets/img/suit.jpg)
-
 You are not alone, and our team of experts at 3Bs are here to dedicate their talents to make you regain your popularity, without judgement and with full confidence. May it be from a big controversy or a simple popularity decline, our goal is to <b>develop a data-driven strategy for navigating the aftermath of public disinterest using insights from YouTube’s ecosystem</b>. 
+
+![](/assets/img/suit.jpg)
 
 By drawing on patterns from previous YouTuber experiences, we’ll analyse key metrics—such as your channel type, initial popularity, posting frequency—to offer tailored strategies for re-engagement, so that you can fully focus on the fun and creative aspect of your job! 
 
