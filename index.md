@@ -9,7 +9,7 @@ share-img: /assets/imgfond.png
 use-site-title: true
 ---
 
-<p style="font-size: 1em; font-family: 'Georgia', serif; color: #bf0906; line-height: 1.5; text-align: center; font-weight: bold;">
+<p style="font-size: 1em; font-family: 'Open Sans', serif; color: #bf0906; line-height: 1.5; text-align: center; font-weight: bold;">
   Are you a Youtuber struggling with their stats ? <br>
   Has the exponential increase of new creators on the platform left you with a declining viewership ? <br>
   Are you sick and tired of losing energy and time without figuring out how to be back on trends ? <br>
