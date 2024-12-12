@@ -18,16 +18,16 @@ Does that sound (too) familiar ? Then you might just need our help...
     <title>Text with Image</title>
     <style>
         .container {
-            max-width: 800px;
+            max-width: 920px;
             margin: auto;
         }
         .text {
-            float: left;
+            float: right;
             width: 60%;
             margin-right: 20px;
         }
         .image {
-            float: right;
+            float: left;
             width: 35%;
         }
         .clearfix::after {
