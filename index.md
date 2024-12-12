@@ -72,17 +72,7 @@ creators on YouTube and other platforms. Eager to offer them unforeseen solution
 
 ## Why should you trust us ? 
 
-
-
-HTML YOUTUBE + texte
-
-
-
-
-
-
-
-
+-> TODO: HTML YOUTUBE + texte
 
 ### Before any piece of advice, how do we define a decline ?
 
@@ -108,25 +98,11 @@ After playing around with parameters, we have decided on the following:
 
 To make you visualise a bit more, here is a little glimpse at the biggest Youtubers' declines, so you can see how well our detection works ! 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-PUT subs trends for 5 big youtubers
+-> TODO: put subs trends for 5 big youtubers
 
 Okay, okay, we might just be rubbing salt on the wound right now with loss and declines, let's talk about more positive things... the recovery ! So what do we considered being an efficient recovery ? Since we do not want you to fall into the unknown for too long, but we still consider normal that a recovery is not happening in a flash, we consider that your recovery was successful if it happened in the span of 16 weeks, or 4 months. More and our model will sadly announce that you have one foot in the grave, and that Youtuber might not be a durable hobbie for you... sad, but your mom told you so years ago! 
 
 
 
 
-
-#004AAD
+Color code: #004AAD
