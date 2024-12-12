@@ -1134,3 +1134,13 @@ pre {
 }
 
 
+ hr {
+   border-color: #FFFFFF;
+   border-width: 2px;
+   border-style: dashed;
+   /* Can also use dashed, dotted, etc. */
+   width: 25%;
+   /* Adjust width if needed */
+   margin: auto;
+   /* Center align the line */
+ }
