@@ -163,12 +163,7 @@
 
   {% assign favicon_exists = site.static_files | where: "path", "/favicon.ico" | size %}
   {% if favicon_exists == 1 %}
-  <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" href="/assets/img/favicon.ico">
-
-
-  <link rel="shortcut icon" type="image/png" href="/favicon.png">
   {% endif %}
 
   {% if page.head-extra %}
