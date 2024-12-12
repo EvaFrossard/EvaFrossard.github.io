@@ -7,7 +7,7 @@ layout: base
 
 <main class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
   <div class="row">
-    <div class="{% if page.full-width %} col {% else %} col-xl-10 offset-xl-2 col-lg-20 offset-lg-2 {% endif %}">
+    <div class="{% if page.full-width %} col {% else %} col-xl-12 offset-xl-0 col-lg-20 offset-lg-2 {% endif %}">
       {% if page.before-content %}
         <div class="before-content">
           {% for file in page.before-content %}
