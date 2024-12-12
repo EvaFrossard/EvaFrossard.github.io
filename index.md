@@ -9,17 +9,62 @@ share-img: /assets/img/fond.avif
 use-site-title: true
 ---
 ![](/assets/img/comments_intro.png)
-Does that sound (too) familiar ? 
+Does that sound (too) familiar ? Then you might just need our help...
 
-## The 3Bs: meet our team of community managers
 
-You are not alone, and our team of experts at 3Bs are here to dedicate their talents to make you regain your popularity, without judgement and with full confidence. May it be from a big controversy or a simple popularity decline, our goal is to <b>develop a data-driven strategy for navigating the aftermath of public disinterest using insights from YouTube’s ecosystem</b>. 
 
-![](/assets/img/suit.jpg)
+![](/assets/img/thumbnail.jpg)
 
-By drawing on patterns from previous YouTuber experiences, we’ll analyse key metrics—such as your channel type, initial popularity, posting frequency—to offer tailored strategies for re-engagement, so that you can fully focus on the fun and creative aspect of your job! 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text with Image</title>
+    <style>
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+        .text {
+            float: left;
+            width: 60%;
+            margin-right: 20px;
+        }
+        .image {
+            float: right;
+            width: 35%;
+        }
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
 
-Our motivation stems from the spread of <b>online backlash</b>, that has visibly impacted creators on YouTube and other platforms. Eager to offer them unforeseen solutions and break the stigma on subscribers loss, we aim to help you make informed decisions about your next steps to rebuild audience trust.
+<body>
+    <div class="container clearfix">
+        <div class="text">
+            <p>
+                As community managers, we can guarantee you that you are not alone, but you just made the best decision of your career by xoming to us. Our team of experts is here to 
+                dedicate their talents to make YOU regain your popularity, without judgement and with full trust, in a record time. May it be from a big controversy or a simple popularity 
+                decline, our goal is to <b>develop a data-driven strategy for navigating the aftermath of public disinterest using insights from YouTube’s ecosystem</b>. 
+                **How ?** By drawing on patterns from previous YouTuber experiences, we’ll analyse key metrics—such as your channel type, initial popularity, posting frequency
+                to offer tailored strategies for re-engagement, so that you can fully focus on the fun and creative aspect of your job! Should you do clickbait ? 
+                Adress your decline in an apology video ? Post more often or change topics slightly ? Our motivation stems from the spread of <b>online backlash</b>, that has visibly impacted 
+                creators on YouTube and other platforms. Eager to offer them unforeseen solutions and break the stigma on subscribers loss, we aim to help you make informed decisions about your next steps to rebuild audience trust.
+
+            </p>
+        </div>
+        <div class="image">
+            <img src="/assets/img/thumbnail.jpg" alt="" style="width:100%;">
+        </div>
+    </div>
+</body>
+</html>
+
+
 
 
 ## Research Questions
