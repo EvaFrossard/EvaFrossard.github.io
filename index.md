@@ -9,13 +9,13 @@ share-img: /assets/img/fond.png
 use-site-title: true
 ---
 
-## The 3Bs: meet our team of community managers
-
 Are you a Youtuber struggling with their stats ?
 
 Has the exponential increase of new creators on the platform left you with a declining viewership ? 
 
 Are you sick and tired of losing energy and time without figuring out how to be back on trends ? 
+
+## The 3Bs: meet our team of community managers
 
 ![](/assets/img/suit.jpg)
 
