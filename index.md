@@ -2,9 +2,9 @@
 layout: page
 title: Buzz, bust and bounce-back
 subtitle: A data-driven strategy to deal with YouTubers’ decline
-cover-img: /assets/img/fond.png
-thumbnail-img: /assets/img/fond.png
-share-img: /assets/imgfond.png
+cover-img: /assets/img/fond.avif
+thumbnail-img: /assets/img/fond.avif
+share-img: /assets/imgfond.avif
 
 use-site-title: true
 ---
