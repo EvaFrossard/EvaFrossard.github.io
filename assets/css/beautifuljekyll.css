@@ -382,9 +382,9 @@ img {
   {% endunless %}
 }
 .navbar-custom .avatar-container .avatar-img {
-  width: 100%;
+  width: 150%;
   {% unless site.round-avatar == false %}
-    border-radius: 50%;
+    border-radius: 60%;
   {% endunless %}
   display: block;
 }
