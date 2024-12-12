@@ -104,7 +104,6 @@ hr.small {
   border-width: 0.25rem;
   border-color: #FFFFFF;
   border-radius: 0.1775rem;
-  border-style: dashed;
 }
 
 /* fix in-page anchors to not be behind fixed header */
@@ -742,9 +741,9 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   font-weight: 400;
 }
 .intro-header.big-img .page-heading hr {
-  box-shadow: 1px 1px 3px #000;
-  -webkit-box-shadow: 1px 1px 3px #000;
-  -moz-box-shadow: 1px 1px 3px #000;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
 }
 .intro-header.big-img .post-heading .post-meta {
   color: #EEE;
