@@ -67,7 +67,7 @@ creators on YouTube and other platforms. Eager to offer them unforeseen solution
 
 <div style="border: 2px solid red; padding: 10px; display: inline-block;">
   <ol>
-    <h2> Research Questions
+    <h2> Research Questions </h2>
     <li> How do we define decline for Youtubers ? How do we define a recovery ?</li>
     <li> Is a Youtube channel category affecting the effective response strategies after a decline?</li>
     <li> What timing and content strategies are best for re-engagement following public backlash? Should you change your posting strategy?</li>
