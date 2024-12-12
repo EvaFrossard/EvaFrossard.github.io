@@ -1010,7 +1010,8 @@ pre {
   max-width: 25%;
   border-width: 0.25rem;
   border-radius: 0.1875rem;
-  border-color: var(--mid-col);
+  border-color: #FFFFFF;
+  border-style: dashed;
 }
 
 .blog-post blockquote {
@@ -1132,15 +1133,3 @@ pre {
     display: inline-block;
   }
 }
-
-
- hr {
-   border-color: #FFFFFF;
-   border-width: 2px;
-   border-style: dashed;
-   /* Can also use dashed, dotted, etc. */
-   width: 25%;
-   /* Adjust width if needed */
-   margin: auto;
-   /* Center align the line */
- }
