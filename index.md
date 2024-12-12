@@ -91,9 +91,26 @@ Similarly, a natural reaction is to play around with the video length to underst
 
 ### - Content category
 
-A third path that few dare to take is to try new things by changing their Youtube identity
+A third path that few dare to take is to try new things by changing their Youtube identity. However, we have to emphasize that this approach can have mixed results, and the impact on your recovery rate will depend heavily on the types of topics you choose to pivot to.
+   Topic_Change  Recovered
+0         False   0.424674
+1          True   0.435916
+Our analysis shows that, on average, channels that change their video topics experience a slight increase in recovery rates (0.4359) compared to those that don't change (0.4247). While this is encouraging, it’s important to note that not all topic changes yield positive results. In fact, the effect of switching topics can be both positive and negative, depending on the content direction you decide to take.
 
-TODO viz graph changement categories ?
+TODO Add viz bar chart recovery rates
+
+TODO Add viz chord chart to visualize common topic changes
+ 
+Some changes occur more frequently than others, so, in order to give you meaningful insights, we will only consider the more significant trends (>30 occurences in our database).
+
+While changing your video topics could help reverse the audience loss, it’s crucial to choose your new topics strategically. Some changes will work better than others, so let's see which topic transition works in your niche:
+
+TODO Add viz Sankey diagram
+
+For instance, certain transitions lead to significant improvements in recovery rates, while others may not be as beneficial. Specifically, channels focused on movie reviews tend to see positive changes in recovery when they switch topics, though transitioning to topics like politics could negatively impact your recovery. On the other hand, gameplay channels should be careful when changing topics, as only a shift to Fortnite-related content seems to maintain or increase engagement.
+
+If you’re considering making a shift, we recommend focusing on topics that have historically shown positive outcomes, such as beauty and lifestyle or gaming-related content, while being cautious about venturing into politics, where the change could backfire.
+
 
 ## What factors really matter
 
@@ -124,7 +141,8 @@ TODO matching viz
 - conclusions on category change
   - good or bad?
   - recommendations
+- conclusions on topic change
 
 TODO chaines +1M
 
-TOQO QUIZ
+TODO QUIZ
