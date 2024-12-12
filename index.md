@@ -3,13 +3,13 @@ layout: page
 title: Buzz, bust and bounce-back
 subtitle: A data-driven strategy to deal with YouTubers’ decline
 cover-img: /assets/img/fond.avif
-thumbnail-img: /assets/img/ond.avif
+thumbnail-img: /assets/img/fond.avif
 share-img: /assets/img/fond.avif
 
 use-site-title: true
 ---
 
-<p style="font-size: 1em; font-family: 'Open Sans', serif; color: #FF0000; line-height: 1.5; text-align: center; font-weight: bold;">
+<p style="font-size: 1.5em; font-family: 'Open Sans', serif; color: #FF0000; line-height: 1.5; text-align: center; font-weight: bold;">
   Are you a Youtuber struggling with their stats ? <br>
   Has the exponential increase of new creators on the platform left you with a declining viewership ? <br>
   Are you sick and tired of losing energy and time without figuring out how to be back on trends ? <br>
