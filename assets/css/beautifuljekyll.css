@@ -41,7 +41,7 @@ body {
   background-attachment: fixed;
   {% endif %}
   overflow-wrap: break-word;
-  min-height: 100vh;
+  min-height: 200vh;
   display: flex;
   flex-direction: column;
 }
@@ -52,13 +52,13 @@ p {
   line-height: 1.5;
   margin: 1.875rem 0;
 }
-h1, h2, h3, h4 {
+h1, h2, h3 {
   font-family: var(--header-font);
   font-weight: 800;
   line-height: 1.1;
 }
 
-h5, h6 {
+h4, h5, h6 {
   font-family: var(--header-font);
   color: #004AAD;
   font-weight: 800;
