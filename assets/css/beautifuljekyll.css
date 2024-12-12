@@ -103,7 +103,8 @@ hr.small {
   margin: 1rem auto;
   border-width: 0.25rem;
   border-color: #FFFFFF;
-  border-radius: 0.1875rem;
+  border-radius: 0.1775rem;
+  border-style: dashed;
 }
 
 /* fix in-page anchors to not be behind fixed header */
