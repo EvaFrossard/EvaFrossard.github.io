@@ -9,7 +9,7 @@ share-img: /assets/imgfond.png
 use-site-title: true
 ---
 
-<p style="font-size: 1em; font-family: 'Open Sans', serif; color: #bf0906; line-height: 1.5; text-align: center; font-weight: bold;">
+<p style="font-size: 1em; font-family: 'Open Sans', serif; color: #FF0000; line-height: 1.5; text-align: center; font-weight: bold;">
   Are you a Youtuber struggling with their stats ? <br>
   Has the exponential increase of new creators on the platform left you with a declining viewership ? <br>
   Are you sick and tired of losing energy and time without figuring out how to be back on trends ? <br>
@@ -51,16 +51,6 @@ HTML YOUTUBE + texte
 
 
 
-
-
-
-
-
-
-
-
-
-
 ### Before any piece of advice, how do we define a decline ?
 
 **You feel like your viewership is going down and your stats are struggling ?** We know how painful that can be when you're trying to be on your A-game and you're putting all of your time and energy into your channel. 
@@ -72,11 +62,12 @@ HTML YOUTUBE + texte
   <img src="/assets/img/arrow.png" alt="Description of image" style="width: 150px;">
 </div>
 
+Since Youtube hasn't stopped gaining new users, we have reached the conclusion that very few channels will actively face a decrease in their total subscriber count. However, we can detect decline by noticing in your stats a significant slowdown in the growth rate, which may indicate potential issues such as reduced engagement or a negative reception by the audience. To go further, we compared the actual growth rate of channels (`delta_subs`) against the rolling average growth rate (`rolling_growth_rate`). 
 
+<div style="border-left: 4px solid #FF0000; padding-left: 20px; font-size: 18px;">
+  **Why ?** Because the rolling average acts as a smoothed baseline, calculated using a defined window (we arbitrarily used a `ROLLING_WINDOW` of 20 weeks), which helps to identify deviations from the expected trend. When the growth of your channel falls below the rolling average, it suggests that the channel's performance has dipped relative to its typical trend. 
+</div>
 
-Since Youtube hasn't stopped gaining new users, we have reached the conclusion that very few channels will actively face a decrease in their total subscriber count. However, we can detect decline by noticing in your stats a significant slowdown in the growth rate, which may indicate potential issues such as reduced engagement or a negative reception by the audience. To go further, we compared the actual growth rate (`delta_subs`) against the rolling average growth rate (`rolling_growth_rate`). 
-
-**Why ?** Because the rolling average acts as a smoothed baseline, calculated using a defined window (we arbitrarily used a `ROLLING_WINDOW` of 20 weeks), which helps to identify deviations from the expected trend. When the growth of your channel falls below the rolling average, it suggests that the channel's performance has dipped relative to its typical trend. 
 
 After playing around with parameters, we have decided on the following: 
 - a minimum duration of a decline of 8 weeks: you could be on holidays without it being a decline ! 
