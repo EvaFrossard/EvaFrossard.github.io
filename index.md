@@ -42,7 +42,7 @@ Does that sound (too) familiar ? Then you might just need our help...
     <div class="container clearfix">
         <div class="text">
             <p>
-                As community managers, we can guarantee you that you are not alone, but you just made the best decision of your career by xoming to us. Our team of experts is here to 
+                As community managers, we can guarantee you that <u>you are not alone</u>, but you just made the <b>BEST</b> decision of your career by coming to us. Our team of experts is here to 
                 dedicate their talents to make YOU regain your popularity, without judgement and with full trust, in a record time. May it be from a big controversy or a simple popularity 
                 decline, our goal is to <b>develop a data-driven strategy for navigating the aftermath of public disinterest using insights from YouTube’s ecosystem</b>. 
                
@@ -55,7 +55,7 @@ Does that sound (too) familiar ? Then you might just need our help...
 </body>
 </html>
 
- **How ?**  By drawing on patterns from previous YouTuber experiences, we’ll analyse key metrics—such as your channel type, initial popularity, posting frequency
+**How ?**  By drawing on patterns from previous YouTuber experiences, we’ll analyse key metrics—such as your channel type, initial popularity, posting frequency
 to offer tailored strategies for re-engagement, so that you can fully focus on the fun and creative aspect of your job! Should you do clickbait ? 
 Adress your decline in an apology video ? Post more often or change topics slightly ? Our motivation stems from the spread of <b>online backlash</b>, that has visibly impacted 
 creators on YouTube and other platforms. Eager to offer them unforeseen solutions and break the stigma on subscribers loss, we aim to help you make informed decisions about your next steps to rebuild audience trust.
@@ -67,6 +67,7 @@ creators on YouTube and other platforms. Eager to offer them unforeseen solution
 
 <div style="border: 2px solid red; padding: 10px; display: inline-block;">
   <ol>
+    <h2> Research Questions
     <li> How do we define decline for Youtubers ? How do we define a recovery ?</li>
     <li> Is a Youtube channel category affecting the effective response strategies after a decline?</li>
     <li> What timing and content strategies are best for re-engagement following public backlash? Should you change your posting strategy?</li>
