@@ -9,9 +9,8 @@ share-img: /assets/img/fond.png
 use-site-title: true
 ---
 
-# My Beautiful Text Example
-
 <p class="big-text">
+
 Are you a Youtuber struggling with their stats ?
 
 Has the exponential increase of new creators on the platform left you with a declining viewership ? 
