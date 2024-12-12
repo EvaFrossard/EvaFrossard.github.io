@@ -359,7 +359,7 @@ img {
   left: 50%;
   width: 3.125rem;
   height: 20rem;
-  bottom: -2rem;
+  bottom: -10rem;
   transition: opacity 0.5s ease-in-out;
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
