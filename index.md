@@ -75,7 +75,7 @@ creators on YouTube and other platforms. Eager to offer them unforeseen solution
 
 ## Why should you trust us ?
 
--> TODO: HTML YOUTUBE + texte
+![](/assets/img/fake_youtube.png)
 
 ### Before any piece of advice, how do we define a decline ?
 
