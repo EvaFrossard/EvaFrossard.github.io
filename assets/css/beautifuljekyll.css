@@ -41,7 +41,7 @@ body {
   background-attachment: fixed;
   {% endif %}
   overflow-wrap: break-word;
-  min-height: 100vh;
+  min-height: 200vh;
   display: flex;
   flex-direction: column;
 }
@@ -52,11 +52,20 @@ p {
   line-height: 1.5;
   margin: 1.875rem 0;
 }
-h1,h2,h3,h4,h5,h6 {
+h1 {
   font-family: var(--header-font);
+  color: #FFFFFF;
   font-weight: 800;
   line-height: 1.1;
 }
+
+ h2,h3, h4, h5, h6 {
+  font-family: var(--header-font);
+  color: #004AAD;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
 h1 {
   font-size: 2.25rem;
 }
@@ -93,8 +102,8 @@ hr.small {
   max-width: 6.25rem;
   margin: 1rem auto;
   border-width: 0.25rem;
-  border-color: inherit;
-  border-radius: 0.1875rem;
+  border-color: #FFFFFF;
+  border-radius: 0.1775rem;
 }
 
 /* fix in-page anchors to not be behind fixed header */
@@ -373,9 +382,9 @@ img {
   {% endunless %}
 }
 .navbar-custom .avatar-container .avatar-img {
-  width: 100%;
+  width: 150%;
   {% unless site.round-avatar == false %}
-    border-radius: 50%;
+    border-radius: 60%;
   {% endunless %}
   display: block;
 }
@@ -402,6 +411,22 @@ img {
   .navbar-custom.top-nav-regular .avatar-container .avatar-img {
     width: 100%;
   }
+}
+
+
+.colored-container {
+  background-color: #004AAD;
+  border-radius: 10px;
+  /* Rounded corners */
+  padding: 20px;
+  /* Inner spacing */
+  margin: 20px 0;
+  /* Vertical spacing */
+  text-align: center;
+  /* Center content */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+  color: #FFFFFF;
 }
 
 /* --- Footer --- */
@@ -732,9 +757,9 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   font-weight: 400;
 }
 .intro-header.big-img .page-heading hr {
-  box-shadow: 1px 1px 3px #000;
-  -webkit-box-shadow: 1px 1px 3px #000;
-  -moz-box-shadow: 1px 1px 3px #000;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
 }
 .intro-header.big-img .post-heading .post-meta {
   color: #EEE;
@@ -999,9 +1024,10 @@ pre {
 
 .blog-post hr {
   max-width: 25%;
-  border-width: 0.25rem;
+  border-width: 0.02rem;
   border-radius: 0.1875rem;
-  border-color: var(--mid-col);
+  border-color: #FFFFFF;
+  border-style: dashed;
 }
 
 .blog-post blockquote {
@@ -1123,3 +1149,4 @@ pre {
     display: inline-block;
   }
 }
+

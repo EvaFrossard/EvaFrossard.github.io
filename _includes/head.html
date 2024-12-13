@@ -163,7 +163,7 @@
 
   {% assign favicon_exists = site.static_files | where: "path", "/favicon.ico" | size %}
   {% if favicon_exists == 1 %}
-  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" />
+  <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
   {% endif %}
 
   {% if page.head-extra %}
@@ -173,3 +173,4 @@
   {% endif %}
 
 </head>
+
