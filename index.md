@@ -85,17 +85,20 @@ creators on YouTube and other platforms. Eager to offer them unforeseen solution
   <img src="/assets/img/arrow.png" alt="Description of image" style="width: 150px;">
 </div>
 
-Since Youtube hasn't stopped gaining new users, we have reached the conclusion that very few channels will actively face a decrease in their total subscriber count. However, we can detect decline by noticing in your stats a significant slowdown in the growth rate, which may indicate potential issues such as reduced engagement or a negative reception by the audience. To go further, we compared the actual growth rate of channels (`delta_subs`) against the rolling average growth rate (`rolling_growth_rate`). 
+Since Youtube hasn't stopped gaining new users, we have reached the conclusion that very few channels will actively face a decrease in their total subscriber count. However, we can detect decline by noticing in your stats a significant slowdown in the growth rate of your subscribers, which may indicate potential issues such as reduced engagement or a negative reception by the audience. To go further, we compared the actual growth rate of channels (`delta_subs`) against the rolling average growth rate (`rolling_growth_rate`). 
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
   <b> Why ?</b> Because the rolling average acts as a smoothed baseline, calculated using a defined window (we arbitrarily used a 'window' of 20 weeks), which helps to identify deviations from the expected trend. When the growth of your channel falls below the rolling average, it suggests that the channel's performance has dipped relative to its typical trend. 
 </div>
 
+-> PLOT: channel with a significant decline, showing well the difference between rolling average and 
 
+After doing so, a little update on what our database is: we had 74788 channels that had declines, with more than 121998 episodes... see ? You're really not alone ! 
 After playing around with parameters, we have decided on the following: 
 - a minimum duration of a decline of 8 weeks: you could be on holidays without it being a decline ! 
 - if the decline was 'intense', meaning that there was a 80% growth difference, we consider that the channel underwent a massive backlash, and may it be shorter or longer than 2 months, it should be counted as a decline (and a big one, what did you do ?)
 
+-> TODO: frise chronologique
 To make you visualise a bit more, here is a little glimpse at the biggest Youtubers' declines, so you can see how well our detection works ! 
 
 -> TODO: put subs trends for 5 big youtubers
