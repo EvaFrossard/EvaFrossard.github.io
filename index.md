@@ -75,7 +75,7 @@ creators on YouTube and other platforms. Eager to offer them unforeseen solution
 
 ## Why should you trust us ?
 
-![](/assets/img/fake_youtube2.png)
+![](/assets/img/fake_youtube3.png)
 
 ### Before any piece of advice, how do we define a decline ?
 
