@@ -98,12 +98,28 @@ After playing around with parameters, we have decided on the following:
 - a minimum duration of a decline of 8 weeks: you could be on holidays without it being a decline ! 
 - if the decline was 'intense', meaning that there was a 80% growth difference, we consider that the channel underwent a massive backlash, and may it be shorter or longer than 2 months, it should be counted as a decline (and a big one, what did you do ?)
 
+-> Stats of average, longest... declines... 
+
+
+
 -> TODO: frise chronologique
-To make you visualise a bit more, here is a little glimpse at the biggest Youtubers' declines, so you can see how well our detection works ! 
+
+To make you visualise a bit more, here is a little glimpse at the biggest Youtubers' declines, so you can see how well our detection works ! (with a little drama too...)
 
 -> TODO: put subs trends for 5 big youtubers
 
 Okay, okay, we might just be rubbing salt on the wound right now with loss and declines, let's talk about more positive things... the recovery ! So what do we considered being an efficient recovery ? Since we do not want you to fall into the unknown for too long, but we still consider normal that a recovery is not happening in a flash, we consider that your recovery was successful if it happened in the span of 16 weeks, or 4 months. More and our model will sadly announce that you have one foot in the grave, and that Youtuber might not be a durable hobbie for you... sad, but your mom told you so years ago! 
+Here, using our tools, our goal is to put you out of the woods in the less time possible. If declines didn't end in 4 months, our program will consider that your recovery has failed.
+
+
+
+
+
+
+
+
+
+
 
 
 
