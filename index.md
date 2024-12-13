@@ -65,15 +65,12 @@ creators on YouTube and other platforms. Eager to offer them unforeseen solution
 
 <div style="border: 2px solid red; padding: 10px; display: inline-block;">
   <h2> Research Questions </h2>
-
-  <p style="font-weight: 1000;">
   <ol>
     <li> How do we define decline for Youtubers ? How do we define a recovery ?</li>
     <li> Is a Youtube channel category affecting the effective response strategies after a decline?</li>
     <li> What timing and content strategies are best for re-engagement following public backlash? Should you change your posting strategy?</li>
     <li> In the exact case of a ‘bad buzz’, how to define it using Youtuber statistics? Are apology videos really useful?</li>
   </ol>
-  </p>
 </div>
 
 ## Why should you trust us ?
