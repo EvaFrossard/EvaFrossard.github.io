@@ -60,11 +60,19 @@ PUT subs trends for 5 big youtubers
 
 Okay, okay, we might just be rubbing salt on the wound right now with loss and declines, let's talk about more positive things... the recovery ! So what do we considered being an efficient recovery ? Since we do not want you to fall into the unknown for too long, but we still consider normal that a recovery is not happening in a flash, we consider that your recovery was successful if it happened in the span of 16 weeks, or 4 months. More and our model will sadly announce that you have one foot in the grave, and that Youtuber might not be a durable hobbie for you... sad, but your mom told you so years ago!
 
-# Our research team's findings on how to maximise your chances of recovery
+# Our research team's work/findings on how to maximise your chances of recovery
+
+No time for thumbnail fine-tuning and title brainstorming here.
+
+As the stakes are high and time is running out, we have decided to focus on the most important metrics that can help you recover from a decline.
 
 ## How to measure creator reactions
 
-To get an idea of what's at stake, let's first take a look at some statistics about recovery.
+To get an idea of what the risk is, let's first take a look at some statistics about recovery.
+
+![Percentage of recovery, overall and per channel category](/assets/img/RecoPct.png)
+
+![Statistics about recovery : subs, views & activity at the start of decline & decline duration](/assets/img/RecoStats.png)
 
 TODO: PUT nice viz for recovery distribution among categories
 
@@ -77,7 +85,7 @@ crisis, and will now walk you through them.
 
 todo display reaction groups horizontally
 
-### - Upload frequency
+### Upload frequency
 
 Considering the upload frequencies of creators before the start of a decline throughout the latter draws lines between three groups. # todo garder cette phrase?
 
@@ -85,67 +93,96 @@ Considering the upload frequencies of creators before the start of a decline thr
 - Some try to blend within the platform by posting less # TODO fantome image
 - Others get it together and start spamming videos # TODO working hard/stressed image
 
-### - Video duration
+### Video duration
 
 Similarly, a natural reaction is to play around with the video length to understand what content the audience prefers (are they trying to beat the [video monetization allegations](https://www.reddit.com/r/PartneredYoutube/comments/4v6bmy/why_so_many_youtubers_are_making_their_videos/)?).
 
-### - Content category
+### Content category
 
-A third path that few dare to take is to try new things by changing their Youtube identity. However, we have to emphasize that this approach can have mixed results, and the impact on your recovery rate will depend heavily on the types of topics you choose to pivot to.\
-   Topic_Change  Recovered\
-0         False   0.424674\
-1          True   0.435916\
-Our analysis shows that, on average, channels that change their video topics experience a slight increase in recovery rates  compared to those that don't change. While this is encouraging, it’s important to note that not all topic changes yield positive results. In fact, the effect of switching topics can be both positive and negative, depending on the content direction you decide to take.
+A third, daring path is to try new things by changing their Youtube identity.
 
-TODO Add viz bar chart recovery rates
+Using Latent Dirichlet Allocation (a natural language processing technique), we are able to extract the video categories of channels **before** and **during** crises, which are then passed through the large language model TODO oLlama to annotated as they initially are weighted sets of words. We use 20 different categories to remain broad and not be too sensitive to small content changes.
 
-TODO Add viz chord chart to visualize common topic changes
- 
-Some changes occur more frequently than others, so, in order to give you meaningful insights, we will only consider the most significant trends (>30 occurences in our database).
-
-
-![](/assets/img/RecoveryRatesByTopicTransition.png)
-
-While changing your video topics could help reverse the audience loss, it’s crucial to choose your new topic strategically. Some changes will work better than others, so let's see which topic transition works in your niche:
+Getting this data allows us determine whether the reactions include changing the topics of interest, and we will use these statistics to find the best strategy.
 
 ![](/assets/img/Sankey.png)
 
+Some changes occur more frequently than others, so we only show you the most significant trends (>30 occurences in our database) in order to give you meaningful insights.
 
-For instance, certain transitions lead to significant improvements in recovery rates, while others may not be as beneficial. Specifically, channels focused on movie reviews tend to see positive changes in recovery when they switch topics, though transitioning to topics like politics could negatively impact your recovery. On the other hand, gameplay channels should be careful when changing topics, as only a shift to Fortnite-related content seems to maintain or increase engagement.
+## What factors matter : an overview
 
-If you’re considering making a shift, we recommend focusing on topics that have historically shown positive outcomes, such as beauty and lifestyle or gaming-related content, while being cautious about venturing into politics or kids videos, where the change could backfire.
+First of all, let's have a look at the correlation between our metrics of interest to give you a sense of the overall interactions. The brighter the color, the higher the correlation :
 
-## What factors really matter
+![Correlation heatmap](/assets/img/corr_heatmap.png)
 
-TODO TODO TODO jeudi EVA il manque quoi par rapport aux categories ici? Je sais pas si on peut tirer une conclusion générale, je vous laisse regarder la section juste au-dessus, mais peut-être qu'on a intérêt à pas mettre la partie category change dans cette partie.
+Now, here are the results of a logistic regression of **recovery** on the reactions. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery. Here they are :
 
-- look at correlation
+![Logistic regression summary showing coefficients and p-values](/assets/img/LogistSummary.png)
 
-TODO interactive correlation heatmap (rendre ça stylé : category names on hover)
+In order to get some unbiased and helpful results, we sample our dataset with caution through propensity score matching, making the proportion of recoveries meaningful.
 
-- regression : we find that posted more is important
+![Propensity score matching results on upload frequency](/assets/img/PSM_freq.png)
 
-TODO regression viz
+![Propensity score matching results on video duration](/assets/img/PSM_duration.png)
 
-- matching to confirm our findings
+![Propensity score matching results on topic change](/assets/img/PSM_topicchange.png)
 
-TODO matching viz
+TODO combine them
 
-- key findings
+As you can see, the data suggests that upload frequency has a relatively great effect on recovery while video duration does not play such an important role.
+
+Though it could seem that topic change does not have great a average effect, further analysis leads us to insteresting results that are worth detailing.
 
 ## Exploiting the levers in the best possible way
+
+Having set the stage, it is time to analyze the reactions and bring you the solutions.
+
+### A deep dive into topic transitions
+
+Evalutating the impact of subject changes should not be done as a whole : the categories and possible transitions are too numerous to be aggregated as one variable. To go into greater detail, we analyze the consequences by direction : going from **politics** to **lifestyle** videos should be distinguished from changing from **movie reviews** to **league of legends** content.
+
+![Recovery rates by topic transition](/assets/img/RecoveryRatesByTopicTransition.png)
+
+On average, channels that change their video topics experience a slight increase in recovery rates compared to those that do not. While this is encouraging, we have to emphasize that this approach can have mixed results, and the impact on your recovery rate will depend heavily on the types of topics you choose to pivot to.
+
+Looking see which topic transitions works in your niche is not obvious. For instance, channels focused on movie reviews often see positive changes in recovery when they switch topics, though transitioning to topics like politics could negatively impact your recovery. On the other hand, gameplay channels should be careful when changing topics, as only a shift to Fortnite-related content seems to maintain or increase engagement.
+
+If you’re considering making a shift, we recommend focusing on topics that have historically shown positive outcomes, such as beauty and lifestyle or gaming-related content, while being cautious about venturing into politics or kids videos, where the change could backfire. Remember that your choice should be guided by your category of origin!
+
+### How to upload when people want it the most
+
+An important point to consider is the current frequency of your uploads.
+
+While it may seem like a good idea to post more content to become relevant again based on what we presented until now, our data suggests that this strategy may not always be effective as posting **more** does not mean posting **more than average**.
+
+![Videos per week before the start of the decline](/assets/img/vids_per_week_before.png)
+
+![Videos per week after the start of the decline](/assets/img/vids_per_week_after.png)
+
+TODO make a plot where you click to choose what to see :
+
+- before/during
+
+Notice that those that post more used to post less than average!
 
 - conclusions on upload freq:
   - it is good
   - what freqs are best
+
+### Are long videos that boring ?
+
 - conclusions on video duration
   - mostly bad
   - can still be used if necessary but not to display as necessary
-- conclusions on category change
-  - double-edged decision
-  - choose wisely the new topic
-  - some topics are safer (Movie reviews, Beauty & lifestyle)
 
-TODO chaines +1M
+TODO mention shorts, which did not exist in 2019? in any case are not tracked but now play a big role
+
+### Key findings
+
+In short,
 
 TODO QUIZ
+
+#
+
+TODO chaines +1M
