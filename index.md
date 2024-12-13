@@ -66,7 +66,7 @@ creators on YouTube and other platforms. Eager to offer them unforeseen solution
 <div style="border: 2px solid red; padding: 10px; display: inline-block;">
   <h2> Research Questions </h2>
 
-  <p style="font-weight: 600;">
+  <p style="font-weight: 1000;">
   <ol>
     <li> How do we define decline for Youtubers ? How do we define a recovery ?</li>
     <li> Is a Youtube channel category affecting the effective response strategies after a decline?</li>
