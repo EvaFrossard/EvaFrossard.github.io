@@ -164,25 +164,32 @@ Some changes occur more frequently than others, so we only show you the most sig
 
 ## What factors matter : an overview
 
-First of all, let's have a look at the correlation between our metrics of interest to give you a sense of the overall interactions. The brighter the color, the higher the correlation :
+First of all, here are the results of a logistic regression of **recovery** on the **reactions**. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery.
 
-![Correlation heatmap](/assets/img/corr_heatmap.png)
+TODO generate it again without clipping the edges
+<img src="/assets/img/LogistSummary.png" alt="Logistic regression summary showing coefficients and p-values" style="width: 60%; margin: auto; display: block;">
 
-Now, here are the results of a logistic regression of **recovery** on the reactions. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery. Here they are :
+While analysing and drawing conclusions from this simple regression would be quite naive, it highlights an essential fact :
 
-![Logistic regression summary showing coefficients and p-values](/assets/img/LogistSummary.png)
+**Each reaction influences the recovery in a unique way.**
 
-In order to get some unbiased and helpful results, we sample our dataset with caution through propensity score matching, making the proportion of recoveries meaningful.
+That is why caution is needed when handling your popularity crisis : One wrong move, and it's **done**.
 
-![Propensity score matching results on upload frequency](/assets/img/PSM_freq.png)
+<div style="border-left: 4px solid #51247a; font-size: 18px">
+  <p style="padding-left: 20px; background-color: #DFC5FE">As the next step, and in order to get some unbiased results and make the proportion of recoveries meaningful, we sample our dataset through <b>propensity score matching</b>. This balances the dataset regarding the variable whose effect we want to observe, enabling us (and you !) to draw more accurate conclusions.</p>
+  <details style="padding-left: 20px; padding-bottom: 10px;">
+  <summary><b style="color: #51247a;">What is propensity score matching ?</b></summary>
+  Propensity score matching is a statistical technique used to estimate the effect of a treatment by accounting for the covariates that predict receiving the treatment. It is used to reduce selection bias by balancing the covariates between treated and untreated subjects.
+</details>
+</div>
 
-![Propensity score matching results on video duration](/assets/img/PSM_duration.png)
+This gives us :
 
-![Propensity score matching results on topic change](/assets/img/PSM_topicchange.png)
+<div class="flourish-embed flourish-chart" data-src="visualisation/20782011"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20782011/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
 TODO combine them
 
-As you can see, the data suggests that upload frequency has a relatively great effect on recovery while video duration does not play such an important role.
+As you can see, the balanced data suggests that upload frequency has a relatively great effect on recovery while video duration does not play such an important role.
 
 Though it could seem that topic change does not have great a average effect, further analysis leads us to insteresting results that are worth detailing.
 
