@@ -114,5 +114,43 @@ To make you visualise a bit more, here is a little glimpse at the biggest Youtub
 
 
 
+### Suffering from a bad buzz ? Here is where it's at...
+
+Let’s face it — you wouldn’t still be reading this unless you’d royally messed up, would you? You’ve stepped on the internet landmine, and now your channel is caught in the crosshairs of a… **BAD BUZZ** 😱. <br />
+
+If you’ve scrolled through the previous sections and still can’t find a fix, it’s because your situation requires more than the usual “post more consistently” or “engage with your audience” advice. But fear not! While the internet’s collective fury can feel like a raging storm, we’ve armed ourselves with data analysis and research to help you turn this ship around. <br />
+
+### The Challenges of a Big YouTuber in a Crisis
+
+Our analysis of big YouTubers (think >1M subscribers — we feel flattered that you're here) has revealed some fascinating trends. Whether it’s a Twitter faux pas, a controversial statement, or a scandal you never saw coming, the strategies for clawing back your reputation vary dramatically depending on the moves you make right now.(Insert dramatic pause for effect. You’re feeling the pressure, aren’t you?) <br />
+
+But hey, before you run off to film a tearful apology, let’s talk about why some YouTubers manage to recover from their digital nightmares while others end up in the dreaded “where are they now?” category. Spoiler: it’s not all about talent or luck. <br />
+
+### The Secret Sauce? Your Titles
+
+Yes, you read that right. **Titles.** Those few dozen characters can either save your channel or sink it further. Think about it: what’s the first thing a viewer sees before they even decide to click? Your title! And if you’ve learned anything from this wild ride of YouTube, it’s that first impressions are everything. <br />
+
+Now, here’s where the science kicks in. You’ve probably heard of **LLMs (Large Language Models)**, right? They’re super-smart AI tools that can analyse and recognise patterns in text faster than you can say, “Oops, I tweeted what?!” <br />
+
+We used this tech wizardry to dive into the aftermath of bad buzz for dozens of big YouTubers. By leveraging the OLLAMA open source project [TODO: ref] , we analysed the types of videos uploaded immediately following their PR disasters. What did we look for? Patterns. Specifically, whether these videos fell into one (or more) of these categories:
+
+  <ol>
+    <li> Apology videos: The classic “I’m sorry” trope—effective or overdone?
+    <li> Addressing the decline: Are you facing the issue head-on or pretending nothing’s wrong?
+    <li> Comeback announcements: Bold, confident, and ready to win back hearts.
+    <li> Break announcements: Sometimes, stepping back is stepping forward.
+    <li> Collaboration videos: Is strength in numbers the way to go?
+    <li> Clickbait videos: Risky, but can it work in your favor?
+
+And guess what? Our findings are as wild as the comment section on your latest video !
+
+### The Plan
+
+We’re not going to leave you hanging with just data and no solutions. Let’s reclaim that subscribe button together.
+
+
+
+
+
 
 Color code: #004AAD
