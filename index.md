@@ -103,12 +103,7 @@ After doing so, a little update on what our database is: we had 74788 channels t
 
 <div class="flourish-embed flourish-bubble-chart" data-src="visualisation/20775833"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20775833/thumbnail" width="100%" alt="bubble-chart visualization" /></noscript></div>
 
-
--> TODO: frise chronologique ?
-
 To make you visualise a bit more, here is a little glimpse at the biggest Youtubers' declines, so you can see how well our detection works ! (with a little drama too...)
-
--> TODO: put subs trends for 5 big youtubers
 
 <div class="flourish-embed flourish-cards" data-src="visualisation/20775803"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20775803/thumbnail" width="100%" alt="cards visualization" /></noscript></div>
 
