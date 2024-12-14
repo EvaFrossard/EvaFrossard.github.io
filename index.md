@@ -267,7 +267,7 @@ Below is the interactive Sankey diagram showing topic transitions and their reco
           label: nodes,
           color: "#004AAD",
           x: x_positions,  // Use x_positions array for manual positioning
-          y: [...Array(nodes_before.length).keys(), ...Array(nodes_after.length).keys()]  // Set y positions
+          // y: [...Array(nodes_before.length).keys(), ...Array(nodes_after.length).keys()]  // Set y positions
         },
         link: {
           source: sources,
