@@ -212,11 +212,12 @@ Below is the interactive Sankey diagram showing topic transitions and their reco
 <script type="text/javascript">
   // Function to map normalized recovery rate to color (coolwarm)
   function rate_to_color(rate) {
-    const cmap = ['#003366', '#3366FF', '#99CCFF', '#FFCC99', '#FF3300'];  // Cool to Warm colors
+    const cmap = ['#3b4cc0', '#4a63d3', '#5a78e4', '#6c8ff1', '#7ea1fa', '#92b4fe',  '#a3c2fe', '#b6cefa', '#c6d6f1', '#d6dce4', '#e3d9d3', '#efcfbf',  '#f5c2aa', '#f7b194', '#f59f80', '#ef886b', '#e57058', '#d75445',  '#c73635', '#b40426'];  // Cool to Warm colors
     const normalized = Math.min(Math.max(rate, 0), 1);
     const idx = Math.floor(normalized * (cmap.length - 1));
     return cmap[idx];
   }
+
 
   // Load the JSON file dynamically
   fetch("/assets/data/topic_transitions_sankey.json")
@@ -267,7 +268,6 @@ Below is the interactive Sankey diagram showing topic transitions and their reco
           label: nodes,
           color: "#004AAD",
           x: x_positions,  // Use x_positions array for manual positioning
-          // y: [...Array(nodes_before.length).keys(), ...Array(nodes_after.length).keys()]  // Set y positions
         },
         link: {
           source: sources,
@@ -289,8 +289,29 @@ Below is the interactive Sankey diagram showing topic transitions and their reco
         yaxis: { showgrid: false, zeroline: false }, // Hide grid and zero line for clarity
       };
 
-      // Render the plot
-      Plotly.newPlot("sankey-plot", sankey_data, layout);
+      let plotDiv = document.getElementById("sankey-plot");
+
+      // Render the initial Sankey diagram
+      Plotly.newPlot(plotDiv, sankey_data, layout);
+
+      // Add hover effect
+      plotDiv.on('plotly_hover', function(data) {
+        let hoveredNode = data.points[0].pointNumber; // Get hovered node index
+        let currentLinkColors = link_colors.map((color, index) => {
+          // Highlight links associated with the hovered node
+          return (sources[index] === hoveredNode) ? color : 'rgba(200,200,200,0.2)';
+        });
+        
+        Plotly.restyle(plotDiv, {'link.color': [currentLinkColors]});
+      });
+
+      // Reset colors on hover out
+      plotDiv.on('plotly_unhover', function() {
+        Plotly.restyle(plotDiv, {'link.color': [link_colors]});
+      });
+
+      // // Render the plot
+      // Plotly.newPlot("sankey-plot", sankey_data, layout);
     })
     .catch(error => console.error('Error loading the JSON data:', error));
 </script>
