@@ -70,6 +70,12 @@
     {% endfor %}
   {% endif %}
 
+  {% if site.include_css %}
+    {% for css_file in site.include_css %}
+      <link rel="stylesheet" href="{{ css_file }}">
+    {% endfor %}
+  {% endif %}
+
   {% if layout.common-css %}
     {% for css in layout.common-css %}
       <link rel="stylesheet" href="{{ css | relative_url }}">
