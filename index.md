@@ -198,6 +198,8 @@ Having set the stage, it is time to analyze the reactions and bring you the solu
 
 Evalutating the impact of subject changes should not be done as a whole : the categories and possible transitions are too numerous to be aggregated as one variable. To go into greater detail, we analyze the consequences by direction : going from **politics** to **lifestyle** videos should be distinguished from changing from **movie reviews** to **league of legends** content.
 
+<iframe src="/assets/topic_change_bar_chart.html" width="100%" height="600" frameborder="0"></iframe>
+
 ![Recovery rates by topic transition](/assets/img/RecoveryRatesByTopicTransition.png)
 
 On average, channels that change their video topics experience a slight increase in recovery rates compared to those that do not. While this is encouraging, we have to emphasize that this approach can have mixed results, and the impact on your recovery rate will depend heavily on the types of topics you choose to pivot to.
@@ -325,10 +327,6 @@ Below is the interactive Sankey diagram showing topic transitions and their reco
     .catch(error => console.error('Error loading the JSON data:', error));
 </script>
 
-
-
-
-![](/assets/img/Sankey.png)
 
 Looking see which topic transitions works in your niche is not obvious. For instance, channels focused on movie reviews often see positive changes in recovery when they switch topics, though transitioning to topics like politics could negatively impact your recovery. On the other hand, gameplay channels should be careful when changing topics, as only a shift to Fortnite-related content seems to maintain or increase engagement.
 
