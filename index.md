@@ -202,6 +202,87 @@ Evalutating the impact of subject changes should not be done as a whole : the ca
 
 On average, channels that change their video topics experience a slight increase in recovery rates compared to those that do not. While this is encouraging, we have to emphasize that this approach can have mixed results, and the impact on your recovery rate will depend heavily on the types of topics you choose to pivot to.
 
+Below is the interactive Sankey diagram showing topic transitions and their recovery rates, colored by recovery rate (cooler colors represent higher recovery rates):
+
+<div id="sankey-plot" style="width:100%; height:600px;"></div>
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<script type="text/javascript">
+  // Load the JSON file dynamically
+  fetch("/assets/data/topic_transitions.json")
+    .then(response => response.json())
+    .then(data => {
+      // Normalize recovery rates and invert them for color mapping
+      let min_rate = Math.min(...data.map(d => d.recovery_rate));
+      let max_rate = Math.max(...data.map(d => d.recovery_rate));
+      
+      // Normalize and invert recovery rates
+      data.forEach(d => {
+        d.normalized_rate = (d.recovery_rate - min_rate) / (max_rate - min_rate);
+        d.inverted_rate = 1 - d.normalized_rate; // Inverted for cool-to-warm effect
+        d.link_color = rate_to_color(d.inverted_rate); // Color based on inverted rate
+      });
+
+      // Generate nodes and labels
+      let nodes_before = [...new Set(data.map(d => d.Topic_before))];
+      let nodes_after = [...new Set(data.map(d => d.Topic_after))];
+      let nodes = nodes_before.concat(nodes_after);
+      let node_indices = {};
+      nodes.forEach((node, idx) => node_indices[node] = idx);
+
+      // Prepare Sankey diagram data
+      let sources = data.map(d => node_indices[d.Topic_before]);
+      let targets = data.map(d => node_indices[d.Topic_after]);
+      let values = data.map(d => d.count);
+      let link_colors = data.map(d => d.link_color);
+      let hover_texts = data.map(d => {
+        return `Transition: ${d.Topic_before} → ${d.Topic_after}<br>Recovery Rate: ${d.recovery_rate.toFixed(2)}%<br>Count: ${d.count}`;
+      });
+
+      // Create the Sankey diagram with Plotly
+      let sankey_data = [{
+        type: "sankey",
+        node: {
+          pad: 15,
+          thickness: 10,
+          line: { color: "black", width: 0.5 },
+          label: nodes,
+          color: "#004AAD"
+        },
+        link: {
+          source: sources,
+          target: targets,
+          value: values,
+          color: link_colors,
+          customdata: hover_texts,
+          hovertemplate: '%{customdata}<extra></extra>'
+        }
+      }];
+
+      // Create the Plotly layout for the Sankey diagram
+      let layout = {
+        hovermode: "closest",  // Closest hover behavior
+        title: "Topic Transitions and Recovery Rates",
+        font_size: 12,
+        height: 800
+      };
+
+      // Render the plot
+      Plotly.newPlot("sankey-plot", sankey_data, layout);
+
+      // Function to map normalized recovery rate to color (coolwarm)
+      function rate_to_color(rate) {
+        const cmap = ['#003366', '#3366FF', '#99CCFF', '#FFCC99', '#FF3300'];  // Cool to Warm colors
+        const normalized = Math.min(Math.max(rate, 0), 1);
+        const idx = Math.floor(normalized * (cmap.length - 1));
+        return cmap[idx];
+      }
+    })
+    .catch(error => console.error('Error loading the JSON data:', error));
+</script>
+
+
 ![](/assets/img/Sankey.png)
 
 Looking see which topic transitions works in your niche is not obvious. For instance, channels focused on movie reviews often see positive changes in recovery when they switch topics, though transitioning to topics like politics could negatively impact your recovery. On the other hand, gameplay channels should be careful when changing topics, as only a shift to Fortnite-related content seems to maintain or increase engagement.
