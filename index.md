@@ -296,13 +296,22 @@ Below is the interactive Sankey diagram showing topic transitions and their reco
 
       // Add hover effect
       plotDiv.on('plotly_hover', function(data) {
-        let hoveredNode = data.points[0].pointNumber; // Get hovered node index
-        let currentLinkColors = link_colors.map((color, index) => {
-          // Highlight links associated with the hovered node
-          return (sources[index] === hoveredNode) ? color : 'rgba(200,200,200,0.2)';
-        });
-        
-        Plotly.restyle(plotDiv, {'link.color': [currentLinkColors]});
+        if (data.points[0].source || data.points[0].target) {
+          // Hovering over a flow
+          let hoveredFlow = data.points[0].pointNumber;
+          let currentLinkColors = link_colors.map((color, index) => {
+            return (index === hoveredFlow) ? color : 'rgba(200,200,200,0.2)';
+          });
+          Plotly.restyle(plotDiv, {'link.color': [currentLinkColors]});
+        } else {
+          // Hovering over a node
+          let hoveredNode = data.points[0].pointNumber;
+          let currentLinkColors = link_colors.map((color, index) => {
+            // Highlight outgoing flows for "before" nodes, incoming flows for "after" nodes
+            return (sources[index] === hoveredNode || targets[index] === hoveredNode) ? color : 'rgba(200,200,200,0.2)';
+          });
+          Plotly.restyle(plotDiv, {'link.color': [currentLinkColors]});
+        }
       });
 
       // Reset colors on hover out
