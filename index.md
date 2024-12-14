@@ -250,7 +250,7 @@ Below is the interactive Sankey diagram showing topic transitions and their reco
           line: { color: "black", width: 0.5 },
           label: nodes,
           color: "#004AAD",
-          x: [], // Empty array to be filled with manual node positions
+          x=[0] * len(nodes_before) + [1] * len(nodes_after), 
         },
         link: {
           source: sources,
@@ -261,16 +261,6 @@ Below is the interactive Sankey diagram showing topic transitions and their reco
           hovertemplate: '%{customdata}<extra></extra>'
         }
       }];
-
-      // Assign manual x positions for the nodes (0 for "before" and 1 for "after")
-      nodes.forEach((node, idx) => {
-        // Before topics get x=0, after topics get x=1
-        if (nodes_before.includes(node)) {
-          sankey_data[0].node.x.push(0); // Position for "before" nodes (left)
-        } else {
-          sankey_data[0].node.x.push(1); // Position for "after" nodes (right)
-        }
-      });
 
       // Create the Plotly layout for the Sankey diagram
       let layout = {
