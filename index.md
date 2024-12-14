@@ -160,6 +160,8 @@ Using Latent Dirichlet Allocation (a natural language processing technique), we 
 
 Getting this data allows us determine whether the reactions include changing the topics of interest, and we will use these statistics to find the best strategy.
 
+<div class="flourish-embed flourish-chord" data-src="visualisation/20781676"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20781676/thumbnail" width="100%" alt="chord visualization" /></noscript></div>
+
 ![](/assets/img/Sankey.png)
 
 Some changes occur more frequently than others, so we only show you the most significant trends (>30 occurences in our database) in order to give you meaningful insights.
