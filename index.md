@@ -200,8 +200,6 @@ Evalutating the impact of subject changes should not be done as a whole : the ca
 
 <iframe src="/assets/data/topic_change_bar_chart.html" width="100%" height="600" frameborder="0"></iframe>
 
-![Recovery rates by topic transition](/assets/img/RecoveryRatesByTopicTransition.png)
-
 On average, channels that change their video topics experience a slight increase in recovery rates compared to those that do not. While this is encouraging, we have to emphasize that this approach can have mixed results, and the impact on your recovery rate will depend heavily on the types of topics you choose to pivot to.
 
 
