@@ -1,0 +1,13 @@
+.chord-container {
+    display: flex;
+    justify-content: space-around; /* Centers and spreads out the charts */
+    flex-wrap: wrap; /* Stacks the charts vertically on small screens */
+    gap: 20px; /* Adds spacing between the charts */
+  }
+  
+  .chord-container .flourish-embed {
+    flex: 1; /* Ensures equal width sharing */
+    max-width: 45%; /* Sets a maximum width for the charts */
+    min-width: 300px; /* Prevents charts from becoming too small on small screens */
+  }
+  

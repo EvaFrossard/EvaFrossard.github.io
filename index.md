@@ -160,9 +160,6 @@ Using Latent Dirichlet Allocation (a natural language processing technique), we 
 
 Getting this data allows us determine whether the reactions include changing the topics of interest, and we will use these statistics to find the best strategy.
 
-<!-- <div class="flourish-embed flourish-chord" data-src="visualisation/20781676"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20781676/thumbnail" width="100%" alt="chord visualization" /></noscript></div>
-<div class="flourish-embed flourish-chord" data-src="visualisation/20782429"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20782429/thumbnail" width="100%" alt="chord visualization" /></noscript></div> -->
-
 <div class="chord-container">
   <div class="flourish-embed flourish-chord" data-src="visualisation/20781676">
     <script src="https://public.flourish.studio/resources/embed.js"></script>
@@ -177,17 +174,6 @@ Getting this data allows us determine whether the reactions include changing the
     </noscript>
   </div>
 </div>
-
-<!-- <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-  <div style="flex: 1; min-width: 300px; margin: 10px; text-align: center;">
-    <h3>Chord Diagram 1</h3>
-    <iframe src="https://public.flourish.studio/visualisation/20782429/" frameborder="0" scrolling="no" style="width:100%;height:400px;"></iframe>
-  </div>
-  <div style="flex: 1; min-width: 300px; margin: 10px; text-align: center;">
-    <h3>Chord Diagram 2</h3>
-    <iframe src="https://public.flourish.studio/visualisation/20781676/thumbnail" frameborder="0" scrolling="no" style="width:100%;height:400px;"></iframe>
-  </div>
-</div> -->
 
 ![](/assets/img/Sankey.png)
 
