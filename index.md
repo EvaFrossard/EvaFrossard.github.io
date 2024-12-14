@@ -160,24 +160,11 @@ Using Latent Dirichlet Allocation (a natural language processing technique), we 
 
 Getting this data allows us determine whether the reactions include changing the topics of interest, and we will use these statistics to find the best strategy.
 
-<div class="chord-container">
-  <div class="flourish-embed flourish-chord" data-src="visualisation/20781676">
-    <script src="https://public.flourish.studio/resources/embed.js"></script>
-    <noscript>
-      <img src="https://public.flourish.studio/visualisation/20781676/thumbnail" width="100%" alt="chord visualization" />
-    </noscript>
-  </div>
-  <div class="flourish-embed flourish-chord" data-src="visualisation/20782429">
-    <script src="https://public.flourish.studio/resources/embed.js"></script>
-    <noscript>
-      <img src="https://public.flourish.studio/visualisation/20782429/thumbnail" width="100%" alt="chord visualization" />
-    </noscript>
-  </div>
-</div>
+<div class="flourish-embed flourish-chord" data-src="visualisation/20782429"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20782429/thumbnail" width="100%" alt="chord visualization" /></noscript></div>
 
-![](/assets/img/Sankey.png)
+As you see, everything is possible when it comes to changing the topic of your videos! However, since some changes occur more frequently than others, we don't have enough data to give you meaningful analysis of every transition and we will thus focus on the most common topic transitions, with more than 30 occurences in our database:
 
-Some changes occur more frequently than others, so we only show you the most significant trends (>30 occurences in our database) in order to give you meaningful insights.
+<div class="flourish-embed flourish-chord" data-src="visualisation/20781676"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20781676/thumbnail" width="100%" alt="chord visualization" /></noscript></div>
 
 ## What factors matter : an overview
 
@@ -214,6 +201,8 @@ Evalutating the impact of subject changes should not be done as a whole : the ca
 ![Recovery rates by topic transition](/assets/img/RecoveryRatesByTopicTransition.png)
 
 On average, channels that change their video topics experience a slight increase in recovery rates compared to those that do not. While this is encouraging, we have to emphasize that this approach can have mixed results, and the impact on your recovery rate will depend heavily on the types of topics you choose to pivot to.
+
+![](/assets/img/Sankey.png)
 
 Looking see which topic transitions works in your niche is not obvious. For instance, channels focused on movie reviews often see positive changes in recovery when they switch topics, though transitioning to topics like politics could negatively impact your recovery. On the other hand, gameplay channels should be careful when changing topics, as only a shift to Fortnite-related content seems to maintain or increase engagement.
 
