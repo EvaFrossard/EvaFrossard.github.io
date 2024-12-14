@@ -233,23 +233,26 @@ Below is the interactive Sankey diagram showing topic transitions and their reco
         d.link_color = rate_to_color(d.inverted_rate); // Color based on inverted rate
       });
 
-      // Generate nodes and labels
+      // Generate nodes and labels, ensuring they are distinct
       let nodes_before = [...new Set(data.map(d => d.Topic_before))];
       let nodes_after = [...new Set(data.map(d => d.Topic_after))];
-      let nodes = nodes_before.concat(nodes_after);
+      
+      // Create distinct labels for "Before" and "After"
+      let nodes = nodes_before.map(node => node + " (Before)").concat(nodes_after.map(node => node + " (After)"));
+
       let node_indices = {};
       nodes.forEach((node, idx) => node_indices[node] = idx);
 
       // Prepare Sankey diagram data
-      let sources = data.map(d => node_indices[d.Topic_before]);
-      let targets = data.map(d => node_indices[d.Topic_after]);
+      let sources = data.map(d => node_indices[d.Topic_before + " (Before)"]);
+      let targets = data.map(d => node_indices[d.Topic_after + " (After)"]);
       let values = data.map(d => d.count);
       let link_colors = data.map(d => d.link_color);
       let hover_texts = data.map(d => {
         return `Transition: ${d.Topic_before} → ${d.Topic_after}<br>Recovery Rate: ${d.recovery_rate.toFixed(2)}%<br>Count: ${d.count}`;
       });
 
-      // Set x positions manually
+      // Set x positions manually for "Before" and "After" nodes
       let x_positions = [];
       x_positions = x_positions.concat(new Array(nodes_before.length).fill(0));  // Before nodes at x=0
       x_positions = x_positions.concat(new Array(nodes_after.length).fill(1));   // After nodes at x=1
@@ -291,6 +294,7 @@ Below is the interactive Sankey diagram showing topic transitions and their reco
     })
     .catch(error => console.error('Error loading the JSON data:', error));
 </script>
+
 
 
 
