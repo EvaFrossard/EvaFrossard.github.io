@@ -210,7 +210,7 @@ Below is the interactive Sankey diagram showing topic transitions and their reco
 
 <script type="text/javascript">
   // Load the JSON file dynamically
-  fetch("/assets/data/topic_transitions.json")
+  fetch("/assets/data/topic_transitions_sankey.json")
     .then(response => response.json())
     .then(data => {
       // Normalize recovery rates and invert them for color mapping
