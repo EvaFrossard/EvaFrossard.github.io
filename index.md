@@ -210,6 +210,14 @@ Below is the interactive Sankey diagram showing topic transitions and their reco
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
 <script type="text/javascript">
+  // Function to map normalized recovery rate to color (coolwarm)
+  function rate_to_color(rate) {
+    const cmap = ['#003366', '#3366FF', '#99CCFF', '#FFCC99', '#FF3300'];  // Cool to Warm colors
+    const normalized = Math.min(Math.max(rate, 0), 1);
+    const idx = Math.floor(normalized * (cmap.length - 1));
+    return cmap[idx];
+  }
+
   // Load the JSON file dynamically
   fetch("/assets/data/topic_transitions_sankey.json")
     .then(response => response.json())
@@ -241,6 +249,11 @@ Below is the interactive Sankey diagram showing topic transitions and their reco
         return `Transition: ${d.Topic_before} → ${d.Topic_after}<br>Recovery Rate: ${d.recovery_rate.toFixed(2)}%<br>Count: ${d.count}`;
       });
 
+      // Set x positions manually
+      let x_positions = [];
+      x_positions = x_positions.concat(new Array(nodes_before.length).fill(0));  // Before nodes at x=0
+      x_positions = x_positions.concat(new Array(nodes_after.length).fill(1));   // After nodes at x=1
+
       // Create the Sankey diagram with Plotly
       let sankey_data = [{
         type: "sankey",
@@ -250,7 +263,8 @@ Below is the interactive Sankey diagram showing topic transitions and their reco
           line: { color: "black", width: 0.5 },
           label: nodes,
           color: "#004AAD",
-          x=[0] * len(nodes_before) + [1] * len(nodes_after), 
+          x: x_positions,  // Use x_positions array for manual positioning
+          y: [...Array(nodes_before.length).keys(), ...Array(nodes_after.length).keys()]  // Set y positions
         },
         link: {
           source: sources,
@@ -274,18 +288,9 @@ Below is the interactive Sankey diagram showing topic transitions and their reco
 
       // Render the plot
       Plotly.newPlot("sankey-plot", sankey_data, layout);
-
-      // Function to map normalized recovery rate to color (coolwarm)
-      function rate_to_color(rate) {
-        const cmap = ['#003366', '#3366FF', '#99CCFF', '#FFCC99', '#FF3300'];  // Cool to Warm colors
-        const normalized = Math.min(Math.max(rate, 0), 1);
-        const idx = Math.floor(normalized * (cmap.length - 1));
-        return cmap[idx];
-      }
     })
     .catch(error => console.error('Error loading the JSON data:', error));
 </script>
-
 
 
 
