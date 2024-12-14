@@ -266,9 +266,9 @@ Below is the interactive Sankey diagram showing topic transitions and their reco
       nodes.forEach((node, idx) => {
         // Before topics get x=0, after topics get x=1
         if (nodes_before.includes(node)) {
-          sankey_data[0].node.x.push(0);
+          sankey_data[0].node.x.push(0); // Position for "before" nodes (left)
         } else {
-          sankey_data[0].node.x.push(1);
+          sankey_data[0].node.x.push(1); // Position for "after" nodes (right)
         }
       });
 
@@ -277,7 +277,9 @@ Below is the interactive Sankey diagram showing topic transitions and their reco
         hovermode: "closest",  // Closest hover behavior
         title: "Topic Transitions and Recovery Rates",
         font_size: 12,
-        height: 800
+        height: 800,
+        xaxis: { showgrid: false, zeroline: false }, // Hide grid and zero line for clarity
+        yaxis: { showgrid: false, zeroline: false }, // Hide grid and zero line for clarity
       };
 
       // Render the plot
@@ -293,6 +295,7 @@ Below is the interactive Sankey diagram showing topic transitions and their reco
     })
     .catch(error => console.error('Error loading the JSON data:', error));
 </script>
+
 
 
 
