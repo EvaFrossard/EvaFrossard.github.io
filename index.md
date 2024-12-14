@@ -202,6 +202,7 @@ Evalutating the impact of subject changes should not be done as a whole : the ca
 
 On average, channels that change their video topics experience a slight increase in recovery rates compared to those that do not. While this is encouraging, we have to emphasize that this approach can have mixed results, and the impact on your recovery rate will depend heavily on the types of topics you choose to pivot to.
 
+
 Below is the interactive Sankey diagram showing topic transitions and their recovery rates, colored by recovery rate (cooler colors represent higher recovery rates):
 
 <div id="sankey-plot" style="width:100%; height:600px;"></div>
@@ -248,7 +249,8 @@ Below is the interactive Sankey diagram showing topic transitions and their reco
           thickness: 10,
           line: { color: "black", width: 0.5 },
           label: nodes,
-          color: "#004AAD"
+          color: "#004AAD",
+          x: [], // Empty array to be filled with manual node positions
         },
         link: {
           source: sources,
@@ -259,6 +261,16 @@ Below is the interactive Sankey diagram showing topic transitions and their reco
           hovertemplate: '%{customdata}<extra></extra>'
         }
       }];
+
+      // Assign manual x positions for the nodes (0 for "before" and 1 for "after")
+      nodes.forEach((node, idx) => {
+        // Before topics get x=0, after topics get x=1
+        if (nodes_before.includes(node)) {
+          sankey_data[0].node.x.push(0);
+        } else {
+          sankey_data[0].node.x.push(1);
+        }
+      });
 
       // Create the Plotly layout for the Sankey diagram
       let layout = {
@@ -281,6 +293,7 @@ Below is the interactive Sankey diagram showing topic transitions and their reco
     })
     .catch(error => console.error('Error loading the JSON data:', error));
 </script>
+
 
 
 ![](/assets/img/Sankey.png)
