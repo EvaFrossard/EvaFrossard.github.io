@@ -198,7 +198,7 @@ Having set the stage, it is time to analyze the reactions and bring you the solu
 
 Evalutating the impact of subject changes should not be done as a whole : the categories and possible transitions are too numerous to be aggregated as one variable. To go into greater detail, we analyze the consequences by direction : going from **politics** to **lifestyle** videos should be distinguished from changing from **movie reviews** to **league of legends** content.
 
-<iframe src="/assets/topic_change_bar_chart.html" width="100%" height="600" frameborder="0"></iframe>
+<iframe src="EvaFrossard.github.io\assets\data\topic_change_bar_chart.html" width="100%" height="600" frameborder="0"></iframe>
 
 ![Recovery rates by topic transition](/assets/img/RecoveryRatesByTopicTransition.png)
 
