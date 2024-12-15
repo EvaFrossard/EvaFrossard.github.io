@@ -10,6 +10,7 @@ use-site-title: true
 ---
 
 ![](/assets/img/comments_intro.png)
+
 ### Does that sound (too) familiar ? Then you might just need our help...
 
 <br />
@@ -37,6 +38,40 @@ use-site-title: true
             content: "";
             display: table;
             clear: both;
+        }
+        .reactionlist {
+          display: grid;
+          grid-auto-flow: column;
+          grid-auto-columns: 1fr;
+          column-gap: 41px;
+        }
+        .reactionlistelem {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          position: relative;
+          text-align: center;
+        }
+        .reactionlistelem::after {
+          display: block;
+          content: "";
+          background: #004AAD;
+          width: 2px;
+          height: 100%;
+          position: absolute;
+          top: 0px;
+          right: -21px;
+        }
+        .reactionlistelem:last-child::after {
+          display: none;
+        }
+        .reactiondesc {
+          margin: 10px 0 0 0;
+          height: fit-content;
+        }
+        .reactionimg {
+          aspect-ratio: 1 / 1;
+          object-fit: cover;
         }
     </style>
 </head>
@@ -121,36 +156,64 @@ No time for thumbnail fine-tuning and title brainstorming here.
 
 As the stakes are high and time is running out, we have decided to focus on the most important metrics that can help you recover from a decline.
 
-## How to measure creator reactions
-
 To get an idea of what the risk is, let's first take a look at some statistics about recovery.
 
-![Percentage of recovery, overall and per channel category](/assets/img/RecoPct.png)
+<div class="flourish-embed flourish-election" data-src="visualisation/20802367"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20802367/thumbnail" width="100%" alt="election visualization" /></noscript></div>
 
-![Statistics about recovery : subs, views & activity at the start of decline & decline duration](/assets/img/RecoStats.png)
+<div class="flourish-embed flourish-chart" data-src="visualisation/20801957"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20801957/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
-TODO: PUT nice viz for recovery distribution among categories
+<!-- ![Statistics about recovery : subs, views & activity at the start of decline & decline duration](/assets/img/RecoStats.png) --->
 
 We can't hide the evidences : by our standards, the majority fails to recover, especially in some categories.
 
 That's why it is important to think before acting. Lucky you, we did the work for you so that you can put all the chances by your side.
 
+## How to measure creator reactions
+
 Taking advantage of all the data that we have at hand, our research team identified the key metrics that measure creator's reactions in times of
 crisis, and will now walk you through them.
 
-todo display reaction groups horizontally
-
 ### Upload frequency
 
-Considering the upload frequencies of creators before the start of a decline throughout the latter draws lines between three groups. # todo garder cette phrase?
+Considering the upload frequencies of creators before the start of a decline and throughout the latter highlights three separate groups.
 
-- Most creators keep uploading the same amount of content # TODO dolce vita image
-- Some try to blend within the platform by posting less # TODO fantome image
-- Others get it together and start spamming videos # TODO working hard/stressed image
+<div class='reactionlist'>
+  <div class='reactionlistelem'>
+    <img src="/assets/img/PostLessBD.png" class="reactionimg" alt="Someone leaving on a plane" style="width: 100%;">
+    <p class="reactiondesc">Some creators step back from the platform by posting less</p>
+  </div>
+  <div class='reactionlistelem'>
+    <img src="/assets/img/PostNormalBD.png" class="reactionimg" alt="Someone working but not too hard"
+    style="width: 100%;">
+    <p class="reactiondesc">Most of them keep uploading the same amount of content</p>
+  </div>
+  <div class='reactionlistelem'>
+    <img src="/assets/img/PostMoreBD.png" class="reactionimg" alt="Someone working hard" style="width: 100%;">
+    <p class="reactiondesc">Others get it together and start spamming videos</p>
+  </div>
+</div>
+
+TODO OU
+
+<div class='reactionlist'>
+  <div class='reactionlistelem'>
+    <img src="/assets/img/PostLess.jpg" class="reactionimg" alt="Someone leaving on a plane" style="width: 100%;">
+    <p class="reactiondesc">Some creators step back from the platform by posting less</p>
+  </div>
+  <div class='reactionlistelem'>
+    <img src="/assets/img/PostNormal.webp" class="reactionimg" alt="Someone working but not too hard"
+    style="width: 100%;">
+    <p class="reactiondesc">Most of them keep uploading the same amount of content</p>
+  </div>
+  <div class='reactionlistelem'>
+    <img src="/assets/img/PostMore.jpg" class="reactionimg" alt="Someone working hard" style="width: 100%;">
+    <p class="reactiondesc">Others get it together and start spamming videos</p>
+  </div>
+</div>
 
 ### Video duration
 
-Similarly, a natural reaction is to play around with the video length to understand what content the audience prefers (are they trying to beat the [video monetization allegations](https://www.reddit.com/r/PartneredYoutube/comments/4v6bmy/why_so_many_youtubers_are_making_their_videos/)?).
+Similarly, a natural reaction is to play around with the video length to understand what content the audience prefers (could creators be trying to beat accusations of [tuning video length for monetization](https://www.reddit.com/r/PartneredYoutube/comments/4v6bmy/why_so_many_youtubers_are_making_their_videos/){:target="\_blank"}?).
 
 ### Content category
 
@@ -178,19 +241,17 @@ While analysing and drawing conclusions from this simple regression would be qui
 
 That is why caution is needed when handling your popularity crisis : One wrong move, and it's **done**.
 
+As the next step, and in order to get some unbiased results and make the proportion of recoveries meaningful, we sample our dataset through **propensity score matching**. This balances the dataset regarding the variable whose effect we want to observe, enabling us (and you !) to draw more accurate conclusions.
+
 <div style="border-left: 4px solid #51247a; font-size: 18px">
-  <p style="padding-left: 20px; background-color: #DFC5FE">As the next step, and in order to get some unbiased results and make the proportion of recoveries meaningful, we sample our dataset through <b>propensity score matching</b>. This balances the dataset regarding the variable whose effect we want to observe, enabling us (and you !) to draw more accurate conclusions.</p>
-  <details style="padding-left: 20px; padding-bottom: 10px;">
-  <summary><b style="color: #51247a;">What is propensity score matching ?</b></summary>
-  Propensity score matching is a statistical technique used to estimate the effect of a treatment by accounting for the covariates that predict receiving the treatment. It is used to reduce selection bias by balancing the covariates between treated and untreated subjects.
-</details>
+  <p style="padding-left: 20px; background-color: #DFC5FE">
+  <b>Propensity score matching</b> is a statistical technique used to estimate the effect of a treatment by accounting for the features that predict receiving the treatment. It is used to reduce selection bias by balancing the features between treated and untreated subjects.
+  </p>
 </div>
 
 This gives us :
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/20782011"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20782011/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
-
-TODO combine them
 
 As you can see, the balanced data suggests that upload frequency has a relatively great effect on recovery while video duration does not play such an important role.
 
@@ -207,7 +268,6 @@ Evalutating the impact of subject changes should not be done as a whole : the ca
 <iframe src="/assets/data/topic_change_bar_chart.html" width="100%" height="600" frameborder="0"></iframe>
 
 On average, channels that change their video topics experience a slight increase in recovery rates compared to those that do not. While this is encouraging, we have to emphasize that this approach can have mixed results, and the impact on your recovery rate will depend heavily on the types of topics you choose to pivot to.
-
 
 Below is the interactive Sankey diagram showing topic transitions and their recovery rates, colored by recovery rate (cooler colors represent higher recovery rates):
 
@@ -330,7 +390,6 @@ Below is the interactive Sankey diagram showing topic transitions and their reco
     })
     .catch(error => console.error('Error loading the JSON data:', error));
 </script>
-
 
 Looking see which topic transitions works in your niche is not obvious. For instance, channels focused on movie reviews often see positive changes in recovery when they switch topics, though transitioning to topics like politics could negatively impact your recovery. On the other hand, gameplay channels should be careful when changing topics, as only a shift to Fortnite-related content seems to maintain or increase engagement.
 
