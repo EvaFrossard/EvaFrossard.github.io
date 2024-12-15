@@ -166,7 +166,6 @@ Some changes occur more frequently than others, so we only show you the most sig
 
 First of all, here are the results of a logistic regression of **recovery** on the **reactions**. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery.
 
-TODO generate it again without clipping the edges
 <img src="/assets/img/LogistSummary.png" alt="Logistic regression summary showing coefficients and p-values" style="width: 60%; margin: auto; display: block;">
 
 While analysing and drawing conclusions from this simple regression would be quite naive, it highlights an essential fact :
