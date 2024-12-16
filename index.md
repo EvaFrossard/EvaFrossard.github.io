@@ -128,7 +128,7 @@ Adress your decline in an apology video ? Post more often or change topics sligh
 creators on YouTube and other platforms. Eager to offer them unforeseen solutions and break the stigma on subscribers loss, we aim to help you make informed decisions about your next steps to rebuild audience trust.
 
 <div style="border: 2px solid red; padding: 10px; display: inline-block; border-radius: 15px">
-  <h2> Research Questions </h2>
+  <h3> Research Questions </h3>
   <ol>
     <li> How do we define decline for Youtubers ? How do we define a recovery ?</li>
     <li> Is a Youtube channel category affecting the effective response strategies after a decline?</li>
@@ -171,34 +171,30 @@ After doing so, a little update on what our database is: we had 74788 channels t
 
 <body>
   <div class="table">
-    < !-- Header Row -->
+    <!-- Header Row -->
     <div class="cell header">Data infos</div>
     <div class="cell header">Length of decline (weeks)</div>
-    < !-- Row 1 -->
+    <!-- Row 1 -->
     <div class="cell">Median</div>
     <div class="cell">13.0</div>
-    < !-- Row 2 -->
+    <!-- Row 2 -->
     <div class="cell">Average</div>
     <div class="cell">14.97</div>
-    < !-- Row 3 -->
+    <!-- Row 3 -->
     <div class="cell">Maximum</div>
     <div class="cell">104</div>
     </div>
 </body>
 
-</html>
 
-
-<div class="flourish-embed flourish-bubble-chart" data-src="visualisation/20775833"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20775833/thumbnail" width="100%" alt="bubble-chart visualization" /></noscript></div>
-
-To make you visualise a bit more, here is a little glimpse at the biggest Youtubers' declines, so you can see how well our detection works ! (with a little drama too...)
+To make you visualise a bit more, here is a little glimpse at the biggest Youtubers' declines, so you can see how well our detection works (with a little drama too...)! 
 
 <div class="flourish-embed flourish-cards" data-src="visualisation/20775803"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20775803/thumbnail" width="100%" alt="cards visualization" /></noscript></div>
 
-<div class="colored-container">
-    <p> Okay, okay, we might just be rubbing salt on the wound right now with loss and declines, let's talk about more positive things... the recovery ! So what do we considered being an efficient recovery ? Since we do not want you to fall into the unknown for too long, but we still consider normal that a recovery is not happening in a flash, we consider that your recovery was successful if it happened <b>in the span of 16 weeks, or 4 months</b>. More and our model will sadly announce that you have one foot in the grave, and that Youtuber might not be a durable hobbie for you... sad, but your mom told you so years ago! <br />
-    Here, using our tools, our goal is to put you out of the woods in the less time possible. If declines didn't end in 4 months, our program will consider that your recovery has failed.</p>
-</div>
+
+<p> Okay, okay, we might just be rubbing salt on the wound right now with loss and declines, let's talk about more positive things... the recovery ! So what do we considered being an efficient recovery ? Since we do not want you to fall into the unknown for too long, but we still consider normal that a recovery is not happening in a flash, we consider that your recovery was successful if it happened <b>in the span of 16 weeks, or 4 months</b>. More and our model will sadly announce that you have one foot in the grave, and that Youtuber might not be a durable hobbie for you... sad, but your mom told you so years ago! <br />
+Here, using our tools, our goal is to put you out of the woods in the less time possible. If declines didn't end in 4 months, our program will consider that your recovery has failed.</p>
+
 
 # Our research team's work/findings on how to maximise your chances of recovery
 
