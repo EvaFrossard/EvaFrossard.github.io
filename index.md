@@ -172,28 +172,32 @@ After doing so, a little update on what our database is: we had 74788 channels t
 <body>
   <div class="table">
     <!-- Header Row -->
-    <div class="cell header">Data infos</div>
+    <div class="cell header">Stats</div>
     <div class="cell header">Length of decline (weeks)</div>
     <!-- Row 1 -->
     <div class="cell">Median</div>
-    <div class="cell">13.0</div>
+    <div class="cell">17.4</div>
     <!-- Row 2 -->
     <div class="cell">Average</div>
-    <div class="cell">14.97</div>
+    <div class="cell">16</div>
     <!-- Row 3 -->
     <div class="cell">Maximum</div>
     <div class="cell">104</div>
     </div>
 </body>
 
+From our data, if your experiencing a decline, you might just be in it for more than 3 months... and maybe even forever ! Let's get those number down for you...
 
 To make you visualise a bit more, here is a little glimpse at the biggest Youtubers' declines, so you can see how well our detection works (with a little drama too...)! 
 
 <div class="flourish-embed flourish-cards" data-src="visualisation/20775803"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20775803/thumbnail" width="100%" alt="cards visualization" /></noscript></div>
 
 
-<p> Okay, okay, we might just be rubbing salt on the wound right now with loss and declines, let's talk about more positive things... the recovery ! So what do we considered being an efficient recovery ? Since we do not want you to fall into the unknown for too long, but we still consider normal that a recovery is not happening in a flash, we consider that your recovery was successful if it happened <b>in the span of 16 weeks, or 4 months</b>. More and our model will sadly announce that you have one foot in the grave, and that Youtuber might not be a durable hobbie for you... sad, but your mom told you so years ago! <br />
-Here, using our tools, our goal is to put you out of the woods in the less time possible. If declines didn't end in 4 months, our program will consider that your recovery has failed.</p>
+Okay, okay, we might just be rubbing salt into the wound right now with loss and declines, let's talk about more positive things... the recovery ! 
+
+So what do we considered being an **efficient recovery** ? Since we do not want you to fall into the unknown for too long, but we still consider normal that a recovery is not happening in a flash, we consider that your recovery was successful if it happened <b>in the span of 16 weeks, or 4 months</b>. Yes, that's the median, and that may seem not very ambitious BUT Youtube is not a forgiving space, and we would consider ourselves happy if you do better than half of the population. More than 16 weeks and our model will sadly announce that you have one foot in the grave, and that Youtuber might not be a durable hobbie for you... sad, but your mom told you so years ago! <br />
+
+Here, using our tools, our goal is to put you out of the woods in the less time possible. If declines didn't end in 4 months, our program will consider that your recovery has failed.
 
 
 # Our research team's work/findings on how to maximise your chances of recovery
