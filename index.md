@@ -13,7 +13,7 @@ use-site-title: true
 
 ### Does that sound (too) familiar ? Then you might just need our help...
 
-<br />
+<hr>
 
 <html lang="en">
 <head>
