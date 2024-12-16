@@ -152,7 +152,7 @@ To make you visualise a bit more, here is a little glimpse at the biggest Youtub
 
 <details>zbufbaobafobiafbeio</details>
 
-<details open>zbufbaobafobiafbeio</details>
+<details open><summary>Tjrs affiché (bouton où cliquer pour ouvrir)</summary>Contenu caché</details>
 
 # Our research team's work/findings on how to maximise your chances of recovery
 
