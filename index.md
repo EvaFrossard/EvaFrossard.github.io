@@ -110,9 +110,11 @@ creators on YouTube and other platforms. Eager to offer them unforeseen solution
 
 ## Why should you trust us ?
 
+Why us and not some and not some wanabee adviser on YouTube ? Well, because we based all our work on a scientific, multi-dimensional, and extensive dataset... **YouNiverse**[1]. This dataset, released in 2021 is a precious ingredient in our recipe, because Youtube is such a colossal platform that it is quite discouraging to try and sample it. With data from over 136k channels and 72.9M videos published between May 2005 and October 2019. Cool, right ? Well that's our biggest asset in this quest for recovery. It is a long, tidious process, with the main negative aspect being the fact that he only sampled english-speaking videos... oups. Lots of things to say about this great dataset, if you're eager to know just check the below easter egg *wink wink*
+
 ![](/assets/img/fake_youtube3.png)
 
-### Before any piece of advice, how do we define a decline ?
+## Before any piece of advice, how do we define a decline ?
 
 **You feel like your viewership is going down and your stats are struggling ?** We know how painful that can be when you're trying to be on your A-game and you're putting all of your time and energy into your channel.
 
@@ -464,3 +466,15 @@ And guess what? Our findings are as wild as the comment section on your latest v
 We’re not going to leave you hanging with just data and no solutions. Let’s reclaim that subscribe button together.
 
 Color code: #004AAD
+
+
+
+### References
+
+@inproceedings{ribeiro2021youniverse,
+      title={YouNiverse: Large-Scale Channel and Video Metadata from English-Speaking YouTube}, 
+      author={Ribeiro, Manoel Horta and West Robert},
+      year={2021},
+      booktitle={{Proceedings of the 15th International AAAI Conference 
+                  on Weblogs and Social Media (ICWSM'21)}}
+}
