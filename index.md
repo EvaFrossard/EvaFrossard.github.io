@@ -11,7 +11,7 @@ use-site-title: true
 
 ![](/assets/img/comments_intro.png)
 
-## Does that sound (too) familiar ? Then you might just need our help...
+### Does that sound (too) familiar ? Then you might just need our help...
 
 <hr>
 
@@ -76,6 +76,35 @@ use-site-title: true
     </style>
 </head>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Div</title>
+    <style>
+      .table {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          /* Two equal columns */
+          width: 50%;
+          margin: 20px auto;
+          border: 1px solid #000;
+      }
+
+      .cell {
+          border: 1px solid #000;
+          padding: 8px;
+          text-align: center;
+      }
+
+      .header {
+        font-weight: bold;
+        background-color: #f4f4f4;
+      }
+  </style>
+</head>
+
+
+
 <body>
     <div class="container clearfix">
         <div class="text">
@@ -108,13 +137,13 @@ creators on YouTube and other platforms. Eager to offer them unforeseen solution
   </ol>
 </div>
 
-## Why should you trust us ?
+### Why should you trust us ?
 
 Why us and not some and not some wanabee adviser on YouTube ? Well, because we based all our work on a scientific, multi-dimensional, and extensive dataset... **YouNiverse**[1]. This dataset, released in 2021 is a precious ingredient in our recipe, because Youtube is such a colossal platform that it is quite discouraging to try and sample it. With data from over 136k channels and 72.9M videos published between May 2005 and October 2019. Cool, right ? Well that's our biggest asset in this quest for recovery. It is a long, tidious process, with the main negative aspect being the fact that he only sampled english-speaking videos... oups. Lots of things to say about this great dataset, if you're eager to know just check the below easter egg :)))
 
 ![](/assets/img/fake_youtube.jpg)
 
-## Before any piece of advice, how do we define a decline ?
+### Before any piece of advice, how do we define a decline ?
 
 **You feel like your viewership is going down and your stats are struggling ?** We know how painful that can be when you're trying to be on your A-game and you're putting all of your time and energy into your channel.
 
@@ -125,21 +154,40 @@ Why us and not some and not some wanabee adviser on YouTube ? Well, because we b
   <img src="/assets/img/curve_icon.jpg" alt="Description of image" style="width: 150px;">
 </div>
 
-Since Youtube hasn't stopped gaining new users, we have reached the conclusion that very few channels will actively face a decrease in their total subscriber count. However, we can detect decline by noticing in your stats a significant slowdown in the growth rate of your subscribers, which may indicate potential issues such as reduced engagement or a negative reception by the audience. To go further, we compared the actual growth rate of channels (`delta_subs`) against the rolling average growth rate (`rolling_growth_rate`).
+Since Youtube hasn't stopped gaining new users, we have reached the conclusion that very few channels will actively face a decrease in their total subscriber count. However, we can detect decline by noticing in your stats a significant slowdown in the growth rate of your subscribers, which may indicate potential issues such as reduced engagement or a negative reception by the audience. To go further, we compared the actual growth rate of channels against the rolling average growth rate.
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
   <b> Why ?</b> Because the rolling average acts as a smoothed baseline, calculated using a defined window (we arbitrarily used a 'window' of 20 weeks), which helps to identify deviations from the expected trend. When the growth of your channel falls below the rolling average, it suggests that the channel's performance has dipped relative to its typical trend. 
 </div>
 
 ![](/assets/img/plotrollingaverage.png)
--> maybe another one because this is pewdiepie
 
 After playing around with parameters, we have decided on the following:
 
-- a minimum duration of a decline of 8 weeks: you could be on holidays without it being a decline !
+- a **minimum duration of a decline of 8 week**s: you could be on holidays without it being a decline !
 - if the decline was 'intense', meaning that there was a 80% growth difference between growth index of your channel and the rolling average, we consider that the channel underwent a massive backlash, and may it be shorter or longer than 2 months, it should be counted as a decline (and a big one, what did you do ?)
 
-After doing so, a little update on what our database is: we had 74788 channels that had declines, with more than 121998 episodes... see ? You're really not alone !
+After doing so, a little update on what our database is: we had 74788 channels that had declines, with more than 121998 episodes... see ? You're really not alone ! And more than enough to pursue our study ! 
+
+<body>
+  <div class="table">
+    < !-- Header Row -->
+    <div class="cell header">Data infos</div>
+    <div class="cell header">Length of decline (weeks)</div>
+    < !-- Row 1 -->
+    <div class="cell">Median</div>
+    <div class="cell">13.0</div>
+    < !-- Row 2 -->
+    <div class="cell">Average</div>
+    <div class="cell">14.97</div>
+    < !-- Row 3 -->
+    <div class="cell">Maximum</div>
+    <div class="cell">104</div>
+    </div>
+</body>
+
+</html>
+
 
 <div class="flourish-embed flourish-bubble-chart" data-src="visualisation/20775833"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20775833/thumbnail" width="100%" alt="bubble-chart visualization" /></noscript></div>
 
