@@ -213,7 +213,7 @@ So what could be the first metric is actually very naive but still shows some re
 <div style="display: flex; align-items: center;">
   <p style="flex: 1; margin-right: 20px;">
     <b>Best categories to have a decline in ? </b> Little podium: News & Politics (the 24/24 activity might be in your favor here), Gaming and Travels and Events... 
-    </br>
+    <br>
     On the other side, the big losers are music -where controversial music is probably quite unforgivable- and Pets and Animals. 
 
   </p>
