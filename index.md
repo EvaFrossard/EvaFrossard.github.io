@@ -150,6 +150,10 @@ To make you visualise a bit more, here is a little glimpse at the biggest Youtub
     Here, using our tools, our goal is to put you out of the woods in the less time possible. If declines didn't end in 4 months, our program will consider that your recovery has failed.</p>
 </div>
 
+<details>zbufbaobafobiafbeio</details>
+
+<details open>zbufbaobafobiafbeio</details>
+
 # Our research team's work/findings on how to maximise your chances of recovery
 
 No time for thumbnail fine-tuning and title brainstorming here.
