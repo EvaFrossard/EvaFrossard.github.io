@@ -200,23 +200,21 @@ So what do we considered being an **efficient recovery** ? Since we do not want 
 More than 16 weeks and our model will sadly announce that you have one foot in the grave, and that Youtuber might not be a durable hobbie for you... sad, but your mom told you so years ago!
 Here, using our tools, our goal is to put you out of the woods before this deadline and if declines didn't end in 4 months, our program will consider that your recovery has failed...
 
-## Our research team's work/findings on how to maximise your chances of recovery
-
-No time for thumbnail fine-tuning and title brainstorming here.
-
-As the stakes are high and time is running out, we have decided to focus on the most important metrics that can help you recover from a decline.
-
-To get an idea of what the risk is, let's first take a look at some statistics about recovery.
+## What are the factors available to analyse your decline and future recovery ? 
 
 <div class="flourish-embed flourish-election" data-src="visualisation/20802367"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20802367/thumbnail" width="100%" alt="election visualization" /></noscript></div>
 
+Okay, here is the state-of-the-art with some stats aout recovery, not good right ? We can't hide the evidences : by our standards, the majority fails to recover. No time for thumbnail fine-tuning and title brainstorming here. As the stakes are high and time is running out, we have decided to focus on the most important metrics that can help you recover from a decline, let's explore them ! 
+
+So what could be the first metric is actually very naive but still shows some results: it's the **category**. You might have thought this was an insignificant parameter when you opened your channel years ago (shout out to the 12 years old you), and even if your content doesn't fit with the category name today... well the latter might still play a role.
+
 <div class="flourish-embed flourish-chart" data-src="visualisation/20801957"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20801957/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
-<!-- ![Statistics about recovery : subs, views & activity at the start of decline & decline duration](/assets/img/RecoStats.png) --->
+Best categories to have a decline in ? Little podium: News & Politics (the 24/24 activity might be in your favor here), Gaming and Travels and Events... 
 
-We can't hide the evidences : by our standards, the majority fails to recover, especially in some categories.
+On the other side, the big losers are music -where controversial music is probably quite unforgivable- and Pets and Animals. 
 
-That's why it is important to think before acting. Lucky you, we did the work for you so that you can put all the chances by your side.
+Interesting metric, but don't start sweating yet, we're just getting started... 
 
 ## How to measure creator reactions
 
