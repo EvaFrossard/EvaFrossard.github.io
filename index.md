@@ -98,7 +98,7 @@ to offer tailored strategies for re-engagement, so that you can fully focus on t
 Adress your decline in an apology video ? Post more often or change topics slightly ? Our motivation stems from the spread of <b>online backlash</b>, that has visibly impacted
 creators on YouTube and other platforms. Eager to offer them unforeseen solutions and break the stigma on subscribers loss, we aim to help you make informed decisions about your next steps to rebuild audience trust.
 
-<div style="border: 2px solid red; padding: 10px; display: inline-block;">
+<div style="border: 2px solid red; padding: 10px; display: inline-block; border-radius: 15px">
   <h2> Research Questions </h2>
   <ol>
     <li> How do we define decline for Youtubers ? How do we define a recovery ?</li>
@@ -149,10 +149,6 @@ To make you visualise a bit more, here is a little glimpse at the biggest Youtub
     <p> Okay, okay, we might just be rubbing salt on the wound right now with loss and declines, let's talk about more positive things... the recovery ! So what do we considered being an efficient recovery ? Since we do not want you to fall into the unknown for too long, but we still consider normal that a recovery is not happening in a flash, we consider that your recovery was successful if it happened <b>in the span of 16 weeks, or 4 months</b>. More and our model will sadly announce that you have one foot in the grave, and that Youtuber might not be a durable hobbie for you... sad, but your mom told you so years ago! <br />
     Here, using our tools, our goal is to put you out of the woods in the less time possible. If declines didn't end in 4 months, our program will consider that your recovery has failed.</p>
 </div>
-
-<details>zbufbaobafobiafbeio</details>
-
-<details open><summary>Tjrs affiché (bouton où cliquer pour ouvrir)</summary>Contenu caché</details>
 
 # Our research team's work/findings on how to maximise your chances of recovery
 
