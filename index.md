@@ -204,13 +204,22 @@ Here, using our tools, our goal is to put you out of the woods before this deadl
 
 <div class="flourish-embed flourish-election" data-src="visualisation/20802367"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20802367/thumbnail" width="100%" alt="election visualization" /></noscript></div>
 
-Okay, here is the state-of-the-art with some stats aout recovery, not good right ? We can't hide the evidences : by our standards, the majority fails to recover. No time for thumbnail fine-tuning and title brainstorming here. As the stakes are high and time is running out, we have decided to focus on the most important metrics that can help you recover from a decline, let's explore them ! 
+Okay, here is the state-of-the-art with some stats aout recovery, not good right ? We can't hide the evidences : **by our standards, the majority fails to recover**. No time for thumbnail fine-tuning and title brainstorming here. As the stakes are high and time is running out, we have decided to focus on the most important metrics that can help you recover from a decline, let's explore them ! 
 
 So what could be the first metric is actually very naive but still shows some results: it's the **category**. You might have thought this was an insignificant parameter when you opened your channel years ago (shout out to the 12 years old you), and even if your content doesn't fit with the category name today... well the latter might still play a role.
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/20801957"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20801957/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
-Best categories to have a decline in ? Little podium: News & Politics (the 24/24 activity might be in your favor here), Gaming and Travels and Events... 
+<div style="display: flex; align-items: center;">
+  <p style="flex: 1; margin-right: 20px;">
+    <b>Best categories to have a decline in ? </b> Little podium: News & Politics (the 24/24 activity might be in your favor here), Gaming and Travels and Events... 
+  </p>
+  <img src="/assets/img/podium.png" alt="Description of image" style="width: 150px;">
+</div>
+
+
+
+
 
 On the other side, the big losers are music -where controversial music is probably quite unforgivable- and Pets and Animals. 
 
