@@ -214,13 +214,18 @@ So what could be the first metric is actually very naive but still shows some re
   <p style="flex: 1; margin-right: 20px;">
     <b>Best categories to have a decline in ? </b> Little podium: News & Politics (the 24/24 activity might be in your favor here), Gaming and Travels and Events... 
     <br>
-    On the other side, the big losers are music -where controversial music is probably quite unforgivable- and Pets and Animals. 
+    On the other side, <b>the big losers</b> are music -where controversial music is probably quite unforgivable- and Pets and Animals. 
 
   </p>
   <img src="/assets/img/podium.png" alt="Description of image" style="width: 150px;">
 </div>
 
 Interesting metric, but don't start sweating just yet, we're just getting started... 
+
+<!-- Add graph of viws, subs and activity and comment them--->
+
+
+
 
 ## How to measure creator reactions
 
