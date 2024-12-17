@@ -169,10 +169,7 @@ Since Youtube hasn't stopped gaining new users, we have reached the conclusion t
     </iframe>
 </div>
 
-
-
-
-![](/assets/img/plotrollingaverage.png)
+As you can see here, the channel of this mysterious Lance Stewart underwent 2 declines represented by the colored purple zones. Not a good job Lance....
 
 After playing around with parameters, we have decided on the following:
 
@@ -296,14 +293,26 @@ Or you are just a chill guy, you also want your audience to just be chill guys a
 
 ### Video duration
 
-Keeping up with durations, here we are focusing on the length of videos. More in the Shorts mindsets or into the long documentary styles videos. Or maybe you like your comedy sketch around the 5min, or maybe it's the cash coming with the monetization and the [multiple ads in over 10min videos](https://www.reddit.com/r/PartneredYoutube/comments/4v6bmy/why_so_many_youtubers_are_making_their_videos/){:target="\_blank"}?)(yes, we see you Uncle Scroodge!). 
+Keeping up with durations, here we are focusing on the length of videos. More in the Shorts mindsets or into the long documentary styles videos. Or maybe you like your comedy sketch around the 5min, or maybe it's the cash coming with the monetization and the [multiple ads in over 10min videos](https://www.reddit.com/r/PartneredYoutube/comments/4v6bmy/why_so_many_youtubers_are_making_their_videos/){:target="\_blank"}?(yes, we see you Uncle Scroodge!). 
 
+<!-- Graph, why do we use that ? --->
 
 ### Content category
 
-A third, daring path is to try new things by changing their Youtube identity.
+A third and more daring reaction is to experiment and go out of your comfort zone, by trying new things (new topics, new styles...) and changing their Youtube identity. Maybe you're starting to think that Fortnite might be a tad bit too restrictive ! 
 
-Using Latent Dirichlet Allocation (a natural language processing technique), we are able to extract the video categories of channels **before** and **during** crises, which are then passed through the large language model TODO oLlama to annotated as they initially are weighted sets of words. We use 20 different categories to remain broad and not be too sensitive to small content changes.
+So how did we measure that ? Well we could have used titles and description but this would have required a massive computation strength... and our computer just couldn't handle it. **But we did better !** We used an awesome feature given by Youtube... **TAGS**. Those help direct to your channel people that have similar interest and would watch videos with the same topic. Tags are fully customizable so can be as precise as 'Daily vlogs of an esthetician in Utah' and as vague as 'Gaming'. 
+
+How to determine topics based on tags ? 
+
+<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
+  Using <b>Latent Dirichlet Allocation</b> (a natural language processing technique), we are able to extract the video categories of channels **before** and **during** crises, which are then passed through the large language model oLlama to annotated as they initially are weighted sets of words. We use 20 different categories to remain broad and not be too sensitive to small content changes.
+
+  <details open> <summary>Latent Dirichlet Allocation
+    </summary>     
+      Unsupervised classification of documents, similar to clustering on numeric data, which finds some natural groups of items (topics). The aim of LDA is to find topics a document (seen as a 'bag of words') belongs to, based on the words in it.
+   </details>
+</div>
 
 Getting this data allows us determine whether the reactions include changing the topics of interest, and we will use these statistics to find the best strategy.
 
