@@ -394,25 +394,19 @@ A key question for creators facing a decline is:
 
 <!--  How have we computed this --> 
 
-This quizz is based on the following graph obtained using
+This quizz is based on the following graph obtained using xxxxxx
 ![](/assets/img/graph_average_recovery_rate.jpeg)
 
-
-
-
-
-
-(How to Present the Data ?
+<!--  maybe a t-test to show revelancy, because it looks a bit empty--> 
+<!-- (How to Present the Data ?
 To help creators implement this strategy, we can either:
 Include a Bar Plot: This would show the relationship between recovery rate and upload frequency, making it easier to identify an optimal target.
-Provide Specific Numbers: Alternatively, we can state exact thresholds or ranges (e.g., increase frequency by 20%-50%) to guide adjustments.)
+Provide Specific Numbers: Alternatively, we can state exact thresholds or ranges (e.g., increase frequency by 20%-50%) to guide adjustments.) -->
 
-Does Video Duration Play a Role in Recovery?
-Another potentially important factor is video duration. While our regression analysis suggests that duration has a limited impact on recovery, we decided to investigate further, looking for hidden patterns.
-Key Findings:
-•⁠  ⁠You don’t need to adjust their average length significantly.
-•⁠  ⁠However, creators producing videos that last between 15 to 20 minutes show a slightly higher probability of recovery. This duration may resonate better with audiences, striking a balance between depth and engagement.
-While this insight is subtle, it can guide creators aiming to maximize their recovery potential.
+Now, about video duration ! Are you feeling more Spielberg or TikTok star ? While our regression analysis suggests that duration has a limited impact on recovery, we decided to investigate further, looking for hidden patterns.
+<!--  stuff to justify this --> 
+
+In conclusion, our team of experts is confident in saying that you do not need to adjust their average length significantly. However, creators producing videos that last between **15 to 20 minutes show a slightly higher probability of recovery**. This duration may resonate better with your audience, not too long (sorry but you might bore people) whilst still providing interesting content ! **While this insight is subtle, it can guide creators aiming to maximize their recovery potential.**
 
 ### A deep dive into topic transitions
 
