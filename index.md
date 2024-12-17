@@ -596,14 +596,14 @@ Now, here’s where the science kicks in. You’ve probably heard of **LLMs (Lar
 
 We used this tech wizardry to dive into the aftermath of bad buzz for dozens of big YouTubers. By leveraging the OLLAMA open source project [TODO: ref] , we analysed the types of videos uploaded immediately following their PR disasters. What did we look for? Patterns. Specifically, whether these videos fell into one (or more) of these categories:
 
-  <ol>
-    <li> Apology videos: The classic “I’m sorry” trope—effective or overdone?
-    <li> Addressing the decline: Are you facing the issue head-on or pretending nothing’s wrong?
-    <li> Comeback announcements: Bold, confident, and ready to win back hearts.
-    <li> Break announcements: Sometimes, stepping back is stepping forward.
-    <li> Collaboration videos: Is strength in numbers the way to go?
-    <li> Clickbait videos: Risky, but can it work in your favor?
-  </ol>
+<ol>
+  <li> Apology videos: The classic “I’m sorry” trope—effective or overdone? </li>
+  <li> Addressing the decline: Are you facing the issue head-on or pretending nothing’s wrong?</li>
+  <li> Comeback announcements: Bold, confident, and ready to win back hearts.</li>
+  <li> Break announcements: Sometimes, stepping back is stepping forward.</li>
+  <li> Collaboration videos: Is strength in numbers the way to go?</li>
+  <li> Clickbait videos: Risky, but can it work in your favor?</li>
+</ol>
 
 And guess what? Our findings are as wild as the comment section on your latest video !
 
@@ -612,8 +612,6 @@ And guess what? Our findings are as wild as the comment section on your latest v
 We’re not going to leave you hanging with just data and no solutions. Let’s reclaim that subscribe button together.
 
 Color code: #004AAD
-
-
 
 ### References
 
@@ -625,4 +623,3 @@ Color code: #004AAD
                   on Weblogs and Social Media (ICWSM'21)}}
 }
 
-<div class="flourish-embed flourish-quiz" data-src="visualisation/20839812"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20839812/thumbnail" width="100%" alt="quiz visualization" /></noscript></div>
