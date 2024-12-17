@@ -10,9 +10,10 @@ use-site-title: true
 ---
 
 ![](/assets/img/comments_intro.png)
+
 ### Does that sound (too) familiar ? Then you might just need our help...
 
-<br />
+<hr>
 
 <html lang="en">
 <head>
@@ -38,8 +39,71 @@ use-site-title: true
             display: table;
             clear: both;
         }
+        .reactionlist {
+          display: grid;
+          grid-auto-flow: column;
+          grid-auto-columns: 1fr;
+          column-gap: 41px;
+        }
+        .reactionlistelem {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          position: relative;
+          text-align: center;
+        }
+        .reactionlistelem::after {
+          display: block;
+          content: "";
+          background: #004AAD;
+          width: 2px;
+          height: 100%;
+          position: absolute;
+          top: 0px;
+          right: -21px;
+        }
+        .reactionlistelem:last-child::after {
+          display: none;
+        }
+        .reactiondesc {
+          margin: 10px 0 0 0;
+          height: fit-content;
+        }
+        .reactionimg {
+          aspect-ratio: 1 / 1;
+          object-fit: cover;
+        }
     </style>
 </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Div</title>
+    <style>
+      .table {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          /* Two equal columns */
+          width: 50%;
+          margin: 20px auto;
+          border: 1px solid #000;
+      }
+
+      .cell {
+          border: 1px solid #000;
+          padding: 8px;
+          text-align: center;
+      }
+
+      .header {
+        font-weight: bold;
+        background-color: #f4f4f4;
+      }
+  </style>
+</head>
+
+
 
 <body>
     <div class="container clearfix">
@@ -63,8 +127,8 @@ to offer tailored strategies for re-engagement, so that you can fully focus on t
 Adress your decline in an apology video ? Post more often or change topics slightly ? Our motivation stems from the spread of <b>online backlash</b>, that has visibly impacted
 creators on YouTube and other platforms. Eager to offer them unforeseen solutions and break the stigma on subscribers loss, we aim to help you make informed decisions about your next steps to rebuild audience trust.
 
-<div style="border: 2px solid red; padding: 10px; display: inline-block;">
-  <h2> Research Questions </h2>
+<div style="border: 2px solid red; padding: 10px; display: inline-block; border-radius: 15px">
+  <h3> Research Questions </h3>
   <ol>
     <li> How do we define decline for Youtubers ? How do we define a recovery ?</li>
     <li> Is a Youtube channel category affecting the effective response strategies after a decline?</li>
@@ -75,9 +139,11 @@ creators on YouTube and other platforms. Eager to offer them unforeseen solution
 
 ## Why should you trust us ?
 
-![](/assets/img/fake_youtube3.png)
+Why us and not some and not some wanabee adviser on YouTube ? Well, because we based all our work on a scientific, multi-dimensional, and extensive dataset... **YouNiverse**[1]. This dataset, released in 2021 is a precious ingredient in our recipe, because Youtube is such a colossal platform that it is quite discouraging to try and sample it. With data from over 136k channels and 72.9M videos published between May 2005 and October 2019. Cool, right ? Well that's our biggest asset in this quest for recovery. It is a long, tidious process, with the main negative aspect being the fact that he only sampled english-speaking videos... oups. Lots of things to say about this great dataset, if you're eager to know just check the below easter egg :)))
 
-### Before any piece of advice, how do we define a decline ?
+![](/assets/img/fake_youtube.jpg)
+
+## Before any piece of advice, how do we define a decline ?
 
 **You feel like your viewership is going down and your stats are struggling ?** We know how painful that can be when you're trying to be on your A-game and you're putting all of your time and energy into your channel.
 
@@ -88,124 +154,280 @@ creators on YouTube and other platforms. Eager to offer them unforeseen solution
   <img src="/assets/img/curve_icon.jpg" alt="Description of image" style="width: 150px;">
 </div>
 
-Since Youtube hasn't stopped gaining new users, we have reached the conclusion that very few channels will actively face a decrease in their total subscriber count. However, we can detect decline by noticing in your stats a significant slowdown in the growth rate of your subscribers, which may indicate potential issues such as reduced engagement or a negative reception by the audience. To go further, we compared the actual growth rate of channels (`delta_subs`) against the rolling average growth rate (`rolling_growth_rate`).
+Since Youtube hasn't stopped gaining new users, we have reached the conclusion that very few channels will actively face a decrease in their total subscriber count. However, we can detect decline by noticing in your stats a significant slowdown in the growth rate of your subscribers, which may indicate potential issues such as reduced engagement or a negative reception by the audience. To go further, we compared the actual growth rate of channels against the rolling average growth rate.
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
   <b> Why ?</b> Because the rolling average acts as a smoothed baseline, calculated using a defined window (we arbitrarily used a 'window' of 20 weeks), which helps to identify deviations from the expected trend. When the growth of your channel falls below the rolling average, it suggests that the channel's performance has dipped relative to its typical trend. 
 </div>
 
-![](/assets/img/plotrollingaverage.png)
--> maybe another one because this is pewdiepie
+<div style="width: 100%; max-width: 800px; margin: 0 auto;">
+    <iframe 
+        src="./plot_lancet.html" 
+        width="100%" 
+        height="600px" 
+        style="border: none;">
+    </iframe>
+</div>
+
+As you can see here, the channel of this mysterious Lance Stewart underwent 2 declines represented by the colored purple zones. Not a good job Lance....
 
 After playing around with parameters, we have decided on the following:
 
-- a minimum duration of a decline of 8 weeks: you could be on holidays without it being a decline !
+- a **minimum duration of a decline of 8 week**s: you could be on holidays without it being a decline !
+<!-- show graph explaning why 8 weeks ?--->
 - if the decline was 'intense', meaning that there was a 80% growth difference between growth index of your channel and the rolling average, we consider that the channel underwent a massive backlash, and may it be shorter or longer than 2 months, it should be counted as a decline (and a big one, what did you do ?)
 
-After doing so, a little update on what our database is: we had 74788 channels that had declines, with more than 121998 episodes... see ? You're really not alone !
+After doing so, a little update on what our database is: we had 74788 channels that had declines, with more than 121998 episodes... see ? You're really not alone ! And more than enough to pursue our study ! 
 
-<div class="flourish-embed flourish-bubble-chart" data-src="visualisation/20775833"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20775833/thumbnail" width="100%" alt="bubble-chart visualization" /></noscript></div>
+<body>
+  <div class="table">
+    <!-- Header Row -->
+    <div class="cell header">Stats</div>
+    <div class="cell header">Length of decline (weeks)</div>
+    <!-- Row 1 -->
+    <div class="cell">Median</div>
+    <div class="cell">17.4</div>
+    <!-- Row 2 -->
+    <div class="cell">Average</div>
+    <div class="cell">16</div>
+    <!-- Row 3 -->
+    <div class="cell">Maximum</div>
+    <div class="cell">104</div>
+    </div>
+</body>
 
-To make you visualise a bit more, here is a little glimpse at the biggest Youtubers' declines, so you can see how well our detection works ! (with a little drama too...)
+From our data, if your experiencing a decline, you might just be in it for more than 3 months... and maybe even forever ! Let's get those number down for you...
+
+To make you visualise a bit more, here is a little glimpse at the biggest Youtubers' declines, so you can see how well our detection works (with a little drama too...)! 
 
 <div class="flourish-embed flourish-cards" data-src="visualisation/20775803"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20775803/thumbnail" width="100%" alt="cards visualization" /></noscript></div>
 
-<div class="colored-container">
-    <p> Okay, okay, we might just be rubbing salt on the wound right now with loss and declines, let's talk about more positive things... the recovery ! So what do we considered being an efficient recovery ? Since we do not want you to fall into the unknown for too long, but we still consider normal that a recovery is not happening in a flash, we consider that your recovery was successful if it happened <b>in the span of 16 weeks, or 4 months</b>. More and our model will sadly announce that you have one foot in the grave, and that Youtuber might not be a durable hobbie for you... sad, but your mom told you so years ago! <br />
-    Here, using our tools, our goal is to put you out of the woods in the less time possible. If declines didn't end in 4 months, our program will consider that your recovery has failed.</p>
+
+Okay, okay, we might just be rubbing salt into the wound right now with loss and declines, let's talk about more positive things... the recovery ! 
+
+So what do we considered being an **efficient recovery** ? Since we do not want you to fall into the unknown for too long, but we still consider normal that a recovery is not happening in a flash, we consider that your recovery was successful if it happened <b>in the span of 16 weeks, or 4 months</b>. Yes, that's the median, and that may seem not very ambitious BUT Youtube is not a forgiving space, and we would consider ourselves happy if you do better than half of the population. 
+
+More than 16 weeks and our model will sadly announce that you have one foot in the grave, and that Youtuber might not be a durable hobbie for you... sad, but your mom told you so years ago!
+Here, using our tools, our goal is to put you out of the woods before this deadline and if declines didn't end in 4 months, our program will consider that your recovery has failed...
+
+## What are the factors available to analyse your decline  ? 
+
+<div class="flourish-embed flourish-election" data-src="visualisation/20802367"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20802367/thumbnail" width="100%" alt="election visualization" /></noscript></div>
+
+Okay, here is the state-of-the-art with some stats aout recovery, not good right ? We can't hide the evidences: **by our standards, the majority fails to recover**. No time for thumbnail fine-tuning and title brainstorming here. As the stakes are high and time is running out, we have decided to focus on the most important metrics that can help you recover from a decline, let's explore them ! 
+
+So what could be the first metric is actually very naive but still shows some results: it's the **category**. You might have thought this was an insignificant parameter when you opened your channel years ago (shout out to the 12 years old you), and even if your content doesn't fit with the category name today... well the latter might still play a role.
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/20801957"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20801957/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+
+<div style="display: flex; align-items: center;">
+  <p style="flex: 1; margin-right: 20px;">
+    <b>Best categories to have a decline in ? </b> Little podium: News & Politics (the 24/24 activity might be in your favor here), Gaming and Travels and Events... 
+    <br>
+    On the other side, <b>the big losers</b> are music -where controversial music is probably quite unforgivable- and Pets and Animals. 
+
+  </p>
+  <img src="/assets/img/podium.png" alt="Description of image" style="width: 150px;">
 </div>
 
-# Our research team's work/findings on how to maximise your chances of recovery
+Interesting metric, but don't start sweating just yet, we're just getting started... 
 
-No time for thumbnail fine-tuning and title brainstorming here.
+<!-- Add graph of views, subs--->
 
-As the stakes are high and time is running out, we have decided to focus on the most important metrics that can help you recover from a decline.
+So what about views andsubscribers ? Is being a renowned Youtuber providing you with more chances to recover efficiently ? Well... not really quite the opposite. Yet again, trends are not too scarred, but even though we see the usual 60-40 proportions appearing, we also see that small channels (under x subscribers) seem to recover better than your usual golden trophee youtubers ? 
 
-## How to measure creator reactions
+<!-- Add graph of activities--->
+About activities (whether you post once a day, once a week, every now and then), this metric doesn't display any noticeable trend, and we can't really conclude that the hard trier has more chances of getting out of the woods than the chill guy.
 
-To get an idea of what the risk is, let's first take a look at some statistics about recovery.
+Okay, we've used the classic triptic: **categories, fame and activity** to see if they provided us info on your channel chances to regain it's previous flourishment. Let's now get into how YOU can impact the health of your channel, meaning how YOU can react. We will start by citing all the different strategies we have observed (yes the same strategies you have probably been wracking your brain with), before putting our lab coat and taking our calculator to see if those methods are truly useful. 
 
-![Percentage of recovery, overall and per channel category](/assets/img/RecoPct.png)
-
-![Statistics about recovery : subs, views & activity at the start of decline & decline duration](/assets/img/RecoStats.png)
-
-TODO: PUT nice viz for recovery distribution among categories
-
-We can't hide the evidences : by our standards, the majority fails to recover, especially in some categories.
-
-That's why it is important to think before acting. Lucky you, we did the work for you so that you can put all the chances by your side.
+## What are the possible strategies observed when facing a decline ? 
 
 Taking advantage of all the data that we have at hand, our research team identified the key metrics that measure creator's reactions in times of
-crisis, and will now walk you through them.
-
-todo display reaction groups horizontally
+crisis, and will now walk you through them. Take notes !
 
 ### Upload frequency
 
-Considering the upload frequencies of creators before the start of a decline throughout the latter draws lines between three groups. # todo garder cette phrase?
+You might have thought that getting **more active on the platform** would make you regain your audience or at least will make you gain a new public, because the Youtube algorithm would put you forward. Without entering into the specifics of this dark and unknown algorithm... NO, not really how that works :) 
 
-- Most creators keep uploading the same amount of content # TODO dolce vita image
-- Some try to blend within the platform by posting less # TODO fantome image
-- Others get it together and start spamming videos # TODO working hard/stressed image
+Maybe you've considered **taking a break**, make them wait a little and be more desirable (we see you mister pick-me) before making a big come back, maybe ? 
+
+Or you are just a chill guy, you also want your audience to just be chill guys and be alike you, and you didn't want to force yourself to post or take an unwanted break... so you just **kept uploading at the same rythm**. 
+
+**Thus, we have 3 separate groups:**
+
+<div class='reactionlist'>
+  <div class='reactionlistelem'>
+    <img src="/assets/img/PostLessBD.png" class="reactionimg" alt="Someone leaving on a plane" style="width: 100%;">
+    <p class="reactiondesc">Some creators step back from the platform by posting less</p>
+  </div>
+  <div class='reactionlistelem'>
+    <img src="/assets/img/PostNormalBD.png" class="reactionimg" alt="Someone working but not too hard"
+    style="width: 100%;">
+    <p class="reactiondesc">Most of them keep uploading the same amount of content</p>
+  </div>
+  <div class='reactionlistelem'>
+    <img src="/assets/img/PostMoreBD.png" class="reactionimg" alt="Someone working hard" style="width: 100%;">
+    <p class="reactiondesc">Others get it together and start spamming videos</p>
+  </div>
+</div>
+
+<!-- 
+<div class='reactionlist'>
+  <div class='reactionlistelem'>
+    <img src="/assets/img/PostLess.jpg" class="reactionimg" alt="Someone leaving on a plane" style="width: 100%;">
+    <p class="reactiondesc">Some creators step back from the platform by posting less</p>
+  </div>
+  <div class='reactionlistelem'>
+    <img src="/assets/img/PostNormal.webp" class="reactionimg" alt="Someone working but not too hard"
+    style="width: 100%;">
+    <p class="reactiondesc">Most of them keep uploading the same amount of content</p>
+  </div>
+  <div class='reactionlistelem'>
+    <img src="/assets/img/PostMore.jpg" class="reactionimg" alt="Someone working hard" style="width: 100%;">
+    <p class="reactiondesc">Others get it together and start spamming videos</p>
+  </div>
+</div>
+
+--->
 
 ### Video duration
 
-Similarly, a natural reaction is to play around with the video length to understand what content the audience prefers (are they trying to beat the [video monetization allegations](https://www.reddit.com/r/PartneredYoutube/comments/4v6bmy/why_so_many_youtubers_are_making_their_videos/)?).
+Keeping up with durations, here we are focusing on the length of videos. More in the Shorts mindsets or into the long documentary styles videos. Or maybe you like your comedy sketch around the 5min, or maybe it's the cash coming with the monetization and the [multiple ads in over 10min videos](https://www.reddit.com/r/PartneredYoutube/comments/4v6bmy/why_so_many_youtubers_are_making_their_videos/){:target="\_blank"}?(yes, we see you Uncle Scroodge!). 
+
+<!-- Graph, why do we use that ? --->
 
 ### Content category
 
-A third, daring path is to try new things by changing their Youtube identity.
+A third and more daring reaction is to experiment and go out of your comfort zone, by trying new things (new topics, new styles...) and changing their Youtube identity. Maybe you're starting to think that Fortnite might be a tad bit too restrictive ! 
 
-Using Latent Dirichlet Allocation (a natural language processing technique), we are able to extract the video categories of channels **before** and **during** crises, which are then passed through the large language model TODO oLlama to annotated as they initially are weighted sets of words. We use 20 different categories to remain broad and not be too sensitive to small content changes.
-
-<div class="flourish-embed flourish-hierarchy" data-src="visualisation/20798533"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20798533/thumbnail" width="100%" alt="hierarchy visualization" /></noscript></div>
+**So how did we measure that ?** Well we could have used titles and description but this would have required a massive computation strength... and our computer just couldn't handle it. **But we did better !** We used an awesome feature given by Youtube... **TAGS**. Those help direct to your channel people that have similar interest and would watch videos with the same topic. Tags are fully customizable so can be as precise as 'Daily vlogs of an esthetician in Utah' and as vague as 'Gaming'. 
 
 Getting this data allows us determine whether the reactions include changing the topics of interest, and we will use these statistics to find the best strategy.
+**How to determine topics based on tags?**
+
+<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
+  Using <b>Latent Dirichlet Allocation</b> (a natural language processing technique), we are able to extract the main topic of a channel based on the tags <b>before</b> and <b>during</b> crises. The results obtained give us the words that have been put into the same category, but to obtain an overall topic name, we passed the lists through the LLM <b>Ollama</b>. We use 20 different categories to remain broad and not be too sensitive to small content changes.
+</div>
+
+<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
+  <details open> 
+    <summary style = "font-size: 18px; cursor: pointer;">Latent Dirichlet Allocation </summary>     
+      <b>Unsupervised classification of documents</b>, similar to clustering on numeric data, which finds some natural groups of items (topics). The aim of LDA is to find topics a document (seen as a 'bag of words') belongs to, based on the words in it.
+   </details>
+</div>
+
+<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 2;">
+  <details open> 
+    <summary style = "font-size: 18px; cursor: pointer;">Ollama </summary>     
+      <b>Type of large language model (LLM)</b>, locally loaded into a computer, we here used the model Mistral but we will explain more about it later, in the bad buzz section.
+   </details>
+</div>
+
+After using the Latent Dirichlet Allocation, we obtained the following 20 categories named by the LLM:
+
+<div class="flourish-embed flourish-hierarchy" data-src="visualisation/20798533"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20798533/thumbnail" width="100%" alt="hierarchy visualization" /></noscript></div>
+Each topic contains a set of 15 words and their probabilities of appearing within that topic.
+
+
+Using this natural processing language, we are able to determine whether the reactions to decline include **changing topics of interest**. Before entering into the maths of it, just have fun looking at all the topic transition and we will use these statistics to find the best strategy and YES the transition between Pokemon and Politics exists !
 
 <div class="flourish-embed flourish-chord" data-src="visualisation/20782429"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20782429/thumbnail" width="100%" alt="chord visualization" /></noscript></div>
 
-As you see, everything is possible when it comes to changing the topic of your videos! However, since some changes occur more frequently than others, we don't have enough data to give you meaningful analysis of every transition and we will thus focus on the most common topic transitions, with more than 30 occurences in our database:
+<!-- Add title of major categories in graph --->
+<!-- List of topics --->
+<!-- Exemple of all the words in one world using word map--->
+
+As you can see, everything is possible when it comes to changing the topic of your videos! However, since some changes occur more frequently than others, we don't have enough data to give you meaningful analysis of every transition (sorry for those who wanted to go from News to League of Legends :)). We will thus focus on the **most common topic transitions**, with more than 30 occurences in our database:
 
 <div class="flourish-embed flourish-chord" data-src="visualisation/20781676"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20781676/thumbnail" width="100%" alt="chord visualization" /></noscript></div>
 
-## What factors matter : an overview
+## All of those factors... but which one matters ! 
 
-First of all, let's have a look at the correlation between our metrics of interest to give you a sense of the overall interactions. The brighter the color, the higher the correlation :
+Easy task, we have so far just listed the reaction possible, but which one do work ? 
 
-![Correlation heatmap](/assets/img/corr_heatmap.png)
+First of all, here are the results of a logistic regression of **recovery** on the **reactions**. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery.
 
-Now, here are the results of a logistic regression of **recovery** on the reactions. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery. Here they are :
+<img src="/assets/img/LogistSummary.png" alt="Logistic regression summary showing coefficients and p-values" style="width: 60%; margin: auto; display: block;">
 
-![Logistic regression summary showing coefficients and p-values](/assets/img/LogistSummary.png)
+<!-- Ecrire l'équation de régression --->
 
-In order to get some unbiased and helpful results, we sample our dataset with caution through propensity score matching, making the proportion of recoveries meaningful.
+While analysing and drawing conclusions from this simple regression would be quite naive, it highlights an essential fact : **Each reaction influences the recovery in a unique way.** That is why caution is needed when handling your popularity crisis : One wrong move, and it's **done** ! (You sense then suspense ? )
 
-![Propensity score matching results on upload frequency](/assets/img/PSM_freq.png)
+<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
+  As the next step, and in order to get some unbiased results and make the proportion of recoveries meaningful, we chose to perform <b>propensity score matching</b> on our decline dataset. This will balance the dataset regarding the variable whose effect we want to observe, enabling us (and you !) to draw more accurate conclusions.
+</div>
 
-![Propensity score matching results on video duration](/assets/img/PSM_duration.png)
+<!-- Explain the sampling?  --->
 
-![Propensity score matching results on topic change](/assets/img/PSM_topicchange.png)
+<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
+  <details open> 
+    <summary style = "font-size: 18px; cursor: pointer;"><b>Propensity score matching</b> </summary>     
+      <b>Propensity score matching</b> is a statistical technique used to estimate the effect of a treatment by accounting for the features that predict receiving the treatment. It is used to reduce selection bias by balancing the features between treated and untreated subjects, taking into account the various confounding variables. 
+   </details>
+</div>
 
-TODO combine them
+<!-- Explain more the process, graph and stuff --->
 
-As you can see, the data suggests that upload frequency has a relatively great effect on recovery while video duration does not play such an important role.
+This gives us the following results :
 
-Though it could seem that topic change does not have great a average effect, further analysis leads us to insteresting results that are worth detailing.
+<div class="flourish-embed flourish-chart" data-src="visualisation/20782011"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20782011/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
-## Exploiting the levers in the best possible way
+Finally, some long awaited results ! The balanced data suggests that whilst increasing upload frequency has a relatively great effect on recovery, whereas changing video duration does not seem to play such an important role, same with topic change.
 
-Having set the stage, it is time to analyze the reactions and bring you the solutions.
+This being a very generic graph, we will dive deeper into all of those subjects to still maximize your chances, since further analysis leads us to insteresting results that are worth detailing ! **Onto the solutions now !**
+
+### Posting frequency and video duration
+
+Good news! Our detailed analysis reveals that increasing your upload frequency is more effective than reducing it. **So what does it mean to increase upload frequency ?**
+
+
+<!-- 
+After identifying the most influential features affecting the recovery of YouTube creators, let’s dig a bit deeper into their implications to extract actionable insights. Let’s focus on the most impactful feature and explore it comprehensively.
+Should You Increase or Decrease Uploading Frequency During a Decline?
+A key question for creators facing a decline is:
+“As a YouTuber, should I upload more content or less? And if I need to adjust my frequency, how should I do it?”
+ --->
+
+<!--  How have we computed this --> 
+
+<div style="border: 2px solid red; padding: 10px; display: inline-block; border-radius: 15px">
+  <b>Let's get you onto a little recipe, shall we ?</b>
+  <ol>
+      <li> Start by determining your upload frequency by computing your average uploads per week or per month </li>
+      <li> ⁠Adjust your frequency using our little guide to align your upload schedule with recovery trends. </li>
+  </ol>
+</div>  
+
+<div class="flourish-embed flourish-quiz" data-src="visualisation/20839812"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20839812/thumbnail" width="100%" alt="quiz visualization" /></noscript></div>
+
+<!--  How have we computed this --> 
+
+This quizz is based on the following graph obtained using xxxxxx
+![](/assets/img/graph_average_recovery_rate.jpeg)
+
+<!--  maybe a t-test to show revelancy, because it looks a bit empty--> 
+<!-- (How to Present the Data ?
+To help creators implement this strategy, we can either:
+Include a Bar Plot: This would show the relationship between recovery rate and upload frequency, making it easier to identify an optimal target.
+Provide Specific Numbers: Alternatively, we can state exact thresholds or ranges (e.g., increase frequency by 20%-50%) to guide adjustments.) -->
+
+Now, about video duration ! Are you feeling more Spielberg or TikTok star ? While our regression analysis suggests that duration has a limited impact on recovery, we decided to investigate further, looking for hidden patterns.
+<!--  stuff to justify this --> 
+
+In conclusion, our team of experts is confident in saying that you do not need to adjust their average length significantly. However, creators producing videos that last between **15 to 20 minutes show a slightly higher probability of recovery**. This duration may resonate better with your audience, not too long (sorry but you might bore people) whilst still providing interesting content ! **While this insight is subtle, it can guide creators aiming to maximize their recovery potential.**
 
 ### A deep dive into topic transitions
 
-Evalutating the impact of subject changes should not be done as a whole : the categories and possible transitions are too numerous to be aggregated as one variable. To go into greater detail, we analyze the consequences by direction : going from **politics** to **lifestyle** videos should be distinguished from changing from **movie reviews** to **league of legends** content.
+Back into the more fun stuff ! **Do we recommend you to change subjects ?** Of course, we are here talking to the desesperate that do not mind doing a 180°, promise we do not judge (a little), we're just being a guide in the process. 
+Evaluating the impact of subject changes should not be done as a whole: the categories and possible transitions are too numerous to be aggregated into one variable. To go into greater detail, we analyze the consequences by direction: going from **Politics** to **Lifestyle** videos should be distinguished from changing from **Movie reviews** to **League of Legends** content. 
 
 <iframe src="/assets/data/topic_change_bar_chart.html" width="100%" height="600" frameborder="0"></iframe>
 
-On average, channels that change their video topics experience a slight increase in recovery rates compared to those that do not. While this is encouraging, we have to emphasize that this approach can have mixed results, and the impact on your recovery rate will depend heavily on the types of topics you choose to pivot to.
-
-
-Below is the interactive Sankey diagram showing topic transitions and their recovery rates, colored by recovery rate (cooler colors represent higher recovery rates):
+On average, channels that change their video topics experience a slight increase in recovery rates compared to those that do not.
+<!--  t-test ? something to prove it --> 
+While this is encouraging, we have to emphasize that **this approach can have mixed results**, and the impact on your recovery rate will depend heavily on the types of topics you choose to pivot to. **It is not about if you change or not, it is from where and to where you change !**
+Let's investigate using a interactive Sankey diagram showing topic transitions and their recovery rates, colored by recovery rate (cooler colors represent higher recovery rates)
 
 <div id="sankey-plot" style="width:100%; height:600px;"></div>
 
@@ -327,10 +549,15 @@ Below is the interactive Sankey diagram showing topic transitions and their reco
     .catch(error => console.error('Error loading the JSON data:', error));
 </script>
 
+</div>
 
-Looking see which topic transitions works in your niche is not obvious. For instance, channels focused on movie reviews often see positive changes in recovery when they switch topics, though transitioning to topics like politics could negatively impact your recovery. On the other hand, gameplay channels should be careful when changing topics, as only a shift to Fortnite-related content seems to maintain or increase engagement.
+<!--  We can't see the top of  --> 
 
-If you’re considering making a shift, we recommend focusing on topics that have historically shown positive outcomes, such as beauty and lifestyle or gaming-related content, while being cautious about venturing into politics or kids videos, where the change could backfire. Remember that your choice should be guided by your category of origin!
+<div style="margin-top: 20px; text-align: justify;">
+  Looking to see which topic transitions work in your niche is quite a hassle. For instance, channels focused on movie reviews often see positive changes in recovery when they switch topics, though transitioning to topics like politics could negatively impact your recovery. On the other hand, gameplay channels should be careful when changing topics, as only a shift to Fortnite-related content seems to maintain or increase engagement. <b>It's all on a very thin line!</b>
+</div>
+
+If you’re considering making a shift, we recommend focusing on topics that have historically shown positive outcomes, such as **beauty and lifestyle or gaming-related content**, while being cautious about venturing into politics or kids videos, where the change could backfire. Remember that your choice should be guided by your category of origin!
 
 ### How to upload when people want it the most
 
@@ -386,13 +613,14 @@ Now, here’s where the science kicks in. You’ve probably heard of **LLMs (Lar
 
 We used this tech wizardry to dive into the aftermath of bad buzz for dozens of big YouTubers. By leveraging the OLLAMA open source project [TODO: ref] , we analysed the types of videos uploaded immediately following their PR disasters. What did we look for? Patterns. Specifically, whether these videos fell into one (or more) of these categories:
 
-  <ol>
-    <li> Apology videos: The classic “I’m sorry” trope—effective or overdone?
-    <li> Addressing the decline: Are you facing the issue head-on or pretending nothing’s wrong?
-    <li> Comeback announcements: Bold, confident, and ready to win back hearts.
-    <li> Break announcements: Sometimes, stepping back is stepping forward.
-    <li> Collaboration videos: Is strength in numbers the way to go?
-    <li> Clickbait videos: Risky, but can it work in your favor?
+<ol>
+  <li> Apology videos: The classic “I’m sorry” trope—effective or overdone? </li>
+  <li> Addressing the decline: Are you facing the issue head-on or pretending nothing’s wrong?</li>
+  <li> Comeback announcements: Bold, confident, and ready to win back hearts.</li>
+  <li> Break announcements: Sometimes, stepping back is stepping forward.</li>
+  <li> Collaboration videos: Is strength in numbers the way to go?</li>
+  <li> Clickbait videos: Risky, but can it work in your favor?</li>
+</ol>
 
 And guess what? Our findings are as wild as the comment section on your latest video !
 
@@ -401,3 +629,14 @@ And guess what? Our findings are as wild as the comment section on your latest v
 We’re not going to leave you hanging with just data and no solutions. Let’s reclaim that subscribe button together.
 
 Color code: #004AAD
+
+### References
+
+@inproceedings{ribeiro2021youniverse,
+      title={YouNiverse: Large-Scale Channel and Video Metadata from English-Speaking YouTube}, 
+      author={Ribeiro, Manoel Horta and West Robert},
+      year={2021},
+      booktitle={{Proceedings of the 15th International AAAI Conference 
+                  on Weblogs and Social Media (ICWSM'21)}}
+}
+
