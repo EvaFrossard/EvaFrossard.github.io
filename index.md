@@ -417,6 +417,8 @@ Now, about video duration ! Are you feeling more Spielberg or TikTok star ? Whil
 
 In conclusion, our team of experts is confident in saying that you do not need to adjust their average length significantly. However, creators producing videos that last between **15 to 20 minutes show a slightly higher probability of recovery**. This duration may resonate better with your audience, not too long (sorry but you might bore people) whilst still providing interesting content ! **While this insight is subtle, it can guide creators aiming to maximize their recovery potential.**
 
+As a side note, since the data from the YouNiverse stopped being sampled in 2019, we do not have any data on new updates Youtube introduce... and this include the great invention of the **Youtube Shorts**. This Tiktok wanabee might be a key for your Youtube rising fame if you're into short and dynamic videos ! Just fyi...
+
 ### A deep dive into topic transitions
 
 Back into the more fun stuff ! **Do we recommend you to change subjects ?** Of course, we are here talking to the desesperate that do not mind doing a 180°, promise we do not judge (a little), we're just being a guide in the process. 
@@ -551,7 +553,7 @@ Let's investigate using a interactive Sankey diagram showing topic transitions a
 
 </div>
 
-<!--  We can't see the top of  --> 
+<!--  We can't see the top of this text ?  --> 
 
 <div style="margin-top: 20px; text-align: justify;">
   Looking to see which topic transitions work in your niche is quite a hassle. For instance, channels focused on movie reviews often see positive changes in recovery when they switch topics, though transitioning to topics like politics could negatively impact your recovery. On the other hand, gameplay channels should be careful when changing topics, as only a shift to Fortnite-related content seems to maintain or increase engagement. <b>It's all on a very thin line!</b>
@@ -559,6 +561,8 @@ Let's investigate using a interactive Sankey diagram showing topic transitions a
 
 If you’re considering making a shift, we recommend focusing on topics that have historically shown positive outcomes, such as **beauty and lifestyle or gaming-related content**, while being cautious about venturing into politics or kids videos, where the change could backfire. Remember that your choice should be guided by your category of origin!
 
+
+<!-- need tp talk about all of this ?
 ### How to upload when people want it the most
 
 An important point to consider is the current frequency of your uploads.
@@ -573,19 +577,6 @@ TODO make a plot where you click to choose what to see :
 
 - before/during
 
-Notice that those that post more used to post less than average!
-
-- conclusions on upload freq:
-  - it is good
-  - what freqs are best
-
-### Are long videos that boring ?
-
-- conclusions on video duration
-  - mostly bad
-  - can still be used if necessary but not to display as necessary
-
-TODO mention shorts, which did not exist in 2019? in any case are not tracked but now play a big role
 
 ### Key findings
 
@@ -593,19 +584,22 @@ In short, TODO
 
 TODO QUIZ
 
-### Suffering from a bad buzz ? Here is where it's at...
+-->
 
-Let’s face it — you wouldn’t still be reading this unless you’d royally messed up, would you? You’ve stepped on the internet landmine, and now your channel is caught in the crosshairs of a… **BAD BUZZ** 😱. <br />
+<div style="border: 2px solid red; padding: 10px; display: inline-block; border-radius: 15px">
+<h3>Suffering from a bad buzz ? Here is where it's at... </h3>
+
+Let’s face it — you wouldn’t still be reading this unless you’d royally messed up, would you? You’ve stepped on the internet landmine, and now your channel is caught in the crosshairs of a… <b>BAD BUZZ </b> 😱. <br />
 
 If you’ve scrolled through the previous sections and still can’t find a fix, it’s because your situation requires more than the usual “post more consistently” or “engage with your audience” advice. But fear not! While the internet’s collective fury can feel like a raging storm, we’ve armed ourselves with data analysis and research to help you turn this ship around. <br />
 
-### The Challenges of a Big YouTuber in a Crisis
+<h2>The Challenges of a Big YouTuber in a Crisis </h2>
 
 Our analysis of big YouTubers (think >1M subscribers — we feel flattered that you're here) has revealed some fascinating trends. Whether it’s a Twitter faux pas, a controversial statement, or a scandal you never saw coming, the strategies for clawing back your reputation vary dramatically depending on the moves you make right now.(Insert dramatic pause for effect. You’re feeling the pressure, aren’t you?) <br />
 
 But hey, before you run off to film a tearful apology, let’s talk about why some YouTubers manage to recover from their digital nightmares while others end up in the dreaded “where are they now?” category. Spoiler: it’s not all about talent or luck. <br />
 
-### The Secret Sauce? Your Titles
+<h2>The Secret Sauce? Your Titles </h2>
 
 Yes, you read that right. **Titles.** Those few dozen characters can either save your channel or sink it further. Think about it: what’s the first thing a viewer sees before they even decide to click? Your title! And if you’ve learned anything from this wild ride of YouTube, it’s that first impressions are everything. <br />
 
@@ -624,9 +618,13 @@ We used this tech wizardry to dive into the aftermath of bad buzz for dozens of 
 
 And guess what? Our findings are as wild as the comment section on your latest video !
 
-### The Plan
+<h2> The Plan </h2>
 
 We’re not going to leave you hanging with just data and no solutions. Let’s reclaim that subscribe button together.
+
+
+</div>
+
 
 Color code: #004AAD
 
