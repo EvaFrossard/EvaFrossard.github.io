@@ -165,6 +165,7 @@ Since Youtube hasn't stopped gaining new users, we have reached the conclusion t
 After playing around with parameters, we have decided on the following:
 
 - a **minimum duration of a decline of 8 week**s: you could be on holidays without it being a decline !
+<!-- show graph explaning why 8 weeks ?--->
 - if the decline was 'intense', meaning that there was a 80% growth difference between growth index of your channel and the rolling average, we consider that the channel underwent a massive backlash, and may it be shorter or longer than 2 months, it should be counted as a decline (and a big one, what did you do ?)
 
 After doing so, a little update on what our database is: we had 74788 channels that had declines, with more than 121998 episodes... see ? You're really not alone ! And more than enough to pursue our study ! 
@@ -200,11 +201,11 @@ So what do we considered being an **efficient recovery** ? Since we do not want 
 More than 16 weeks and our model will sadly announce that you have one foot in the grave, and that Youtuber might not be a durable hobbie for you... sad, but your mom told you so years ago!
 Here, using our tools, our goal is to put you out of the woods before this deadline and if declines didn't end in 4 months, our program will consider that your recovery has failed...
 
-## What are the factors available to analyse your decline and future recovery ? 
+## What are the factors available to analyse your decline  ? 
 
 <div class="flourish-embed flourish-election" data-src="visualisation/20802367"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20802367/thumbnail" width="100%" alt="election visualization" /></noscript></div>
 
-Okay, here is the state-of-the-art with some stats aout recovery, not good right ? We can't hide the evidences : **by our standards, the majority fails to recover**. No time for thumbnail fine-tuning and title brainstorming here. As the stakes are high and time is running out, we have decided to focus on the most important metrics that can help you recover from a decline, let's explore them ! 
+Okay, here is the state-of-the-art with some stats aout recovery, not good right ? We can't hide the evidences: **by our standards, the majority fails to recover**. No time for thumbnail fine-tuning and title brainstorming here. As the stakes are high and time is running out, we have decided to focus on the most important metrics that can help you recover from a decline, let's explore them ! 
 
 So what could be the first metric is actually very naive but still shows some results: it's the **category**. You might have thought this was an insignificant parameter when you opened your channel years ago (shout out to the 12 years old you), and even if your content doesn't fit with the category name today... well the latter might still play a role.
 
@@ -222,15 +223,19 @@ So what could be the first metric is actually very naive but still shows some re
 
 Interesting metric, but don't start sweating just yet, we're just getting started... 
 
-<!-- Add graph of viws, subs and activity and comment them--->
+<!-- Add graph of views, subs--->
 
+So what about views andsubscribers ? Is being a renowned Youtuber providing you with more chances to recover efficiently ? Well... not really quite the opposite. Yet again, trends are not too scarred, but even though we see the usual 60-40 proportions appearing, we also see that small channels (under x subscribers) seem to recover better than your usual golden trophee youtubers ? 
 
+<!-- Add graph of activities--->
+About activities (whether you post once a day, once a week, every now and then), this metric doesn't display any noticeable trend, and we can't really conclude that the hard trier has more chances of getting out of the woods than the chill guy.
 
+Okay, we've used the classic triptic: **categories, fame and activity** to see if they provided us info on your channel chances to regain it's previous flourishment. Let's now get into how YOU can impact the health of your channel, meaning how YOU can react. We will start by citing all the different strategies we have observed (yes the same strategies you have probably been wracking your brain with), before putting our lab coat and taking our calculator to see if those methods are truly useful. 
 
-## How to measure creator reactions
+## What are the possible strategies observed when facing a decline ? 
 
 Taking advantage of all the data that we have at hand, our research team identified the key metrics that measure creator's reactions in times of
-crisis, and will now walk you through them.
+crisis, and will now walk you through them. Take notes !
 
 ### Upload frequency
 
