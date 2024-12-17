@@ -160,6 +160,18 @@ Since Youtube hasn't stopped gaining new users, we have reached the conclusion t
   <b> Why ?</b> Because the rolling average acts as a smoothed baseline, calculated using a defined window (we arbitrarily used a 'window' of 20 weeks), which helps to identify deviations from the expected trend. When the growth of your channel falls below the rolling average, it suggests that the channel's performance has dipped relative to its typical trend. 
 </div>
 
+<div style="width: 100%; max-width: 800px; margin: 0 auto; border: 1px solid #ccc; border-radius: 5px; padding: 10px;">
+    <iframe 
+        src="plot_lancet.html" 
+        width="100%" 
+        height="600px" 
+        style="border: none;">
+    </iframe>
+</div>
+
+
+
+
 ![](/assets/img/plotrollingaverage.png)
 
 After playing around with parameters, we have decided on the following:
@@ -284,12 +296,8 @@ Or you are just a chill guy, you also want your audience to just be chill guys a
 
 ### Video duration
 
-Keeping up with durations, here we are focusing on the length of videos. More in the Shorts mindsets or into the long documentary styles videos. Or maybe you like your comedy sketch around the 5min, or maybe it's the cash coming with the monetization and the multiple ads in over 10min videos (yes, we see you Uncle Scroodge !). 
+Keeping up with durations, here we are focusing on the length of videos. More in the Shorts mindsets or into the long documentary styles videos. Or maybe you like your comedy sketch around the 5min, or maybe it's the cash coming with the monetization and the [multiple ads in over 10min videos](https://www.reddit.com/r/PartneredYoutube/comments/4v6bmy/why_so_many_youtubers_are_making_their_videos/){:target="\_blank"}?)(yes, we see you Uncle Scroodge!). 
 
-
-
-
-Similarly, a natural reaction is to play around with the video length to understand what content the audience prefers (could creators be trying to beat accusations of [tuning video length for monetization](https://www.reddit.com/r/PartneredYoutube/comments/4v6bmy/why_so_many_youtubers_are_making_their_videos/){:target="\_blank"}?).
 
 ### Content category
 
@@ -337,6 +345,26 @@ Though it could seem that topic change does not have great a average effect, fur
 
 Having set the stage, it is time to analyze the reactions and bring you the solutions.
 
+### Activity
+
+After identifying the most influential features affecting the recovery of YouTube creators, let’s dig a bit deeper into their implications to extract actionable insights. Let’s focus on the most impactful feature and explore it comprehensively.
+Should You Increase or Decrease Uploading Frequency During a Decline?
+A key question for creators facing a decline is:
+“As a YouTuber, should I upload more content or less? And if I need to adjust my frequency, how should I do it?”
+Good news! Our detailed analysis reveals that increasing your upload frequency is more effective than reducing it. Here’s how you can act on this insight:
+  1. Determine Your Current Frequency: Calculate your average uploads per week or month.
+2.⁠ ⁠Adjust Your Frequency: Use our findings (illustrated in the bar plot) to align your upload schedule with recovery trends.
+(How to Present the Data ?
+To help creators implement this strategy, we can either:
+Include a Bar Plot: This would show the relationship between recovery rate and upload frequency, making it easier to identify an optimal target.
+Provide Specific Numbers: Alternatively, we can state exact thresholds or ranges (e.g., increase frequency by 20%-50%) to guide adjustments.)
+
+Does Video Duration Play a Role in Recovery?
+Another potentially important factor is video duration. While our regression analysis suggests that duration has a limited impact on recovery, we decided to investigate further, looking for hidden patterns.
+Key Findings:
+•⁠  ⁠You don’t need to adjust their average length significantly.
+•⁠  ⁠However, creators producing videos that last between 15 to 20 minutes show a slightly higher probability of recovery. This duration may resonate better with audiences, striking a balance between depth and engagement.
+While this insight is subtle, it can guide creators aiming to maximize their recovery potential.
 ### A deep dive into topic transitions
 
 Evalutating the impact of subject changes should not be done as a whole : the categories and possible transitions are too numerous to be aggregated as one variable. To go into greater detail, we analyze the consequences by direction : going from **politics** to **lifestyle** videos should be distinguished from changing from **movie reviews** to **league of legends** content.
