@@ -323,13 +323,14 @@ A third and more daring reaction is to experiment and go out of your comfort zon
    </details>
 </div>
 
-Using this natural processing language, we are able to determine whether the reactions to decline include **changing topics of interest**. Before entering into the maths of it, just have fun looking at all the topic transition and we will use these statistics to find the best strategy and YES the transition between Poekemon and Politics exists !
+Using this natural processing language, we are able to determine whether the reactions to decline include **changing topics of interest**. Before entering into the maths of it, just have fun looking at all the topic transition and we will use these statistics to find the best strategy and YES the transition between Pokemon and Politics exists !
 
 <div class="flourish-embed flourish-chord" data-src="visualisation/20782429"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20782429/thumbnail" width="100%" alt="chord visualization" /></noscript></div>
 
-<!-- Add title of major categories --->
+<!-- Add title of major categories in graph --->
+<!-- List of topics --->
 
-As you see, everything is possible when it comes to changing the topic of your videos! However, since some changes occur more frequently than others, we don't have enough data to give you meaningful analysis of every transition and we will thus focus on the most common topic transitions, with more than 30 occurences in our database:
+As you can see, everything is possible when it comes to changing the topic of your videos! However, since some changes occur more frequently than others, we don't have enough data to give you meaningful analysis of every transition (sorry for those who wanted to go from News to League of Legends :)). We will thus focus on the **most common topic transitions**, with more than 30 occurences in our database:
 
 <div class="flourish-embed flourish-chord" data-src="visualisation/20781676"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20781676/thumbnail" width="100%" alt="chord visualization" /></noscript></div>
 
