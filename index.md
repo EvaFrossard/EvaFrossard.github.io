@@ -544,12 +544,8 @@ Let's investigate using a interactive Sankey diagram showing topic transitions a
 
 </div>
 
-
-
-
-
-
-
+<br>
+<br>
 
 Looking to see which topic transitions works in your niche is quite a hassle. For instance, channels focused on movie reviews often see positive changes in recovery when they switch topics, though transitioning to topics like politics could negatively impact your recovery. On the other hand, gameplay channels should be careful when changing topics, as only a shift to Fortnite-related content seems to maintain or increase engagement. **It's all on a very thine line** ! 
 
