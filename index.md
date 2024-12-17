@@ -334,27 +334,32 @@ As you can see, everything is possible when it comes to changing the topic of yo
 
 <div class="flourish-embed flourish-chord" data-src="visualisation/20781676"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20781676/thumbnail" width="100%" alt="chord visualization" /></noscript></div>
 
-## What factors matter : an overview
+## All of those factors... but which one matters ! 
+
+Easy task, we have so far just listed the reaction possible, but which one do work ? 
 
 First of all, here are the results of a logistic regression of **recovery** on the **reactions**. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery.
 
 <img src="/assets/img/LogistSummary.png" alt="Logistic regression summary showing coefficients and p-values" style="width: 60%; margin: auto; display: block;">
 
-While analysing and drawing conclusions from this simple regression would be quite naive, it highlights an essential fact :
+<!-- Ecrire l'équation de régression --->
 
-**Each reaction influences the recovery in a unique way.**
+While analysing and drawing conclusions from this simple regression would be quite naive, it highlights an essential fact : **Each reaction influences the recovery in a unique way.** That is why caution is needed when handling your popularity crisis : One wrong move, and it's **done**.
 
-That is why caution is needed when handling your popularity crisis : One wrong move, and it's **done**.
-
-As the next step, and in order to get some unbiased results and make the proportion of recoveries meaningful, we sample our dataset through **propensity score matching**. This balances the dataset regarding the variable whose effect we want to observe, enabling us (and you !) to draw more accurate conclusions.
-
-<div style="border-left: 4px solid #51247a; font-size: 18px">
-  <p style="padding-left: 20px; background-color: #DFC5FE">
-  <b>Propensity score matching</b> is a statistical technique used to estimate the effect of a treatment by accounting for the features that predict receiving the treatment. It is used to reduce selection bias by balancing the features between treated and untreated subjects.
-  </p>
+<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
+  As the next step, and in order to get some unbiased results and make the proportion of recoveries meaningful, we sample our dataset through **propensity score matching**. This balances the dataset regarding the variable whose effect we want to observe, enabling us (and you !) to draw more accurate conclusions.
 </div>
 
-This gives us :
+<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
+  <details open> 
+    <summary style = "font-size: 18px; cursor: pointer;">Ollama </summary>     
+      <b>Propensity score matching</b> is a statistical technique used to estimate the effect of a treatment by accounting for the features that predict receiving the treatment. It is used to reduce selection bias by balancing the features between treated and untreated subjects.
+   </details>
+</div>
+
+<!-- Explain more the process, graph and stuff --->
+
+This gives us the following results :
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/20782011"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20782011/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
