@@ -309,6 +309,7 @@ How to determine topics based on tags ?
   Using <b>Latent Dirichlet Allocation</b> (a natural language processing technique), we are able to extract the video categories of channels <b>before</b> and <b>during</b> crises, which are then passed through the large language model <b>Ollama</b> to annotated as they initially are weighted sets of words. We use 20 different categories to remain broad and not be too sensitive to small content changes.
 </div>
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px;>
+
   <details open> <summary>Latent Dirichlet Allocation
     </summary>     
       <b>Unsupervised classification of documents</b>, similar to clustering on numeric data, which finds some natural groups of items (topics). The aim of LDA is to find topics a document (seen as a 'bag of words') belongs to, based on the words in it.
