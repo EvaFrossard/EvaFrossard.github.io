@@ -622,6 +622,4 @@ Color code: #004AAD
                   on Weblogs and Social Media (ICWSM'21)}}
 }
 
-
-
 <div class="flourish-embed flourish-quiz" data-src="visualisation/20839812"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20839812/thumbnail" width="100%" alt="quiz visualization" /></noscript></div>
