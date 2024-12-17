@@ -160,7 +160,7 @@ Since Youtube hasn't stopped gaining new users, we have reached the conclusion t
   <b> Why ?</b> Because the rolling average acts as a smoothed baseline, calculated using a defined window (we arbitrarily used a 'window' of 20 weeks), which helps to identify deviations from the expected trend. When the growth of your channel falls below the rolling average, it suggests that the channel's performance has dipped relative to its typical trend. 
 </div>
 
-<div style="width: 100%; max-width: 800px; margin: 0 auto; border: 1px solid #ccc; border-radius: 5px; padding: 10px;">
+<div style="width: 100%; max-width: 800px; margin: 0 auto;">
     <iframe 
         src="./plot_lancet.html" 
         width="100%" 
