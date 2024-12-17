@@ -385,7 +385,7 @@ A key question for creators facing a decline is:
 <!--  How have we computed this --> 
 
 <div style="border: 2px solid red; padding: 10px; display: inline-block; border-radius: 15px">
-  Let's get you onto a little recipe, shall we ?
+  <b>Let's get you onto a little recipe, shall we ?</b>
   <ol>
       <li> Start by determining your upload frequency by computing your average uploads per week or per month </li>
       <li> ⁠Adjust your frequency using our little guide to align your upload schedule with recovery trends. </li>
@@ -412,13 +412,16 @@ In conclusion, our team of experts is confident in saying that you do not need t
 
 ### A deep dive into topic transitions
 
-Evalutating the impact of subject changes should not be done as a whole : the categories and possible transitions are too numerous to be aggregated as one variable. To go into greater detail, we analyze the consequences by direction : going from **politics** to **lifestyle** videos should be distinguished from changing from **movie reviews** to **league of legends** content.
+Back into the more fun stuff ! **Do we recommend you to change subjects ?** Of course, we are here talking to the desesperate that do not mind doing a 180°, promise we do not judge (a little), we're just being a guide in the process. 
+Evaluating the impact of subject changes should not be done as a whole: the categories and possible transitions are too numerous to be aggregated into one variable. To go into greater detail, we analyze the consequences by direction: going from **Politics** to **Lifestyle** videos should be distinguished from changing from **Movie reviews** to **League of Legends** content. 
 
 <iframe src="/assets/data/topic_change_bar_chart.html" width="100%" height="600" frameborder="0"></iframe>
 
-On average, channels that change their video topics experience a slight increase in recovery rates compared to those that do not. While this is encouraging, we have to emphasize that this approach can have mixed results, and the impact on your recovery rate will depend heavily on the types of topics you choose to pivot to.
+On average, channels that change their video topics experience a slight increase in recovery rates compared to those that do not.
+<!--  t-test ? something to prove it --> 
+While this is encouraging, we have to emphasize that this approach can have mixed results, and the impact on your recovery rate will depend heavily on the types of topics you choose to pivot to. 
 
-Below is the interactive Sankey diagram showing topic transitions and their recovery rates, colored by recovery rate (cooler colors represent higher recovery rates):
+Let's investigate using a interactive Sankey diagram showing topic transitions and their recovery rates, colored by recovery rate (cooler colors represent higher recovery rates):
 
 <div id="sankey-plot" style="width:100%; height:600px;"></div>
 
