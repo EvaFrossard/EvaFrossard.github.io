@@ -139,7 +139,7 @@ creators on YouTube and other platforms. Eager to offer them unforeseen solution
 
 ## Why should you trust us ?
 
-Why us and not some and not some wanabee adviser on YouTube ? Well, because we based all our work on a scientific, multi-dimensional, and extensive dataset... **YouNiverse**[1]. This dataset, released in 2021 is a precious ingredient in our recipe, because Youtube is such a colossal platform that it is quite discouraging to try and sample it. With data from over 136k channels and 72.9M videos published between May 2005 and October 2019. Cool, right ? Well that's our biggest asset in this quest for recovery. It is a long, tidious process, with the main negative aspect being the fact that he only sampled english-speaking videos... oups. Lots of things to say about this great dataset, if you're eager to know just check the below easter egg :)))
+Why us and not some wanabee adviser on YouTube ? Well, because we based all our work on a scientific, multi-dimensional, and extensive dataset... **YouNiverse**[1]. This dataset, released in 2021 is a precious ingredient in our recipe, because Youtube is such a colossal platform that it is quite discouraging to try and sample it. With data from over 136k channels and 72.9M videos published between May 2005 and October 2019. Cool, right ? Well that's our biggest asset in this quest for recovery. It is a long, tidious process, with the main negative aspect being the fact that he only sampled english-speaking videos... oups. Lots of things to say about this great dataset, if you're eager to know just check the below easter egg :)))
 
 ![](/assets/img/fake_youtube.jpg)
 
@@ -173,8 +173,9 @@ As you can see here, the channel of this mysterious Lance Stewart underwent 2 de
 
 After playing around with parameters, we have decided on the following:
 
-- a **minimum duration of a decline of 8 week**s: you could be on holidays without it being a decline !
-<!-- show graph explaning why 8 weeks ?--->
+- a **minimum duration of a decline of 8 weeks**: you could be on holidays without it being a decline !
+
+<!-- show graph explaning why 8 weeks ? OK --->
 - if the decline was 'intense', meaning that there was a 80% growth difference between growth index of your channel and the rolling average, we consider that the channel underwent a massive backlash, and may it be shorter or longer than 2 months, it should be counted as a decline (and a big one, what did you do ?)
 
 After doing so, a little update on what our database is: we had 74788 channels that had declines, with more than 121998 episodes... see ? You're really not alone ! And more than enough to pursue our study ! 
@@ -238,6 +239,8 @@ So what about views andsubscribers ? Is being a renowned Youtuber providing you 
 
 <!-- Add graph of activities--->
 About activities (whether you post once a day, once a week, every now and then), this metric doesn't display any noticeable trend, and we can't really conclude that the hard trier has more chances of getting out of the woods than the chill guy.
+
+<!--Talk duration ? -->
 
 Okay, we've used the classic triptic: **categories, fame and activity** to see if they provided us info on your channel chances to regain it's previous flourishment. Let's now get into how YOU can impact the health of your channel, meaning how YOU can react. We will start by citing all the different strategies we have observed (yes the same strategies you have probably been wracking your brain with), before putting our lab coat and taking our calculator to see if those methods are truly useful. 
 
@@ -334,9 +337,6 @@ Using this natural processing language, we are able to determine whether the rea
 
 <div class="flourish-embed flourish-chord" data-src="visualisation/20782429"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20782429/thumbnail" width="100%" alt="chord visualization" /></noscript></div>
 
-<!-- Add title of major categories in graph --->
-<!-- List of topics --->
-<!-- Exemple of all the words in one world using word map--->
 
 As you can see, everything is possible when it comes to changing the topic of your videos! However, since some changes occur more frequently than others, we don't have enough data to give you meaningful analysis of every transition (sorry for those who wanted to go from News to League of Legends :)). We will thus focus on the **most common topic transitions**, with more than 30 occurences in our database:
 
@@ -351,6 +351,9 @@ First of all, here are the results of a logistic regression of **recovery** on t
 <img src="/assets/img/LogistSummary.png" alt="Logistic regression summary showing coefficients and p-values" style="width: 60%; margin: auto; display: block;">
 
 <!-- Ecrire l'équation de régression --->
+<!-- FOR CORRECTEURS --->
+
+
 
 While analysing and drawing conclusions from this simple regression would be quite naive, it highlights an essential fact : **Each reaction influences the recovery in a unique way.** That is why caution is needed when handling your popularity crisis : One wrong move, and it's **done** ! (You sense then suspense ? )
 
@@ -366,8 +369,6 @@ While analysing and drawing conclusions from this simple regression would be qui
       <b>Propensity score matching</b> is a statistical technique used to estimate the effect of a treatment by accounting for the features that predict receiving the treatment. It is used to reduce selection bias by balancing the features between treated and untreated subjects, taking into account the various confounding variables. 
    </details>
 </div>
-
-<!-- Explain more the process, graph and stuff --->
 
 This gives us the following results :
 
@@ -389,7 +390,6 @@ A key question for creators facing a decline is:
 “As a YouTuber, should I upload more content or less? And if I need to adjust my frequency, how should I do it?”
  --->
 
-<!--  How have we computed this --> 
 
 <div style="border: 2px solid red; padding: 10px; display: inline-block; border-radius: 15px">
   <b>Let's get you onto a little recipe, shall we ?</b>
@@ -401,9 +401,7 @@ A key question for creators facing a decline is:
 
 <div class="flourish-embed flourish-quiz" data-src="visualisation/20839812"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20839812/thumbnail" width="100%" alt="quiz visualization" /></noscript></div>
 
-<!--  How have we computed this --> 
-
-This quizz is based on the following graph obtained using xxxxxx
+This quizz is based on the following graph:
 ![](/assets/img/graph_average_recovery_rate.jpeg)
 
 <!--  maybe a t-test to show revelancy, because it looks a bit empty--> 
@@ -413,7 +411,7 @@ Include a Bar Plot: This would show the relationship between recovery rate and u
 Provide Specific Numbers: Alternatively, we can state exact thresholds or ranges (e.g., increase frequency by 20%-50%) to guide adjustments.) -->
 
 Now, about video duration ! Are you feeling more Spielberg or TikTok star ? While our regression analysis suggests that duration has a limited impact on recovery, we decided to investigate further, looking for hidden patterns.
-<!--  stuff to justify this --> 
+<!--  add plot marti --> 
 
 In conclusion, our team of experts is confident in saying that you do not need to adjust their average length significantly. However, creators producing videos that last between **15 to 20 minutes show a slightly higher probability of recovery**. This duration may resonate better with your audience, not too long (sorry but you might bore people) whilst still providing interesting content ! **While this insight is subtle, it can guide creators aiming to maximize their recovery potential.**
 
@@ -555,10 +553,7 @@ Let's investigate using a interactive Sankey diagram showing topic transitions a
 
 <!--  We can't see the top of this text ?  --> 
 
-<div style="margin-top: 20px; text-align: justify;">
-  Looking to see which topic transitions work in your niche is quite a hassle. For instance, channels focused on movie reviews often see positive changes in recovery when they switch topics, though transitioning to topics like politics could negatively impact your recovery. On the other hand, gameplay channels should be careful when changing topics, as only a shift to Fortnite-related content seems to maintain or increase engagement. <b>It's all on a very thin line!</b>
-</div>
-
+<p>Looking to see which topic transitions work in your niche is quite a hassle. For instance, channels focused on movie reviews often see positive changes in recovery when they switch topics, though transitioning to topics like politics could negatively impact your recovery. On the other hand, gameplay channels should be careful when changing topics, as only a shift to Fortnite-related content seems to maintain or increase engagement. <b>It's all on a very thin line!</b> </p>
 If you’re considering making a shift, we recommend focusing on topics that have historically shown positive outcomes, such as **beauty and lifestyle or gaming-related content**, while being cautious about venturing into politics or kids videos, where the change could backfire. Remember that your choice should be guided by your category of origin!
 
 
@@ -627,6 +622,9 @@ We’re not going to leave you hanging with just data and no solutions. Let’s 
 
 
 Color code: #004AAD
+
+### Ethical risks
+
 
 ### References
 
