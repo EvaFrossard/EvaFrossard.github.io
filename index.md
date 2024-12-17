@@ -311,7 +311,14 @@ So how did we measure that ? Well we could have used titles and description but 
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
-    <summary>Latent Dirichlet Allocation </summary>     
+    <summary style = "font-size: 18px; cursor: pointer;">Latent Dirichlet Allocation </summary>     
+      <b>Unsupervised classification of documents</b>, similar to clustering on numeric data, which finds some natural groups of items (topics). The aim of LDA is to find topics a document (seen as a 'bag of words') belongs to, based on the words in it.
+   </details>
+</div>
+
+<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
+  <details open> 
+    <summary> Ollama </summary>     
       <p> <b>Unsupervised classification of documents</b>, similar to clustering on numeric data, which finds some natural groups of items (topics). The aim of LDA is to find topics a document (seen as a 'bag of words') belongs to, based on the words in it. </p>
    </details>
 </div>
