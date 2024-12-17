@@ -344,16 +344,18 @@ First of all, here are the results of a logistic regression of **recovery** on t
 
 <!-- Ecrire l'équation de régression --->
 
-While analysing and drawing conclusions from this simple regression would be quite naive, it highlights an essential fact : **Each reaction influences the recovery in a unique way.** That is why caution is needed when handling your popularity crisis : One wrong move, and it's **done**.
+While analysing and drawing conclusions from this simple regression would be quite naive, it highlights an essential fact : **Each reaction influences the recovery in a unique way.** That is why caution is needed when handling your popularity crisis : One wrong move, and it's **done** ! (You sense then suspense ? )
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
-  As the next step, and in order to get some unbiased results and make the proportion of recoveries meaningful, we sample our dataset through <b>propensity score matching</b>. This balances the dataset regarding the variable whose effect we want to observe, enabling us (and you !) to draw more accurate conclusions.
+  As the next step, and in order to get some unbiased results and make the proportion of recoveries meaningful, we chose to perform <b>propensity score matching</b> on our decline dataset. This will balance the dataset regarding the variable whose effect we want to observe, enabling us (and you !) to draw more accurate conclusions.
 </div>
+
+<!-- Explain the sampling?  --->
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;">Propensity score matching </summary>     
-      <b>Propensity score matching</b> is a statistical technique used to estimate the effect of a treatment by accounting for the features that predict receiving the treatment. It is used to reduce selection bias by balancing the features between treated and untreated subjects.
+      <b>Propensity score matching</b> is a statistical technique used to estimate the effect of a treatment by accounting for the features that predict receiving the treatment. It is used to reduce selection bias by balancing the features between treated and untreated subjects, taking into account the various confounding variables. 
    </details>
 </div>
 
@@ -363,9 +365,9 @@ This gives us the following results :
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/20782011"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20782011/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
-As you can see, the balanced data suggests that upload frequency has a relatively great effect on recovery while video duration does not play such an important role.
+Finally, some long awaited results ! The balanced data suggests that whilst increasing upload frequency has a relatively great effect on recovery, whereas changing video duration does not seem to play such an important role, same with topic change.
 
-Though it could seem that topic change does not have great a average effect, further analysis leads us to insteresting results that are worth detailing.
+This being a very generic graph, we will dive deeper into all of those subjects to still maximize your chances, since further analysis leads us to insteresting results that are worth detailing ! 
 
 ## Exploiting the levers in the best possible way
 
