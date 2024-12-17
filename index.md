@@ -376,21 +376,30 @@ Good news! Our detailed analysis reveals that increasing your upload frequency i
 
 Let's get you onto a little recipe, shall we ?
 
-
 <!-- 
 After identifying the most influential features affecting the recovery of YouTube creators, let’s dig a bit deeper into their implications to extract actionable insights. Let’s focus on the most impactful feature and explore it comprehensively.
 Should You Increase or Decrease Uploading Frequency During a Decline?
 A key question for creators facing a decline is:
 “As a YouTuber, should I upload more content or less? And if I need to adjust my frequency, how should I do it?”
+ --->
 
-Explain more the process, graph and stuff --->
+<!--  How have we computed this --> 
 
 <ol>
     <li> Start by determining your upload frequency by computing your average uploads per week or per month </li>
     <li> ⁠Adjust your frequency using our little guide to align your upload schedule with recovery trends. </li>
 </ol>
 
-Using our matched data, we obtain the following: 
+<div class="flourish-embed flourish-quiz" data-src="visualisation/20839812"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20839812/thumbnail" width="100%" alt="quiz visualization" /></noscript></div>
+
+<!--  How have we computed this --> 
+
+This quizz is based on the following graph obtained using
+![](/assets/img/graph_average_recovery_rate.jpeg)
+
+
+
+
 
 
 (How to Present the Data ?
