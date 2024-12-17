@@ -239,7 +239,13 @@ crisis, and will now walk you through them. Take notes !
 
 ### Upload frequency
 
-Considering the upload frequencies of creators before the start of a decline and throughout the latter highlights three separate groups.
+You ligt have thought that getting more active on the platform would make you regain your audience or at least will make you gain a new public, because the Youtube algorithm would put you forward. Without entering into the specifics of this dark and unknown algorithm... NO, not really. 
+
+Maybe you've considered taking a break, make them wait a little and be more desirable (we see you mister pick-me) before making a big come back, maybe ? 
+
+Or you are just a chill guy, you also want your audience to just be chill guys and be alike you, and you didn't want to force yourself to post or take an unwanted break. 
+
+Thus, we have 3 separate groups:
 
 <div class='reactionlist'>
   <div class='reactionlistelem'>
@@ -257,8 +263,7 @@ Considering the upload frequencies of creators before the start of a decline and
   </div>
 </div>
 
-TODO OU
-
+<!-- 
 <div class='reactionlist'>
   <div class='reactionlistelem'>
     <img src="/assets/img/PostLess.jpg" class="reactionimg" alt="Someone leaving on a plane" style="width: 100%;">
@@ -274,6 +279,8 @@ TODO OU
     <p class="reactiondesc">Others get it together and start spamming videos</p>
   </div>
 </div>
+
+--->
 
 ### Video duration
 
