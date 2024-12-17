@@ -162,7 +162,7 @@ Since Youtube hasn't stopped gaining new users, we have reached the conclusion t
 
 <div style="width: 100%; max-width: 800px; margin: 0 auto; border: 1px solid #ccc; border-radius: 5px; padding: 10px;">
     <iframe 
-        src="plot_lancet.html" 
+        src="./plot_lancet.html" 
         width="100%" 
         height="600px" 
         style="border: none;">
