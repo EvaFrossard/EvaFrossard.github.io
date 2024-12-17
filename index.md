@@ -374,7 +374,6 @@ This being a very generic graph, we will dive deeper into all of those subjects 
 
 Good news! Our detailed analysis reveals that increasing your upload frequency is more effective than reducing it. **So what does it mean to increase upload frequency ?**
 
-Let's get you onto a little recipe, shall we ?
 
 <!-- 
 After identifying the most influential features affecting the recovery of YouTube creators, let’s dig a bit deeper into their implications to extract actionable insights. Let’s focus on the most impactful feature and explore it comprehensively.
@@ -385,10 +384,13 @@ A key question for creators facing a decline is:
 
 <!--  How have we computed this --> 
 
-<ol>
-    <li> Start by determining your upload frequency by computing your average uploads per week or per month </li>
-    <li> ⁠Adjust your frequency using our little guide to align your upload schedule with recovery trends. </li>
-</ol>
+<div style="border: 2px solid red; padding: 10px; display: inline-block; border-radius: 15px">
+  Let's get you onto a little recipe, shall we ?
+  <ol>
+      <li> Start by determining your upload frequency by computing your average uploads per week or per month </li>
+      <li> ⁠Adjust your frequency using our little guide to align your upload schedule with recovery trends. </li>
+  </ol>
+</div>  
 
 <div class="flourish-embed flourish-quiz" data-src="visualisation/20839812"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20839812/thumbnail" width="100%" alt="quiz visualization" /></noscript></div>
 
