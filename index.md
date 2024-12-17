@@ -329,6 +329,7 @@ Using this natural processing language, we are able to determine whether the rea
 
 <!-- Add title of major categories in graph --->
 <!-- List of topics --->
+<!-- Exemple of all the words in one world using word map--->
 
 As you can see, everything is possible when it comes to changing the topic of your videos! However, since some changes occur more frequently than others, we don't have enough data to give you meaningful analysis of every transition (sorry for those who wanted to go from News to League of Legends :)). We will thus focus on the **most common topic transitions**, with more than 30 occurences in our database:
 
@@ -354,7 +355,7 @@ While analysing and drawing conclusions from this simple regression would be qui
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
-    <summary style = "font-size: 18px; cursor: pointer;">Propensity score matching </summary>     
+    <summary style = "font-size: 18px; cursor: pointer;"><b>Propensity score matching</b> </summary>     
       <b>Propensity score matching</b> is a statistical technique used to estimate the effect of a treatment by accounting for the features that predict receiving the treatment. It is used to reduce selection bias by balancing the features between treated and untreated subjects, taking into account the various confounding variables. 
    </details>
 </div>
@@ -367,21 +368,29 @@ This gives us the following results :
 
 Finally, some long awaited results ! The balanced data suggests that whilst increasing upload frequency has a relatively great effect on recovery, whereas changing video duration does not seem to play such an important role, same with topic change.
 
-This being a very generic graph, we will dive deeper into all of those subjects to still maximize your chances, since further analysis leads us to insteresting results that are worth detailing ! 
+This being a very generic graph, we will dive deeper into all of those subjects to still maximize your chances, since further analysis leads us to insteresting results that are worth detailing ! **Onto the solutions now !**
 
-## Exploiting the levers in the best possible way
+### Posting frequency and video duration
 
-Having set the stage, it is time to analyze the reactions and bring you the solutions.
+Good news! Our detailed analysis reveals that increasing your upload frequency is more effective than reducing it. **So what does it mean to increase upload frequency ?**
 
-### Activity
+Let's get you onto a little recipe, shall we ?
 
+
+<!-- 
 After identifying the most influential features affecting the recovery of YouTube creators, let’s dig a bit deeper into their implications to extract actionable insights. Let’s focus on the most impactful feature and explore it comprehensively.
 Should You Increase or Decrease Uploading Frequency During a Decline?
 A key question for creators facing a decline is:
 “As a YouTuber, should I upload more content or less? And if I need to adjust my frequency, how should I do it?”
-Good news! Our detailed analysis reveals that increasing your upload frequency is more effective than reducing it. Here’s how you can act on this insight:
-  1. Determine Your Current Frequency: Calculate your average uploads per week or month.
-2.⁠ ⁠Adjust Your Frequency: Use our findings (illustrated in the bar plot) to align your upload schedule with recovery trends.
+
+Explain more the process, graph and stuff --->
+
+<ol>
+    <li> Start by determining your upload frequency by computing your average uploads per week or per month </li>
+    <li> ⁠Adjust your frequency using our little guide to align your upload schedule with recovery trends. </li>
+</ol>
+
+
 (How to Present the Data ?
 To help creators implement this strategy, we can either:
 Include a Bar Plot: This would show the relationship between recovery rate and upload frequency, making it easier to identify an optimal target.
@@ -393,6 +402,7 @@ Key Findings:
 •⁠  ⁠You don’t need to adjust their average length significantly.
 •⁠  ⁠However, creators producing videos that last between 15 to 20 minutes show a slightly higher probability of recovery. This duration may resonate better with audiences, striking a balance between depth and engagement.
 While this insight is subtle, it can guide creators aiming to maximize their recovery potential.
+
 ### A deep dive into topic transitions
 
 Evalutating the impact of subject changes should not be done as a whole : the categories and possible transitions are too numerous to be aggregated as one variable. To go into greater detail, we analyze the consequences by direction : going from **politics** to **lifestyle** videos should be distinguished from changing from **movie reviews** to **league of legends** content.
@@ -609,3 +619,9 @@ Color code: #004AAD
       booktitle={{Proceedings of the 15th International AAAI Conference 
                   on Weblogs and Social Media (ICWSM'21)}}
 }
+
+
+
+
+
+<div class="flourish-embed flourish-quiz" data-src="visualisation/20839812"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20839812/thumbnail" width="100%" alt="quiz visualization" /></noscript></div>
