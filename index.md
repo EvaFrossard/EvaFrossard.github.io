@@ -390,6 +390,8 @@ Explain more the process, graph and stuff --->
     <li> ⁠Adjust your frequency using our little guide to align your upload schedule with recovery trends. </li>
 </ol>
 
+Using our matched data, we obtain the following: 
+
 
 (How to Present the Data ?
 To help creators implement this strategy, we can either:
@@ -619,8 +621,6 @@ Color code: #004AAD
       booktitle={{Proceedings of the 15th International AAAI Conference 
                   on Weblogs and Social Media (ICWSM'21)}}
 }
-
-
 
 
 
