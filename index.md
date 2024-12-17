@@ -137,13 +137,13 @@ creators on YouTube and other platforms. Eager to offer them unforeseen solution
   </ol>
 </div>
 
-### Why should you trust us ?
+## Why should you trust us ?
 
 Why us and not some and not some wanabee adviser on YouTube ? Well, because we based all our work on a scientific, multi-dimensional, and extensive dataset... **YouNiverse**[1]. This dataset, released in 2021 is a precious ingredient in our recipe, because Youtube is such a colossal platform that it is quite discouraging to try and sample it. With data from over 136k channels and 72.9M videos published between May 2005 and October 2019. Cool, right ? Well that's our biggest asset in this quest for recovery. It is a long, tidious process, with the main negative aspect being the fact that he only sampled english-speaking videos... oups. Lots of things to say about this great dataset, if you're eager to know just check the below easter egg :)))
 
 ![](/assets/img/fake_youtube.jpg)
 
-### Before any piece of advice, how do we define a decline ?
+## Before any piece of advice, how do we define a decline ?
 
 **You feel like your viewership is going down and your stats are struggling ?** We know how painful that can be when you're trying to be on your A-game and you're putting all of your time and energy into your channel.
 
@@ -306,7 +306,7 @@ So how did we measure that ? Well we could have used titles and description but 
 How to determine topics based on tags ? 
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
-  Using <b>Latent Dirichlet Allocation</b> (a natural language processing technique), we are able to extract the video categories of channels **before** and **during** crises, which are then passed through the large language model oLlama to annotated as they initially are weighted sets of words. We use 20 different categories to remain broad and not be too sensitive to small content changes.
+  Using <b>Latent Dirichlet Allocation</b> (a natural language processing technique), we are able to extract the video categories of channels <b>before</b> and <b>during</b> crises, which are then passed through the large language model oLlama to annotated as they initially are weighted sets of words. We use 20 different categories to remain broad and not be too sensitive to small content changes.
 
   <details open> <summary>Latent Dirichlet Allocation
     </summary>     
