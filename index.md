@@ -306,7 +306,7 @@ A third and more daring reaction is to experiment and go out of your comfort zon
 **How to determine topics based on tags?**
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
-  Using <b>Latent Dirichlet Allocation</b> (a natural language processing technique), we are able to extract the video categories of channels <b>before</b> and <b>during</b> crises, which are then passed through the large language model <b>Ollama</b> to annotated as they initially are weighted sets of words. We use 20 different categories to remain broad and not be too sensitive to small content changes.
+  Using <b>Latent Dirichlet Allocation</b> (a natural language processing technique), we are able to extract the main topic of a channel based on the tags <b>before</b> and <b>during</b> crises. The results obtained give us the words that have been put into the same category, but to obtain an overall topic name, we passed the lists through the LLM <b>Ollama</b>. We use 20 different categories to remain broad and not be too sensitive to small content changes.
 </div>
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
@@ -318,14 +318,16 @@ A third and more daring reaction is to experiment and go out of your comfort zon
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 2;">
   <details open> 
-    <summary> Ollama </summary>     
-      <b>Type of large language model (LLM)</b>, locally loaded into a computer, we here used the model Mistral bu we will explain more about it later, in the bad buzz section.
+    <summary style = "font-size: 18px; cursor: pointer;">Ollama </summary>     
+      <b>Type of large language model (LLM)</b>, locally loaded into a computer, we here used the model Mistral but we will explain more about it later, in the bad buzz section.
    </details>
 </div>
 
-Getting this data allows us determine whether the reactions include changing the topics of interest, and we will use these statistics to find the best strategy.
+Using this natural processing language, we are able to determine whether the reactions to decline include **changing topics of interest**. Before entering into the maths of it, just have fun looking at all the topic transition and we will use these statistics to find the best strategy and YES the transition between Poekemon and Politics exists !
 
 <div class="flourish-embed flourish-chord" data-src="visualisation/20782429"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20782429/thumbnail" width="100%" alt="chord visualization" /></noscript></div>
+
+<!-- Add title of major categories --->
 
 As you see, everything is possible when it comes to changing the topic of your videos! However, since some changes occur more frequently than others, we don't have enough data to give you meaningful analysis of every transition and we will thus focus on the most common topic transitions, with more than 30 occurences in our database:
 
