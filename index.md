@@ -158,6 +158,8 @@ A third, daring path is to try new things by changing their Youtube identity.
 
 Using Latent Dirichlet Allocation (a natural language processing technique), we are able to extract the video categories of channels **before** and **during** crises, which are then passed through the large language model TODO oLlama to annotated as they initially are weighted sets of words. We use 20 different categories to remain broad and not be too sensitive to small content changes.
 
+<div class="flourish-embed flourish-hierarchy" data-src="visualisation/20798533"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20798533/thumbnail" width="100%" alt="hierarchy visualization" /></noscript></div>
+
 Getting this data allows us determine whether the reactions include changing the topics of interest, and we will use these statistics to find the best strategy.
 
 <div class="flourish-embed flourish-chord" data-src="visualisation/20782429"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20782429/thumbnail" width="100%" alt="chord visualization" /></noscript></div>
