@@ -347,12 +347,12 @@ First of all, here are the results of a logistic regression of **recovery** on t
 While analysing and drawing conclusions from this simple regression would be quite naive, it highlights an essential fact : **Each reaction influences the recovery in a unique way.** That is why caution is needed when handling your popularity crisis : One wrong move, and it's **done**.
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
-  As the next step, and in order to get some unbiased results and make the proportion of recoveries meaningful, we sample our dataset through **propensity score matching**. This balances the dataset regarding the variable whose effect we want to observe, enabling us (and you !) to draw more accurate conclusions.
+  As the next step, and in order to get some unbiased results and make the proportion of recoveries meaningful, we sample our dataset through <b>propensity score matching</b>. This balances the dataset regarding the variable whose effect we want to observe, enabling us (and you !) to draw more accurate conclusions.
 </div>
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
-    <summary style = "font-size: 18px; cursor: pointer;">Ollama </summary>     
+    <summary style = "font-size: 18px; cursor: pointer;">Propensity score matching </summary>     
       <b>Propensity score matching</b> is a statistical technique used to estimate the effect of a treatment by accounting for the features that predict receiving the treatment. It is used to reduce selection bias by balancing the features between treated and untreated subjects.
    </details>
 </div>
