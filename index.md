@@ -239,13 +239,13 @@ crisis, and will now walk you through them. Take notes !
 
 ### Upload frequency
 
-You ligt have thought that getting more active on the platform would make you regain your audience or at least will make you gain a new public, because the Youtube algorithm would put you forward. Without entering into the specifics of this dark and unknown algorithm... NO, not really. 
+You might have thought that getting **more active on the platform** would make you regain your audience or at least will make you gain a new public, because the Youtube algorithm would put you forward. Without entering into the specifics of this dark and unknown algorithm... NO, not really how that works :) 
 
-Maybe you've considered taking a break, make them wait a little and be more desirable (we see you mister pick-me) before making a big come back, maybe ? 
+Maybe you've considered **taking a break**, make them wait a little and be more desirable (we see you mister pick-me) before making a big come back, maybe ? 
 
-Or you are just a chill guy, you also want your audience to just be chill guys and be alike you, and you didn't want to force yourself to post or take an unwanted break. 
+Or you are just a chill guy, you also want your audience to just be chill guys and be alike you, and you didn't want to force yourself to post or take an unwanted break... so you just **kept uploading at the same rythm**. 
 
-Thus, we have 3 separate groups:
+**Thus, we have 3 separate groups:**
 
 <div class='reactionlist'>
   <div class='reactionlistelem'>
@@ -283,6 +283,11 @@ Thus, we have 3 separate groups:
 --->
 
 ### Video duration
+
+Keeping up with durations, here we are focusing on the length of videos. More in the Shorts mindsets or into the long documentary styles videos. Or maybe you like your comedy sketch around the 5min, or maybe it's the cash coming with the monetization and the multiple ads in over 10min videos (yes, we see you Uncle Scroodge !). 
+
+
+
 
 Similarly, a natural reaction is to play around with the video length to understand what content the audience prefers (could creators be trying to beat accusations of [tuning video length for monetization](https://www.reddit.com/r/PartneredYoutube/comments/4v6bmy/why_so_many_youtubers_are_making_their_videos/){:target="\_blank"}?).
 
@@ -527,6 +532,7 @@ We used this tech wizardry to dive into the aftermath of bad buzz for dozens of 
     <li> Break announcements: Sometimes, stepping back is stepping forward.
     <li> Collaboration videos: Is strength in numbers the way to go?
     <li> Clickbait videos: Risky, but can it work in your favor?
+  </ol>
 
 And guess what? Our findings are as wild as the comment section on your latest video !
 
