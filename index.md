@@ -884,8 +884,9 @@ Color code: #004AAD
                   on Weblogs and Social Media (ICWSM'21)}}
 }
 
-All icons have been taken from Canva
-Most of the interactive graphs have been done using (flourish)[https://flourish.studio]
+All icons have been taken from Canva.
+
+Most of the interactive graphs have been done using (flourish)[https://flourish.studio].
 
 [1] Introduction picture: AI generated using Dali
 
