@@ -325,14 +325,14 @@ Getting this data allows us determine whether the reactions include changing the
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
-    <summary style = "font-size: 18px; cursor: pointer;">Latent Dirichlet Allocation </summary>     
+    <summary style = "font-size: 18px; cursor: pointer;"><b>Latent Dirichlet Allocation</b></summary>     
       <b>Unsupervised classification of documents</b>, similar to clustering on numeric data, which finds some natural groups of items (topics). The aim of LDA is to find topics a document (seen as a 'bag of words') belongs to, based on the words in it.
    </details>
 </div>
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 2;">
   <details open> 
-    <summary style = "font-size: 18px; cursor: pointer;">Ollama </summary>     
+    <summary style = "font-size: 18px; cursor: pointer;"><b>Ollama</b></summary>     
       <b>Type of large language model (LLM)</b>, locally loaded into a computer, we here used the model Mistral but we will explain more about it later, in the bad buzz section.
    </details>
 </div>
