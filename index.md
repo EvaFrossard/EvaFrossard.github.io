@@ -754,19 +754,19 @@ TODO QUIZ
 
   <h3>The Secret Sauce? Your Titles </h3>
 
-  Yes, you read that right. <br>Titles</br>. Those few dozen characters can either save your channel or sink it further. Think about it: what’s the first thing a viewer sees before they even decide to click? Your title! And if you’ve learned anything from this wild ride of YouTube, it’s that first impressions are everything. <br />
+  Yes, you read that right. <b>Titles</b>. Those few dozen characters can either save your channel or sink it further. Think about it: what’s the first thing a viewer sees before they even decide to click? Your title! And if you’ve learned anything from this wild ride of YouTube, it’s that first impressions are everything. <br />
 
-  Now, here’s where the science kicks in. You’ve probably heard of <br>LLMs (Large Language Models)</br>, right? They’re super-smart AI tools that can analyse and recognise patterns in text faster than you can say, “Oops, I tweeted what?!” <br />
+  Now, here’s where the science kicks in. You’ve probably heard of <b>LLMs (Large Language Models)</b>, right? They’re super-smart AI tools that can analyse and recognise patterns in text faster than you can say, “Oops, I tweeted what?!” <br />
 
   We used this tech wizardry to dive into the aftermath of bad buzz for dozens of big YouTubers. By leveraging the OLLAMA open source project [TODO: ref] , we analysed the types of videos uploaded immediately following their PR disasters. What did we look for? Patterns. Specifically, whether these videos fell into one (or more) of these categories:
 
   <ul>
-    <li><br>Apology videos:</br> The classic “I’m sorry” trope—effective or overdone? </li>
-    <li><br>Addressing the decline:</br> Are you facing the issue head-on or pretending nothing’s wrong?</li>
-    <li><br>Comeback announcements:</br> Bold, confident, and ready to win back hearts.</li>
-    <li><br>Break announcements:</br> Sometimes, stepping back is stepping forward.</li>
-    <li><br>Collaboration videos:</br> Is strength in numbers the way to go? </li>
-    <li><br>Clickbait videos:</br> Risky, but can it work in your favor? </li>
+    <li><b>Apology videos:</b> The classic “I’m sorry” trope—effective or overdone? </li>
+    <li><b>Addressing the decline:</b> Are you facing the issue head-on or pretending nothing’s wrong?</li>
+    <li><b>Comeback announcements:</b> Bold, confident, and ready to win back hearts.</li>
+    <li><b>Break announcements:</b> Sometimes, stepping back is stepping forward.</li>
+    <li><b>Collaboration videos:</b> Is strength in numbers the way to go? </li>
+    <li><b>Clickbait videos:</b> Risky, but can it work in your favor? </li>
   </ul>
 
   And guess what? Our findings are as wild as the comment section on your latest video !
