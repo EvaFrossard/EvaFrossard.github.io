@@ -416,12 +416,11 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
   </style>
 </head>
 <body>
-  <h2 style="text-align: center;">Table with Given Data</h2>
   <table>
     <tr>
       <th>Variable</th>
       <th>Coefficient</th>
-      <th>P-value</th>
+      <th>p-value</th>
       <th>Significant (p&lt;0.05)</th>
     </tr>
     <tr>
@@ -537,39 +536,77 @@ In order to see if these strategies led to statistically significant differences
 
 The results are as follows:
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Treatment Table</title>
+  <style>
+    table {
+      width: 80%;
+      margin: auto;
+      border-collapse: collapse;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
 <body>
-  <div class="table" style="display: grid; grid-template-columns: 1.5fr 1.5fr 1fr 0.5fr; grid-auto-rows: auto; text-align: left;">
-    <!-- Header Row -->
-    <div class="cell header">Treatment</div>
-    <div class="cell header">T-statistic</div>
-    <div class="cell header">P-value</div>
-    <div class="cell header">Significant</div>
-    <!-- Row 1 -->
-    <div class="cell">Posted more</div>
-    <div class="cell">10.69</div>
-    <div class="cell">1.43e-26</div>
-    <div class="cell">True</div>
-    <!-- Row 2 -->
-    <div class="cell">Posted less</div>
-    <div class="cell">-19.94</div>
-    <div class="cell">4.57e-87</div>
-    <div class="cell">True</div>
-    <!-- Row 3 -->
-    <div class="cell">Posted longer videos</div>
-    <div class="cell">-0.15</div>
-    <div class="cell">0.88</div>
-    <div class="cell">False</div>
-    <!-- Row 4 -->
-    <div class="cell">Posted shorter videos</div>
-    <div class="cell">1.69</div>
-    <div class="cell">0.09</div>
-    <div class="cell">False</div>
-    <!-- Row 5 -->
-    <div class="cell">Topic change</div>
-    <div class="cell">0.034</div>
-    <div class="cell">0.97</div>
-    <div class="cell">False</div>
-  </div>
+  <table>
+    <tr>
+      <th>Treatment</th>
+      <th>t-statistic</th>
+      <th>p-value</th>
+      <th>Significant (p&lt;0.05)</th>
+    </tr>
+    <tr>
+      <td>Posted more</td>
+      <td>10.69</td>
+      <td>1.43e-26</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Posted less</td>
+      <td>-19.94</td>
+      <td>4.57e-87</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Posted longer videos</td>
+      <td>-0.15</td>
+      <td>0.88</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Posted shorter videos</td>
+      <td>1.69</td>
+      <td>0.09</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Topic change</td>
+      <td>0.034</td>
+      <td>0.97</td>
+      <td>False</td>
+    </tr>
+  </table>
 </body>
 
 The t-test results reveal that only the two strategies concerning the video upload frequency show statistically significant differences in recovery rated. An increase in video frequency shows a higher mean recovery rate for those who adopted the strategy compared to those who did not. Conversely, posting less videos is associated with a lower mean recovery rate.
