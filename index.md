@@ -233,16 +233,20 @@ So what could be the first metric is actually very naive but still shows some re
 
 Interesting metric, but don't start sweating just yet, we're just getting started... 
 
-![](/assets/img/Subs&views_plot.png)
-
 So what about **views and subscribers** ? Is being a renowned Youtuber providing you with more chances to recover efficiently ? Well... not really quite the opposite. Yet again, trends are not too scarred, but even though we see the usual 60-40 proportions appearing, we also see that small channels (under x subscribers) seem to recover better than your usual golden trophee youtubers ? 
 
-<!-- Add graph of activities--->
-About activities (whether you post once a day, once a week, every now and then), this metric doesn't display any noticeable trend, and we can't really conclude that the hard trier has more chances of getting out of the woods than the chill guy.
+![](/assets/img/Subs&views_plot.png)
+
+<div style="display: flex; align-items: center;">
+  <p style="flex: 1; margin-right: 20px;">
+    About <b>activities</b> (whether you post once a day, once a week, every now and then), this metric doesn't display any noticeable trend, and we can't really conclude that the try harder has more chances of getting out of the woods than the chill guy.
+  </p>
+  <img src="/assets/img/activity_plot.png" alt="Description of image" style="width: 150px;">
+</div>
 
 <!--Talk duration ? -->
 
-Okay, we've used the classic triptic: **categories, fame and activity** to see if they provided us info on your channel chances to regain it's previous flourishment. Let's now get into how YOU can impact the health of your channel, meaning how YOU can react. We will start by citing all the different strategies we have observed (yes the same strategies you have probably been wracking your brain with), before putting our lab coat and taking our calculator to see if those methods are truly useful. 
+Okay, we've used the holy quatuor: **categories, fame, activity and duration of video ** to see if they provided us info on your channel chances to regain it's previous flourishment. Let's now get into how YOU can impact the health of your channel, meaning how YOU can react. We will start by citing all the different strategies we have observed (yes the same strategies you have probably been wracking your brain with), before putting our lab coat and taking our calculator to see if those methods are truly useful. 
 
 ## What are the possible strategies observed when facing a decline ? 
 
