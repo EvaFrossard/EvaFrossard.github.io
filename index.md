@@ -316,8 +316,7 @@ A third and more daring reaction is to experiment and go out of your comfort zon
 
 **So how did we measure that ?** Well we could have used titles and description but this would have required a massive computation strength... and our computer just couldn't handle it. **But we did better !** We used an awesome feature given by Youtube... **TAGS**. Those help direct to your channel people that have similar interest and would watch videos with the same topic. Tags are fully customizable so can be as precise as 'Daily vlogs of an esthetician in Utah' and as vague as 'Gaming'. 
 
-Getting this data allows us determine whether the reactions include changing the topics of interest, and we will use these statistics to find the best strategy.
-**How to determine topics based on tags?**
+Getting this data allows us determine whether the reactions include changing the topics of interest, and we will use these statistics to find the best strategy. Burning question: **How to determine topics based on tags?**
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
   Using <b>Latent Dirichlet Allocation</b> (a natural language processing technique), we are able to extract the main topic of a channel based on the tags <b>before</b> and <b>during</b> crises. The results obtained give us the words that have been put into the same category, but to obtain an overall topic name, we passed the lists through the LLM <b>Ollama</b>. We use 20 different categories to remain broad and not be too sensitive to small content changes.
@@ -337,7 +336,7 @@ Getting this data allows us determine whether the reactions include changing the
    </details>
 </div>
 
-After using the Latent Dirichlet Allocation, we obtained the following 20 categories named by the LLM:
+After using the Latent Dirichlet Allocation, we obtained the following **20 categories** named by the LLM:
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/20798533"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20798533/thumbnail" width="100%" alt="hierarchy visualization" /></noscript></div>
 
@@ -345,9 +344,15 @@ A little bit of explanation: each topic contains a set of **15 words and their p
 
 The 20-topic model captures a **broad spectrum of interests**, ranging from Politics to Fortnite Gameplay. While some of the topics seem to capture content categories very well, like the topic "Movie Reviews" that contains words like "movie", "review", "trailer" and "film" and that revolves around content creators who analyze or review films, there is also some overlap between different topics, for example in the topic "Art and Spirituality" that also contains the words "golf" and "f1" and therefore may also touch on certain hobbies or sports.  However, these 20 topics are distinct enough to provide meaningful classifications that will support an analysis of the topic transitions and their correlation with recovery.
 
+<div style="border-left: 4px solid #3BB143; padding-left: 20px; font-size: 18px; margin-top: 0;">
+  <details> 
+    <summary style = "font-size: 18px; cursor: pointer;"><b>For ADA specialists</b> </summary>     
+   </details>
+</div>
+
 <div style="display: flex; align-items: center;">
   <p style="flex: 1; margin-right: 20px;">
-    Using this natural processing language, we are able to determine whether the reactions to decline include <b>changing topics of interest</b>. Before entering into the maths of it, just have fun looking at all the topic transition and we will use these statistics to find the best strategy and YES the transition between Pokemon and Politics exists !
+    Using this natural processing language, we are able to determine whether the reactions to decline include <b>changing topics of interest</b>. Before entering into the maths of it, just have fun looking at all the topic transition and we will use these statistics to find the best strategy and YES the transition between Pokemon and Politics does exists!
 
   </p>
   <img src="/assets/img/pokemon.png" alt="Description of image" style="width: 150px;">
@@ -378,13 +383,13 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
 
 <img src="/assets/img/LogistSummary.png" alt="Logistic regression summary showing coefficients and p-values" style="width: 60%; margin: auto; display: block;">
 
-<body>
-  <div class="table" style="display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; grid-auto-rows: auto; text-align: left;">
+<body style="display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0;">
+  <div class="table" style="display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; grid-auto-rows: auto; text-align: center; gap: 10px; border: 1px solid black; padding: 20px; background-color: #f9f9f9;">
     <!-- Header Row -->
-    <div class="cell header">Variable</div>
-    <div class="cell header">Coefficient</div>
-    <div class="cell header">P-value</div>
-    <div class="cell header">Significant (p<0.05)</div>
+    <div class="cell header" style="font-weight: bold; border-bottom: 2px solid black;">Variable</div>
+    <div class="cell header" style="font-weight: bold; border-bottom: 2px solid black;">Coefficient</div>
+    <div class="cell header" style="font-weight: bold; border-bottom: 2px solid black;">P-value</div>
+    <div class="cell header" style="font-weight: bold; border-bottom: 2px solid black;">Significant (p<0.05)</div>
     <!-- Row 1 -->
     <div class="cell">const</div>
     <div class="cell">-0.19</div>
@@ -425,7 +430,7 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
     <div class="cell">-0.7</div>
     <div class="cell">0</div>
     <div class="cell">True</div>
-    <!-- Row 7 -->
+    <!-- Row 9 -->
     <div class="cell">Topic_change</div>
     <div class="cell">-0.04</div>
     <div class="cell">0.11</div>
@@ -452,7 +457,7 @@ All put together, here is the **formula** for the logistic regression:
    </details>
 </div>
 
-While analysing and drawing conclusions from this simple regression would be quite naive, it highlights an essential fact : **Each reaction influences the recovery in a unique way.** That is why caution is needed when handling your popularity crisis : One wrong move, and it's **done** ! (You sense then suspense ? )
+While analysing and drawing conclusions from this simple regression would be quite naive, it highlights an essential fact : **Each reaction influences the recovery in a unique way.** That is why caution is needed when handling your popularity crisis: One wrong move, and it's **done** ! (You sense then suspense ? )
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
   As the next step, and in order to get some unbiased results and make the proportion of recoveries meaningful, we chose to perform <b>propensity score matching</b> on our decline dataset. This will balance the dataset regarding the variable whose effect we want to observe, enabling us (and you !) to draw more accurate conclusions.
@@ -538,7 +543,6 @@ A key question for creators facing a decline is:
 “As a YouTuber, should I upload more content or less? And if I need to adjust my frequency, how should I do it?”
  --->
 
-
 <div style="border: 2px solid red; padding: 10px; display: inline-block; border-radius: 15px">
   <b>Let's get you onto a little recipe, shall we ?</b>
   <ol>
@@ -581,8 +585,6 @@ As a side note, since the data from the YouNiverse stopped being sampled in 2019
       Evaluating the impact of subject changes should not be done as a whole: the categories and possible transitions are too numerous to be aggregated into one variable. To go into greater detail, we analyze the consequences by direction: going from <b>Politics</b> to <b>Lifestyle</b> videos should be distinguished from changing from <b>Movie reviews</b> to <b>League of Legends</b> content. 
   </p>
 </div>
-
-
 
 <iframe src="/assets/data/topic_change_bar_chart.html" width="100%" height="600" frameborder="0"></iframe>
 
