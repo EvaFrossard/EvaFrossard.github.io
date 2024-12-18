@@ -299,7 +299,7 @@ Or you are just a chill guy, you also want your audience to just be chill guys a
 <div style="display: flex; align-items: center; flex-direction: row;">
   <img src="/assets/img/pic_durationvid.png" alt="Description of image" style="width: 150px; margin-right: 20px;">
   <p style="flex: 1;">
-    Keeping up with durations, here we are focusing on the length of videos. More in the Shorts mindsets or into the long documentary styles videos. Or maybe you like your comedy sketch around the 5min, or maybe it's the cash coming with the monetization and the [multiple ads in over 10min videos](https://www.reddit.com/r/PartneredYoutube/comments/4v6bmy/why_so_many_youtubers_are_making_their_videos/){:target="\_blank"}?(yes, we see you Uncle Scroodge!). 
+    Keeping up with durations, here we are focusing on the length of videos. More in the Shorts mindsets or into the long documentary styles videos. Or maybe you like your comedy sketch around the 5min, or maybe it's the cash coming with the monetization and the <a href="https://www.reddit.com/r/PartneredYoutube/comments/4v6bmy/why_so_many_youtubers_are_making_their_videos/" target="_blank">multiple ads in over 10min videos</a>(yes, we see you Uncle Scroodge!). 
   </p>
 </div>
 
