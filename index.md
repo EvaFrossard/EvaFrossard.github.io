@@ -383,13 +383,13 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
 
 <img src="/assets/img/LogistSummary.png" alt="Logistic regression summary showing coefficients and p-values" style="width: 60%; margin: auto; display: block;">
 
-<body style="display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0;">
-  <div class="table" style="display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; grid-auto-rows: auto; text-align: center; gap: 10px; border: 1px solid black; padding: 20px; background-color: #f9f9f9;">
+<body>
+  <div class="table" style="display: grid; grid-template-columns: 1.5fr 1fr 1.5fr 1fr; grid-auto-rows: auto; text-align: center;">
     <!-- Header Row -->
-    <div class="cell header" style="font-weight: bold; border-bottom: 2px solid black;">Variable</div>
-    <div class="cell header" style="font-weight: bold; border-bottom: 2px solid black;">Coefficient</div>
-    <div class="cell header" style="font-weight: bold; border-bottom: 2px solid black;">P-value</div>
-    <div class="cell header" style="font-weight: bold; border-bottom: 2px solid black;">Significant (p<0.05)</div>
+    <div class="cell header" style="font-weight: bold;">Variable</div>
+    <div class="cell header" style="font-weight: bold;">Coefficient</div>
+    <div class="cell header" style="font-weight: bold;">P-value</div>
+    <div class="cell header" style="font-weight: bold;">Significant (p<0.05)</div>
     <!-- Row 1 -->
     <div class="cell">const</div>
     <div class="cell">-0.19</div>
