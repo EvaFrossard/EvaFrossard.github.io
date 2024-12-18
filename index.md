@@ -867,10 +867,10 @@ TODO QUIZ
   </p>
 </div>
 
-### Let's wrap it up: Conclusion
+## Let's wrap it up: Conclusion
 
 
-### Ethical consideration
+## Ethical consideration
 
 Data analysis includes many biases that would impact ethical aspects, and we tried our best to make ours an exception. The initial sampling performed and obtained through the dataset does not display any clear bias since gender, age and ethnicities etc... aren't available, making it as inclusive as possible. However, due to the 'english-speaking' initial criteria, we remove myriads of country of origin which can include geographical bias. 
 
@@ -880,7 +880,7 @@ The data required by our questionnaire is not saved and is only present locally 
 
 Our project is a fun whilst being serious study, contributing as positively as possible to society.
 
-### References
+## References
 
 @inproceedings{ribeiro2021youniverse,
       title={YouNiverse: Large-Scale Channel and Video Metadata from English-Speaking YouTube}, 
@@ -896,13 +896,13 @@ Most of the interactive graphs have been done using (flourish)[https://flourish.
 
 [1] Introduction picture: AI generated using Dali
 
-[2] Picture PewDiePie: https://www.washingtonpost.com/technology/2018/12/20/forever-war-pewdiepie-youtubes-biggest-creator/
+[2] Picture PewDiePie: [](https://www.washingtonpost.com/technology/2018/12/20/forever-war-pewdiepie-youtubes-biggest-creator/)
 
-[3] Picture Jake Paul: https://commons.wikimedia.org/wiki/File:Jake_Paul_(53116882732).jpg?uselang=fr
+[3] Picture Jake Paul: [](https://commons.wikimedia.org/wiki/File:Jake_Paul_(53116882732).jpg?uselang=fr)
 
-[4] Picture Tana Mongeau: https://www.refinery29.com/en-us/2020/04/9640958/tana-mongeau-xanax-suicidal-thoughts-new-video
+[4] Picture Tana Mongeau: [](https://www.refinery29.com/en-us/2020/04/9640958/tana-mongeau-xanax-suicidal-thoughts-new-video)
 
-[5] Picture Logan Paul: https://www.nbcnews.com/tech/logan-paul-announces-buy-back-nfts-cryptozoo-rcna132390
+[5] Picture Logan Paul: [](https://www.nbcnews.com/tech/logan-paul-announces-buy-back-nfts-cryptozoo-rcna132390)
 
 [6] 3 pictures about upload frequency: AI generated using Dali
 
