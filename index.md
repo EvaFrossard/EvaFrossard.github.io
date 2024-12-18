@@ -116,7 +116,7 @@ use-site-title: true
             </p>
         </div>
         <div class="image">
-            <img src="/assets/img/thumbnail.jpg" alt="" style="width:100%;">
+            <img src="/assets/img/thumbnail.jpg" alt="AI generated, Dali" style="width:100%;">
         </div>
     </div>
 </body>
@@ -884,3 +884,4 @@ Color code: #004AAD
                   on Weblogs and Social Media (ICWSM'21)}}
 }
 
+- All icons have been talen from Canva
