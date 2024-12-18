@@ -429,15 +429,16 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
   </div>
 </body>
 
+All put together, here is the **formula** for the logistic regression: 
 <object data="/assets/img/LogitEq.svg" type="image/svg+xml" style="width: 170%; margin-left: -35%;"></object>
 
+<!-- Where $\text{feature}s$ denotes the value of $\text{feature}$ at the start of the decline, and $D\text{group}$ is a dummy variable that is 1 if the decline belongs to the $\text{group}$ and 0 otherwise.
+--->
 <!-- LaTeX equation corresponding to the image :
 \begin{equation}
 -0.1867 + 4.398 \times 10^{-08} \times \text{Subs}{s} + 0.0009 \times \text{Activity}{s} - 8.471 \times 10^{-11} \times \text{Views}{s} + \\ 0.0027 \times D\text{Posted longer videos} + 0.0844 \times D_\text{Posted shorter videos} + 0.1481 \times D_\text{Posted more} - 0.6959 \times D_\text{Posted less} - 0.0471 \times D_\text{Topic change}
 \end{equation}
 --->
-
-Where $\text{feature}s$ denotes the value of $\text{feature}$ at the start of the decline, and $D\text{group}$ is a dummy variable that is 1 if the decline belongs to the $\text{group}$ and 0 otherwise.
 
 <div style="border-left: 4px solid #3BB143; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details> 
