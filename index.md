@@ -456,7 +456,7 @@ In order to see if these strategies led to statistically significant differences
 The results are as follows:
 
 <body>
-  <div class="table" style="display: grid; grid-template-columns: 1.5fr 1fr 1fr 0.5fr; grid-auto-rows: auto; text-align: left;">
+  <div class="table" style="display: grid; grid-template-columns: 1.5fr 2fr 1fr 0.5fr; grid-auto-rows: auto; text-align: left;">
     <!-- Header Row -->
     <div class="cell header">Treatment</div>
     <div class="cell header">T-statistic</div>
