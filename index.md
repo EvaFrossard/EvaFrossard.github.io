@@ -424,6 +424,13 @@ Provide Specific Numbers: Alternatively, we can state exact thresholds or ranges
 Now, about video duration ! Are you feeling more Spielberg or TikTok star ? While our regression analysis suggests that duration has a limited impact on recovery, we decided to investigate further, looking for hidden patterns.
 <!--  add plot marti --> 
 
+<div style="display: flex; align-items: center; flex-direction: row;">
+  <img src="/assets/img/clock.png" alt="Description of image" style="width: 150px; margin-right: 20px;">
+  <p style="flex: 1;">
+    In conclusion, our team of experts is confident in saying that you do not need to adjust their average length significantly. However, creators producing videos that last between <b>15 to 20 minutes show a slightly higher probability of recovery</b>. This duration may resonate better with your audience, not too long (sorry but you might bore people) whilst still providing interesting content ! <b> While this insight is subtle, it can guide creators aiming to maximize their recovery potential.</b>
+  </p>
+</div>
+
 In conclusion, our team of experts is confident in saying that you do not need to adjust their average length significantly. However, creators producing videos that last between **15 to 20 minutes show a slightly higher probability of recovery**. This duration may resonate better with your audience, not too long (sorry but you might bore people) whilst still providing interesting content ! **While this insight is subtle, it can guide creators aiming to maximize their recovery potential.**
 
 As a side note, since the data from the YouNiverse stopped being sampled in 2019, we do not have any data on new updates Youtube introduce... and this include the great invention of the **Youtube Shorts**. This Tiktok wanabee might be a key for your Youtube rising fame if you're into short and dynamic videos ! Just fyi...
