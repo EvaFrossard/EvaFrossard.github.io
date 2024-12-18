@@ -7,6 +7,7 @@ thumbnail-img: /assets/img/fond.avif
 share-img: /assets/img/fond.avif
 
 use-site-title: true
+mathjax: true
 ---
 
 ![](/assets/img/comments_intro.png)
@@ -162,7 +163,7 @@ Since Youtube hasn't stopped gaining new users, we have reached the conclusion t
 
 <div style="width: 100%; max-width: 800px; margin: 0 auto;">
     <iframe 
-        src="./plot_lancet.html" 
+        src="/assets/data/plot_lancet.html" 
         width="100%" 
         height="600px" 
         style="border: none;">
@@ -488,9 +489,9 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
 </body>
 
 All put together, here is the **formula** for the logistic regression: 
-<object data="/assets/img/LogitEq.svg" type="image/svg+xml" style="width: 100%; margin-left: -35%; border: 2px solid red;"></object>
+<object data="/assets/img/LogitEq.svg" type="image/svg+xml" style="width: 170%; margin-left: -35%;"></object>
 
-Where $feature_s$ denotes the value of $feature$ at the start of the decline, and $D_{group}$ represents a dummy variable that is $1$ if the decline belongs to the $group$ and $0$ otherwise.
+Where \( feature_s \) denotes the value of \( feature \) at the start of the decline, and \( D_{\text{group}} \) represents a dummy variable that is 1 if the decline belongs to the \( group \) and 0 otherwise.
 
 <!-- LaTeX equation corresponding to the image :
 \begin{equation}
