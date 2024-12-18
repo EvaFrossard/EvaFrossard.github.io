@@ -450,7 +450,7 @@ $$-0.1867 + 4.398 \times 10^{-08} \times \text{Subs}{s} + 0.0009 \times \text{Ac
 
 Where $\text{feature}s$ denotes the value of $\text{feature}$ at the start of the decline, and $D\text{group}$ is a dummy variable that is 1 if the decline belongs to the $\text{group}$ and 0 otherwise.
 
-<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
+<div style="border-left: 4px solid #3BB143; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>For ADAspecialists (correctors)</b> </summary>     
       Here is out table of result from the regression. We are very much aware of the extremely low value of the R-squared, and the overall low significance of coefficients. The database has all and every possible values and we tried to find some sort of 'trend', we base ourselves on lowly significant values, but needed to pursue a correct data story.
