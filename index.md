@@ -613,7 +613,7 @@ We used this tech wizardry to dive into the aftermath of bad buzz for dozens of 
 
 And guess what? Our findings are as wild as the comment section on your latest video !
 
-<h2> The Plan </h2>
+<h3> The Plan </h3>
 
 We’re not going to leave you hanging with just data and no solutions. Let’s reclaim that subscribe button together.
 
