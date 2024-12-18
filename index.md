@@ -241,7 +241,7 @@ So what about **views and subscribers** ? Is being a renowned Youtuber providing
   <p style="flex: 1; margin-right: 20px;">
     About <b>activities</b> (whether you post once a day, once a week, every now and then), this metric doesn't display any noticeable trend, and we can't really conclude that the try harder has more chances of getting out of the woods than the chill guy.
   </p>
-  <img src="/assets/img/activity_plot.png" alt="Description of image" style="width: 150px;">
+  <img src="/assets/img/activity_plot.png" alt="Description of image" style="width: 400px;">
 </div>
 
 <!--Talk duration ? -->
