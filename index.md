@@ -359,14 +359,77 @@ As you can see, everything is possible when it comes to changing the topic of yo
 
 Easy task, we have so far just listed the reaction possible, but which one do work ? 
 
-First of all, here are the results of a logistic regression of **recovery** on the **reactions**. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery.
+<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
+  First of all, here are the results of a <b>Logistic regression</b> of recovery on the reactions. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery.
+</div>
+
+<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
+  <details open> 
+    <summary style = "font-size: 18px; cursor: pointer;">Logistic Regression</summary>     
+      
+   </details>
+</div>
+
 
 <img src="/assets/img/LogistSummary.png" alt="Logistic regression summary showing coefficients and p-values" style="width: 60%; margin: auto; display: block;">
 
+<body>
+  <div class="table" style="display: grid; grid-template-columns: 1.5fr 1fr 1fr 0.5fr; grid-auto-rows: auto; text-align: left;">
+    <!-- Header Row -->
+    <div class="cell header">Variable</div>
+    <div class="cell header">Coefficient</div>
+    <div class="cell header">P-value</div>
+    <div class="cell header">Significant (p<0.05)</div>
+    <!-- Row 1 -->
+    <div class="cell">const</div>
+    <div class="cell">-0.19</div>
+    <div class="cell">0.00</div>
+    <div class="cell">True</div>
+    <!-- Row 2 -->
+    <div class="cell">Subs_start</div>
+    <div class="cell">4.4e-8</div>
+    <div class="cell">0.08</div>
+    <div class="cell">False</div>
+    <!-- Row 3 -->
+    <div class="cell">Activity_start</div>
+    <div class="cell">9e-4</div>
+    <div class="cell">0.32</div>
+    <div class="cell">False</div>
+    <!-- Row 4 -->
+    <div class="cell">Views_start</div>
+    <div class="cell">-8.5e-11</div>
+    <div class="cell">0.25</div>
+    <div class="cell">False</div>
+    <!-- Row 5 -->
+    <div class="cell">Posted_longer_videos</div>
+    <div class="cell">2.7e-3</div>
+    <div class="cell">0.94</div>
+    <div class="cell">False</div>
+    <!-- Row 6 -->
+    <div class="cell">Posted_shorter_videos</div>
+    <div class="cell">0.08</div>
+    <div class="cell">0.06</div>
+    <div class="cell">False</div>
+    <!-- Row 7 -->
+    <div class="cell">Posted_more</div>
+    <div class="cell">0.15</div>
+    <div class="cell">0</div>
+    <div class="cell">True</div>
+    <!-- Row 8 -->
+    <div class="cell">Posted_less</div>
+    <div class="cell">-0.7</div>
+    <div class="cell">0</div>
+    <div class="cell">True</div>
+    <!-- Row 7 -->
+    <div class="cell">Topic_change</div>
+    <div class="cell">-0.04</div>
+    <div class="cell">0.11</div>
+    <div class="cell">False</div>
+  </div>
+</body>
+
 <!-- Ecrire l'équation de régression --->
 <!-- FOR CORRECTEURS --->
-
-
 
 While analysing and drawing conclusions from this simple regression would be quite naive, it highlights an essential fact : **Each reaction influences the recovery in a unique way.** That is why caution is needed when handling your popularity crisis : One wrong move, and it's **done** ! (You sense then suspense ? )
 
