@@ -740,42 +740,43 @@ TODO QUIZ
 -->
 
 <div style="border: 2px solid red; paddAing: 10px; display: inline-block; border-radius: 15px"><p>
-<h2>Suffering from a bad buzz ? Here is where it's at... </h2>
+  <h2>Suffering from a bad buzz ? Here is where it's at... </h2>
 
-Let’s face it — you wouldn’t still be reading this unless you’d royally messed up, would you? You’ve stepped on the internet landmine, and now your channel is caught in the crosshairs of a… <b>BAD BUZZ </b> 😱. <br />
+  Let’s face it — you wouldn’t still be reading this unless you’d royally messed up, would you? You’ve stepped on the internet landmine, and now your channel is caught in the crosshairs of a… <b>BAD BUZZ </b> 😱. <br/>
 
-If you’ve scrolled through the previous sections and still can’t find a fix, it’s because your situation requires more than the usual “post more consistently” or “engage with your audience” advice. But fear not! While the internet’s collective fury can feel like a raging storm, we’ve armed ourselves with data analysis and research to help you turn this ship around. <br />
+  If you’ve scrolled through the previous sections and still can’t find a fix, it’s because your situation requires more than the usual “post more consistently” or “engage with your audience” advice. But fear not! While the internet’s collective fury can feel like a raging storm, we’ve armed ourselves with data analysis and research to help you turn this ship around. <br />
 
-<h3>The Challenges of a Big YouTuber in a Crisis </h3>
+  <h3>The Challenges of a Big YouTuber in a Crisis </h3>
 
-Our analysis of big YouTubers (think >1M subscribers — we feel flattered that you're here) has revealed some fascinating trends. Whether it’s a Twitter faux pas, a controversial statement, or a scandal you never saw coming, the strategies for clawing back your reputation vary dramatically depending on the moves you make right now.(Insert dramatic pause for effect. You’re feeling the pressure, aren’t you?) <br />
+  Our analysis of big YouTubers (think >1M subscribers — we feel flattered that you're here) has revealed some fascinating trends. Whether it’s a Twitter faux pas, a controversial statement, or a scandal you never saw coming, the strategies for clawing back your reputation vary dramatically depending on the moves you make right now.(Insert dramatic pause for effect. You’re feeling the pressure, aren’t you?) <br />
 
-But hey, before you run off to film a tearful apology, let’s talk about why some YouTubers manage to recover from their digital nightmares while others end up in the dreaded “where are they now?” category. Spoiler: it’s not all about talent or luck. <br />
+  But hey, before you run off to film a tearful apology, let’s talk about why some YouTubers manage to recover from their digital nightmares while others end up in the dreaded “where are they now?” category. Spoiler: it’s not all about talent or luck. <br />
 
-<h3>The Secret Sauce? Your Titles </h3>
+  <h3>The Secret Sauce? Your Titles </h3>
 
-Yes, you read that right. <br>Titles</br>. Those few dozen characters can either save your channel or sink it further. Think about it: what’s the first thing a viewer sees before they even decide to click? Your title! And if you’ve learned anything from this wild ride of YouTube, it’s that first impressions are everything. <br />
+  Yes, you read that right. <br>Titles</br>. Those few dozen characters can either save your channel or sink it further. Think about it: what’s the first thing a viewer sees before they even decide to click? Your title! And if you’ve learned anything from this wild ride of YouTube, it’s that first impressions are everything. <br />
 
-Now, here’s where the science kicks in. You’ve probably heard of <br>LLMs (Large Language Models)</br>, right? They’re super-smart AI tools that can analyse and recognise patterns in text faster than you can say, “Oops, I tweeted what?!” <br />
+  Now, here’s where the science kicks in. You’ve probably heard of <br>LLMs (Large Language Models)</br>, right? They’re super-smart AI tools that can analyse and recognise patterns in text faster than you can say, “Oops, I tweeted what?!” <br />
 
-We used this tech wizardry to dive into the aftermath of bad buzz for dozens of big YouTubers. By leveraging the OLLAMA open source project [TODO: ref] , we analysed the types of videos uploaded immediately following their PR disasters. What did we look for? Patterns. Specifically, whether these videos fell into one (or more) of these categories:
+  We used this tech wizardry to dive into the aftermath of bad buzz for dozens of big YouTubers. By leveraging the OLLAMA open source project [TODO: ref] , we analysed the types of videos uploaded immediately following their PR disasters. What did we look for? Patterns. Specifically, whether these videos fell into one (or more) of these categories:
 
-- <br>Apology videos:</br> The classic “I’m sorry” trope—effective or overdone? 
-- <br>Addressing the decline:</br> Are you facing the issue head-on or pretending nothing’s wrong?
-- <br>Comeback announcements:</br> Bold, confident, and ready to win back hearts.
-- <br>Break announcements:</br> Sometimes, stepping back is stepping forward.
-- <br>Collaboration videos:</br> Is strength in numbers the way to go?
-- <br>Clickbait videos:</br> Risky, but can it work in your favor?
+  <ul>
+    <li><br>Apology videos:</br> The classic “I’m sorry” trope—effective or overdone? </li>
+    <li><br>Addressing the decline:</br> Are you facing the issue head-on or pretending nothing’s wrong?</li>
+    <li><br>Comeback announcements:</br> Bold, confident, and ready to win back hearts.</li>
+    <li><br>Break announcements:</br> Sometimes, stepping back is stepping forward.</li>
+    <li><br>Collaboration videos:</br> Is strength in numbers the way to go? </li>
+    <li><br>Clickbait videos:</br> Risky, but can it work in your favor? </li>
+  </ul>
 
-And guess what? Our findings are as wild as the comment section on your latest video !
+  And guess what? Our findings are as wild as the comment section on your latest video !
 
-<h3> The Plan </h3>
+  <h3> The Plan </h3>
 
-We’re not going to leave you hanging with just data and no solutions. Let’s reclaim that subscribe button together.
+  We’re not going to leave you hanging with just data and no solutions. Let’s reclaim that subscribe button together.
 
-</p>
+  </p>
 </div>
-
 
 Color code: #004AAD
 
