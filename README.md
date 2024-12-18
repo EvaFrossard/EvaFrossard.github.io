@@ -1,6 +1,5 @@
 # Buzz, bust and bounce-back
-## A data-driven strategy to deal with YouTubers’ decline
-## By ooohFada
+## A data-driven strategy to deal with YouTubers’ decline by ooohFada
 
 ![](/assets/img/notstonks.jpg)
 
