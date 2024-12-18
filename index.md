@@ -384,12 +384,12 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
 <img src="/assets/img/LogistSummary.png" alt="Logistic regression summary showing coefficients and p-values" style="width: 60%; margin: auto; display: block;">
 
 <body>
-  <div class="table" style="display: grid; grid-template-columns: 1.5fr 1fr 1fr 2fr; text-align: center;">
+  <div class="table" style=" grid-template-columns: 1.5fr 1.5fr 1fr 0.5fr; grid-auto-rows: auto; text-align: center;">
     <!-- Header Row -->
     <div class="cell header" style="font-weight: bold;">Variable</div>
     <div class="cell header" style="font-weight: bold;">Coefficient</div>
     <div class="cell header" style="font-weight: bold;">P-value</div>
-    <div class="cell header" style="font-weight: bold;">Significant (p<0.05)</div>
+    <div class="cell header" style="font-weight: bold;">Significant</div>
     <!-- Row 1 -->
     <div class="cell">const</div>
     <div class="cell">-0.19</div>
