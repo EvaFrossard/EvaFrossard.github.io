@@ -486,8 +486,6 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
     </tr>
   </table>
 </body>
-</html>
-
 
 All put together, here is the **formula** for the logistic regression: 
 <object data="/assets/img/LogitEq.svg" type="image/svg+xml" style="width: 170%; margin-left: -35%;"></object>
@@ -623,7 +621,6 @@ This being a very generic results, we will dive deeper into all of those subject
 ### Posting frequency and video duration
 
 Good news! Our detailed analysis reveals that increasing your upload frequency is more effective than reducing it. **So what does it mean to increase upload frequency ?**
-
 
 <!-- 
 After identifying the most influential features affecting the recovery of YouTube creators, let’s dig a bit deeper into their implications to extract actionable insights. Let’s focus on the most impactful feature and explore it comprehensively.
