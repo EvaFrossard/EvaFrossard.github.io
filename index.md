@@ -437,8 +437,15 @@ As a side note, since the data from the YouNiverse stopped being sampled in 2019
 
 ### A deep dive into topic transitions
 
-Back into the more fun stuff ! **Do we recommend you to change subjects ?** Of course, we are here talking to the desesperate that do not mind doing a 180°, promise we do not judge (a little), we're just being a guide in the process. 
-Evaluating the impact of subject changes should not be done as a whole: the categories and possible transitions are too numerous to be aggregated into one variable. To go into greater detail, we analyze the consequences by direction: going from **Politics** to **Lifestyle** videos should be distinguished from changing from **Movie reviews** to **League of Legends** content. 
+<div style="display: flex; align-items: center; flex-direction: row;">
+  <img src="/assets/img/crossroads.png" alt="Description of image" style="width: 150px; margin-right: 20px;">
+  <p style="flex: 1;">
+      Back into the more fun stuff ! <b>Do we recommend you to change subjects ?</b> Of course, we are here talking to the desesperate that do not mind doing a 180°, promise we do not judge (a little), we're just being a guide in the process. 
+      Evaluating the impact of subject changes should not be done as a whole: the categories and possible transitions are too numerous to be aggregated into one variable. To go into greater detail, we analyze the consequences by direction: going from <b>Politics</b> to <b>Lifestyle</b> videos should be distinguished from changing from <b>Movie reviews</b> to <b>League of Legends</b> content. 
+  </p>
+</div>
+
+
 
 <iframe src="/assets/data/topic_change_bar_chart.html" width="100%" height="600" frameborder="0"></iframe>
 
