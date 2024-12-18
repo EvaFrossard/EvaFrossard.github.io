@@ -480,7 +480,19 @@ This gives us the following results :
 
 Finally, some long awaited results ! The balanced data suggests that whilst increasing upload frequency has a relatively great effect on recovery, whereas changing video duration does not seem to play such an important role, same with topic change.
 
-In order to see if these strategies led to statistically significant differences in recovery rates, we performed a t-test analysis with a significance level of 0.05.
+In order to see if these strategies led to statistically significant differences in recovery rates, we performed a **t-test analysis** with a significance level of 0.05.
+
+<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
+  In order to see if these strategies led to statistically significant differences in recovery rates, we performed a <b>t-test analysis</b> with a significance level of 0.05.
+</div>
+
+<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
+  <details open> 
+    <summary style = "font-size: 18px; cursor: pointer;">t-test analysis</summary>     
+
+   </details>
+</div>
+
 The results are as follows:
 
 <body>
