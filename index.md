@@ -429,7 +429,11 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
   </div>
 </body>
 
-<!-- Ecrire l'équation de régression --->
+$$-0.1867 + 4.398 \times 10^{-08} \times \text{Subs}{s} + 0.0009 \times \text{Activity}{s} - 8.471 \times 10^{-11} \times \text{Views}{s} + 0.0027 \times D\text{Posted longer videos} + 0.0844 \times D_\text{Posted shorter videos} + 0.1481 \times D_\text{Posted more} - 0.6959 \times D_\text{Posted less} - 0.0471 \times D_\text{Topic change}$$
+
+Where $\text{feature}s$ denotes the value of $\text{feature}$ at the start of the decline, and $D\text{group}$ is a dummy variable that is 1 if the decline belongs to the $\text{group}$ and 0 otherwise.
+
+
 <!-- FOR CORRECTEURS --->
 
 While analysing and drawing conclusions from this simple regression would be quite naive, it highlights an essential fact : **Each reaction influences the recovery in a unique way.** That is why caution is needed when handling your popularity crisis : One wrong move, and it's **done** ! (You sense then suspense ? )
