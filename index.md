@@ -299,13 +299,11 @@ Or you are just a chill guy, you also want your audience to just be chill guys a
 <div style="display: flex; align-items: center; flex-direction: row;">
   <img src="/assets/img/pic_durationvid.png" alt="Description of image" style="width: 150px; margin-right: 20px;">
   <p style="flex: 1;">
-    Keeping up with durations, here we are focusing on the length of videos. More in the Shorts mindsets or into the long documentary styles videos. Or maybe you like your comedy sketch around the 5min, or maybe it's the cash coming with the monetization and the <a href="https://www.reddit.com/r/PartneredYoutube/comments/4v6bmy/why_so_many_youtubers_are_making_their_videos/" target="_blank">multiple ads in over 10min videos</a>(yes, we see you Uncle Scroodge!). 
+    Keeping up with durations, here we are focusing on the length of videos. More in the Shorts mindsets or into the long documentary styles videos. Or maybe you like your comedy sketch around the 5min, or maybe it's the cash coming with the monetization and the <a href="https://www.reddit.com/r/PartneredYoutube/comments/4v6bmy/why_so_many_youtubers_are_making_their_videos/" target="_blank">multiple ads in over 10min videos</a> (yes, we see you Uncle Scroodge!). 
   </p>
 </div>
 
 <!-- Graph, why do we use that ? --->
-
-
 
 
 ### Content category
@@ -340,8 +338,13 @@ After using the Latent Dirichlet Allocation, we obtained the following 20 catego
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/20798533"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20798533/thumbnail" width="100%" alt="hierarchy visualization" /></noscript></div>
 Each topic contains a set of 15 words and their probabilities of appearing within that topic.
 
+<div style="display: flex; align-items: center;">
+  <p style="flex: 1; margin-right: 20px;">
+    Using this natural processing language, we are able to determine whether the reactions to decline include <b>changing topics of interest</b>. Before entering into the maths of it, just have fun looking at all the topic transition and we will use these statistics to find the best strategy and YES the transition between Pokemon and Politics exists !
 
-Using this natural processing language, we are able to determine whether the reactions to decline include **changing topics of interest**. Before entering into the maths of it, just have fun looking at all the topic transition and we will use these statistics to find the best strategy and YES the transition between Pokemon and Politics exists !
+  </p>
+  <img src="/assets/img/pokemon.png" alt="Description of image" style="width: 150px;">
+</div>
 
 <div class="flourish-embed flourish-chord" data-src="visualisation/20782429"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20782429/thumbnail" width="100%" alt="chord visualization" /></noscript></div>
 
