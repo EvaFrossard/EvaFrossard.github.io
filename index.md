@@ -366,7 +366,7 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
-    <summary style = "font-size: 18px; cursor: pointer;">Logistic Regression</summary>     
+    <summary style = "font-size: 18px; cursor: pointer;"><b>Logistic Regression</b></summary>     
     Supervised learning Machine Learning model where the latter log odds as a linear function of X.
    </details>
 </div>
