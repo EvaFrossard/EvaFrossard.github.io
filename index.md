@@ -884,4 +884,12 @@ Color code: #004AAD
                   on Weblogs and Social Media (ICWSM'21)}}
 }
 
-- All icons have been talen from Canva
+All icons have been taken from Canva
+Most of the interactive graphs have been done using (flourish)[https://flourish.studio]
+
+[1] Introduction picture: AI generated using Dali
+[2] Picture PewDiePie: https://www.washingtonpost.com/technology/2018/12/20/forever-war-pewdiepie-youtubes-biggest-creator/
+[3] Picture Jake Paul: https://commons.wikimedia.org/wiki/File:Jake_Paul_(53116882732).jpg?uselang=fr
+[4] Picture Tana Mongeau: https://www.refinery29.com/en-us/2020/04/9640958/tana-mongeau-xanax-suicidal-thoughts-new-video
+[5] Picture Logan Paul: https://www.nbcnews.com/tech/logan-paul-announces-buy-back-nfts-cryptozoo-rcna132390
+[6] 3 pictures about upload frequency: AI generated using Dali
