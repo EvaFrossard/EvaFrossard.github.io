@@ -383,60 +383,105 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
 
 <img src="/assets/img/LogistSummary.png" alt="Logistic regression summary showing coefficients and p-values" style="width: 60%; margin: auto; display: block;">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>4-Column Table</title>
+  <style>
+    table {
+      width: 80%;
+      margin: auto;
+      border-collapse: collapse;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
 <body>
-  <div class="table">
-    <!-- Header Row -->
-    <div class="cell header" style="font-weight: bold;">Variable</div>
-    <div class="cell header" style="font-weight: bold;">Coefficient</div>
-    <div class="cell header" style="font-weight: bold;">P-value</div>
-    <div class="cell header" style="font-weight: bold;">Significant</div>
-    <!-- Row 1 -->
-    <div class="cell">const</div>
-    <div class="cell">-0.19</div>
-    <div class="cell">0.00</div>
-    <div class="cell">True</div>
-    <!-- Row 2 -->
-    <div class="cell">Subs_start</div>
-    <div class="cell">4.4e-8</div>
-    <div class="cell">0.08</div>
-    <div class="cell">False</div>
-    <!-- Row 3 -->
-    <div class="cell">Activity_start</div>
-    <div class="cell">9e-4</div>
-    <div class="cell">0.32</div>
-    <div class="cell">False</div>
-    <!-- Row 4 -->
-    <div class="cell">Views_start</div>
-    <div class="cell">-8.5e-11</div>
-    <div class="cell">0.25</div>
-    <div class="cell">False</div>
-    <!-- Row 5 -->
-    <div class="cell">Posted_longer_videos</div>
-    <div class="cell">2.7e-3</div>
-    <div class="cell">0.94</div>
-    <div class="cell">False</div>
-    <!-- Row 6 -->
-    <div class="cell">Posted_shorter_videos</div>
-    <div class="cell">0.08</div>
-    <div class="cell">0.06</div>
-    <div class="cell">False</div>
-    <!-- Row 7 -->
-    <div class="cell">Posted_more</div>
-    <div class="cell">0.15</div>
-    <div class="cell">0</div>
-    <div class="cell">True</div>
-    <!-- Row 8 -->
-    <div class="cell">Posted_less</div>
-    <div class="cell">-0.7</div>
-    <div class="cell">0</div>
-    <div class="cell">True</div>
-    <!-- Row 9 -->
-    <div class="cell">Topic_change</div>
-    <div class="cell">-0.04</div>
-    <div class="cell">0.11</div>
-    <div class="cell">False</div>
-  </div>
+  <h2 style="text-align: center;">Table with Given Data</h2>
+  <table>
+    <tr>
+      <th>Variable</th>
+      <th>Coefficient</th>
+      <th>P-value</th>
+      <th>Significant (p&lt;0.05)</th>
+    </tr>
+    <tr>
+      <td>const</td>
+      <td>-0.19</td>
+      <td>0.00</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Subs_start</td>
+      <td>4.4e-8</td>
+      <td>0.08</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Activity_start</td>
+      <td>9e-4</td>
+      <td>0.32</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Views_start</td>
+      <td>-8.5e-11</td>
+      <td>0.25</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Posted_longer_videos</td>
+      <td>2.7e-3</td>
+      <td>0.94</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Posted_shorter_videos</td>
+      <td>0.08</td>
+      <td>0.06</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Posted_more</td>
+      <td>0.15</td>
+      <td>0</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Posted_less</td>
+      <td>-0.7</td>
+      <td>0</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Topic_change</td>
+      <td>-0.04</td>
+      <td>0.11</td>
+      <td>False</td>
+    </tr>
+  </table>
 </body>
+</html>
+
 
 All put together, here is the **formula** for the logistic regression: 
 <object data="/assets/img/LogitEq.svg" type="image/svg+xml" style="width: 170%; margin-left: -35%;"></object>
