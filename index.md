@@ -867,10 +867,18 @@ TODO QUIZ
   </p>
 </div>
 
-Color code: #004AAD
+### Let's wrap it up: Conclusion
 
-### Ethical risks
 
+### Ethical consideration
+
+Data analysis includes many biases that would impact ethical aspects, and we tried our best to make ours an exception. The initial sampling performed and obtained through the dataset does not display any clear bias since gender, age and ethnicities etc... aren't available, making it as inclusive as possible. However, due to the 'english-speaking' initial criteria, we remove myriads of country of origin which can include geographical bias. 
+
+No individual consent was needed since all info displayed has been and is made public on the Youtube platform. The only point of concern would be the Youtube channel that have been deleted since we still have their gathered data, but since they have been made public at some time period, it still seems acceptable to use them (especially since we mainly use only the ID from the channel more than the usernames). 
+
+The data required by our questionnaire is not saved and is only present locally on the viewer machine.
+
+Our project has a fun whilst still being serious study, contributing as positively as possible to society.
 
 ### References
 
@@ -897,3 +905,5 @@ Most of the interactive graphs have been done using (flourish)[https://flourish.
 [5] Picture Logan Paul: https://www.nbcnews.com/tech/logan-paul-announces-buy-back-nfts-cryptozoo-rcna132390
 
 [6] 3 pictures about upload frequency: AI generated using Dali
+
+Color code: #004AAD
