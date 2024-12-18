@@ -367,7 +367,7 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;">Logistic Regression</summary>     
-      
+
    </details>
 </div>
 
@@ -461,7 +461,7 @@ In order to see if these strategies led to statistically significant differences
 The results are as follows:
 
 <body>
-  <div class="table" style="display: grid; grid-template-columns: 1.5fr 2fr 1fr 0.5fr; grid-auto-rows: auto; text-align: left;">
+  <div class="table" style="display: grid; grid-template-columns: 1.5fr 1.5fr 1fr 0.5fr; grid-auto-rows: auto; text-align: left;">
     <!-- Header Row -->
     <div class="cell header">Treatment</div>
     <div class="cell header">T-statistic</div>
