@@ -878,7 +878,7 @@ No individual consent was needed since all info displayed has been and is made p
 
 The data required by our questionnaire is not saved and is only present locally on the viewer machine.
 
-Our project has a fun whilst still being serious study, contributing as positively as possible to society.
+Our project is a fun whilst being serious study, contributing as positively as possible to society.
 
 ### References
 
