@@ -454,10 +454,9 @@ Where $\text{feature}s$ denotes the value of $\text{feature}$ at the start of th
   <details> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>For ADA specialists</b> </summary>     
       Here is out table of result from the regression. We are very much aware of the extremely low value of the R-squared, and the overall low significance of coefficients. The database has all and every possible values and we tried to find some sort of 'trend', we base ourselves on lowly significant values, but needed to pursue a correct data story.
-      ![](/assets/img/regression_results.png)
+      <img src="/assets/img/regression_results.png" alt="Description of image">
    </details>
 </div>
-
 
 While analysing and drawing conclusions from this simple regression would be quite naive, it highlights an essential fact : **Each reaction influences the recovery in a unique way.** That is why caution is needed when handling your popularity crisis : One wrong move, and it's **done** ! (You sense then suspense ? )
 
@@ -465,7 +464,6 @@ While analysing and drawing conclusions from this simple regression would be qui
   As the next step, and in order to get some unbiased results and make the proportion of recoveries meaningful, we chose to perform <b>propensity score matching</b> on our decline dataset. This will balance the dataset regarding the variable whose effect we want to observe, enabling us (and you !) to draw more accurate conclusions.
 </div>
 
-<!-- Explain the sampling?  --->
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
