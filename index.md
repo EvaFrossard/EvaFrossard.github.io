@@ -336,7 +336,9 @@ Getting this data allows us determine whether the reactions include changing the
 After using the Latent Dirichlet Allocation, we obtained the following 20 categories named by the LLM:
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/20798533"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20798533/thumbnail" width="100%" alt="hierarchy visualization" /></noscript></div>
-Each topic contains a set of 15 words and their probabilities of appearing within that topic.
+Each topic contains a set of 15 words and their probabilities of appearing within that topic. The selection of 20 topics offers a balance betweeen coherence and interpretability, ensuring that each topic is distinct yet not too niche to be irrelevant. With these parameters, we obtained a coherence score of 58%, that could be improved if we decided to create more topics (the best coherence score we obtained was 65% with 55 topics), but we decided to stick to 20 topics for our analysis, to take the trade-off between granularity and interpretability into account.
+
+The 20-topic model captures a broad spectrum of interests, ranging from Politics to Fortnite Gameplay. While some of the topics seem to capture content categories very well, like the topic "Movie Reviews" that contains words like "movie", "review", "trailer" and "film" and that revolves around content creators who analyze or review films, there is also some overlap between different topics, for example in the topic "Art and Spirituality" that also contains the words "golf" and "f1" and therefore may also touch on certain hobbies or sports.  However, these 20 topics are distinct enough to provide meaningful classifications that will support an analysis of the topic transitions and their correlation with recovery.
 
 <div style="display: flex; align-items: center;">
   <p style="flex: 1; margin-right: 20px;">
@@ -387,7 +389,47 @@ This gives us the following results :
 
 Finally, some long awaited results ! The balanced data suggests that whilst increasing upload frequency has a relatively great effect on recovery, whereas changing video duration does not seem to play such an important role, same with topic change.
 
-This being a very generic graph, we will dive deeper into all of those subjects to still maximize your chances, since further analysis leads us to insteresting results that are worth detailing ! **Onto the solutions now !**
+In order to see if these strategies led to statistically significant differences in recovery rates, we performed a t-test analysis with a significance level of 0.05.
+The results are as follows:
+
+<body>
+  <div class="table">
+    <!-- Header Row -->
+    <div class="cell header">Treatment</div>
+    <div class="cell header">T-statistic</div>
+    <div class="cell header">P-value</div>
+    <div class="cell header">Significant</div>
+    <!-- Row 1 -->
+    <div class="cell">Posted more</div>
+    <div class="cell">10.69</div>
+    <div class="cell">1.43e-26</div>
+    <div class="cell">True</div>
+    <!-- Row 2 -->
+    <div class="cell">Posted less</div>
+    <div class="cell">-19.94</div>
+    <div class="cell">4.57e-87</div>
+    <div class="cell">True</div>
+    <!-- Row 3 -->
+    <div class="cell">Posted longer videos</div>
+    <div class="cell">-0.15</div>
+    <div class="cell">0.88</div>
+    <div class="cell">False</div>
+    <!-- Row 4 -->
+    <div class="cell">Posted shorter videos</div>
+    <div class="cell">1.69</div>
+    <div class="cell">0.09</div>
+    <div class="cell">False</div>
+    <!-- Row 5 -->
+    <div class="cell">Topic change</div>
+    <div class="cell">0.034</div>
+    <div class="cell">0.97</div>
+    <div class="cell">False</div>
+    </div>
+</body>
+
+The t-test results reveal that only the two strategies concerning the video upload frequency show statistically significant differences in recovery rated. An increase in video frequency shows a higher mean recovery rate for those who adopted the strategy compared to those who did not. Conversely, posting less videos is associated with a lower mean recovery rate.
+
+This being a very generic results, we will dive deeper into all of those subjects to still maximize your chances, since further analysis leads us to insteresting results that are worth detailing ! **Onto the solutions now !**
 
 ### Posting frequency and video duration
 
