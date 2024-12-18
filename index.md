@@ -375,7 +375,7 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
 <img src="/assets/img/LogistSummary.png" alt="Logistic regression summary showing coefficients and p-values" style="width: 60%; margin: auto; display: block;">
 
 <body>
-  <div class="table" style="display: grid; grid-template-columns: 1.5fr 1fr 1fr 0.5fr; grid-auto-rows: auto; text-align: left;">
+  <div class="table" style="display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; grid-auto-rows: auto; text-align: left;">
     <!-- Header Row -->
     <div class="cell header">Variable</div>
     <div class="cell header">Coefficient</div>
