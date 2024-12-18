@@ -233,9 +233,9 @@ So what could be the first metric is actually very naive but still shows some re
 
 Interesting metric, but don't start sweating just yet, we're just getting started... 
 
-<!-- Add graph of views, subs--->
+![](/assets/img/Subs&views_plot.png)
 
-So what about views and subscribers ? Is being a renowned Youtuber providing you with more chances to recover efficiently ? Well... not really quite the opposite. Yet again, trends are not too scarred, but even though we see the usual 60-40 proportions appearing, we also see that small channels (under x subscribers) seem to recover better than your usual golden trophee youtubers ? 
+So what about **views and subscribers** ? Is being a renowned Youtuber providing you with more chances to recover efficiently ? Well... not really quite the opposite. Yet again, trends are not too scarred, but even though we see the usual 60-40 proportions appearing, we also see that small channels (under x subscribers) seem to recover better than your usual golden trophee youtubers ? 
 
 <!-- Add graph of activities--->
 About activities (whether you post once a day, once a week, every now and then), this metric doesn't display any noticeable trend, and we can't really conclude that the hard trier has more chances of getting out of the woods than the chill guy.
@@ -587,7 +587,7 @@ On average, channels that change their video topics experience a slight increase
 While this is encouraging, we have to emphasize that **this approach can have mixed results**, and the impact on your recovery rate will depend heavily on the types of topics you choose to pivot to. **It is not about if you change or not, it is from where and to where you change !**
 Let's investigate using a interactive Sankey diagram showing topic transitions and their recovery rates, colored by recovery rate (cooler colors represent higher recovery rates)
 
-<div id="sankey-plot" style="width:100%; height:600px;"></div>
+<div id="sankey-plot" style="width:100%;"></div>
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
