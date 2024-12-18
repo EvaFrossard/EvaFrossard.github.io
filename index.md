@@ -739,7 +739,7 @@ TODO QUIZ
 
 -->
 
-<div style="border: 2px solid red; paddAing: 10px; display: inline-block; border-radius: 15px">
+<div style="border: 2px solid red; paddAing: 10px; display: inline-block; border-radius: 15px"><p>
 <h2>Suffering from a bad buzz ? Here is where it's at... </h2>
 
 Let’s face it — you wouldn’t still be reading this unless you’d royally messed up, would you? You’ve stepped on the internet landmine, and now your channel is caught in the crosshairs of a… <b>BAD BUZZ </b> 😱. <br />
@@ -773,7 +773,7 @@ And guess what? Our findings are as wild as the comment section on your latest v
 
 We’re not going to leave you hanging with just data and no solutions. Let’s reclaim that subscribe button together.
 
-
+</p>
 </div>
 
 
