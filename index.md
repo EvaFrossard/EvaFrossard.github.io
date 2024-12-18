@@ -476,7 +476,7 @@ In order to see if these strategies led to statistically significant differences
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
-    <summary style = "font-size: 18px; cursor: pointer;">t-test analysis</summary>     
+    <summary style = "font-size: 18px; cursor: pointer;"><b>t-test analysis</b></summary>     
 
    </details>
 </div>
