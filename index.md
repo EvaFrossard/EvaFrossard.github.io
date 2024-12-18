@@ -244,7 +244,12 @@ So what about **views and subscribers** ? Is being a renowned Youtuber providing
   <img src="/assets/img/activity_plot.png" alt="Description of image" style="width: 400px;">
 </div>
 
-<!--Talk duration ? -->
+<div style="display: flex; align-items: center; flex-direction: row;">
+  <img src="/assets/img/duration_plot.png" alt="Description of image" style="width: 400px; margin-right: 20px;">
+  <p style="flex: 1;">
+    Finally, about the <b>length of your videos</b>, we obtain some unforeseen results. Channels that were producing on average 'short' videos (below 10min) before their decline seem to have less chance of recovery. Again, small difference, but the lazy you that might do junk posting of quick efficient videos might not be winning here !  
+  </p>
+</div>
 
 Okay, we've used the holy quatuor: **categories, fame, activity and duration of video ** to see if they provided us info on your channel chances to regain it's previous flourishment. Let's now get into how YOU can impact the health of your channel, meaning how YOU can react. We will start by citing all the different strategies we have observed (yes the same strategies you have probably been wracking your brain with), before putting our lab coat and taking our calculator to see if those methods are truly useful. 
 
