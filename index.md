@@ -393,7 +393,7 @@ In order to see if these strategies led to statistically significant differences
 The results are as follows:
 
 <body>
-  <div class="table">
+  <div class="table" style="display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: auto; gap: 5px; text-align: left;">
     <!-- Header Row -->
     <div class="cell header">Treatment</div>
     <div class="cell header">T-statistic</div>
@@ -424,7 +424,7 @@ The results are as follows:
     <div class="cell">0.034</div>
     <div class="cell">0.97</div>
     <div class="cell">False</div>
-    </div>
+  </div>
 </body>
 
 The t-test results reveal that only the two strategies concerning the video upload frequency show statistically significant differences in recovery rated. An increase in video frequency shows a higher mean recovery rate for those who adopted the strategy compared to those who did not. Conversely, posting less videos is associated with a lower mean recovery rate.
