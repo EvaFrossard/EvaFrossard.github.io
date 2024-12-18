@@ -251,7 +251,7 @@ So what about **views and subscribers** ? Is being a renowned Youtuber providing
   </p>
 </div>
 
-Okay, we've used the holy quatuor: **categories, fame, activity and duration of video ** to see if they provided us info on your channel chances to regain it's previous flourishment. Let's now get into how YOU can impact the health of your channel, meaning how YOU can react. We will start by citing all the different strategies we have observed (yes the same strategies you have probably been wracking your brain with), before putting our lab coat and taking our calculator to see if those methods are truly useful. 
+Okay, we've used the holy quatuor: **categories, fame, activity of your channel and duration of video** to see if they provided us info on your channel chances to regain it's previous flourishment. Let's now get into how YOU can impact the health of your channel, meaning how YOU can react. We will start by citing all the different strategies we have observed (yes the same strategies you have probably been wracking your brain with), before putting our lab coat and taking our calculator to see if those methods are truly useful. 
 
 ## What are the possible strategies observed when facing a decline ? 
 
@@ -312,14 +312,16 @@ Or you are just a chill guy, you also want your audience to just be chill guys a
   </p>
 </div>
 
-<!-- Graph, why do we use that ? --->
-
-
 ### Content category
 
 A third and more daring reaction is to experiment and go out of your comfort zone, by trying new things (new topics, new styles...) and changing their Youtube identity. Maybe you're starting to think that Fortnite might be a tad bit too restrictive ! 
 
-**So how did we measure that ?** Well we could have used titles and description but this would have required a massive computation strength... and our computer just couldn't handle it. **But we did better !** We used an awesome feature given by Youtube... **TAGS**. Those help direct to your channel people that have similar interest and would watch videos with the same topic. Tags are fully customizable so can be as precise as 'Daily vlogs of an esthetician in Utah' and as vague as 'Gaming'. 
+<div style="display: flex; align-items: center;">
+  <p style="flex: 1; margin-right: 20px;">
+    <b>So how did we measure that ?</b> Well we could have used titles and description but this would have required a massive computation strength... and our computer just couldn't handle it. <b>But we did better !</b> We used an awesome feature given by Youtube... <b>TAGS</b>. Those help direct to your channel people that have similar interest and would watch videos with the same topic. Tags are fully customizable so can be as precise as 'Daily vlogs of an esthetician in Utah' and as vague as 'Gaming'. 
+  </p>
+  <img src="/assets/img/tags.png" alt="Description of image" style="width: 150px;">
+</div>
 
 Getting this data allows us determine whether the reactions include changing the topics of interest, and we will use these statistics to find the best strategy. Burning question: **How to determine topics based on tags?**
 
