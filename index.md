@@ -694,6 +694,7 @@ On average, channels that change their video topics experience a slight increase
 <!--  t-test ? something to prove it --> 
 While this is encouraging, we have to emphasize that **this approach can have mixed results**, and the impact on your recovery rate will depend heavily on the types of topics you choose to pivot to. **It is not about if you change or not, it is from where and to where you change !**
 Let's investigate using a interactive Sankey diagram showing topic transitions and their recovery rates, colored by recovery rate (cooler colors represent higher recovery rates)
+<div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
 
 <div id="sankey-plot" style="width:100%;"></div>
 
@@ -814,6 +815,11 @@ Let's investigate using a interactive Sankey diagram showing topic transitions a
     })
     .catch(error => console.error('Error loading the JSON data:', error));
 </script>
+
+<!-- PNG Image -->
+<div style="width: 45%; min-width: 300px;">
+  <img src="EvaFrossard.github.io\assets\img\legend_sankey.png" alt="legend" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;" />
+</div>
 
 <p>Looking to see which topic transitions work in your niche is quite a hassle. For instance, channels focused on movie reviews often see positive changes in recovery when they switch topics, though transitioning to topics like politics could negatively impact your recovery. On the other hand, gameplay channels should be careful when changing topics, as only a shift to Fortnite-related content seems to maintain or increase engagement. <b>It's all on a very thin line!</b> </p>
 If you’re considering making a shift, we recommend focusing on topics that have historically shown positive outcomes, such as **beauty and lifestyle or gaming-related content**, while being cautious about venturing into politics or kids videos, where the change could backfire. Remember that your choice should be guided by your category of origin!
