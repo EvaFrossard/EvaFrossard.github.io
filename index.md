@@ -266,7 +266,7 @@ crisis, and will now walk you through them. Take notes !
 
 ### Upload frequency
 
-You might have thought that getting **more active on the platform** would make you regain your audience or at least will make you gain a new public, because the Youtube algorithm would put you forward. Without entering into the specifics of this dark and unknown algorithm... NO, not really how that works :) 
+You might have thought that getting **more active on the platform** would make you regain your audience or at least will make you gain a new public, because the Youtube algorithm would put you forward. 
 
 Maybe you've considered **taking a break**, make them wait a little and be more desirable (we see you mister pick-me) before making a big come back, maybe ? 
 
@@ -686,8 +686,6 @@ TODO: add icon
       Evaluating the impact of subject changes should not be done as a whole: the categories and possible transitions are too numerous to be aggregated into one variable. To go into greater detail, we analyze the consequences by direction: going from <b>Politics</b> to <b>Lifestyle</b> videos should be distinguished from changing from <b>Movie reviews</b> to <b>League of Legends</b> content. 
   </p>
 </div>
-
-<iframe src="/assets/data/topic_change_bar_chart.html" width="100%" height="600" frameborder="0"></iframe>
 
 On average, channels that change their video topics experience a slight increase in recovery rates compared to those that do not.
 <!--  t-test ? something to prove it --> 
