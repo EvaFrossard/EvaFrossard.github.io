@@ -835,7 +835,9 @@ If you’re considering making a shift, we recommend focusing on topics that hav
 <div style="border: 0px solid red; padding: 10px; display: inline-block;"><p>
   <h2> <span style="color: #b51a00;"> Part of the very exclusive 1 million + subscribers and suffering from a decline ? </span> </h2>
 
-  Let’s face it — you wouldn’t still be reading this unless you’d royally messed up, would you? You’ve stepped on the internet landmine, and now your channel is caught in the crosshairs of a… <b>BAD BUZZ</b> 😱.
+  <br>
+  
+  Let’s face it — you wouldn’t still be reading this unless you’d royally messed up, would you? You’ve stepped on the internet landmine, and now your channel is caught in the crosshairs of a… <b>BAD BUZZ</b> 😱. <br>
   
   <br>
 
@@ -844,9 +846,13 @@ If you’re considering making a shift, we recommend focusing on topics that hav
 
   <h3><span style="color: #b51a00;">The Challenges of a Big YouTuber in a Crisis</span></h3>
 
-  From now on, our analysis will be focusing on the top <b>4%</b> (2955 out of 74788) of channels (that have had suffered from a decline) — the people just like you, the crème de la crème, in other words the ones with more than 1 million subscribers. You're no stranger to it all, you are the most visible but also the most vulnerable to public backlash. 
+  From now on, our analysis will be focusing on the top <b>4%</b> (2955 out of 74788) of channels (that have had suffered from a decline) — the people just like you, the crème de la crème, in other words the ones with more than 1 million subscribers. You're no stranger to it all, you are the most visible but also the most vulnerable to public backlash. <br>
+
+  <br>
 
   When a big YouTuber like you faces a crisis, <b>the stakes are high</b>. The potential loss of subscribers, sponsors, and revenue can be catastrophic, in others words we know you spend your entire day scrolling on Youtube analytics. But the good news is that you are also the ones with the most influence and thus power in their upload content, so <b>recovery is possible (YAY !)</b> ! 
+
+   <br>
 
   Our analysis of your peers has revealed some <b>fascinating trends</b>. Whether it’s a Twitter faux pas, a controversial statement, or a scandal you never saw coming, the strategies for clawing back your reputation vary dramatically depending on the moves you make right now. (Insert dramatic pause for effect. You’re feeling the pressure, aren’t you?). But hey, before you run off to film a tearful apology, let’s talk about why some YouTubers manage to recover from their digital nightmares while others end up in the dreaded “what did they become?” category. 
 
