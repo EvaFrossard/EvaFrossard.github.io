@@ -319,7 +319,8 @@ Getting this data allows us determine whether the reactions include changing the
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>Latent Dirichlet Allocation</b></summary>     
-      <b>Unsupervised classification of documents</b>, similar to clustering on numeric data, which finds some natural groups of items (topics). The aim of LDA is to find topics a document (seen as a 'bag of words') belongs to, based on the words in it.
+      <b>Unsupervised classification of documents</b>, similar to clustering on numeric data, which finds some natural groups of items (topics). The aim of LDA is to find topics a document (seen as a 'bag of words') belongs to, based on the words in it. Each topic is characterized by a list of words (the tokens with the greatest probabilities of appearing in the document). The LDA can be used to reduce the complexity of text data by representing documents in terms of a small number of topics instead of all individual words.
+
    </details>
 </div>
 
@@ -370,7 +371,7 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>Pearson's correlation</b></summary>     
-      Measurement of both the strength and direction of a linear relationship between two continuous variables. It ranges from -1 showing perfect negative correlation and 1 for perfect positive correlation. 
+      Measurement of both the strength and direction of a linear relationship between two continuous variables. It ranges from  \(-1\( showing perfect negative correlation and \(1\( for perfect positive correlation. When using Pearson's correlation, it is assumed that the relationship between the two variables is linear, that their distribution is normal and that the variance is homogeneous across all levels of the independent variable.
    </details>
 </div>
 
@@ -545,13 +546,6 @@ In order to see if these strategies led to statistically significant differences
     A t-test is used to determine wether a difference between two groups is likely due to random chance or if it reflects a statistically significant difference in the populations. A t-test calculates a statistic called the t-value, which measures how much the two means differ, relative to the variability in the data. 
     $$ t = \frac{\bar{X_1} - \bar{X_2}}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}} $$
     Then, the probability of obtaining a result at least as extreme as the one observed (p-value) is computed and compared to a chosen significance level. In this whole project, we always used a significance level of 0.05 and discarded the null hypothesis, stating that there is no difference in recovery rates between the two group, whenever the p-value is less than this significance level.
-   </details>
-</div>
-
-<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 2;">
-  <details open> 
-    <summary style = "font-size: 18px; cursor: pointer;"><b>Rolling average</b></summary>     
-        <b> Why ?</b> Because the rolling average acts as a smoothed baseline, calculated using a defined window (we arbitrarily used a 'window' of 20 weeks), which helps to identify deviations from the expected trend. When the growth of your channel falls below the rolling average, it suggests that the channel's performance has dipped relative to its typical trend. 
    </details>
 </div>
 
