@@ -374,8 +374,7 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
    </details>
 </div>
 
-
-
+<div class="flourish-embed flourish-heatmap" data-src="visualisation/20877783"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20877783/thumbnail" width="100%" alt="heatmap visualization" /></noscript></div>
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
   First of all, here are the results of a <b>Logistic regression</b> of recovery on the reactions. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery. Before performing it, we standardize our attributes to put them  all on the same scale, and be able to compare coefficients better. 
