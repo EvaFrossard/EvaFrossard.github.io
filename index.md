@@ -473,13 +473,10 @@ All put together, here is the **formula** for the logistic regression produces o
 
 <div style="border: 2px solid red; padding: 10px; display: inline-block;">
   <ol>
-      \\(Recovery = -0.3 + 4\times 10^{-04} \times D_\text{Posted longer videos} + 2.3 \times 10^{-02} \times D_\text{Posted shorter videos} + 0.06 \times D_\text{Posted more}\\)  
-      \\(- 0.3 \times D_\text{Posted less} - 0.02 \times D_\text{Topic change}\\)
+      $$Recovery = -0.3 + 4\times 10^{-04} \times D_\text{Posted longer videos} + 2.3 \times 10^{-02} \times D_\text{Posted shorter videos} + 0.06 \times D_\text{Posted more}$$  
+      $$- 0.3 \times D_\text{Posted less} - 0.02 \times D_\text{Topic change}$$
   </ol>
 </div>  
-
-\\(Recovery = -0.3 + 4\times 10^{-04} \times D_\text{Posted longer videos} + 2.3 \times 10^{-02} \times D_\text{Posted shorter videos} + 0.06 \times D_\text{Posted more}\\)  
-\\(- 0.3 \times D_\text{Posted less} - 0.02 \times D_\text{Topic change}\\)
 
 Where \\( D_{\text{group}} \\) represents a dummy variable that is \\(1\\) if the decline belongs to the \\( group \\) and \\(0\\) otherwise.
 
@@ -544,13 +541,6 @@ In order to see if these strategies led to statistically significant differences
     A t-test is used to determine wether a difference between two groups is likely due to random chance or if it reflects a statistically significant difference in the populations. A t-test calculates a statistic called the t-value, which measures how much the two means differ, relative to the variability in the data. 
     $$ t = \frac{\bar{X_1} - \bar{X_2}}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}} $$
     Then, the probability of obtaining a result at least as extreme as the one observed (p-value) is computed and compared to a chosen significance level. In this whole project, we always used a significance level of 0.05 and discarded the null hypothesis, stating that there is no difference in recovery rates between the two group, whenever the p-value is less than this significance level.
-   </details>
-</div>
-
-<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 2;">
-  <details open> 
-    <summary style = "font-size: 18px; cursor: pointer;"><b>Rolling average</b></summary>     
-        <b> Why ?</b> Because the rolling average acts as a smoothed baseline, calculated using a defined window (we arbitrarily used a 'window' of 20 weeks), which helps to identify deviations from the expected trend. When the growth of your channel falls below the rolling average, it suggests that the channel's performance has dipped relative to its typical trend. 
    </details>
 </div>
 
