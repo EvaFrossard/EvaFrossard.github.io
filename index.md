@@ -362,7 +362,7 @@ As you can see, everything is possible when it comes to changing the topic of yo
 
 ## All of those factors... but which one matters ! 
 
-Easy task, we have so far just listed the reaction possible, but which one do work ? 
+We have so far just listed the possible reaction, an easy task, but which one do work ? 
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
   Let's start by figuring out if some have some linear relationship. To do so, we are going to perform <b>Pearson's correlation</b> between every pair of reaction, and visualize them performing a correlation matrix.
@@ -375,8 +375,9 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
    </details>
 </div>
 
+<br>
 
-
+<div class="flourish-embed flourish-heatmap" data-src="visualisation/20877783"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20877783/thumbnail" width="100%" alt="heatmap visualization" /></noscript></div>
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
   First of all, here are the results of a <b>Logistic regression</b> of recovery on the reactions. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery. Before performing it, we standardize our attributes to put them  all on the same scale, and be able to compare coefficients better. 
@@ -475,13 +476,14 @@ All put together, here is the **formula** for the logistic regression produces o
 
 <div style="border: 2px solid red; padding: 10px; display: inline-block;">
   <ol>
-      \\(Recovery = -0.3 + 4\times 10^{-04} \times D_\text{Posted longer videos} + 2.3 \times 10^{-02} \times D_\text{Posted shorter videos} + 0.06 \times D_\text{Posted more}\\)  
-      \\(- 0.3 \times D_\text{Posted less} - 0.02 \times D_\text{Topic change}\\)
+      $$Recovery = -0.3 $$
+      $$ + 4\times 10^{-04} \times D_\text{Posted longer videos} $$  
+      $$ + 2.3 \times 10^{-02} \times D_\text{Posted shorter videos $$  
+      $$ + 0.06 \times D_\text{Posted more}$$   
+      $$ - 0.3 \times D_\text{Posted less}$$  
+      $$ - 0.02 \times D_\text{Topic change}$$  
   </ol>
 </div>  
-
-\\(Recovery = -0.3 + 4\times 10^{-04} \times D_\text{Posted longer videos} + 2.3 \times 10^{-02} \times D_\text{Posted shorter videos} + 0.06 \times D_\text{Posted more}\\)  
-\\(- 0.3 \times D_\text{Posted less} - 0.02 \times D_\text{Topic change}\\)
 
 Where \\( D_{\text{group}} \\) represents a dummy variable that is \\(1\\) if the decline belongs to the \\( group \\) and \\(0\\) otherwise.
 
