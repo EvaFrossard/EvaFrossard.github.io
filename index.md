@@ -467,18 +467,20 @@ Where \\(feature_s\\) denotes the value of \\( feature \\) at the start of the d
 \end{equation}
 --->
 
-This regression allows us to find how the predictor variables (as stated in the table) influence your recovery. The bigger in absolute size, the more the variable weight in on your recovery. Here, posting less videos, posted more videos and posted shorter videos hold the most importance. But don't get ahead of yourself  yet ! That's where the p-value comes into play...
+This regression allows us to find how the predictor variables (as stated in the table) influence your recovery. The bigger in absolute size, the more the variable weight in on your recovery. Here, posting less videos, posted more videos and posted shorter videos hold the most importance. **But don't get ahead of yourself yet !** That's where the p-value comes into play...
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>p-value</b> </summary>     
       The <b>p-value</b> is a number that tells you how likely it is that the results you see in your data happened only by chance. We will take the threshold of 0.05.
       <ul>
-        <li><b> A small p-value (less than 0.05)</b> signifies that it is unlikely that results are random, so there is probably a real effect and it is not up to chance </b></li>
+        <li><b> A small p-value (less than 0.05)</b> signifies that it is unlikely that results are random, so there is probably a real effect and it is not up to chance</li>
         <li><b>A large p-value (more than 0.05)</b> on the other hand means that the results could easily be due to chance, so there might not be a real effect.</li>
       </ul>
    </details>
 </div>
+
+Here, only the variable representing posting more and posting less were significant ! However in different direction... Posting more has a positive coefficient so it influences positively your recovery, whereas posting less influences it even more, but not on the side you desire... 
 
 <div style="border-left: 4px solid #3BB143; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details> 
