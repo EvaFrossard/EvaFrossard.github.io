@@ -155,10 +155,17 @@ Why us and not some wanabee adviser on YouTube ? Well, because we based all our 
   <img src="/assets/img/curve_icon.jpg" alt="Description of image" style="width: 150px;">
 </div>
 
-Since Youtube hasn't stopped gaining new users, we have reached the conclusion that very few channels will actively face a decrease in their total subscriber count. However, we can detect decline by noticing in your stats a significant slowdown in the growth rate of your subscribers, which may indicate potential issues such as reduced engagement or a negative reception by the audience. To go further, we compared the actual growth rate of channels against the rolling average growth rate.
+Since Youtube hasn't stopped gaining new users, we have reached the conclusion that very few channels will actively face a decrease in their total subscriber count. However, we can detect decline by noticing in your stats a significant slowdown in the growth rate of your subscribers, which may indicate potential issues such as reduced engagement or a negative reception by the audience. 
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
-  <b> Why ?</b> Because the rolling average acts as a smoothed baseline, calculated using a defined window (we arbitrarily used a 'window' of 20 weeks), which helps to identify deviations from the expected trend. When the growth of your channel falls below the rolling average, it suggests that the channel's performance has dipped relative to its typical trend. 
+  To go further, we compared the actual growth rate of channels against the rolling average growth rate.
+</div>
+
+<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 2;">
+  <details open> 
+    <summary style = "font-size: 18px; cursor: pointer;"><b>Rolling average</b></summary>     
+        <b> Why ?</b> Because the rolling average acts as a smoothed baseline, calculated using a defined window (we arbitrarily used a 'window' of 20 weeks), which helps to identify deviations from the expected trend. When the growth of your channel falls below the rolling average, it suggests that the channel's performance has dipped relative to its typical trend. 
+   </details>
 </div>
 
 <div style="width: 100%; max-width: 800px; margin: 0 auto;">
@@ -175,9 +182,7 @@ As you can see here, the channel of this mysterious Lance Stewart underwent 2 de
 After playing around with parameters, we have decided on the following:
 
 - a **minimum duration of a decline of 8 weeks**: you could be on holidays without it being a decline !
-
-<!-- show graph explaning why 8 weeks ? OK --->
-- if the decline was 'intense', meaning that there was a 80% growth difference between growth index of your channel and the rolling average, we consider that the channel underwent a massive backlash, and may it be shorter or longer than 2 months, it should be counted as a decline (and a big one, what did you do ?)
+- if the decline was 'intense', meaning that there was a 80% growth difference between growth index of your channel and the rolling average, we consider that the channel underwent a **massive backlash**, and may it be shorter or longer than 2 months, it should be counted as a decline (and a big one, what did you do ?)
 
 After doing so, a little update on what our database is: we had 74788 channels that had declines, with more than 121998 episodes... see ? You're really not alone ! And more than enough to pursue our study ! 
 
@@ -285,25 +290,6 @@ Or you are just a chill guy, you also want your audience to just be chill guys a
   </div>
 </div>
 
-<!-- 
-<div class='reactionlist'>
-  <div class='reactionlistelem'>
-    <img src="/assets/img/PostLess.jpg" class="reactionimg" alt="Someone leaving on a plane" style="width: 100%;">
-    <p class="reactiondesc">Some creators step back from the platform by posting less</p>
-  </div>
-  <div class='reactionlistelem'>
-    <img src="/assets/img/PostNormal.webp" class="reactionimg" alt="Someone working but not too hard"
-    style="width: 100%;">
-    <p class="reactiondesc">Most of them keep uploading the same amount of content</p>
-  </div>
-  <div class='reactionlistelem'>
-    <img src="/assets/img/PostMore.jpg" class="reactionimg" alt="Someone working hard" style="width: 100%;">
-    <p class="reactiondesc">Others get it together and start spamming videos</p>
-  </div>
-</div>
-
---->
-
 ### Video duration
 
 <div style="display: flex; align-items: center; flex-direction: row;">
@@ -315,7 +301,7 @@ Or you are just a chill guy, you also want your audience to just be chill guys a
 
 ### Content category
 
-A third and more daring reaction is to experiment and go out of your comfort zone, by trying new things (new topics, new styles...) and changing their Youtube identity. Maybe you're starting to think that Fortnite might be a tad bit too restrictive ! 
+A third and more daring reaction is to experiment and go out of your comfort zone, by trying new things (new topics, new styles...) and changing their Youtube identity. Maybe you're starting to think that Fortnite might be a tiny bit too restrictive ! 
 
 <div style="display: flex; align-items: center;">
   <p style="flex: 1; margin-right: 20px;">
@@ -378,7 +364,7 @@ As you can see, everything is possible when it comes to changing the topic of yo
 Easy task, we have so far just listed the reaction possible, but which one do work ? 
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
-  First of all, here are the results of a <b>Logistic regression</b> of recovery on the reactions. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery.
+  First of all, here are the results of a <b>Logistic regression</b> of recovery on the reactions. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery. 
 </div>
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
@@ -488,7 +474,7 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
   </table>
 </body>
 
-All put together, here is the **formula** for the logistic regression: 
+All put together, here is the **formula** for the logistic regression produces on standardized predictor variables: 
 <object data="/assets/img/LogitEq.svg" type="image/svg+xml" style="width: 170%; margin-left: -35%;"></object>
 
 Where \\(feature_s\\) denotes the value of \\( feature \\) at the start of the decline, and \\( D_{\text{group}} \\) represents a dummy variable that is \\(1\\) if the decline belongs to the \\( group \\) and \\(0\\) otherwise.
@@ -498,6 +484,21 @@ Where \\(feature_s\\) denotes the value of \\( feature \\) at the start of the d
 -0.1867 + 4.398 \times 10^{-08} \times \text{Subs}{s} + 0.0009 \times \text{Activity}{s} - 8.471 \times 10^{-11} \times \text{Views}{s} + \\ 0.0027 \times D\text{Posted longer videos} + 0.0844 \times D_\text{Posted shorter videos} + 0.1481 \times D_\text{Posted more} - 0.6959 \times D_\text{Posted less} - 0.0471 \times D_\text{Topic change}
 \end{equation}
 --->
+
+This regression allows us to find how the predictor variables (as stated in the table) influence your recovery. The bigger in absolute size, the more the variable weight in on your recovery. Here, posting less videos, posted more videos and posted shorter videos hold the most importance. But don't get ahead of yourself  yet ! That's where the p-value comes into play...
+
+<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
+  <details open> 
+    <summary style = "font-size: 18px; cursor: pointer;"><b>p-value</b> </summary>     
+      The <b>p-value</b> is a number that tells you how likely it is that the results you see in your data happened only by chance. We will take the threshold of 0.05.
+      <ul>
+        <li><b> A small p-value (less than 0.05)</b> signifies that it is unlikely that results are random, so there is probably a real effect and it is not up to chance </b></li>
+        <li><b>A large p-value (more than 0.05)</b> on the other hand means that the results could easily be due to chance, so there might not be a real effect.</li>
+      </ul>
+   </details>
+</div>
+
+
 
 <div style="border-left: 4px solid #3BB143; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details> 
