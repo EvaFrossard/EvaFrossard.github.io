@@ -818,7 +818,7 @@ Let's investigate using a interactive Sankey diagram showing topic transitions a
 
 <!-- PNG Image -->
 <div style="width: 45%; min-width: 300px;">
-  <img src="EvaFrossard.github.io\assets\img\legend_sankey.png" alt="legend" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;" />
+  <img src="/assets/img/podium.png" alt="Description of image" style="width: 150px;"> 
 </div>
 
 <p>Looking to see which topic transitions work in your niche is quite a hassle. For instance, channels focused on movie reviews often see positive changes in recovery when they switch topics, though transitioning to topics like politics could negatively impact your recovery. On the other hand, gameplay channels should be careful when changing topics, as only a shift to Fortnite-related content seems to maintain or increase engagement. <b>It's all on a very thin line!</b> </p>
