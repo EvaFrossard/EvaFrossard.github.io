@@ -475,12 +475,8 @@ All put together, here is the **formula** for the logistic regression produces o
 
 <div style="border: 2px solid red; padding: 10px; display: inline-block;">
   <ol>
-      $$Recovery = -0.3 $$
-      $$ + 4\times 10^{-04} \times D_\text{Posted longer videos} $$  
-      $$ + 2.3 \times 10^{-02} \times D_\text{Posted shorter videos $$  
-      $$ + 0.06 \times D_\text{Posted more}$$   
-      $$ - 0.3 \times D_\text{Posted less}$$  
-      $$ - 0.02 \times D_\text{Topic change}$$  
+      $Recovery = -0.3 + 4\times 10^{-04} \times D_\text{Posted longer videos} + 2.3 \times 10^{-02} \times D_\text{Posted shorter videos $$ + 0.06 \times D_\text{Posted more}$
+      $ - 0.3 \times D_\text{Posted less} - 0.02 \times D_\text{Topic change}$  
   </ol>
 </div>  
 
