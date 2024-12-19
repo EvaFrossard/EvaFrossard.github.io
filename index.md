@@ -157,7 +157,7 @@ Why us and not some wanabee adviser on YouTube ? Well, because we based all our 
 
 Since Youtube hasn't stopped gaining new users, we have reached the conclusion that very few channels will actively face a decrease in their total subscriber count. However, we can detect decline by noticing in your stats a significant slowdown in the growth rate of your subscribers, which may indicate potential issues such as reduced engagement or a negative reception by the audience. 
 
-<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #A493AD">
   To go further, we compared the actual growth rate of channels against the <b>rolling growth average</b> rate.
 </div>
 
@@ -312,7 +312,7 @@ A third and more daring reaction is to experiment and go out of your comfort zon
 
 Getting this data allows us determine whether the reactions include changing the topics of interest, and we will use these statistics to find the best strategy. Burning question: **How to determine topics based on tags?**
 
-<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #A493AD">
   Using <b>Latent Dirichlet Allocation</b> (a natural language processing technique), we are able to extract the main topic of a channel based on the tags <b>before</b> and <b>during</b> crises. The results obtained give us the words that have been put into the same category, but to obtain an overall topic name, we passed the lists through the LLM <b>Ollama</b>. We use 20 different categories to remain broad and not be too sensitive to small content changes.
 </div>
 
@@ -364,7 +364,7 @@ As you can see, everything is possible when it comes to changing the topic of yo
 
 We have so far just listed the possible reactions, an easy task... but which one do work ? We are going to experiment with a couple of methods to find out about it: Pearson's correlation, logistic regression, t-tests and others...
 
-<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #A493AD">
   Let's start by figuring out if some have some linear relationship. To do so, we are going to perform <b>Pearson's correlation</b> between every pair of reaction, and visualize them performing a correlation matrix.
 </div>
 
@@ -382,7 +382,7 @@ We have so far just listed the possible reactions, an easy task... but which one
 TODO: analyse correlation
 
 
-<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #A493AD">
   First of all, here are the results of a <b>Logistic regression</b> of recovery on the reactions. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery. Before performing it, we standardize our attributes to put them  all on the same scale, and be able to compare coefficients better. 
 </div>
 
@@ -518,7 +518,7 @@ Here, only the variable representing posting more and posting less were signific
 
 While analysing and drawing immediate conclusions from this simple regression would be quite naive, it highlights an essential fact : **Each reaction influences the recovery in a unique way.** That is why caution is needed when handling your popularity crisis: One wrong move, and it's **done** ! (You sense then gravity ?)
 
-<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #A493AD">
   As the next step, and in order to get some unbiased results and make the proportion of recoveries meaningful, we chose to perform <b>propensity score matching</b> on our decline dataset. This will balance the dataset regarding the variable whose effect we want to observe, enabling us (and you !) to draw more accurate conclusions.
 </div>
 
@@ -537,7 +537,7 @@ This gives us the following results :
 Finally, some long awaited results ! The balanced data suggests that whilst increasing upload frequency has a relatively great effect on recovery, whereas changing video duration does not seem to play such an important role, same with topic change.
 TODO: More text
 
-<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #A493AD">
   In order to see if these strategies led to statistically significant differences in recovery rates, we performed a <b>t-test analysis</b> with a significance level of 0.05.
 </div>
 
@@ -654,8 +654,7 @@ This quizz is based on the following graph:
 
 <iframe src='https://flo.uri.sh/visualisation/20874403/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:400px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/20874403/?utm_source=embed&utm_campaign=visualisation/20874403' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
-<!-- TODO: changer les valeurs après que nath ait rerun le matching -->
-We can see that the lowest recovery rate corresponds to the channels posting less than 0.5 times per week and then increases with the frequency until reaching a peak at a moderate frequency of <b>3-4 times per week</b>. This upload frequency beats all records with a recovery rate of 65.1%. Maintaining a consistent publication schedule is beneficial for keeping your audience engaged and improving your chances of recovering from your decline, but be careful not to overwhelm your audience or compromise content quality! Posting too often (more than 4-5 times per week) might lead to diminishing returns, as seen in the dip in recovery rates beyond 4 videos per week.
+We can see that the lowest recovery rate corresponds to the channels posting less than 0.5 times per week and then increases with the frequency. The upload frequencies above 5 videos per week beat all records with an average recovery rate of 52.1%. Maintaining a consistent publication schedule is beneficial for keeping your audience engaged and improving your chances of recovering from your decline, but be careful not to compromise content quality!
 
 TODO: add icon 
 
@@ -933,7 +932,7 @@ If you’re considering making a shift, we recommend focusing on topics that hav
       <b>This time, the winners are ...</b>
       At the very top of the podium, the category <span style="color: #004AAD;">"Travel & Events"</span> confirms its stronger than the average forgivability  but this with a shoking <b>100%</b> recovery rate, followed by <span style="color: #004AAD;">"Autos & Vehicles"</span> with a solid <b>90%</b> - that's good news if you make Road Trips videos ;) 
       <br>
-      Of course, there is also a <b>big loser</b>... the <span style="color: #b51a00;">"Music"</span> category! Again, music seems to be a non-forgiving place, with a very modest recovery rate of <b>16.85%</b> (two times lower than with all channels).
+      Of course, there is also a <b>big loser</b>... the <span style="color: #B40426;">"Music"</span> category! Again, music seems to be a non-forgiving place, with a very modest recovery rate of <b>16.85%</b> (two times lower than with all channels).
       <br>
     </p>
   </div>
@@ -941,7 +940,7 @@ If you’re considering making a shift, we recommend focusing on topics that hav
   <div style="display: flex; align-items: center;">
     <p style="flex: 1; margin-right: 20px;">
       There are also some categories where big youtubers manage to <b>positively reverse the trend</b> and recover better than the average for all channels in this category. It is the case for <span style="color: #004AAD;">"Autos & Vehicles"</span>, <span style="color: #004AAD;">"Comedy"</span>, <span style="color: #004AAD;">"Film and Animation"</span>, <span style="color: #004AAD;">"People & Blogs"</span>, <span style="color: #004AAD;">"Science & Technology"</span> and our loved <span style="color: #004AAD;">"Travel & Events"</span>. <br>
-      But if there are positive reverses, there also <b>negative</b> ones... <span style="color: #b51a00;">"Music"</span> and <span style="color: #b51a00;">"News & Politics"</span> are the two categories where big youtubers recover worse than the average for all channels in this category. Not good news if you are in one of them...<br />
+      But if there are positive reverses, there also <b>negative</b> ones... <span style="color: #B40426;">"Music"</span> and <span style="color: #B40426;">"News & Politics"</span> are the two categories where big youtubers recover worse than the average for all channels in this category. Not good news if you are in one of them...<br />
       (Honorable mention to "Nonprofits & Activism" category that sadly doesn't contain a single big youtuber...) 
     </p>
     <img src="/assets/img/switch.png" alt="Note on the plot" style="width: 150px;">
@@ -991,7 +990,7 @@ If you’re considering making a shift, we recommend focusing on topics that hav
   We can already see that the most common strategy (maybe because it's the easiest ?) is to spam clickbait videos. But is it the most effective strategies ? The response lies only in the data...<br />
   <br />
 
-  <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
+  <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #A493AD">
   Again, in order to get some unbiased results and make the proportion of recoveries meaningful, we performed <b>propensity score matching</b> on our decline dataset for big youtubers to observe the impact of each type of video. This is mandatory since the amount of channels uploading videos of these types is nothing compared to those you don't.
   </div>
   <br />
@@ -1072,7 +1071,7 @@ If you’re considering making a shift, we recommend focusing on topics that hav
                   <span style="margin-left: 5px;">Strategy Not Applied</span>
               </div>
               <div style="display: flex; align-items: center;">
-                  <svg width="20" height="20"><circle cx="10" cy="10" r="8" fill="#b51a00"></circle></svg>
+                  <svg width="20" height="20"><circle cx="10" cy="10" r="8" fill="#B40426"></circle></svg>
                   <span style="margin-left: 5px;">Strategy Applied</span>
               </div>
               <div style="display: flex; align-items: center;">
