@@ -998,8 +998,8 @@ If you’re considering making a shift, we recommend focusing on topics that hav
   The LLM analyzed cautiously the title of all the <b>107,618</b> videos uploaded by these big youtubers during their respective crisis. The following plot shows how many videos fall into each of these categories among this considerable amount of videos, according to the LLM, based on their title.<br />
   <br />
 
-  [TODO: plot(apology=198,clickbait=78351,break=568,comeback=902,featuring=4150,decline_addressed=2675)]<br />
-  <br />
+  TODO: plot(apology=198,clickbait=78351,break=568,comeback=902,featuring=4150,decline_addressed=2675)
+  
 
   We can already see that the most common strategy (maybe because it's the easiest ?) is to spam clickbait videos. But is it the most effective strategies ? The response lies only in the data...<br />
   <br />
