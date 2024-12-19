@@ -641,7 +641,7 @@ A key question for creators facing a decline is:
 <div class="flourish-embed flourish-quiz" data-src="visualisation/20839812"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20839812/thumbnail" width="100%" alt="quiz visualization" /></noscript></div>
 
 This quizz is based on the following graph:
-![](/assets/img/graph_average_recovery_rate.jpeg)
+<div class="flourish-embed flourish-chart" data-src="visualisation/20874403"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20874403/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
 <!--  maybe a t-test to show revelancy, because it looks a bit empty--> 
 <!-- (How to Present the Data ?
