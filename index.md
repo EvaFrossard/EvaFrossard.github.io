@@ -477,11 +477,14 @@ TODO: analyse correlation
 All put together, here is the **formula** for the logistic regression produces on standardized predictor variables: 
 
 <div style="border: 2px solid red; padding: 10px; display: inline-block;">
-  <ol>
-      $Recovery = -0.3 + 4\times 10^{-04} \times D_\text{Posted longer videos} + 2.3 \times 10^{-02} \times D_\text{Posted shorter videos + 0.06 \times D_\text{Posted more}$  
-      $ - 0.3 \times D_\text{Posted less} - 0.02 \times D_\text{Topic change}$  
-  </ol>
-</div>  
+  \[
+  \text{Recovery} = -0.3 + 4 \times 10^{-4} \times D_{\text{Posted longer videos}} 
+  + 2.3 \times 10^{-2} \times D_{\text{Posted shorter videos}}
+  + 0.06 \times D_{\text{Posted more}} 
+  - 0.3 \times D_{\text{Posted less}} 
+  - 0.02 \times D_{\text{Topic change}}
+  \]
+</div>
 
 Where \\( D_{\text{group}} \\) represents a dummy variable that is \\(1\\) if the decline belongs to the \\( group \\) and \\(0\\) otherwise.
 
@@ -823,14 +826,17 @@ Let's investigate using a interactive Sankey diagram showing topic transitions a
 <p>Looking to see which topic transitions work in your niche is quite a hassle. For instance, channels focused on movie reviews often see positive changes in recovery when they switch topics, though transitioning to topics like politics could negatively impact your recovery. On the other hand, gameplay channels should be careful when changing topics, as only a shift to Fortnite-related content seems to maintain or increase engagement. <b>It's all on a very thin line!</b> </p>
 If you’re considering making a shift, we recommend focusing on topics that have historically shown positive outcomes, such as **beauty and lifestyle or gaming-related content**, while being cautious about venturing into politics or kids videos, where the change could backfire. Remember that your choice should be guided by your category of origin!
 
-
 <!--NICO-->
 
-<div style="border: 0px solid red; padding: 10px; display: inline-block; border-radius: 15px"><p>
-  <h2> Part of the very exclusive 1 million + subscribers and suffering from a decline ? </h2>
-  <br />
+<div style="text-align: center;">
+  <img src="/assets/img/1mclub.png" alt="Description" width="500">
+</div>
+
+<div style="border: 0px solid red; padding: 10px; display: inline-block;"><p>
+  <h2> <span style="color: #b51a00;"> Part of the very exclusive 1 million + subscribers and suffering from a decline ? </span> </h2>
+
   Let’s face it — you wouldn’t still be reading this unless you’d royally messed up, would you? You’ve stepped on the internet landmine, and now your channel is caught in the crosshairs of a… <b>BAD BUZZ</b> 😱. 
-  <br />
+  <br>
 
   If you’ve scrolled through the previous sections and still can’t find a fix, it’s because your situation requires more than the usual “post more consistently” or “engage with your audience” advice. But fear not! While the internet’s collective fury can feel like a raging storm, we’ve armed ourselves with data analysis and research to help you turn this ship around. <br />
   <br />
