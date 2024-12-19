@@ -506,17 +506,17 @@ Where \\( D_{\text{group}} \\) represents a dummy variable that is \\(1\\) if th
    </details>
 </div>
 
-Here, only the variable representing posting more and posting less were significant ! However in different direction... **Posting more has a positive coefficient so it influences positively your recovery**, whereas posting less influences it even more, but not on the side you desire... 
+Here, only the variable representing posting more and posting less were significant ! However in different direction... **Posting more has a positive coefficient so it influences positively your recovery**, whereas posting less influences it even more, but not on the side you would desire... 
 
 <div style="border-left: 4px solid #3BB143; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>For ADA specialists</b> </summary>     
-      Here is out table of result from the regression. We are very much aware of the extremely low value of the R-squared, and the overall low significance of coefficients. The database has all and every possible values and we tried to find some sort of 'trend', we base ourselves on lowly significant values, but needed to pursue a correct data story.
+      Here is our table of result from the regression. We are very much aware of the extremely low value of the R-squared, and the overall low significance of coefficients. The database has all and every possible values and we tried to find some sort of 'trend', we base ourselves on lowly significant values, but needed to pursue a correct data story.
       <img src="/assets/img/regression_results.png" alt="Description of image">
    </details>
 </div>
 
-While analysing and drawing conclusions from this simple regression would be quite naive, it highlights an essential fact : **Each reaction influences the recovery in a unique way.** That is why caution is needed when handling your popularity crisis: One wrong move, and it's **done** ! (You sense then suspense ? )
+While analysing and drawing immediate conclusions from this simple regression would be quite naive, it highlights an essential fact : **Each reaction influences the recovery in a unique way.** That is why caution is needed when handling your popularity crisis: One wrong move, and it's **done** ! (You sense then gravity ?)
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
   As the next step, and in order to get some unbiased results and make the proportion of recoveries meaningful, we chose to perform <b>propensity score matching</b> on our decline dataset. This will balance the dataset regarding the variable whose effect we want to observe, enabling us (and you !) to draw more accurate conclusions.
@@ -535,8 +535,7 @@ This gives us the following results :
 <div class="flourish-embed flourish-chart" data-src="visualisation/20782011"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20782011/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
 Finally, some long awaited results ! The balanced data suggests that whilst increasing upload frequency has a relatively great effect on recovery, whereas changing video duration does not seem to play such an important role, same with topic change.
-
-In order to see if these strategies led to statistically significant differences in recovery rates, we performed a **t-test analysis** with a significance level of 0.05.
+TODO: More text
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
   In order to see if these strategies led to statistically significant differences in recovery rates, we performed a <b>t-test analysis</b> with a significance level of 0.05.
@@ -545,7 +544,7 @@ In order to see if these strategies led to statistically significant differences
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>t-test analysis</b></summary>     
-    A t-test is used to determine wether a difference between two groups is likely due to random chance or if it reflects a statistically significant difference in the populations. A t-test calculates a statistic called the t-value, which measures how much the two means differ, relative to the variability in the data. 
+    A t-test is used to determine whether a difference between two groups is likely due to random chance or if it reflects a statistically significant difference in the populations. A t-test calculates a statistic called the <b>t-value</b>, which measures how much the two means differ, relative to the variability in the data. 
     $$ t = \frac{\bar{X_1} - \bar{X_2}}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}} $$
     Then, the probability of obtaining a result at least as extreme as the one observed (p-value) is computed and compared to a chosen significance level. In this whole project, we always used a significance level of 0.05 and discarded the null hypothesis, stating that there is no difference in recovery rates between the two group, whenever the p-value is less than this significance level.
    </details>
@@ -626,11 +625,11 @@ The results are as follows:
   </table>
 </body>
 
-The t-test results reveal that only the two strategies concerning the video upload frequency show statistically significant differences in recovery rated. An increase in video frequency shows a higher mean recovery rate for those who adopted the strategy compared to those who did not. Conversely, posting less videos is associated with a lower mean recovery rate.
+The t-test results reveal that only the two strategies concerning the **video upload frequency** show statistically significant differences in recovery rated, which is an accordance with the regression results. An increase in video frequency shows a higher mean recovery rate for those who adopted the strategy compared to those who did not. Conversely, posting less videos is associated with a lower mean recovery rate.
 
-This being a very generic results, we will dive deeper into all of those subjects to still maximize your chances, since further analysis leads us to insteresting results that are worth detailing ! **Onto the solutions now !**
+This being a very generic results, we will dive deeper into all of those subjects to make you maximise your chances with personnalized advices, since further analysis leads us to insteresting results that are worth detailing ! **Onto the solutions now !**
 
-### Posting frequency and video duration
+### Posting frequency
 
 Good news! Our detailed analysis reveals that increasing your upload frequency is more effective than reducing it. **So what does it mean to increase upload frequency ?**
 
@@ -662,7 +661,7 @@ This quizz is based on the following graph:
 <!-- TODO: changer les valeurs après que nath ait rerun le matching -->
 We can see that the lowest recovery rate corresponds to the channels posting less than 0.5 times per week and then increases with the frequency until reaching a peak at a moderate frequency of <b>3-4 times per week</b>. This upload frequency beats all records with a recovery rate of 65.1%. Maintaining a consistent publication schedule is beneficial for keeping your audience engaged and improving your chances of recovering from your decline, but be careful not to overwhelm your audience or compromise content quality! Posting too often (more than 4-5 times per week) might lead to diminishing returns, as seen in the dip in recovery rates beyond 4 videos per week.
 
-<!--  maybe a t-test to show revelancy, because it looks a bit empty--> 
+### Video duration
 
 Now, about video duration ! Are you feeling more Spielberg or TikTok star ? While our regression analysis suggests that duration has a limited impact on recovery, we decided to investigate further, looking for hidden patterns.
 
