@@ -854,19 +854,24 @@ If you’re considering making a shift, we recommend focusing on topics that hav
 
   <br>
 
-<div style="display: flex; align-items: center;">
-  <p style="flex: 1; margin-right: 20px;">
-    Our analysis of your peers has revealed some <b>fascinating trends</b>. Whether it’s a Twitter faux pas, a controversial statement, or a scandal you never saw coming, the strategies for clawing back your reputation vary dramatically depending on the moves you make right now. (Insert dramatic pause for effect. You’re feeling the pressure, aren’t you?). But hey, before you run off to film a tearful apology, let’s talk about why some YouTubers manage to recover from their digital nightmares while others end up in the dreaded “what did they become?” category.   
-  </p>
-  <img src="/assets/img/controversy.png" alt="Description of image" style="width: 150px;">
-</div>
-
+  <div style="display: flex; align-items: center;">
+    <p style="flex: 1; margin-right: 20px;">
+      Our analysis of your peers has revealed some <b>fascinating trends</b>. Whether it’s a Twitter faux pas, a controversial statement, or a scandal you never saw coming, the strategies for clawing back your reputation vary dramatically depending on the moves you make right now. (Insert dramatic pause for effect. You’re feeling the pressure, aren’t you?). But hey, before you run off to film a tearful apology, let’s talk about why some YouTubers manage to recover from their digital nightmares while others end up in the dreaded “what did they become?” category.   
+    </p>
+  <img src="/assets/img/controversy.png" alt="Description of image" style="width: 300px;">
+  </div>
 
   <h3><span style="color: #b51a00;">The Recovery Rates of Big YouTubers</span></h3>
 
-  We’re not going to leave you hanging with just data and no solutions. Let’s reclaim that subscribe button together.
-
-  For this, we needed to analyze the recovery rates of these big YouTubers based on the type of video they uploaded. First thing you need to know is that not all of the big youtubers have recovered from their bad buzz efficiently. <br />
+  <div style="display: flex; align-items: center;">
+    <img src="/assets/img/subscribe.png" alt="" style="width: 20px; margin-left: 20px;">
+    <p style="flex: 1; margin-left: 20px;">
+      We’re not going to leave you hanging with just data and no solutions. <b>Let’s reclaim that subscribe button together.</b> For this, we needed to analyze the recovery rates of these big YouTubers based on the type of video they uploaded. First thing you need to know is that not all of your colleagues have recovered from their bad buzz efficiently.
+    </p>
+  </div>
+  
+  <br>
+  <br>
 
   <div class="flourish-embed flourish-election" data-src="visualisation/20860562"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20860562/thumbnail" width="100%" alt="election visualization" /></noscript></div>
 
