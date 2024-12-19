@@ -364,7 +364,7 @@ As you can see, everything is possible when it comes to changing the topic of yo
 Easy task, we have so far just listed the reaction possible, but which one do work ? 
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
-  First of all, here are the results of a <b>Logistic regression</b> of recovery on the reactions. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery. 
+  First of all, here are the results of a <b>Logistic regression</b> of recovery on the reactions. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery. Before performing it, we standardize our attributes to put them  all on the same scale, and be able to compare coefficients better. 
 </div>
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
@@ -375,7 +375,7 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
 </div>
 
 
-<img src="/assets/img/LogistSummary.png" alt="Logistic regression summary showing coefficients and p-values" style="width: 60%; margin: auto; display: block;">
+<img src="/assets/img/logit_coefficients.png" alt="Logistic regression summary showing coefficients and p-values" style="width: 60%; margin: auto; display: block;">
 
 <head>
   <meta charset="UTF-8">
@@ -419,56 +419,38 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
     </tr>
     <tr>
       <td>const</td>
-      <td>-0.19</td>
+      <td>-0.3</td>
       <td>0.00</td>
       <td>True</td>
     </tr>
     <tr>
-      <td>Subs_start</td>
-      <td>4.4e-8</td>
-      <td>0.08</td>
-      <td>False</td>
-    </tr>
-    <tr>
-      <td>Activity_start</td>
-      <td>9e-4</td>
-      <td>0.32</td>
-      <td>False</td>
-    </tr>
-    <tr>
-      <td>Views_start</td>
-      <td>-8.5e-11</td>
-      <td>0.25</td>
-      <td>False</td>
-    </tr>
-    <tr>
       <td>Posted_longer_videos</td>
-      <td>2.7e-3</td>
-      <td>0.94</td>
+      <td>4e-4</td>
+      <td>0.97</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Posted_shorter_videos</td>
+      <td>2.3e-2</td>
       <td>0.08</td>
-      <td>0.06</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Posted_more</td>
-      <td>0.15</td>
-      <td>0</td>
+      <td>0.06</td>
+      <td>4.05e-6</td>
       <td>True</td>
     </tr>
     <tr>
       <td>Posted_less</td>
-      <td>-0.7</td>
+      <td>-0.3</td>
       <td>0</td>
       <td>True</td>
     </tr>
     <tr>
       <td>Topic_change</td>
-      <td>-0.04</td>
-      <td>0.11</td>
+      <td>-0.02</td>
+      <td>0.08</td>
       <td>False</td>
     </tr>
   </table>
@@ -497,8 +479,6 @@ This regression allows us to find how the predictor variables (as stated in the 
       </ul>
    </details>
 </div>
-
-
 
 <div style="border-left: 4px solid #3BB143; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details> 
