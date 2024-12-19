@@ -661,6 +661,8 @@ This quizz is based on the following graph:
 <!-- TODO: changer les valeurs après que nath ait rerun le matching -->
 We can see that the lowest recovery rate corresponds to the channels posting less than 0.5 times per week and then increases with the frequency until reaching a peak at a moderate frequency of <b>3-4 times per week</b>. This upload frequency beats all records with a recovery rate of 65.1%. Maintaining a consistent publication schedule is beneficial for keeping your audience engaged and improving your chances of recovering from your decline, but be careful not to overwhelm your audience or compromise content quality! Posting too often (more than 4-5 times per week) might lead to diminishing returns, as seen in the dip in recovery rates beyond 4 videos per week.
 
+TODO: add icon 
+
 ### Video duration
 
 Now, about video duration ! Are you feeling more Spielberg or TikTok star ? While our regression analysis suggests that duration has a limited impact on recovery, we decided to investigate further, looking for hidden patterns.
@@ -681,6 +683,8 @@ Now, about video duration ! Are you feeling more Spielberg or TikTok star ? Whil
 In this analysis of video durations and frequencies, we used Propensity Score Matching to ensure fair comparisons between the different strategies. Since Youtubers differ in many ways (channel size, category, publication schedule, ...) and we don't want to compare channels with vastly different characteristics, we used PSM to match the channels of each duration or frequency bin with similar channels in the remaining database and ensure that any observed differences in recovery rates are more likely due to upload frequency or mean video duration than other confounding factors.
 
 As a side note, since the data from the YouNiverse stopped being sampled in 2019, we do not have any data on new updates Youtube introduce... and this include the great invention of the **Youtube Shorts**. This Tiktok wanabee might be a key for your Youtube rising fame if you're into short and dynamic videos ! Just fyi...
+
+TODO: add icon
 
 ### A deep dive into topic transitions
 
