@@ -703,7 +703,7 @@ Let's investigate using a interactive Sankey diagram showing topic transitions a
 <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
 
   <!-- Sankey Plot -->
-  <div id="sankey-plot" style="flex: 5; min-width: 400px; max-width: 70%;">
+  <div id="sankey-plot" style="flex: 5; min-width: 400px; max-width: 100%;">
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script type="text/javascript">
       // Function to map normalized recovery rate to color (coolwarm)
@@ -824,7 +824,7 @@ Let's investigate using a interactive Sankey diagram showing topic transitions a
 
   <!-- PNG Image -->
   <div style="flex: 1; min-width: 15px; max-width: 10%; text-align: center;">
-    <img src="/assets/img/legend_sankey.png" alt="Legend for Sankey Plot" style="width: 80%; height: auto;" />
+    <img src="/assets/img/legend_sankey.png" alt="Legend for Sankey Plot" style="width: 100%; height: auto;" />
   </div>
 
 </div>
