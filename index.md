@@ -458,6 +458,14 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
 
 All put together, here is the **formula** for the logistic regression produces on standardized predictor variables: 
 
+<div style="border: 2px solid red; padding: 10px; display: inline-block;">
+  <b>Let's get you onto a little recipe, shall we ?</b>
+  <ol>
+      \\(Recovery = -0.3 + 4\times 10^{-04} \times D_\text{Posted longer videos} + 2.3 \times 10^{-02} \times D_\text{Posted shorter videos} + 0.06 \times D_\text{Posted more}\\)  
+      \\(- 0.3 \times D_\text{Posted less} - 0.02 \times D_\text{Topic change}\\)
+  </ol>
+</div>  
+
 \\(Recovery = -0.3 + 4\times 10^{-04} \times D_\text{Posted longer videos} + 2.3 \times 10^{-02} \times D_\text{Posted shorter videos} + 0.06 \times D_\text{Posted more}\\)  
 \\(- 0.3 \times D_\text{Posted less} - 0.02 \times D_\text{Topic change}\\)
 
@@ -469,7 +477,7 @@ Where \\( D_{\text{group}} \\) represents a dummy variable that is \\(1\\) if th
 \end{equation}
 --->
 
-This regression allows us to find how the predictor variables (as stated in the table) influence your recovery. The bigger in absolute size, the more the variable weight in on your recovery. Here, posting less videos, posted more videos and posted shorter videos hold the most importance. **But don't get ahead of yourself yet !** That's where the p-value comes into play...
+**This regression allows us to find how the predictor variables (as stated in the table) influence your recovery.** The bigger in absolute size, the more the variable weight in on your recovery. Here, posting less videos, posted more videos and posted shorter videos hold the most importance. **But don't get ahead of yourself yet !** That's where the p-value comes into play...
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
