@@ -864,19 +864,18 @@ If you’re considering making a shift, we recommend focusing on topics that hav
   <h3><span style="color: #b51a00;">The Recovery Rates of Big YouTubers</span></h3>
 
   <div style="display: flex; align-items: center;">
-    <img src="/assets/img/subscribe.png" alt="" style="width: 20px; margin-left: 20px;">
+    <img src="/assets/img/subscribe.png" alt="" style="width: 150px; margin-left: 20px;">
     <p style="flex: 1; margin-left: 20px;">
       We’re not going to leave you hanging with just data and no solutions. <b>Let’s reclaim that subscribe button together.</b> For this, we needed to analyze the recovery rates of these big YouTubers based on the type of video they uploaded. First thing you need to know is that not all of your colleagues have recovered from their bad buzz efficiently.
     </p>
   </div>
   
   <br>
-  <br>
 
   <div class="flourish-embed flourish-election" data-src="visualisation/20860562"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20860562/thumbnail" width="100%" alt="election visualization" /></noscript></div>
 
-  One could think that that’s not good news, but you have to see the glass as half full. What it actually shows is that when focusing only on big YouTubers, the recovery rate is not better... BUT also NOT WORSE !<br />
-  <br />
+  One could think that that’s not good news, but you have to see the glass <b>half full</b>. What it actually shows is that when focusing only on big YouTubers, the recovery rate is not better... but also not worse !<br>
+  <br>
 
   As before, let's know dive into the details. The following plot shows the recovery rates of these big YouTubers based on the category of their channel: <br />
 
