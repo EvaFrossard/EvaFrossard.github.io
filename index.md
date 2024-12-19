@@ -158,7 +158,7 @@ Why us and not some wanabee adviser on YouTube ? Well, because we based all our 
 Since Youtube hasn't stopped gaining new users, we have reached the conclusion that very few channels will actively face a decrease in their total subscriber count. However, we can detect decline by noticing in your stats a significant slowdown in the growth rate of your subscribers, which may indicate potential issues such as reduced engagement or a negative reception by the audience. 
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
-  To go further, we compared the actual growth rate of channels against the rolling average growth rate.
+  To go further, we compared the actual growth rate of channels against the <b>rolling growth average</b> rate.
 </div>
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 2;">
@@ -367,26 +367,12 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
   Let's start by figuring out if some have some linear relationship. To do so, we are going to perform <b>Pearson's correlation</b> between every pair of reaction, and visualize them performing a correlation matrix.
 </div>
 
-<head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
-  <script defer src="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/katex/dist/contrib/auto-render.min.js" 
-          onload="renderMathInElement(document.body);"></script>
-</head>
-
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>Pearson's correlation</b></summary>     
-      Measurement of both the strength and direction of a linear relationship between two continuous variables. It ranges from  \(-1\( showing perfect negative correlation and \(1\( for perfect positive correlation. 
+      Measurement of both the strength and direction of a linear relationship between two continuous variables. It ranges from -1 showing perfect negative correlation and 1 for perfect positive correlation. 
    </details>
 </div>
-
-
-
-
-
-
-
 
 
 
@@ -842,7 +828,7 @@ Let's investigate using a interactive Sankey diagram showing topic transitions a
 
   <!-- PNG Image -->
   <div style="flex: 1; min-width: 15px; max-width: 10%; text-align: center;">
-    <img src="/assets/img/legend_sankey.png" alt="Legend for Sankey Plot" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;" />
+    <img src="/assets/img/legend_sankey.png" alt="Legend for Sankey Plot" style="width: 100%; height: auto;" />
   </div>
 
 </div>
