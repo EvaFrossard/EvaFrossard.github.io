@@ -362,7 +362,7 @@ As you can see, everything is possible when it comes to changing the topic of yo
 
 ## All of those factors... but which one matters ! 
 
-We have so far just listed the possible reaction, an easy task, but which one do work ? 
+We have so far just listed the possible reactions, an easy task... but which one do work ? We are going to experiment with a couple of methods to find out about it: Pearson's correlation, logistic regression, t-tests and others...
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
   Let's start by figuring out if some have some linear relationship. To do so, we are going to perform <b>Pearson's correlation</b> between every pair of reaction, and visualize them performing a correlation matrix.
@@ -377,7 +377,10 @@ We have so far just listed the possible reaction, an easy task, but which one do
 
 <br>
 
-<div class="flourish-embed flourish-heatmap" data-src="visualisation/20877783"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20877783/thumbnail" width="100%" alt="heatmap visualization" /></noscript></div>
+<div class="flourish-embed flourish-heatmap" data-src="visualisation/20877783"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20877783/thumbnail" width="70%" alt="heatmap visualization" /></noscript></div>
+
+TODO: analyse correlation
+
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
   First of all, here are the results of a <b>Logistic regression</b> of recovery on the reactions. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery. Before performing it, we standardize our attributes to put them  all on the same scale, and be able to compare coefficients better. 
@@ -389,7 +392,6 @@ We have so far just listed the possible reaction, an easy task, but which one do
     Supervised learning Machine Learning model where the latter log odds as a linear function of X.
    </details>
 </div>
-
 
 <img src="/assets/img/logit_coefficients.png" alt="Logistic regression summary showing coefficients and p-values" style="width: 60%; margin: auto; display: block;">
 
@@ -476,7 +478,7 @@ All put together, here is the **formula** for the logistic regression produces o
 
 <div style="border: 2px solid red; padding: 10px; display: inline-block;">
   <ol>
-      $Recovery = -0.3 + 4\times 10^{-04} \times D_\text{Posted longer videos} + 2.3 \times 10^{-02} \times D_\text{Posted shorter videos $$ + 0.06 \times D_\text{Posted more}$
+      $Recovery = -0.3 + 4\times 10^{-04} \times D_\text{Posted longer videos} + 2.3 \times 10^{-02} \times D_\text{Posted shorter videos + 0.06 \times D_\text{Posted more}$  
       $ - 0.3 \times D_\text{Posted less} - 0.02 \times D_\text{Topic change}$  
   </ol>
 </div>  
@@ -489,7 +491,9 @@ Where \\( D_{\text{group}} \\) represents a dummy variable that is \\(1\\) if th
 \end{equation}
 --->
 
-**This regression allows us to find how the predictor variables (as stated in the table) influence your recovery.** The bigger in absolute size, the more the variable weight in on your recovery. Here, posting less videos, posted more videos and posted shorter videos hold the most importance. **But don't get ahead of yourself yet !** That's where the p-value comes into play...
+**This regression allows us to find how the predictor variables (as stated in the table) influence your recovery.** The bigger in absolute size, the more the variable weight in on your recovery. Here, posting less videos, posted more videos and posted shorter videos hold the most importance. **But don't get ahead of yourself yet !** That's where the p-value comes into play... 
+
+
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
