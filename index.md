@@ -157,11 +157,11 @@ Why us and not some wanabee adviser on YouTube ? Well, because we based all our 
 
 Since Youtube hasn't stopped gaining new users, we have reached the conclusion that very few channels will actively face a decrease in their total subscriber count. However, we can detect decline by noticing in your stats a significant slowdown in the growth rate of your subscribers, which may indicate potential issues such as reduced engagement or a negative reception by the audience. 
 
-<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
   To go further, we compared the actual growth rate of channels against the <b>rolling growth average</b> rate.
 </div>
 
-<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 2;">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; margin-top: 2;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>Rolling average</b></summary>     
         <b> Why ?</b> Because the rolling average acts as a smoothed baseline, calculated using a defined window (we arbitrarily used a 'window' of 20 weeks), which helps to identify deviations from the expected trend. When the growth of your channel falls below the rolling average, it suggests that the channel's performance has dipped relative to its typical trend. 
@@ -312,11 +312,11 @@ A third and more daring reaction is to experiment and go out of your comfort zon
 
 Getting this data allows us determine whether the reactions include changing the topics of interest, and we will use these statistics to find the best strategy. Burning question: **How to determine topics based on tags?**
 
-<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
   Using <b>Latent Dirichlet Allocation</b> (a natural language processing technique), we are able to extract the main topic of a channel based on the tags <b>before</b> and <b>during</b> crises. The results obtained give us the words that have been put into the same category, but to obtain an overall topic name, we passed the lists through the LLM <b>Ollama</b>. We use 20 different categories to remain broad and not be too sensitive to small content changes.
 </div>
 
-<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>Latent Dirichlet Allocation</b></summary>     
       <b>Unsupervised classification of documents</b>, similar to clustering on numeric data, which finds some natural groups of items (topics). The aim of LDA is to find topics a document (seen as a 'bag of words') belongs to, based on the words in it. Each topic is characterized by a list of words (the tokens with the greatest probabilities of appearing in the document). The LDA can be used to reduce the complexity of text data by representing documents in terms of a small number of topics instead of all individual words.
@@ -324,7 +324,7 @@ Getting this data allows us determine whether the reactions include changing the
    </details>
 </div>
 
-<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 2;">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; margin-top: 2;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>Ollama</b></summary>     
       <b>Type of large language model (LLM)</b>, locally loaded into a computer, we here used the model Mistral but we will explain more about it later, in the bad buzz section.
@@ -364,11 +364,11 @@ As you can see, everything is possible when it comes to changing the topic of yo
 
 We have so far just listed the possible reactions, an easy task... but which one do work ? We are going to experiment with a couple of methods to find out about it: Pearson's correlation, logistic regression, t-tests and others...
 
-<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
   Let's start by figuring out if some have some linear relationship. To do so, we are going to perform <b>Pearson's correlation</b> between every pair of reaction, and visualize them performing a correlation matrix.
 </div>
 
-<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>Pearson's correlation</b></summary>     
       Measurement of both the strength and direction of a linear relationship between two continuous variables. It ranges from  \(-1\( showing perfect negative correlation and \(1\( for perfect positive correlation. When using Pearson's correlation, it is assumed that the relationship between the two variables is linear, that their distribution is normal and that the variance is homogeneous across all levels of the independent variable.
@@ -382,11 +382,11 @@ We have so far just listed the possible reactions, an easy task... but which one
 TODO: analyse correlation
 
 
-<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
   First of all, here are the results of a <b>Logistic regression</b> of recovery on the reactions. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery. Before performing it, we standardize our attributes to put them  all on the same scale, and be able to compare coefficients better. 
 </div>
 
-<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>Logistic Regression</b></summary>     
     Supervised learning Machine Learning model where the latter log odds as a linear function of X.
@@ -495,7 +495,7 @@ Where \\( D_{\text{group}} \\) represents a dummy variable that is \\(1\\) if th
 
 
 
-<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>p-value</b> </summary>     
       The <b>p-value</b> is a number that tells you how likely it is that the results you see in your data happened only by chance. We will take the threshold of 0.05.
@@ -518,12 +518,12 @@ Here, only the variable representing posting more and posting less were signific
 
 While analysing and drawing immediate conclusions from this simple regression would be quite naive, it highlights an essential fact : **Each reaction influences the recovery in a unique way.** That is why caution is needed when handling your popularity crisis: One wrong move, and it's **done** ! (You sense then gravity ?)
 
-<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
   As the next step, and in order to get some unbiased results and make the proportion of recoveries meaningful, we chose to perform <b>propensity score matching</b> on our decline dataset. This will balance the dataset regarding the variable whose effect we want to observe, enabling us (and you !) to draw more accurate conclusions.
 </div>
 
 
-<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>Propensity score matching</b> </summary>     
       <b>Propensity score matching</b> is a statistical technique used to estimate the effect of a treatment by accounting for the features that predict receiving the treatment. It is used to reduce selection bias by balancing the features between treated and untreated subjects, taking into account the various confounding variables. 
@@ -537,11 +537,11 @@ This gives us the following results :
 Finally, some long awaited results ! The balanced data suggests that whilst increasing upload frequency has a relatively great effect on recovery, whereas changing video duration does not seem to play such an important role, same with topic change.
 TODO: More text
 
-<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
   In order to see if these strategies led to statistically significant differences in recovery rates, we performed a <b>t-test analysis</b> with a significance level of 0.05.
 </div>
 
-<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>t-test analysis</b></summary>     
     A t-test is used to determine whether a difference between two groups is likely due to random chance or if it reflects a statistically significant difference in the populations. A t-test calculates a statistic called the <b>t-value</b>, which measures how much the two means differ, relative to the variability in the data. 
@@ -1014,7 +1014,7 @@ TODO QUIZ
   We can already see that the most common strategy (maybe because it's the easiest ?) is to spam clickbait videos. But is it the most effective strategies ? The response lies only in the data...<br />
   <br />
 
-  <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
+  <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
   Again, in order to get some unbiased results and make the proportion of recoveries meaningful, we performed <b>propensity score matching</b> on our decline dataset for big youtubers to observe the impact of each type of video. This is mandatory since the amount of channels uploading videos of these types is nothing compared to those you don't.
   </div>
   <br />
