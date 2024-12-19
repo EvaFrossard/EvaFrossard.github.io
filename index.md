@@ -641,23 +641,14 @@ A key question for creators facing a decline is:
 <div class="flourish-embed flourish-quiz" data-src="visualisation/20839812"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20839812/thumbnail" width="100%" alt="quiz visualization" /></noscript></div>
 
 This quizz is based on the following graph:
-<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
 
-  <div class="flourish-embed flourish-chart" data-src="visualisation/20874403">
-    <script src="https://public.flourish.studio/resources/embed.js"></script>
-    <noscript>
-      <img src="https://public.flourish.studio/visualisation/20874403/thumbnail" width="100%" alt="chart visualization" />
-    </noscript>
-  </div>
-
-  <div class="flourish-embed flourish-chart" data-src="visualisation/20874600">
-    <script src="https://public.flourish.studio/resources/embed.js"></script>
-    <noscript>
-      <img src="https://public.flourish.studio/visualisation/20874600/thumbnail" width="100%" alt="chart visualization" />
-    </noscript>
-  </div>
-
+<div class="flourish-embed flourish-chart" data-src="visualisation/20874403">
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+  <noscript>
+    <img src="https://public.flourish.studio/visualisation/20874403/thumbnail" width="100%" alt="chart visualization" />
+  </noscript>
 </div>
+
 <!--  maybe a t-test to show revelancy, because it looks a bit empty--> 
 <!-- (How to Present the Data ?
 To help creators implement this strategy, we can either:
@@ -674,9 +665,19 @@ Now, about video duration ! Are you feeling more Spielberg or TikTok star ? Whil
   </p>
 </div>
 
-In conclusion, our team of experts is confident in saying that you do not need to adjust their average length significantly. However, creators producing videos that last between **15 to 20 minutes show a slightly higher probability of recovery**. This duration may resonate better with your audience, not too long (sorry but you might bore people) whilst still providing interesting content ! **While this insight is subtle, it can guide creators aiming to maximize their recovery potential.**
 
-As a side note, since the data from the YouNiverse stopped being sampled in 2019, we do not have any data on new updates Youtube introduce... and this include the great invention of the **Youtube Shorts**. This Tiktok wanabee might be a key for your Youtube rising fame if you're into short and dynamic videos ! Just fyi...
+<div style="display: flex; align-items: center; flex-direction: row;">
+  <p style="flex: 1;">
+    As a side note, since the data from the YouNiverse stopped being sampled in 2019, we do not have any data on new updates Youtube introduce... and this include the great invention of the **Youtube Shorts**. This Tiktok wanabee might be a key for your Youtube rising fame if you're into short and dynamic videos ! Just fyi...
+  </p>
+  <div class="flourish-embed flourish-chart" data-src="visualisation/20874600">
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+  <noscript>
+    <img src="https://public.flourish.studio/visualisation/20874600/thumbnail" width="100%" alt="chart visualization" />
+  </noscript>
+  </div>
+</div>
+
 
 ### A deep dive into topic transitions
 
