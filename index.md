@@ -937,26 +937,25 @@ If you’re considering making a shift, we recommend focusing on topics that hav
   <div style="display: flex; align-items: center;">
     <img src="/assets/img/star.png" alt="Note on the plot" style="width: 20px; margin-left: 20px;">
     <p style="flex: 1; margin-left: 20px;">
-      While the amount of samples is not the same, there is still some interesting conclusion to make from the comparision of the recovery rates of big youtubers and all channels.
+      While the amount of samples is not the same in every category, there is still some interesting conclusion to gather after comapring the recovery rates of big youtubers VS all channels repartition. For exemple, Travel & Events only have 1 decline counted.
     </p>
   </div>
 
   <div style="display: flex; align-items: center;">
     <img src="/assets/img/podium.png" alt="Description of image" style="width: 150px;">
     <p style="flex: 1; margin-left: 20px;">
-      <b>This time, the winners are ...</b>
-      At the very top of the podium, the category <span style="color: #004AAD;">"Travel & Events"</span> confirms its stronger than the average forgivability  but this with a shoking <b>100%</b> recovery rate, followed by <span style="color: #004AAD;">"Autos & Vehicles"</span> with a solid <b>90%</b> - that's good news if you make Road Trips videos ;) 
+      <b>This time, the winners are ...</b> At the very top of the podium, the category <span style="color: #004AAD;">"Travel & Events"</span> confirms its stronger than average forgivability  but this with a shoking <b>100%</b> recovery rate, followed by <span style="color: #004AAD;">"Autos & Vehicles"</span> with a solid <b>90%</b>, you might just be over the moon if you make road trips videos ;) 
       <br>
-      Of course, there is also a <b>big loser</b>... the <span style="color: #B40426;">"Music"</span> category! Again, music seems to be a non-forgiving place, with a very modest recovery rate of <b>16.85%</b> (two times lower than with all channels).
+      Sadly, there is also a <b>almost-there</b>... the <span style="color: #B40426;">"Music"</span> category! Again, this category seems to be a non-forgiving place, with a very modest recovery rate of <b>16.85%</b> (two times lower than with all channels).
       <br>
     </p>
   </div>
 
   <div style="display: flex; align-items: center;">
     <p style="flex: 1; margin-right: 20px;">
-      There are also some categories where big youtubers manage to <b>positively reverse the trend</b> and recover better than the average for all channels in this category. It is the case for <span style="color: #004AAD;">"Autos & Vehicles"</span>, <span style="color: #004AAD;">"Comedy"</span>, <span style="color: #004AAD;">"Film and Animation"</span>, <span style="color: #004AAD;">"People & Blogs"</span>, <span style="color: #004AAD;">"Science & Technology"</span> and our loved <span style="color: #004AAD;">"Travel & Events"</span>. <br>
-      But if there are positive reverses, there also <b>negative</b> ones... <span style="color: #B40426;">"Music"</span> and <span style="color: #B40426;">"News & Politics"</span> are the two categories where big youtubers recover worse than the average for all channels in this category. Not good news if you are in one of them...<br />
-      (Honorable mention to "Nonprofits & Activism" category that sadly doesn't contain a single big youtuber...) 
+      There are also some categories where big youtubers manage to <b>positively reverse the trend</b> and recover better than the average for all channels. It is the case of the categories <span style="color: #004AAD;">"Autos & Vehicles"</span>, <span style="color: #004AAD;">"Comedy"</span>, <span style="color: #004AAD;">"Film and Animation"</span>, <span style="color: #004AAD;">"People & Blogs"</span>, <span style="color: #004AAD;">"Science & Technology"</span> and our already famous <span style="color: #004AAD;">"Travel & Events"</span>. 
+      <br>
+      But if there are positive reverses, there also <b>negative</b> ones... <span style="color: #B40426;">"Music"</span> and <span style="color: #B40426;">"News & Politics"</span> are the two categories where big youtubers recover worse than the average for all channels in this category. 
     </p>
     <img src="/assets/img/switch.png" alt="Note on the plot" style="width: 150px;">
   </div>
