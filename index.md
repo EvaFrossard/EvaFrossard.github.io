@@ -960,40 +960,40 @@ If you’re considering making a shift, we recommend focusing on topics that hav
     <img src="/assets/img/switch.png" alt="Note on the plot" style="width: 150px;">
   </div>
 
-  While those findings are already interesting, you should be questionning yourself about what makes these difference that big. No need to worry, we have the answer for you !<br />
-  <br />
+    <br>
+  While those findings are already interesting, there are only the tip of the iceberg. Any hypothesis on what makes these difference that big. No need to worry... we have the answer for you !<br>
+  <br>
 
 
-  <h3>The Secret Sauce? Your Titles</h3>
-  <br />
+  <h3><span style="color: #b51a00;">The Secret Sauce? Your Titles</span></h3>
 
-  Yes, you read that right. <b>Titles</b>. Those few dozen characters can either save your channel or sink it further. Think about it: what’s the first thing a viewer sees before they even decide to click? Your title! And if you’ve learned anything from this wild ride of YouTube, it’s that first impressions are everything. <br />
-  <br />
+  Yes, you read that right. <b>Titles</b>. Those few dozen characters can either save your channel or sink it further. Think about it: what’s the first thing a viewer sees before they even decide to click? Your title! And if you’ve learned anything from this wild ride of YouTube, it’s that first impressions are everything. <br>
 
-  Now, here’s where the science kicks in. You’ve probably heard of <b>LLMs (Large Language Models)</b>, right? They’re super-smart AI tools that can analyse and recognise patterns in text faster than you can say, “Oops, I tweeted what?!” <br />
-  <br />
+  <br>
+
+  Now, here’s where the science kicks in. You’ve probably heard of <b>LLMs (Large Language Models)</b>, right? They’re super-smart artificial intelligence tools that can analyse and recognise patterns in text faster than you can say, “Oops, I tweeted what?!” <br>
 
   <div style="display: flex; align-items: center;">
     <img src="/assets/img/lama.png" alt="Note on the plot" style="width: 100px;">
     <p style="flex: 1; margin-left: 15px;">
-      We used this tech wizardry to dive into the aftermath of bad buzz for dozens of big YouTubers. By leveraging the <b>Mistral model</b> from the <a href="https://ollama.com/library/mistral" target="_blank"><b>OLLAMA</b></a> open source project, we analysed the types of videos uploaded immediately following their PR disasters.
+      We used this tech wizardry to dive into the aftermath of 'bad buzz' for the 1M+ club. By leveraging the <b>Mistral model</b> from the <a href="https://ollama.com/library/mistral" target="_blank"><b>OLLAMA</b></a> open source project, we analysed the types of videos uploaded immediately following their PR disasters.
     </p>
   </div>
   
   <b>What did we look for ?</b> Patterns. Specifically, whether these videos fell into one (or more) of these categories:
 
-  <ol>
-      <li> Apology videos: The classic “I’m sorry” trope—effective or overdone? </li>
-      <li> Addressing the decline: Are you facing the issue head-on or pretending nothing’s wrong?</li>
-      <li> Comeback announcements: Bold, confident, and ready to win back hearts.</li>
-      <li> Break announcements: Sometimes, stepping back is stepping forward.</li>
-      <li> Collaboration videos: Is strength in numbers the way to go?</li>
-      <li> Clickbait videos: Risky, but can it work in your favor?</li>
-  </ol>
+  <ul>
+      <li> <b>Apology videos:</b> The classic “I’m sorry” trope—effective or overdone? </li>
+      <li> <b>Addressing the decline:</b> Are you facing the issue head-on or pretending nothing’s wrong?</li>
+      <li> <b>Comeback announcements:</b> Bold, confident, and ready to win back hearts.</li>
+      <li> <b>Break announcements:</b> Sometimes, stepping back is stepping forward.</li>
+      <li> <b>Collaboration videos:</b> Is strength in numbers the way to go?</li>
+      <li> <b>Clickbait videos:</b> Risky, but can it work in your favor?</li>
+  </ul> 
 
-  <br />
-  And guess what? Our findings are as wild as the comment section on your latest video !<br />
-  <br />
+  <br>
+  And guess what? Our findings are as wild as the comment section on your latest video !<br>
+  <br>
 
   The LLM analyzed cautiously the title of all the <b>107,618</b> videos uploaded by these big youtubers during their respective crisis. The following plot shows how many videos fall into each of these categories among this considerable amount of videos, according to the LLM, based on their title.<br />
   <br />
