@@ -825,35 +825,12 @@ Let's investigate using a interactive Sankey diagram showing topic transitions a
 If you’re considering making a shift, we recommend focusing on topics that have historically shown positive outcomes, such as **beauty and lifestyle or gaming-related content**, while being cautious about venturing into politics or kids videos, where the change could backfire. Remember that your choice should be guided by your category of origin!
 
 
-<!-- need tp talk about all of this ?
-### How to upload when people want it the most
+<!--NICO-->
 
-An important point to consider is the current frequency of your uploads.
-
-While it may seem like a good idea to post more content to become relevant again based on what we presented until now, our data suggests that this strategy may not always be effective as posting **more** does not mean posting **more than average**.
-
-![Videos per week before the start of the decline](/assets/img/vids_per_week_before.png)
-
-![Videos per week after the start of the decline](/assets/img/vids_per_week_after.png)
-
-TODO make a plot where you click to choose what to see :
-
-- before/during
-
-
-### Key findings
-
-In short, TODO
-
-TODO QUIZ
-
--->
-
-<div style="border: 2px solid red; padding: 10px; display: inline-block; border-radius: 15px"><p>
-  <h2> Suffering from a bad buzz ? Here is where it's at...</h2>
+<div style="border: 0px solid red; padding: 10px; display: inline-block; border-radius: 15px"><p>
+  <h2> Part of the very exclusive 1 million + subscribers and suffering from a decline ? </h2>
   <br />
-
-  Let’s face it — you wouldn’t still be reading this unless you’d royally messed up, would you? You’ve stepped on the internet landmine, and now your channel is caught in the crosshairs of a… <b>BAD BUZZ</b> 😱. <br />
+  Let’s face it — you wouldn’t still be reading this unless you’d royally messed up, would you? You’ve stepped on the internet landmine, and now your channel is caught in the crosshairs of a… <b>BAD BUZZ</b> 😱. 
   <br />
 
   If you’ve scrolled through the previous sections and still can’t find a fix, it’s because your situation requires more than the usual “post more consistently” or “engage with your audience” advice. But fear not! While the internet’s collective fury can feel like a raging storm, we’ve armed ourselves with data analysis and research to help you turn this ship around. <br />
