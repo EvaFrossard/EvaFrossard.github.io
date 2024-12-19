@@ -836,8 +836,8 @@ If you’re considering making a shift, we recommend focusing on topics that hav
   <h2> <span style="color: #b51a00;"> Part of the very exclusive 1 million + subscribers and suffering from a decline ? </span> </h2>
 
   Let’s face it — you wouldn’t still be reading this unless you’d royally messed up, would you? You’ve stepped on the internet landmine, and now your channel is caught in the crosshairs of a… <b>BAD BUZZ</b> 😱.
-
   
+  <br>
 
   If you’ve scrolled through the previous sections and <b>still can’t find a fix</b>, it’s because your situation requires more than the usual “post more consistently” or “engage with your audience” advice. But fear not! While the internet’s collective fury can feel like a raging storm, we’ve armed ourselves with data analysis and research to help you turn this ship around.
   
@@ -848,14 +848,12 @@ If you’re considering making a shift, we recommend focusing on topics that hav
 
   When a big YouTuber like you faces a crisis, <b>the stakes are high</b>. The potential loss of subscribers, sponsors, and revenue can be catastrophic, in others words we know you spend your entire day scrolling on Youtube analytics. But the good news is that you are also the ones with the most influence and thus power in their upload content, so <b>recovery is possible (YAY !)</b> ! 
 
-  Our analysis of your peers has revealed some f<b>ascinating trends</b>. Whether it’s a Twitter faux pas, a controversial statement, or a scandal you never saw coming, the strategies for clawing back your reputation vary dramatically depending on the moves you make right now. (Insert dramatic pause for effect. You’re feeling the pressure, aren’t you?).
-
-  But hey, before you run off to film a tearful apology, let’s talk about why some YouTubers manage to recover from their digital nightmares while others end up in the dreaded “what did they become?” category. 
+  Our analysis of your peers has revealed some <b>fascinating trends</b>. Whether it’s a Twitter faux pas, a controversial statement, or a scandal you never saw coming, the strategies for clawing back your reputation vary dramatically depending on the moves you make right now. (Insert dramatic pause for effect. You’re feeling the pressure, aren’t you?). But hey, before you run off to film a tearful apology, let’s talk about why some YouTubers manage to recover from their digital nightmares while others end up in the dreaded “what did they become?” category. 
 
   <h3><span style="color: #b51a00;">The Recovery Rates of Big YouTubers</span></h3>
 
-  We’re not going to leave you hanging with just data and no solutions. Let’s reclaim that subscribe button together.<br />
- <br />
+  We’re not going to leave you hanging with just data and no solutions. Let’s reclaim that subscribe button together.
+
   For this, we needed to analyze the recovery rates of these big YouTubers based on the type of video they uploaded. First thing you need to know is that not all of the big youtubers have recovered from their bad buzz efficiently. <br />
 
   <div class="flourish-embed flourish-election" data-src="visualisation/20860562"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20860562/thumbnail" width="100%" alt="election visualization" /></noscript></div>
