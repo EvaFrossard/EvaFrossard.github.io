@@ -818,7 +818,7 @@ Let's investigate using a interactive Sankey diagram showing topic transitions a
   </div>
 
   <!-- PNG Image -->
-  <div style="flex: 1; min-width: 150px; max-width: 30%; text-align: center;">
+  <div style="flex: 1; min-width: 15px; max-width: 10%; text-align: center;">
     <img src="/assets/img/legend_sankey.png" alt="Legend for Sankey Plot" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;" />
   </div>
 
