@@ -361,7 +361,7 @@ As you can see, everything is possible when it comes to changing the topic of yo
 
 ## All of those factors... but which one matters ! 
 
-Easy task, we have so far just listed the reaction possible, but which one do work ? 
+We have so far just listed the possible reaction, an easy task, but which one do work ? 
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
   Let's start by figuring out if some have some linear relationship. To do so, we are going to perform <b>Pearson's correlation</b> between every pair of reaction, and visualize them performing a correlation matrix.
@@ -370,9 +370,11 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>Pearson's correlation</b></summary>     
-      Measurement of both the strength and direction of a linear relationship between two continuous variables. It ranges from -1 showing perfect negative correlation and 1 for perfect positive correlation. 
+      Measurement of both the strength and direction of a linear relationship between two continuous variables. It ranges from $-1$ showing perfect negative correlation and $1$ for perfect positive correlation. 
    </details>
 </div>
+
+<br>
 
 <div class="flourish-embed flourish-heatmap" data-src="visualisation/20877783"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20877783/thumbnail" width="100%" alt="heatmap visualization" /></noscript></div>
 
