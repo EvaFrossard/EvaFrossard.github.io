@@ -833,40 +833,49 @@ If you’re considering making a shift, we recommend focusing on topics that hav
 <div style="border: 0px solid red; padding: 10px; display: inline-block;"><p>
   <h2> <span style="color: #b51a00;"> Part of the very exclusive 1 million + subscribers and suffering from a decline ? </span> </h2>
 
-  Let’s face it — you wouldn’t still be reading this unless you’d royally messed up, would you? You’ve stepped on the internet landmine, and now your channel is caught in the crosshairs of a… <b>BAD BUZZ</b> 😱.
-
+  <br>
+  
+  Let’s face it — you wouldn’t still be reading this unless you’d royally messed up, would you? You’ve stepped on the internet landmine, and now your channel is caught in the crosshairs of a… <b>BAD BUZZ</b> 😱. <br>
+  
   <br>
 
   If you’ve scrolled through the previous sections and <b>still can’t find a fix</b>, it’s because your situation requires more than the usual “post more consistently” or “engage with your audience” advice. But fear not! While the internet’s collective fury can feel like a raging storm, we’ve armed ourselves with data analysis and research to help you turn this ship around.
-  <br>
+  
 
   <h3><span style="color: #b51a00;">The Challenges of a Big YouTuber in a Crisis</span></h3>
 
-  From now on, our analysis will be focusing on the top <b>4%</b> (2955 out of 74788) of channels (that have had suffered from a decline) — the people just like you, the crème de la crème, in other words the ones with more than 1 million subscribers. You're no stranger to it all, you are the most visible but also the most vulnerable to public backlash. <br />
-  <br />
+  From now on, our analysis will be focusing on the top <b>4%</b> (2955 out of 74788) of channels (that have had suffered from a decline) — the people just like you, the crème de la crème, in other words the ones with more than 1 million subscribers. You're no stranger to it all, you are the most visible but also the most vulnerable to public backlash. <br>
 
-  When a big YouTuber like you faces a crisis, the stakes are high. The potential loss of subscribers, sponsors, and revenue can be catastrophic, in others words we know you spend your entire day scrolling on Youtube analytics. But the good news is that you are also the ones with the most influence and thus power in their upload content, so recovery is possible (YAY !) ! <br />
-  <br />
+  <br>
 
-  Our analysis of these big YouTubers (think >1M subscribers — we feel flattered that you're here) has revealed some fascinating trends. Whether it’s a Twitter faux pas, a controversial statement, or a scandal you never saw coming, the strategies for clawing back your reputation vary dramatically depending on the moves you make right now.(Insert dramatic pause for effect. You’re feeling the pressure, aren’t you?) <br />
-  <br />
+  When a big YouTuber like you faces a crisis, <b>the stakes are high</b>. The potential loss of subscribers, sponsors, and revenue can be catastrophic, in others words we know you spend your entire day scrolling on Youtube analytics. But the good news is that you are also the ones with the most influence and thus power in their upload content, so <b>recovery is possible (YAY !)</b> !   <br>
 
-  But hey, before you run off to film a tearful apology, let’s talk about why some YouTubers manage to recover from their digital nightmares while others end up in the dreaded “where are they now?” category. Spoiler: it’s not all about talent or luck. <br />
-  <br />
+  <br>
 
-  <h3>The Recovery Rates of Big YouTubers</h3>
-  <br />
+  <div style="display: flex; align-items: center;">
+    <p style="flex: 1; margin-right: 20px;">
+      Our analysis of your peers has revealed some <b>fascinating trends</b>. Whether it’s a Twitter faux pas, a controversial statement, or a scandal you never saw coming, the strategies for clawing back your reputation vary dramatically depending on the moves you make right now. (Insert dramatic pause for effect. You’re feeling the pressure, aren’t you?). But hey, before you run off to film a tearful apology, let’s talk about why some YouTubers manage to recover from their digital nightmares while others end up in the dreaded “what did they become?” category.   
+    </p>
+  <img src="/assets/img/controversy.png" alt="Description of image" style="width: 300px;">
+  </div>
 
-  We’re not going to leave you hanging with just data and no solutions. Let’s reclaim that subscribe button together.<br />
- <br />
-  For this, we needed to analyze the recovery rates of these big YouTubers based on the type of video they uploaded. First thing you need to know is that not all of the big youtubers have recovered from their bad buzz efficiently. <br />
+  <h3><span style="color: #b51a00;">The Recovery Rates of Big YouTubers</span></h3>
+
+  <div style="display: flex; align-items: center;">
+    <img src="/assets/img/subscribe.png" alt="" style="width: 150px; margin-left: 20px;">
+    <p style="flex: 1; margin-left: 20px;">
+      We’re not going to leave you hanging with just data and no solutions. <b>Let’s reclaim that subscribe button together.</b> For this, we needed to analyze the recovery rates of these big YouTubers based on the type of video they uploaded. First thing you need to know is that not all of your colleagues have recovered from their bad buzz efficiently.
+    </p>
+  </div>
+  
+  <br>
 
   <div class="flourish-embed flourish-election" data-src="visualisation/20860562"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20860562/thumbnail" width="100%" alt="election visualization" /></noscript></div>
 
-  One could think that that’s not good news, but you have to see the glass as half full. What it actually shows is that when focusing only on big YouTubers, the recovery rate is not better... BUT also NOT WORSE !<br />
-  <br />
+  One could think that that’s not good news, but you have to see the glass <b>half full</b>. What it actually shows is that when focusing only on big YouTubers, the recovery rate is not better... but also not worse !<br>
+  <br>
 
-  As before, let's know dive into the details. The following plot shows the recovery rates of these big YouTubers based on the category of their channel: <br />
+  Just like we did before this case study, let's get more precise and show the recovery rates of your fellow trend setters based on the category of their channel, don't hesitate to refresh your memory by clicking on All channels: <br />
 
   <div id="flourish-container">
     <div id="flourish-BY" class="flourish-embed flourish-election" data-src="visualisation/20860572"></div>
@@ -926,70 +935,69 @@ If you’re considering making a shift, we recommend focusing on topics that hav
   <div style="display: flex; align-items: center;">
     <img src="/assets/img/star.png" alt="Note on the plot" style="width: 20px; margin-left: 20px;">
     <p style="flex: 1; margin-left: 20px;">
-      While the amount of samples is not the same, there is still some interesting conclusion to make from the comparision of the recovery rates of big youtubers and all channels.
+      While the amount of samples is not the same in every category, there is still some interesting conclusion to gather after comapring the recovery rates of big youtubers VS all channels repartition. For exemple, Travel & Events only have 1 decline counted.
     </p>
   </div>
 
   <div style="display: flex; align-items: center;">
     <img src="/assets/img/podium.png" alt="Description of image" style="width: 150px;">
     <p style="flex: 1; margin-left: 20px;">
-      <b>This time, the winners are ...</b>
-      At the very top of the podium, the category <span style="color: #004AAD;">"Travel & Events"</span> confirms its stronger than the average forgivability  but this with a shoking <b>100%</b> recovery rate, followed by <span style="color: #004AAD;">"Autos & Vehicles"</span> with a solid <b>90%</b> - that's good news if you make Road Trips videos ;) 
+      <b>This time, the winners are ...</b> At the very top of the podium, the category <span style="color: #004AAD;">"Travel & Events"</span> confirms its stronger than average forgivability  but this with a shoking <b>100%</b> recovery rate, followed by <span style="color: #004AAD;">"Autos & Vehicles"</span> with a solid <b>90%</b>, you might just be over the moon if you make road trips videos ;) 
       <br>
-      Of course, there is also a <b>big loser</b>... the <span style="color: #B40426;">"Music"</span> category! Again, music seems to be a non-forgiving place, with a very modest recovery rate of <b>16.85%</b> (two times lower than with all channels).
+      Sadly, there is also a <b>almost-there</b>... the <span style="color: #B40426;">"Music"</span> category! Again, this category seems to be a non-forgiving place, with a very modest recovery rate of <b>16.85%</b> (two times lower than with all channels).
       <br>
     </p>
   </div>
 
   <div style="display: flex; align-items: center;">
     <p style="flex: 1; margin-right: 20px;">
-      There are also some categories where big youtubers manage to <b>positively reverse the trend</b> and recover better than the average for all channels in this category. It is the case for <span style="color: #004AAD;">"Autos & Vehicles"</span>, <span style="color: #004AAD;">"Comedy"</span>, <span style="color: #004AAD;">"Film and Animation"</span>, <span style="color: #004AAD;">"People & Blogs"</span>, <span style="color: #004AAD;">"Science & Technology"</span> and our loved <span style="color: #004AAD;">"Travel & Events"</span>. <br>
-      But if there are positive reverses, there also <b>negative</b> ones... <span style="color: #B40426;">"Music"</span> and <span style="color: #B40426;">"News & Politics"</span> are the two categories where big youtubers recover worse than the average for all channels in this category. Not good news if you are in one of them...<br />
-      (Honorable mention to "Nonprofits & Activism" category that sadly doesn't contain a single big youtuber...) 
+      There are also some categories where big youtubers manage to <b>positively reverse the trend</b> and recover better than the average for all channels. It is the case of the categories <span style="color: #004AAD;">"Autos & Vehicles"</span>, <span style="color: #004AAD;">"Comedy"</span>, <span style="color: #004AAD;">"Film and Animation"</span>, <span style="color: #004AAD;">"People & Blogs"</span>, <span style="color: #004AAD;">"Science & Technology"</span> and our already famous <span style="color: #004AAD;">"Travel & Events"</span>. 
+      <br>
+      But if there are positive reverses, there also <b>negative</b> ones... <span style="color: #B40426;">"Music"</span> and <span style="color: #B40426;">"News & Politics"</span> are the two categories where big youtubers recover worse than the average for all channels in this category. 
     </p>
     <img src="/assets/img/switch.png" alt="Note on the plot" style="width: 150px;">
   </div>
 
-  While those findings are already interesting, you should be questionning yourself about what makes these difference that big. No need to worry, we have the answer for you !<br />
-  <br />
+    <br>
+  While those findings are already interesting, there are only the tip of the iceberg. Any hypothesis on what makes these difference that big. No need to worry... we have the answer for you !<br>
+  <br>
 
 
-  <h3>The Secret Sauce? Your Titles</h3>
-  <br />
+  <h3><span style="color: #b51a00;">The Secret Sauce? Your Titles</span></h3>
 
-  Yes, you read that right. <b>Titles</b>. Those few dozen characters can either save your channel or sink it further. Think about it: what’s the first thing a viewer sees before they even decide to click? Your title! And if you’ve learned anything from this wild ride of YouTube, it’s that first impressions are everything. <br />
-  <br />
+  Yes, you read that right. <b>Titles</b>. Those few dozen characters can either save your channel or sink it further. Think about it: what’s the first thing a viewer sees before they even decide to click? Your title! And if you’ve learned anything from this wild ride of YouTube, it’s that first impressions are everything. <br>
 
-  Now, here’s where the science kicks in. You’ve probably heard of <b>LLMs (Large Language Models)</b>, right? They’re super-smart AI tools that can analyse and recognise patterns in text faster than you can say, “Oops, I tweeted what?!” <br />
-  <br />
+  <br>
+
+  Now, here’s where the science kicks in. You’ve probably heard of <b>LLMs (Large Language Models)</b>, right? They’re super-smart artificial intelligence tools that can analyse and recognise patterns in text faster than you can say, “Oops, I tweeted what?!” <br>
 
   <div style="display: flex; align-items: center;">
     <img src="/assets/img/lama.png" alt="Note on the plot" style="width: 100px;">
     <p style="flex: 1; margin-left: 15px;">
-      We used this tech wizardry to dive into the aftermath of bad buzz for dozens of big YouTubers. By leveraging the <b>Mistral model</b> from the <a href="https://ollama.com/library/mistral" target="_blank"><b>OLLAMA</b></a> open source project, we analysed the types of videos uploaded immediately following their PR disasters.
+      We used this tech wizardry to dive into the aftermath of 'bad buzz' for the 1M+ club. By leveraging the <b>Mistral model</b> from the <a href="https://ollama.com/library/mistral" target="_blank"><b>OLLAMA</b></a> open source project, we analysed the types of videos uploaded immediately following their PR disasters.
     </p>
   </div>
   
   <b>What did we look for ?</b> Patterns. Specifically, whether these videos fell into one (or more) of these categories:
 
-  <ol>
-      <li> Apology videos: The classic “I’m sorry” trope—effective or overdone? </li>
-      <li> Addressing the decline: Are you facing the issue head-on or pretending nothing’s wrong?</li>
-      <li> Comeback announcements: Bold, confident, and ready to win back hearts.</li>
-      <li> Break announcements: Sometimes, stepping back is stepping forward.</li>
-      <li> Collaboration videos: Is strength in numbers the way to go?</li>
-      <li> Clickbait videos: Risky, but can it work in your favor?</li>
-  </ol>
+  <ul>
+      <li> <b>Apology videos:</b> The classic “I’m sorry” trope—effective or overdone? </li>
+      <li> <b>Addressing the decline:</b> Are you facing the issue head-on or pretending nothing’s wrong?</li>
+      <li> <b>Comeback announcements:</b> Bold, confident, and ready to win back hearts.</li>
+      <li> <b>Break announcements:</b> Sometimes, stepping back is stepping forward.</li>
+      <li> <b>Collaboration videos:</b> Is strength in numbers the way to go?</li>
+      <li> <b>Clickbait videos:</b> Risky, but can it work in your favor?</li>
+  </ul> 
 
-  <br />
-  And guess what? Our findings are as wild as the comment section on your latest video !<br />
-  <br />
+  <br>
+  And guess what? Our findings are as wild as the comment section on your latest video !<br>
+  <br>
 
   The LLM analyzed cautiously the title of all the <b>107,618</b> videos uploaded by these big youtubers during their respective crisis. The following plot shows how many videos fall into each of these categories among this considerable amount of videos, according to the LLM, based on their title.<br />
   <br />
 
-  [TODO: plot(apology=198,clickbait=78351,break=568,comeback=902,featuring=4150,decline_addressed=2675)]<br />
-  <br />
+  TODO: plot(apology=198,clickbait=78351,break=568,comeback=902,featuring=4150,decline_addressed=2675)
+  
 
   We can already see that the most common strategy (maybe because it's the easiest ?) is to spam clickbait videos. But is it the most effective strategies ? The response lies only in the data...<br />
   <br />
