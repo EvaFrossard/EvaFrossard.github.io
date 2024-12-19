@@ -364,6 +364,34 @@ As you can see, everything is possible when it comes to changing the topic of yo
 Easy task, we have so far just listed the reaction possible, but which one do work ? 
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
+  Let's start by figuring out if some have some linear relationship. To do so, we are going to perform <b>Pearson's correlation</b> between every pair of reaction, and visualize them performing a correlation matrix.
+</div>
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex/dist/contrib/auto-render.min.js" 
+          onload="renderMathInElement(document.body);"></script>
+</head>
+
+<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
+  <details open> 
+    <summary style = "font-size: 18px; cursor: pointer;"><b>Pearson's correlation</b></summary>     
+      Measurement of both the strength and direction of a linear relationship between two continuous variables. It ranges from  \(-1\( showing perfect negative correlation and \(1\( for perfect positive correlation. 
+   </details>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; background-color: #DFC5FE">
   First of all, here are the results of a <b>Logistic regression</b> of recovery on the reactions. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery. Before performing it, we standardize our attributes to put them  all on the same scale, and be able to compare coefficients better. 
 </div>
 
@@ -458,6 +486,13 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
 
 All put together, here is the **formula** for the logistic regression produces on standardized predictor variables: 
 
+<div style="border: 2px solid red; padding: 10px; display: inline-block;">
+  <ol>
+      \\(Recovery = -0.3 + 4\times 10^{-04} \times D_\text{Posted longer videos} + 2.3 \times 10^{-02} \times D_\text{Posted shorter videos} + 0.06 \times D_\text{Posted more}\\)  
+      \\(- 0.3 \times D_\text{Posted less} - 0.02 \times D_\text{Topic change}\\)
+  </ol>
+</div>  
+
 \\(Recovery = -0.3 + 4\times 10^{-04} \times D_\text{Posted longer videos} + 2.3 \times 10^{-02} \times D_\text{Posted shorter videos} + 0.06 \times D_\text{Posted more}\\)  
 \\(- 0.3 \times D_\text{Posted less} - 0.02 \times D_\text{Topic change}\\)
 
@@ -469,7 +504,7 @@ Where \\( D_{\text{group}} \\) represents a dummy variable that is \\(1\\) if th
 \end{equation}
 --->
 
-This regression allows us to find how the predictor variables (as stated in the table) influence your recovery. The bigger in absolute size, the more the variable weight in on your recovery. Here, posting less videos, posted more videos and posted shorter videos hold the most importance. **But don't get ahead of yourself yet !** That's where the p-value comes into play...
+**This regression allows us to find how the predictor variables (as stated in the table) influence your recovery.** The bigger in absolute size, the more the variable weight in on your recovery. Here, posting less videos, posted more videos and posted shorter videos hold the most importance. **But don't get ahead of yourself yet !** That's where the p-value comes into play...
 
 <div style="border-left: 4px solid #51247a; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
