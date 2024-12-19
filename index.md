@@ -827,10 +827,11 @@ Let's investigate using a interactive Sankey diagram showing topic transitions a
 <p>Looking to see which topic transitions work in your niche is quite a hassle. For instance, channels focused on movie reviews often see positive changes in recovery when they switch topics, though transitioning to topics like politics could negatively impact your recovery. On the other hand, gameplay channels should be careful when changing topics, as only a shift to Fortnite-related content seems to maintain or increase engagement. <b>It's all on a very thin line!</b> </p>
 If you’re considering making a shift, we recommend focusing on topics that have historically shown positive outcomes, such as **beauty and lifestyle or gaming-related content**, while being cautious about venturing into politics or kids videos, where the change could backfire. Remember that your choice should be guided by your category of origin!
 
-
 <!--NICO-->
 
-
+<div style="text-align: center;">
+  <img src="/assets/img/1mclub.png" alt="Description" width="500">
+</div>
 
 <div style="border: 0px solid red; padding: 10px; display: inline-block;"><p>
   <h2> Part of the very exclusive 1 million + subscribers and suffering from a decline ? </h2>
