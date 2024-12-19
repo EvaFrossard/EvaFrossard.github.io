@@ -850,11 +850,17 @@ If you’re considering making a shift, we recommend focusing on topics that hav
 
   <br>
 
-  When a big YouTuber like you faces a crisis, <b>the stakes are high</b>. The potential loss of subscribers, sponsors, and revenue can be catastrophic, in others words we know you spend your entire day scrolling on Youtube analytics. But the good news is that you are also the ones with the most influence and thus power in their upload content, so <b>recovery is possible (YAY !)</b> ! 
+  When a big YouTuber like you faces a crisis, <b>the stakes are high</b>. The potential loss of subscribers, sponsors, and revenue can be catastrophic, in others words we know you spend your entire day scrolling on Youtube analytics. But the good news is that you are also the ones with the most influence and thus power in their upload content, so <b>recovery is possible (YAY !)</b> !   <br>
 
-   <br>
+  <br>
 
-  Our analysis of your peers has revealed some <b>fascinating trends</b>. Whether it’s a Twitter faux pas, a controversial statement, or a scandal you never saw coming, the strategies for clawing back your reputation vary dramatically depending on the moves you make right now. (Insert dramatic pause for effect. You’re feeling the pressure, aren’t you?). But hey, before you run off to film a tearful apology, let’s talk about why some YouTubers manage to recover from their digital nightmares while others end up in the dreaded “what did they become?” category. 
+<div style="display: flex; align-items: center;">
+  <p style="flex: 1; margin-right: 20px;">
+    Our analysis of your peers has revealed some <b>fascinating trends</b>. Whether it’s a Twitter faux pas, a controversial statement, or a scandal you never saw coming, the strategies for clawing back your reputation vary dramatically depending on the moves you make right now. (Insert dramatic pause for effect. You’re feeling the pressure, aren’t you?). But hey, before you run off to film a tearful apology, let’s talk about why some YouTubers manage to recover from their digital nightmares while others end up in the dreaded “what did they become?” category.   
+  </p>
+  <img src="/assets/img/controversy.png" alt="Description of image" style="width: 150px;">
+</div>
+
 
   <h3><span style="color: #b51a00;">The Recovery Rates of Big YouTubers</span></h3>
 
