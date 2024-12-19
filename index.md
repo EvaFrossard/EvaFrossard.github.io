@@ -157,7 +157,7 @@ Why us and not some wanabee adviser on YouTube ? Well, because we based all our 
 
 Since Youtube hasn't stopped gaining new users, we have reached the conclusion that very few channels will actively face a decrease in their total subscriber count. However, we can detect decline by noticing in your stats a significant slowdown in the growth rate of your subscribers, which may indicate potential issues such as reduced engagement or a negative reception by the audience. 
 
-<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #A493AD">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
   To go further, we compared the actual growth rate of channels against the <b>rolling growth average</b> rate.
 </div>
 
@@ -312,7 +312,7 @@ A third and more daring reaction is to experiment and go out of your comfort zon
 
 Getting this data allows us determine whether the reactions include changing the topics of interest, and we will use these statistics to find the best strategy. Burning question: **How to determine topics based on tags?**
 
-<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #A493AD">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
   Using <b>Latent Dirichlet Allocation</b> (a natural language processing technique), we are able to extract the main topic of a channel based on the tags <b>before</b> and <b>during</b> crises. The results obtained give us the words that have been put into the same category, but to obtain an overall topic name, we passed the lists through the LLM <b>Ollama</b>. We use 20 different categories to remain broad and not be too sensitive to small content changes.
 </div>
 
@@ -339,7 +339,7 @@ A little bit of explanation: each topic contains a set of **15 words and their p
 
 The 20-topic model captures a **broad spectrum of interests**, ranging from Politics to Fortnite Gameplay. While some of the topics seem to capture content categories very well, like the topic "Movie Reviews" that contains words like "movie", "review", "trailer" and "film" and that revolves around content creators who analyze or review films, there is also some overlap between different topics, for example in the topic "Art and Spirituality" that also contains the words "golf" and "f1" and therefore may also touch on certain hobbies or sports.  However, these 20 topics are distinct enough to provide meaningful classifications that will support an analysis of the topic transitions and their correlation with recovery.
 
-<div style="border-left: 4px solid #3BB143; padding-left: 20px; font-size: 18px; margin-top: 0;">
+<div style="border-left: 4px solid #5D6591; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>For ADA specialists</b> </summary>     
    </details>
@@ -364,7 +364,7 @@ As you can see, everything is possible when it comes to changing the topic of yo
 
 We have so far just listed the possible reactions, an easy task... but which one do work ? We are going to experiment with a couple of methods to find out about it: Pearson's correlation, logistic regression, t-tests and others...
 
-<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #A493AD">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
   Let's start by figuring out if some have some linear relationship. To do so, we are going to perform <b>Pearson's correlation</b> between every pair of reaction, and visualize them performing a correlation matrix.
 </div>
 
@@ -382,7 +382,7 @@ We have so far just listed the possible reactions, an easy task... but which one
 TODO: analyse correlation
 
 
-<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #A493AD">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
   First of all, here are the results of a <b>Logistic regression</b> of recovery on the reactions. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery. Before performing it, we standardize our attributes to put them  all on the same scale, and be able to compare coefficients better. 
 </div>
 
@@ -511,7 +511,7 @@ Where \\( D_{\text{group}} \\) represents a dummy variable that is \\(1\\) if th
 
 Here, only the variable representing posting more and posting less were significant ! However in different direction... **Posting more has a positive coefficient so it influences positively your recovery**, whereas posting less influences it even more, but not on the side you would desire... 
 
-<div style="border-left: 4px solid #3BB143; padding-left: 20px; font-size: 18px; margin-top: 0;">
+<div style="border-left: 4px solid #5D6591; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>For ADA specialists</b> </summary>     
       Here is our table of result from the regression. We are very much aware of the extremely low value of the R-squared, and the overall low significance of coefficients. The database has all and every possible values and we tried to find some sort of 'trend', we base ourselves on lowly significant values, but needed to pursue a correct data story.
@@ -521,7 +521,7 @@ Here, only the variable representing posting more and posting less were signific
 
 While analysing and drawing immediate conclusions from this simple regression would be quite naive, it highlights an essential fact : **Each reaction influences the recovery in a unique way.** That is why caution is needed when handling your popularity crisis: One wrong move, and it's **done** ! (You sense then gravity ?)
 
-<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #A493AD">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
   As the next step, and in order to get some unbiased results and make the proportion of recoveries meaningful, we chose to perform <b>propensity score matching</b> on our decline dataset. This will balance the dataset regarding the variable whose effect we want to observe, enabling us (and you !) to draw more accurate conclusions.
 </div>
 
@@ -540,7 +540,7 @@ This gives us the following results :
 Finally, some long awaited results ! The balanced data suggests that whilst increasing upload frequency has a relatively great effect on recovery, whereas changing video duration does not seem to play such an important role, same with topic change.
 TODO: More text
 
-<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #A493AD">
+<div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
   In order to see if these strategies led to statistically significant differences in recovery rates, we performed a <b>t-test analysis</b> with a significance level of 0.05.
 </div>
 
@@ -996,7 +996,7 @@ If you’re considering making a shift, we recommend focusing on topics that hav
   We can already see that the most common strategy (maybe because it's the easiest ?) is to spam clickbait videos. But is it the most effective strategies ? The response lies only in the data...<br />
   <br />
 
-  <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #A493AD">
+  <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
   Again, in order to get some unbiased results and make the proportion of recoveries meaningful, we performed <b>propensity score matching</b> on our decline dataset for big youtubers to observe the impact of each type of video. This is mandatory since the amount of channels uploading videos of these types is nothing compared to those you don't.
   </div>
   <br />
