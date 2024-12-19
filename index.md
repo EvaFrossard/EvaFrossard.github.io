@@ -877,7 +877,7 @@ If you’re considering making a shift, we recommend focusing on topics that hav
   One could think that that’s not good news, but you have to see the glass <b>half full</b>. What it actually shows is that when focusing only on big YouTubers, the recovery rate is not better... but also not worse !<br>
   <br>
 
-  As before, let's know dive into the details. The following plot shows the recovery rates of these big YouTubers based on the category of their channel: <br />
+  Just like we did before this case study, let's get more precise and show the recovery rates of your fellow trend setters based on the category of their channel, don't hesitate to refresh your memory by clicking on All channels: <br />
 
   <div id="flourish-container">
     <div id="flourish-BY" class="flourish-embed flourish-election" data-src="visualisation/20860572"></div>
