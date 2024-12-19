@@ -459,7 +459,9 @@ Easy task, we have so far just listed the reaction possible, but which one do wo
 All put together, here is the **formula** for the logistic regression produces on standardized predictor variables: 
 <object data="/assets/img/LogitEq.svg" type="image/svg+xml" style="width: 170%; margin-left: -35%;"></object>
 
-Where \\(feature_s\\) denotes the value of \\( feature \\) at the start of the decline, and \\( D_{\text{group}} \\) represents a dummy variable that is \\(1\\) if the decline belongs to the \\( group \\) and \\(0\\) otherwise.
+\\(y = -0.3 + 4\times 10^{-04} \times D\text{Posted longer videos} + 2.3 \times 10^{-02} \times D_\text{Posted shorter videos} + 0.06 \times D_\text{Posted more} - 0.3 \times D_\text{Posted less} - 0.02 \times D_\text{Topic change}\\)
+
+Where \\( D_{\text{group}} \\) represents a dummy variable that is \\(1\\) if the decline belongs to the \\( group \\) and \\(0\\) otherwise.
 
 <!-- LaTeX equation corresponding to the image :
 \begin{equation}
