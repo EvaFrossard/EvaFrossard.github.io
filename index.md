@@ -834,10 +834,10 @@ If you’re considering making a shift, we recommend focusing on topics that hav
 </div>
 
 <div style="border: 0px solid red; padding: 10px; display: inline-block;"><p>
-  <h2> Part of the very exclusive 1 million + subscribers and suffering from a decline ? </h2>
+  <h2> <span style="color: #b51a00;"> Part of the very exclusive 1 million + subscribers and suffering from a decline ? </h2>
   <br />
   Let’s face it — you wouldn’t still be reading this unless you’d royally messed up, would you? You’ve stepped on the internet landmine, and now your channel is caught in the crosshairs of a… <b>BAD BUZZ</b> 😱. 
-  <br />
+  <br/>
 
   If you’ve scrolled through the previous sections and still can’t find a fix, it’s because your situation requires more than the usual “post more consistently” or “engage with your audience” advice. But fear not! While the internet’s collective fury can feel like a raging storm, we’ve armed ourselves with data analysis and research to help you turn this ship around. <br />
   <br />
