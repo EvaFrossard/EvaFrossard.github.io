@@ -477,11 +477,14 @@ TODO: analyse correlation
 All put together, here is the **formula** for the logistic regression produces on standardized predictor variables: 
 
 <div style="border: 2px solid red; padding: 10px; display: inline-block;">
-  <ol>
-      $Recovery = -0.3 + 4\times 10^{-04} \times D_\text{Posted longer videos} + 2.3 \times 10^{-02} \times D_\text{Posted shorter videos + 0.06 \times D_\text{Posted more}$  
-      $ - 0.3 \times D_\text{Posted less} - 0.02 \times D_\text{Topic change}$  
-  </ol>
-</div>  
+  \[
+  \text{Recovery} = -0.3 + 4 \times 10^{-4} \times D_{\text{Posted longer videos}} 
+  + 2.3 \times 10^{-2} \times D_{\text{Posted shorter videos}}
+  + 0.06 \times D_{\text{Posted more}} 
+  - 0.3 \times D_{\text{Posted less}} 
+  - 0.02 \times D_{\text{Topic change}}
+  \]
+</div>
 
 Where \\( D_{\text{group}} \\) represents a dummy variable that is \\(1\\) if the decline belongs to the \\( group \\) and \\(0\\) otherwise.
 
@@ -827,7 +830,9 @@ If you’re considering making a shift, we recommend focusing on topics that hav
 
 <!--NICO-->
 
-<div style="border: 0px solid red; padding: 10px; display: inline-block; border-radius: 15px"><p>
+
+
+<div style="border: 0px solid red; padding: 10px; display: inline-block;"><p>
   <h2> Part of the very exclusive 1 million + subscribers and suffering from a decline ? </h2>
   <br />
   Let’s face it — you wouldn’t still be reading this unless you’d royally messed up, would you? You’ve stepped on the internet landmine, and now your channel is caught in the crosshairs of a… <b>BAD BUZZ</b> 😱. 
