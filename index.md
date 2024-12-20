@@ -384,8 +384,8 @@ To simplify the analysis, we will gather all the possible reactions into 5 categ
       \rho_{X,Y} = \frac{\operatorname{cov}(X,Y)}{\sigma_X \sigma_Y}
       \]
       <p>
-      Where \( \operatorname{cov} \)is the covariance, \( \sigma_X \) is the standard deviation of \( X \), and \( \sigma_Y \) is the standard deviation of \( Y \).
-      <p>
+      Where \( \operatorname{cov} \) is the covariance, \( \sigma_X \) is the standard deviation of \( X \), and \( \sigma_Y \) is the standard deviation of \( Y \).
+      </p>
       When using Pearson's correlation, it is assumed that the relationship between the two variables is linear, that their distribution is normal and that the variance is homogeneous across all levels of the independent variable.
    </details>
 </div>
