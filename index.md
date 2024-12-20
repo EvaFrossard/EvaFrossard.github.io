@@ -105,7 +105,6 @@ mathjax: true
 </head>
 
 
-
 <body>
     <div class="container clearfix">
         <div class="text">
@@ -134,13 +133,13 @@ creators on YouTube and other platforms. Eager to offer them unforeseen solution
     <li> How do we define decline for Youtubers ? How do we define a recovery ?</li>
     <li> Is a Youtube channel category affecting the effective response strategies after a decline?</li>
     <li> What timing and content strategies are best for re-engagement following public backlash? Should you change your posting strategy?</li>
-    <li> In the exact case of a ‘bad buzz’, how to define it using Youtuber statistics? Are apology videos really useful?</li>
+    <li> In the case of a ‘bad buzz’ for bigger Youtubers, how to define it using statistics? Are apology videos really useful?</li>
   </ol>
 </div>
 
 ## Why should you trust us ?
 
-Why us and not some wanabee adviser on YouTube ? Well, because we based all our work on a scientific, multi-dimensional, and extensive dataset... **YouNiverse**[1]. This dataset, released in 2021 is a precious ingredient in our recipe, because Youtube is such a colossal platform that it is quite discouraging to try and sample it. With data from over 136k channels and 72.9M videos published between May 2005 and October 2019. Cool, right ? Well that's our biggest asset in this quest for recovery. It is a long, tidious process, with the main negative aspect being the fact that he only sampled english-speaking videos... oups. Lots of things to say about this great dataset, if you're eager to know just check the below easter egg :))) [1M](#1M+club)
+Why us and not some wanabee adviser on YouTube ? Well, because we based all our work on a scientific, multi-dimensional, and extensive dataset... **YouNiverse**[1]. This dataset, released in 2021 is a precious ingredient in our recipe, because Youtube is such a colossal platform that it is quite discouraging to try and sample it. With data from over 136k channels and 72.9M videos published between May 2005 and October 2019. Cool, right ? Well that's our biggest asset in this quest for recovery. It is a long, tidious process, with the main negative aspect being the fact that he only sampled english-speaking videos... oups. Lots of things to say about this great dataset, if you're eager to know just check the below easter egg :)))
 
 ![](/assets/img/fakeytb.jpeg)
 
@@ -150,7 +149,7 @@ Why us and not some wanabee adviser on YouTube ? Well, because we based all our 
 
 <div style="display: flex; align-items: center;">
   <p style="flex: 1; margin-right: 20px;">
-    Let's keep it real, there are very few chances you're actively losing subscribers (or maybe you actually did fumble, you can go check out our bad buzz section ;)). If you're not in the middle of a controversy and cancel culture hasn't got the best of you, chances are you are just experiencing a decline. In most cases, your situation will fix by itself. <b>However, if this has been going on for more than a month, maybe you should check out our analytical tool ! </b>
+    Let's keep it real, there are very few chances you're actively losing subscribers (or maybe you are actually a famous Youtuber and you did fumble, you can go check out our [bad buzz section](#1M+club) ;)). If you're not in the middle of a controversy and cancel culture hasn't got the best of you, chances are you are just experiencing a decline. In most cases, your situation will fix by itself. <b>However, if this has been going on for more than a month, maybe you should check out our analytical tool ! </b>
   </p>
   <img src="/assets/img/curve_icon.jpg" alt="Description of image" style="width: 150px;">
 </div>
