@@ -1150,7 +1150,7 @@ If you’re considering making a shift, we recommend focusing on topics that hav
 
   <ul>
     <li><b><span style="color: #004AAD;">The "GO!"s:</span></b> The most efficient (and widely adopted) strategies are the ones that include the <b>clickbait</b> videos with a recovery rate of almost always <b>50%</b>. Combining this and a video that addresses your bad buzz seems to be the best duo if you wanted to start with two differents strategy. <br><br></li>
-    <li><b><h3><span style="color: #b51a00;">The "NO!"s:</span></b> Apologizing in a video definitely seems to be counterproductive (recovery rate of 37%). All the worst recovery rates contain videos of this type. Even if your better judgment tells you to do it, it might be better to avoid begging for forgiveness. <br></li>
+    <li><b><span style="color: #b51a00;">The "NO!"s:</span></b> Apologizing in a video definitely seems to be counterproductive (recovery rate of 37%). All the worst recovery rates contain videos of this type. Even if your better judgment tells you to do it, it might be better to avoid begging for forgiveness. <br></li>
   </ul>
 
   When it comes to <b>exclusive strategies</b>- if you are sure about the type of video you do <b>NOT</b> want to upload, here are some insights:
