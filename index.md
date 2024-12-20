@@ -133,7 +133,7 @@ creators on YouTube and other platforms. Eager to offer them unforeseen solution
     <li> How do we define decline for Youtubers ? How do we define a recovery ?</li>
     <li> Is a Youtube channel category affecting the effective response strategies after a decline?</li>
     <li> What timing and content strategies are best for re-engagement following public backlash? Should you change your posting strategy?</li>
-    <li> In the case of a ‘bad buzz’ for <a href="#1M+club" style="color: red;">bigger Youtubers</a>, how to define it using statistics? Are apology videos really useful?</li>
+    <li> In the case of a ‘bad buzz’ for <a href="#1M+club" style="color: red; font-weight: bold;">bigger Youtubers</a>, how to define it using statistics? Are apology videos really useful?</li>
   </ol>
 </div>
 
@@ -149,7 +149,7 @@ Why us and not some wanabee adviser on YouTube ? Well, because we based all our 
 
 <div style="display: flex; align-items: center;">
   <p style="flex: 1; margin-right: 20px;">
-    Let's keep it real, there are very few chances you're actively losing subscribers (or maybe you are actually a famous Youtuber and you did fumble, you can go check out our <a href="#1M+club" style="color: red;" >bad buzz section</a>;)). If you're not in the middle of a controversy and cancel culture hasn't got the best of you, chances are you are just experiencing a decline. In most cases, your situation will fix by itself. <b>However, if this has been going on for more than a month, maybe you should check out our analytical tool ! </b>
+    Let's keep it real, there are very few chances you're actively losing subscribers (or maybe you are actually a famous Youtuber and you did fumble, you can go check out our <a href="#1M+club" style="color: red; font-weight: bold;" >bad buzz section</a>;)). If you're not in the middle of a controversy and cancel culture hasn't got the best of you, chances are you are just experiencing a decline. In most cases, your situation will fix by itself. <b>However, if this has been going on for more than a month, maybe you should check out our analytical tool ! </b>
   </p>
   <img src="/assets/img/curve_icon.jpg" alt="Description of image" style="width: 150px;">
 </div>
@@ -204,10 +204,9 @@ After doing so, a little update on what our database is: we had 74788 channels t
 
 From our data, if your experiencing a decline, you might just be in it for more than 3 months... and maybe even forever ! Let's get those number down for you...
 
-To make you visualise a bit more, here is a little glimpse at the biggest Youtubers' declines, so you can see how well our detection works (with a little drama too...)! Maybe they are 
+To make you visualise a bit more, here is a little glimpse at the biggest Youtubers' declines, so you can see how well our detection works (with a little drama too...)! If you're one of those big Youtubers we mentionned before, or even one of the one present in the carrousel (Jake Paul is that you ?), don't hesitate to go check out your <a href="#1M+club" style="color: red; font-weight: bold;" >dedicated section</a>.
 
 <div class="flourish-embed flourish-cards" data-src="visualisation/20775803"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20775803/thumbnail" width="100%" alt="cards visualization" /></noscript></div>
-
 
 Okay, okay, we might just be rubbing salt into the wound right now with loss and declines, let's talk about more positive things... the recovery ! 
 
