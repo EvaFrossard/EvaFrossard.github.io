@@ -383,7 +383,7 @@ To simplify the analysis, we will gather all the possible reactions into 5 categ
       \[
       \rho_{X,Y} = \frac{\operatorname{cov}(X,Y)}{\sigma_X \sigma_Y}
       \]
-      Where $\operatorname{cov}$ is the covariance, $\sigma_X$ is the standard deviation of $X$, and $\sigma_Y$ is the standard deviation of $Y$.
+      Where \(\operatorname{cov}\)is the covariance, \(\sigma_X\) is the standard deviation of \(X\), and \(\sigma_Y\) is the standard deviation of \(Y\).
 
       When using Pearson's correlation, it is assumed that the relationship between the two variables is linear, that their distribution is normal and that the variance is homogeneous across all levels of the independent variable.
    </details>
@@ -822,8 +822,6 @@ Let's investigate using a interactive Sankey diagram showing topic transitions a
     })
     .catch(error => console.error('Error loading the JSON data:', error));
 </script>
-
-  <!-- PNG Image -->
 
 <p>Looking to see which topic transitions work in your niche is quite a hassle. For instance, channels focused on movie reviews often see positive changes in recovery when they switch topics, though transitioning to topics like politics could negatively impact your recovery. On the other hand, gameplay channels should be careful when changing topics, as only a shift to Fortnite-related content seems to maintain or increase engagement. <b>It's all on a very thin line!</b> </p>
 If you’re considering making a shift, we recommend focusing on topics that have historically shown positive outcomes, such as **beauty and lifestyle or gaming-related content**, while being cautious about venturing into politics or kids videos, where the change could backfire. Remember that your choice should be guided by your category of origin!
