@@ -1164,16 +1164,11 @@ pre {
   background-color: #3498db;
   color: white;
   border-radius: 50%;
-  /* Makes it a circle */
-  width: 50px;
-  /* Set both width and height to make it a perfect circle */
-  height: 50px;
+  padding: 10px 15px;
   font-size: 20px;
   display: none;
   transition: opacity 0.3s ease;
   text-align: center;
-  line-height: 50px;
-  /* Vertically center the text */
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -1182,3 +1177,8 @@ pre {
 }
 
 
+
+
+#back-to-top:hover {
+  background-color: #2980b9;
+}
