@@ -165,8 +165,9 @@ Since Youtube hasn't stopped gaining new users, we have reached the conclusion t
         <b> Why ?</b> Because the rolling average acts as a smoothed baseline, calculated using a defined window (we arbitrarily used a 'window' of 20 weeks), which helps to identify deviations from the expected trend. When the growth of your channel falls below the rolling average, it suggests that the channel's performance has dipped relative to its typical trend. <br>
         Here, a simple moving average was implemented as followed:
           \[
-              SMA_k = \frac{p_{n-k+1} + p_{n-k+2} + \cdots + p_n}{k} = \frac{1}{k} \sum_{i=n-k+1}^{n} p_i 
+              SMA_20 = \frac{p_{n-20+1} + p_{n-20+2} + \cdots + p_n}{20} = \frac{1}{20} \sum_{i=n-20+1}^{n} p_i 
           \]
+        Let those data-points be \( p_1, p_2, \dots, p_n \)
    </details>
 </div>
 
