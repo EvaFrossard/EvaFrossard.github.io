@@ -372,13 +372,17 @@ To simplify the analysis, we will gather all the possible reactions into 5 categ
 - **Topic_change** based on the tags
 
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
-  Let's start by figuring out if some reaction have some linear relationship. To do so, we are going to perform <b>Pearson's correlation</b> between every pair of reaction, and visualize them performing a correlation matrix.
+  Let's start by figuring out if some reactions have some linear relationship. To do so, we are going to compute <b>Pearson's correlation coefficients </b> between every pair of reactions, and visualize them using a correlation matrix.
 </div>
 
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>Pearson's correlation</b></summary>     
-      Measurement of both the strength and direction of a linear relationship between two continuous variables. It ranges from  \(-1\( showing perfect negative correlation and \(1\( for perfect positive correlation. When using Pearson's correlation, it is assumed that the relationship between the two variables is linear, that their distribution is normal and that the variance is homogeneous across all levels of the independent variable.
+      Measurement of both the strength and direction of a linear relationship between two continuous variables. It ranges from  \[-1\] showing perfect negative correlation and \[1\] for perfect positive correlation. 
+      \[
+      \rho_{X,Y} = \frac{\operatorname{cov}(X,Y)}{\sigma_X \sigma_Y}
+      \]
+      When using Pearson's correlation, it is assumed that the relationship between the two variables is linear, that their distribution is normal and that the variance is homogeneous across all levels of the independent variable.
    </details>
 </div>
 
