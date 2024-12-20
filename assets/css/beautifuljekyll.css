@@ -1155,6 +1155,7 @@ pre {
   }
 }
 
+
 /* Style for the Back to Top Button */
 #back-to-top {
   position: fixed;
@@ -1163,24 +1164,21 @@ pre {
   background-color: #3498db;
   color: white;
   border-radius: 50%;
-  /* Ensures circular shape */
+  /* Makes it a circle */
   width: 50px;
-  /* Circle width */
+  /* Set both width and height to make it a perfect circle */
   height: 50px;
-  /* Circle height */
   font-size: 20px;
   display: none;
-  justify-content: center;
-  /* Ensures content is centered horizontally */
-  align-items: center;
-  /* Ensures content is centered vertically */
+  transition: opacity 0.3s ease;
   text-align: center;
-  line-height: 1;
-  /* Prevents height issues from text spacing */
+  line-height: 50px;
+  /* Vertically center the text */
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  /* Makes the button clickable */
 }
+
 #back-to-top:hover {
   background-color: #004aad;
 }
+
+
