@@ -1407,7 +1407,7 @@ pre {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #3498db;
+  background-color: #004aad;
   color: white;
   border-radius: 50%;
   /* Makes it a circle */
@@ -1424,5 +1424,5 @@ pre {
 }
 
 #back-to-top:hover {
-  background-color: #004aad;
+  background-color: #3498db;
 }
