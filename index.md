@@ -366,8 +366,13 @@ As you can see, everything is possible when it comes to changing the topic of yo
 
 We have so far just listed the possible reactions, an easy task... but **which ones do work**? We are going to experiment with a couple of methods to find out about it: <span style="color: #432750;">Pearson's correlation, logistic regression, t-tests</span> and others...
 
+To simplify the analysis, we will gather all the possible reactions into 5 categories: 
+- **Posting frequencies** with Posted_more and Posted_less
+- **Duration of videos** with Posted_longer_videos and Posted_shorter_videos
+- **Topic_change** based on the tags
+
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
-  Let's start by figuring out if some have some linear relationship. To do so, we are going to perform <b>Pearson's correlation</b> between every pair of reaction, and visualize them performing a correlation matrix.
+  Let's start by figuring out if some reaction have some linear relationship. To do so, we are going to perform <b>Pearson's correlation</b> between every pair of reaction, and visualize them performing a correlation matrix.
 </div>
 
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; margin-top: 0;">
