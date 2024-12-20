@@ -562,7 +562,7 @@ This gives us the following results :
 Finally, some long awaited results ! The balanced data suggests that whilst **increasing upload frequency has a relatively great effect on recovery** with around 10 more points in percentage, uploading less has a bigger impact... by making your **recovery chances go down 17 points of percentage**, just like we have noticede in the logistic regression. Changing video duration and topics does not seem to play such an important role, if you are a chance maximiser you might still want to post shorter videos and change topic since they show a small increase in recovery. 
 
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
-  In order to see if these strategies led to statistically significant differences in recovery rates, we performed a <b>t-test analysis</b> with a significance level of 0.05.
+  In order to see if the strategies after matching led to statistically significant differences in recovery rates, we performed a <b>t-test analysis</b> with a significance level of 0.05.
 </div>
 
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; margin-top: 0;">
@@ -574,7 +574,7 @@ Finally, some long awaited results ! The balanced data suggests that whilst **in
    </details>
 </div>
 
-The results are as follows:
+The results are as followed:
 
 <head>
   <meta charset="UTF-8">
@@ -649,38 +649,38 @@ The results are as follows:
   </table>
 </body>
 
-The t-test results reveal that only the two strategies concerning the **video upload frequency** show statistically significant differences in recovery rated, which is an accordance with the regression results. An increase in video frequency shows a higher mean recovery rate for those who adopted the strategy compared to those who did not. Conversely, posting less videos is associated with a lower mean recovery rate.
+The t-test results reveal that only the two strategies concerning the **video upload frequency** show statistically significant differences in recovery rates, which is an accordance with the regression results. An increase in video frequency shows a higher mean recovery rate for those who adopted the strategy compared to those who did not. Conversely, posting less videos is associated with a lower mean recovery rate.
 
-This being a very generic results, we will dive deeper into all of those subjects to make you maximise your chances with personnalized advices, since further analysis leads us to insteresting results that are worth detailing ! **Onto the solutions now !**
+This being a very generic results, we will dive deeper into all of those subjects to make you maximise your chances with personnalized advices, since further analysis leads us to interesting results that are worth detailing! **Onto the solutions now!**
 
 ### Posting frequency
 
-Good news! Our detailed analysis reveals that increasing your upload frequency is more effective than reducing it. **So what does it mean to increase upload frequency ?**
+Good news! Our detailed analysis reveals that increasing your upload frequency is more effective than reducing it, and at a significant level! **So what does it mean to increase upload frequency ?**
 
 <iframe src='https://flo.uri.sh/visualisation/20874403/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:400px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/20874403/?utm_source=embed&utm_campaign=visualisation/20874403' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
-This graph is very straight forward and can be interpreted easily: posting more will give you more chances to recover ! However, even if it's not precised in the graph, that shouldn't be detrimental to quality... Maybe you could consider trying a Vlogmas situation where everyday something comes out ? It has shown its success... whilst reinforcing your community. 
+This graph is very straight forward and can be interpreted easily: **posting more will give you more chances to recover**! However, even if it's not precised in the graph, that shouldn't be detrimental to quality... Maybe you could consider trying a Vlogmas situation where everyday something comes out? It has shown its success... whilst reinforcing your community. That will imply some good needed holidays right after, but with a bunch of new subscribers this time! You win some you lose some...
 
 ### Video duration
 
-Now, about video duration ! Are you feeling more Spielberg or TikTok star ? While our regression analysis suggests that duration has a limited impact on recovery, we decided to investigate further, looking for hidden patterns.
+Now, about video duration! Are you feeling more Spielberg or TikTok star? While our regression analysis suggests that duration has a **limited impact on recovery**, we decided to investigate further, looking for hidden patterns.
 
 <div style="border: 2px solid red; padding: 10px; display: inline-block; border-radius: 15px">
   <b>Let's get you onto a little recipe, shall we ?</b>
   <ol>
-      <li> Start by determining your average duration of video before you stats started declining (over around 10 videos) </li>
-      <li> ⁠Adjust your frequency using our little guide to align your ideal duration with recovery trends. </li>
+      <li> Start by determining your average duration of video before you started declining (over around 10 videos) </li>
+      <li> ⁠Adjust your mean length using our little guide to align your ideal duration with recovery trends. </li>
   </ol>
 </div>  
 
 <div class="flourish-embed flourish-quiz" data-src="visualisation/20839812"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20839812/thumbnail" width="100%" alt="quiz visualization" /></noscript></div>
 
-The questionnaire is based on the following graph:
+The questionnaire is based on the following graph, that is thankfully more telling than the previous one.
 <iframe src='https://flo.uri.sh/visualisation/20874600/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:400px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/20874600/?utm_source=embed&utm_campaign=visualisation/20874600' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
 <div style="display: flex; align-items: center;">
   <p style="flex: 1; margin-right: 20px;">
-    In conclusion, our team of experts is confident in saying that the ideal video length maximising recovery is between <b>20 and 30 minutes</b>. This duration may resonate better with your audience, not too long (sorry but you might bore people) whilst still providing interesting content ! <b> While this insight is subtle, it can guide creators aiming to maximize their recovery potential. </b>However, the increase in chanwces in quite dim for videos over 15min, so you shouldn't bother too much squeezing your content. . 
+    In conclusion, our team of experts is confident in saying that the ideal video length maximising recovery is between <b>20 and 30 minutes</b>. This duration may resonate better with your audience, not too long (sorry but you might bore people) whilst still providing interesting content ! <b> Whilst the insight is subtle, it can guide creators aiming to maximize their recovery potential. </b>However, the prospect of the increase in chances of recovery is quite dim for videos around 15min, so you shouldn't bother too much squeezing your content! As we have said previously, the change in duration is not statistically significant, so there are more chances that the results we obtained are due to chance than anything else.
   </p>
   <img src="/assets/img/cadrant.png" alt="Description of image" style="width: 150px;">
 </div>
@@ -689,25 +689,24 @@ In this analysis of video durations and frequencies, we used **Propensity Score 
 
 As a side note, since the data from the YouNiverse stopped being sampled in 2019, we do not have any data on new updates Youtube introduce... and this include the great invention of the **Youtube Shorts**. This Tiktok wanabee might be a key for your Youtube rising fame if you're into short and dynamic videos ! Just an fyi...
 
-
 ### A deep dive into topic transitions
 
 <div style="display: flex; align-items: center; flex-direction: row;">
   <img src="/assets/img/crossroads.png" alt="Description of image" style="width: 150px; margin-right: 20px;">
   <p style="flex: 1;">
-      Back into the more fun stuff ! <b>Do we recommend you to change subjects ?</b> Of course, we are here talking to the desesperate that do not mind doing a 180°, promise we do not judge (a little), we're just being a guide in the process. 
+      Back into the more fun stuff ! <b>Do we recommend you to change subjects ?</b> Of course, we are here talking to the desesperate that do not mind doing a 180°... promise we do not judge (only a little). 
       Evaluating the impact of subject changes should not be done as a whole: the categories and possible transitions are too numerous to be aggregated into one variable. To go into greater detail, we analyze the consequences by direction: going from <b>Politics</b> to <b>Lifestyle</b> videos should be distinguished from changing from <b>Movie reviews</b> to <b>League of Legends</b> content. 
   </p>
 </div>
 
-On average, channels that change their video topics experience a slight increase in recovery rates compared to those that do not.
+On average, channels that change their video topics experience a slight increase in recovery rates compared to those that do not, again not statistically significant but some fine-tuning is always interesting.
 While this is encouraging, we have to emphasize that **this approach can have mixed results**, and the impact on your recovery rate will depend heavily on the types of topics you choose to pivot to. **It is not about if you change or not, it is from where and to where you change !**
-Let's investigate using a interactive Sankey diagram showing topic transitions and their recovery rates, colored by recovery rate (cooler colors represent higher recovery rates)
+Let's investigate using a interactive Sankey diagram showing topic transitions and their recovery rates, colored by recovery rate (cooler colors represent higher recovery rates).
 
 <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
 
   <!-- Sankey Plot -->
-  <div id="sankey-plot" style="flex: 5; min-width: 400px; max-width: 100%;">
+<div id="sankey-plot" style="width: 100%; height: 600px; min-width: 400px;">
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script type="text/javascript">
       // Function to map normalized recovery rate to color (coolwarm)
