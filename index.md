@@ -308,7 +308,7 @@ A third and more daring reaction is to experiment and go out of your comfort zon
 
 <div style="display: flex; align-items: center;">
   <p style="flex: 1; margin-right: 20px;">
-    <b>So how xan we measure that ?</b> Well we could have used titles and description of videos but this would have required a massive computation power... and our computer just couldn't handle it. <b>But we did better !</b> We used an awesome feature given by Youtube... <b>TAGS</b>. Those help direct to your channel people that have similar interest and would watch videos with the same topic. Tags are fully customizable so can be as precise as 'Daily vlogs of an esthetician in Utah' and as vague as 'Gaming'. 
+    <b>So how can we measure that ?</b> Well we could have used titles and description of videos but this would have required a massive computation power... and our computer just couldn't handle it. <b>But we did better !</b> We used an awesome feature given by Youtube... <b>TAGS</b>. Those help direct to your channel people that have similar interest and would watch videos with the same topic. Tags are fully customizable so can be as precise as 'Daily vlogs of an esthetician in Utah' and as vague as 'Gaming'. 
   </p>
   <img src="/assets/img/tags.png" alt="Description of image" style="width: 150px;">
 </div>
@@ -385,17 +385,21 @@ To simplify the analysis, we will gather all the possible reactions into 5 categ
       \rho_{X,Y} = \frac{\operatorname{cov}(X,Y)}{\sigma_X \sigma_Y}
       \]
       Where $\operatorname{cov}$ is the covariance, $\sigma_X$ is the standard deviation of $X$, and $\sigma_Y$ is the standard deviation of $Y$.
-      
+
       When using Pearson's correlation, it is assumed that the relationship between the two variables is linear, that their distribution is normal and that the variance is homogeneous across all levels of the independent variable.
    </details>
 </div>
 
 <br>
 
-<div class="flourish-embed flourish-heatmap" data-src="visualisation/20888610"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20888610/thumbnail" width="100%" alt="heatmap visualization" /></noscript></div>
+<div style="display: flex; align-items: center; flex-direction: row;">
+  <iframe src='https://flo.uri.sh/visualisation/20889707/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:60%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/20889707/?utm_source=embed&utm_campaign=visualisation/20889707' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+  <p style="flex: 1;">
+    Not the most convincing representation, we are aware. The stronger correlation coefficients are present between <b>posted more</b> and <b>posted less</b>, because yes when you post more, it means you don't post less, and reciprocally, obviously. This also allows us by keeping Recovered in the heat map to perform a very naive analysis of which reactions has the strongest effect on the recovery. From where we are standing, it seems to be the posted less reaction, but let's not jump the gun. 
+  </p>
+</div>
 
-
-
+<div class="flourish-embed flourish-heatmap" data-src="visualisation/20889707"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20889707/thumbnail" width="100%" alt="heatmap visualization" /></noscript></div>
 
 
 
