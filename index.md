@@ -393,15 +393,13 @@ To simplify the analysis, we will gather all the possible reactions into 5 categ
 <br>
 
 <div style="display: flex; align-items: center; flex-direction: row;">
-  <iframe src='https://flo.uri.sh/visualisation/20889707/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:60%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/20889707/?utm_source=embed&utm_campaign=visualisation/20889707' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+  <iframe src='https://flo.uri.sh/visualisation/20889707/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:60%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'></div>
   <p style="flex: 1;">
     Not the most convincing representation, we are aware. The stronger correlation coefficients are present between <b>posted more</b> and <b>posted less</b>, because yes when you post more, it means you don't post less, and reciprocally, obviously. This also allows us by keeping Recovered in the heat map to perform a very naive analysis of which reactions has the strongest effect on the recovery. From where we are standing, it seems to be the posted less reaction, but let's not jump the gun. 
   </p>
 </div>
 
-<div class="flourish-embed flourish-heatmap" data-src="visualisation/20889707"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20889707/thumbnail" width="100%" alt="heatmap visualization" /></noscript></div>
-
-
+After those inconclusive results, we do not lose hope ! We move on to performing a 
 
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
   First of all, here are the results of a <b>Logistic regression</b> of recovery on the reactions. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery. Before performing it, we standardize our attributes to put them  all on the same scale, and be able to compare coefficients better. 
