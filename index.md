@@ -339,11 +339,6 @@ A little bit of explanation: each topic contains a set of **15 words and their p
 
 The 20-topic model captures a **broad spectrum of interests**, ranging from Politics to Fortnite Gameplay. While some of the topics seem to capture content categories very well, like the topic "Movie Reviews" that contains words like "movie", "review", "trailer" and "film" and that revolves around content creators who analyze or review films, there is also some overlap between different topics, for example in the topic "Art and Spirituality" that also contains the words "golf" and "f1" and therefore may also touch on certain hobbies or sports.  However, these 20 topics are distinct enough to provide meaningful classifications that will support an analysis of the topic transitions and their correlation with recovery.
 
-<div style="border-left: 4px solid #5D6591; padding-left: 20px; font-size: 18px; margin-top: 0;">
-  <details> 
-    <summary style = "font-size: 18px; cursor: pointer;"><b>For ADA specialists</b> </summary>     
-   </details>
-</div>
 
 <div style="display: flex; align-items: center;">
   <p style="flex: 1; margin-right: 20px;">
@@ -480,7 +475,7 @@ All put together, here is the **formula** for the logistic regression produces o
   \[
   \text{Recovery} = -0.3 + 4 \times 10^{-4} \times D_{\text{Posted longer videos}} 
   + 2.3 \times 10^{-2} \times D_{\text{Posted shorter videos}}
-  + 0.06 \times D_{\text{Posted more}} 
+  + 0.06 \times D_{\text{Posted more}} \\
   - 0.3 \times D_{\text{Posted less}} 
   - 0.02 \times D_{\text{Topic change}}
   \]
@@ -1037,7 +1032,7 @@ If you’re considering making a shift, we recommend focusing on topics that hav
   Secondly, we define an <b>"exclusive strategy"</b> as a strategy where you decide to upload videos of certain types and to NOT upload any other type (you're just a loner, or you're a human with ethics, yes joke intended). For our previous example (Apology, Clickbait and Featuring), this would be considered as the <b>EXCLUSIVE</b> strategy "Apology + Clickbait + Featuring". <br>
   <br>
 
-  Let's now see which exclusive or not strategies are the most adopted by the 1M+ club, and most importantly which ones are the most efficient. For this, we've gathered the proportion of youtubers that have adopted each (exclusive) strategy, and the associated recovery rate. All you have to do is to click on the circle(s) of the strategy you want to adopt. If you are more into an exclusive strategy, just switch to the second graph, and select your exclusive strategy exactly the same way.The graph is designed so you can play around with the different strategies and see how they would impact your recovery rate. Have some fun with it, experiment with the combinations, until you find <b>YOUR</b> best fit. <br>
+  Let's now see which exclusive or not strategies are the most adopted by the 1M+ club, and most importantly which ones are the most efficient. For this, we've gathered the proportion of youtubers that have adopted each (exclusive) strategy, and the associated recovery rate. All you have to do is to click on the circle(s) of the strategy you want to adopt. If you are more into an exclusive strategy, just switch to the second graph, and select your exclusive strategy exactly the same way. The graph is designed so you can play around with the different strategies and see how they would impact your recovery rate. Have some fun with it, experiment with the combinations, until you find <b>YOUR</b> best fit. <br>
   <br>
 
   <b>Select a graph and enjoy:</b>
