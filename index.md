@@ -142,7 +142,7 @@ creators on YouTube and other platforms. Eager to offer them unforeseen solution
 
 Why us and not some wanabee adviser on YouTube ? Well, because we based all our work on a scientific, multi-dimensional, and extensive dataset... **YouNiverse**[1]. This dataset, released in 2021 is a precious ingredient in our recipe, because Youtube is such a colossal platform that it is quite discouraging to try and sample it. With data from over 136k channels and 72.9M videos published between May 2005 and October 2019. Cool, right ? Well that's our biggest asset in this quest for recovery. It is a long, tidious process, with the main negative aspect being the fact that he only sampled english-speaking videos... oups. Lots of things to say about this great dataset, if you're eager to know just check the below easter egg :)))
 
-![](/assets/img/fakeytb.jpg)
+![](/assets/img/fakeytb.jpeg)
 
 ## Before any piece of advice, how do we define a decline ?
 
