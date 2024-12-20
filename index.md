@@ -398,10 +398,10 @@ To simplify the analysis, we will gather all the possible reactions into 5 categ
   </p>
 </div>
 
-After those inconclusive results, we do not lose faith ! We move on to performing a Machine Learning Model in the hope of predicting the probability of the event 'Recovered', which will also help us obtaining coefficients for all reactions and their influence on the event. 
+After those inconclusive results, we do not lose faith ! We move on to performing a **Machine Learning Model** in the hope of predicting the probability of the event 'Recovered', which will also help us obtaining coefficients for all reactions and their influence on the event. 
 
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
-  The model chosen is a <b>Logistic regression</b> of the recovery on the reactions. Therefore, we will make use of all the data we have to compute the average impact of each reaction on the recovery. Before performing it, we standardize our attributes to put them all on the same scale, and be able to compare coefficients better. 
+  The model chosen is a <b>Logistic regression</b> of the recovery on the reactions. We will make use of all the data we have to compute the average impact of each reaction on the recovery. Before performing it, we standardize our attributes to put them all on the same scale, and be able to compare coefficients better. 
 </div>
 
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; margin-top: 0;">
@@ -409,7 +409,7 @@ After those inconclusive results, we do not lose faith ! We move on to performin
     <summary style = "font-size: 18px; cursor: pointer;"><b>Logistic Regression</b></summary>     
     Supervised Machine Learning model where the latter log odds as a linear function of X. It is fitted for binary classification which applies here (Recovered: yes/no).
     <p>
-      \( p(x) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x)}} \)</span>
+      \( p(x) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x)}} \)
     </p>
     <p>
       where \( \beta_0 = -\frac{\mu}{s} \) and is known as the intercept (it is the vertical intercept or y-intercept of the line \( y = \beta_0 + \beta_1 x \)), and \( \beta_1 = \frac{1}{s} \) (inverse scale parameter or rate parameter). These are the y-intercept and slope of the log-odds as a function of \( x \).
@@ -498,7 +498,7 @@ After those inconclusive results, we do not lose faith ! We move on to performin
   </table>
 </body>
 
-All put together, here is the **formula** for the logistic regression produces on standardized predictor variables: 
+All put together, here is the **formula** for the logistic regression produced on standardized predictor variables: 
 
 <div style="border: 2px solid red; padding: 10px; display: inline-block;">
   \[
@@ -518,14 +518,12 @@ Where \\( D_{\text{group}} \\) represents a dummy variable that is \\(1\\) if th
 \end{equation}
 --->
 
-**This regression allows us to find how the predictor variables (as stated in the table) influence your recovery.** The bigger in absolute size, the more the variable weight in on your recovery. Here, posting less videos, posted more videos and posted shorter videos hold the most importance. **But don't get ahead of yourself yet !** That's where the p-value comes into play... 
-
-
+**This regression allows us to find how the predictor variables (as stated in the table) influence your recovery.** The bigger in absolute size, the more the variable weight in on your recovery. Here, posting less videos, posting more videos and posting shorter videos hold the most importance. **But don't get ahead of yourself yet !** That's where the p-value comes into play... 
 
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>p-value</b> </summary>     
-      The <b>p-value</b> is a number that tells you how likely it is that the results you see in your data happened only by chance. We will take the threshold of 0.05.
+      The <b>p-value</b> is a number that tells you how likely it is that the results you see in your data happened only by chance. We will take the threshold of 0.05 (here and for the rest of the analysis).
       <ul>
         <li><b> A small p-value (less than 0.05)</b> signifies that it is unlikely that results are random, so there is probably a real effect and it is not up to chance</li>
         <li><b>A large p-value (more than 0.05)</b> on the other hand means that the results could easily be due to chance, so there might not be a real effect.</li>
@@ -533,7 +531,7 @@ Where \\( D_{\text{group}} \\) represents a dummy variable that is \\(1\\) if th
    </details>
 </div>
 
-Here, only the variable representing posting more and posting less were significant ! However in different direction... **Posting more has a positive coefficient so it influences positively your recovery**, whereas posting less influences it even more, but not on the side you would desire... 
+Here, only the variables representing posting more and posting less were significant ! However in different direction... **Posting more has a positive coefficient so it influences positively your recovery**, whereas posting less influences it even more, but not on the side you would desire... 
 
 <div style="border-left: 4px solid #5D6591; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details> 
@@ -543,10 +541,10 @@ Here, only the variable representing posting more and posting less were signific
    </details>
 </div>
 
-While analysing and drawing immediate conclusions from this simple regression would be quite naive, it highlights an essential fact : **Each reaction influences the recovery in a unique way.** That is why caution is needed when handling your popularity crisis: One wrong move, and it's **done** ! (You sense then gravity ?)
+While analysing and drawing immediate conclusions from this simple regression would be quite naive, it highlights an essential fact : **Each reaction influences the recovery in a unique way.** That is why caution is needed when handling your popularity crisis: One wrong move, and it's **done** ! (You sense the gravity now?)
 
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
-  As the next step, and in order to get some unbiased results and make the proportion of recoveries meaningful, we chose to perform <b>propensity score matching</b> on our decline dataset. This will balance the dataset regarding the variable whose effect we want to observe, enabling us (and you !) to draw more accurate conclusions.
+  As the next step, and in order to get some unbiased results and make the proportion of recoveries meaningful, we chose to perform <b>propensity score matching</b> on our decline dataset. This will balance the dataset regarding the variable whose effects we want to observe, enabling us (and you !) to draw more accurate conclusions.
 </div>
 
 
@@ -561,8 +559,7 @@ This gives us the following results :
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/20782011"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20782011/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
-Finally, some long awaited results ! The balanced data suggests that whilst increasing upload frequency has a relatively great effect on recovery, whereas changing video duration does not seem to play such an important role, same with topic change.
-TODO: More text
+Finally, some long awaited results ! The balanced data suggests that whilst **increasing upload frequency has a relatively great effect on recovery** with around 10 more points in percentage, uploading less has a bigger impact... by making your **recovery chances go down 17 points of percentage**, just like we have noticede in the logistic regression. Changing video duration and topics does not seem to play such an important role, if you are a chance maximiser you might still want to post shorter videos and change topic since they show a small increase in recovery. 
 
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
   In order to see if these strategies led to statistically significant differences in recovery rates, we performed a <b>t-test analysis</b> with a significance level of 0.05.
