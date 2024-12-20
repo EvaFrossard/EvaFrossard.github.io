@@ -1027,7 +1027,7 @@ If you’re considering making a shift, we recommend focusing on topics that hav
   Secondly, we define an <b>"exclusive strategy"</b> as a strategy where you decide to upload videos of certain types and to NOT upload any other type (you're just a loner, or you're a human with ethics, yes joke intended). For our previous example (Apology, Clickbait and Featuring), this would be considered as the <b>EXCLUSIVE</b> strategy "Apology + Clickbait + Featuring". <br>
   <br>
 
-  Let's now see which exclusive or not strategies are the most adopted by the 1M+ club, and most importantly which ones are the most efficient. For this, we've gathered the proportion of youtubers that have adopted each (exclusive) strategy, and the associated recovery rate. All you have to do is to click on the circle(s) of the strategy you want to adopt. If you are more into an exclusive strategy, just switch to the second graph, and select your exclusive strategy exactly the same way.<br>
+  Let's now see which exclusive or not strategies are the most adopted by the 1M+ club, and most importantly which ones are the most efficient. For this, we've gathered the proportion of youtubers that have adopted each (exclusive) strategy, and the associated recovery rate. All you have to do is to click on the circle(s) of the strategy you want to adopt. If you are more into an exclusive strategy, just switch to the second graph, and select your exclusive strategy exactly the same way.The graph is designed so you can play around with the different strategies and see how they would impact your recovery rate. Have some fun with it, experiment with the combinations, until you find <b>YOUR</b> best fit. <br>
   <br>
 
   <b>Select a graph and enjoy:</b>
@@ -1142,31 +1142,25 @@ If you’re considering making a shift, we recommend focusing on topics that hav
     updateData();
   </script>
 
-  <br /> 
-  <br /> 
-  The graph is designed so that you can play around with the different strategies and see how they would impact your recovery rate. Have some fun with it, experiment with the combinations, until you find <b>YOUR</b> gem. <br />
-  <br />
+  <br> 
+  <br> 
 
-  While the proportions for each non-exclusive strategy is not insightful, the recovery tells us a lot about the the path to follow... Here are our recommendations:<br />
-  <br />
+  While the proportions for each <b>non-exclusive strategy</b> are not the most insightful, the recovery tells us a lot about the the path to follow... Here are our recommendations:<br>
+  <br>
 
   <ul>
-    <li><b>The "GO!"s:</b> The most efficient (and widely adopted) strategies are the ones that include the <b>clickbait</b> videos with a recovery rate of almost <b>50%</b>. Combining this and a video that addresses your bad buzz seems to be the best duo if you wanted to start with two differents strategy. <br /><br /></li>
-    <li><b>The "NO!"s:</b> Apologizing in a video definitely seems to be counterproductive (recovery rate of 37%). All the worst recovery rates contain video(s) of this type. Even if your better judgment tells you to do it, it might be better to avoid starting by beging for forgiveness. <br /></li>
+    <li><b><span style="color: #004AAD;">The "GO!"s:</span></b> The most efficient (and widely adopted) strategies are the ones that include the <b>clickbait</b> videos with a recovery rate of almost always <b>50%</b>. Combining this and a video that addresses your bad buzz seems to be the best duo if you wanted to start with two differents strategy. <br><br></li>
+    <li><b><h3><span style="color: #b51a00;">The "NO!"s:</span></b> Apologizing in a video definitely seems to be counterproductive (recovery rate of 37%). All the worst recovery rates contain videos of this type. Even if your better judgment tells you to do it, it might be better to avoid begging for forgiveness. <br></li>
   </ul>
 
-  When it comes to exclusive strategies- if you are sure about the type of video you do <b>NOT</b> want to upload, here are some insights:
-  <br /><br />
+  When it comes to <b>exclusive strategies</b>- if you are sure about the type of video you do <b>NOT</b> want to upload, here are some insights:
+  <br><br>
   <ul>
-    <li><b>The case of Clickbait:</b> A key observation on the proportions is that the <b>majority</b> of big youtubers did not limit themselves to only clickbait videos, the proportion falls down from 76% to 31% when we make the strategy exclusive. However, it keeps the highest recover rate (52.2%) among the other exclusive single-type strategies. <br /><br /></li>
+    <li><b>The case of Clickbait:</b> A key observation on the proportions is that the <b>majority</b> of big youtubers did not limit themselves to only clickbait videos, the proportion falls down from 76% to 31% when we make the strategy exclusive. However, it keeps the highest recover rate (52.2%) among the other exclusive single-type strategies. <br><br></li>
     <li><b>The troubled waters:</b> On the other hand, we quickly notice that a lot of exclusive combinations have never been tested by our top 4% youtubers. This is the case for the <b>"Break + Comeback"</b> strategy, that which yet appears to be a logical one. Go on if you really want to risk loose your channel trying one of these never explored strategies, but that is definitely not what we would recommend. <br /><br /></li>
     <li><b>Saving your apologies by clickbaiting:</b> A major point is that when combined with <b>"Clickbait"</b> (only), the <b>"Apology"</b> video comes out of nowhere to demonstrate the fabulous recovery rate of <b>100%</b>. But don't get too much enthusiastic about this result, the proportion of youtubers that have adopted this strategy is very lo -it is still encouraging if that was the perfect plan in your mind. <br /><br /></li>
     <li><b>Multi-type strategies:</b> The only multi-type strategies that have already been widely adopted are the <b>"Clickbait + Featuring"</b> (<b>12%</b>  of the big youtubers tried this) and the <b>"Clickbait + Bad Buzz Addressed" (5%)</b> strategies. And while the first one seems not to be optimal (only 49% of them recovered), the <b>"Clickbait + Bad Buzz Addressed"</b> demonstrates a recovery rate of 54%, giving you more than a 50% chance of saving your channel<br /></li>
   </ul>
-
-  <br />
-
-  <br />
 
   </p>
 </div>
