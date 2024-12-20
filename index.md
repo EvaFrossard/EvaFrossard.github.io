@@ -565,14 +565,17 @@ This gives us the following results :
 Finally, some long awaited results ! The balanced data suggests that whilst **increasing upload frequency has a relatively great effect on recovery** with around 10 more points in percentage, uploading less has a bigger impact... by making your **recovery chances go down 17 points of percentage**, just like we have noticede in the logistic regression. Changing video duration and topics does not seem to play such an important role, if you are a chance maximiser you might still want to post shorter videos and change topic since they show a small increase in recovery. 
 
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
-  In order to see if the strategies after matching led to statistically significant differences in recovery rates, we performed a <b>t-test analysis</b> with a significance level of 0.05.
+  In order to see if the strategies after matching led to statistically significant differences in recovery rates, we performed a <b>Welch's t-test analysis</b> with a significance level of 0.05.
 </div>
 
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
-    <summary style = "font-size: 18px; cursor: pointer;"><b>t-test analysis</b></summary>     
-    A t-test is used to determine whether a difference between two groups is likely due to random chance or if it reflects a statistically significant difference in the populations. A t-test calculates a statistic called the <b>t-value</b>, which measures how much the two means differ, relative to the variability in the data. 
+    <summary style = "font-size: 18px; cursor: pointer;"><b>Welch's t-test analysis</b></summary>     
+    A Welch's t-test is used to determine whether a difference between two groups is likely due to random chance or if it reflects a statistically significant difference in the populations, when the two popualtion variances are not equal. A t-test calculates a statistic called the <b>t-value</b>, which measures how much the two means differ, relative to the variability in the data. 
     $$ t = \frac{\bar{X_1} - \bar{X_2}}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}} $$
+    \[
+    With \bar{X} \text{ the sample mean from the samples } \text{,  \, s \text{ the unbiased estimator of the variance}.
+    \]
     Then, the probability of obtaining a result at least as extreme as the one observed (p-value) is computed and compared to a chosen significance level. In this whole project, we always used a significance level of 0.05 and discarded the null hypothesis, stating that there is no difference in recovery rates between the two group, whenever the p-value is less than this significance level.
    </details>
 </div>
