@@ -78,6 +78,28 @@ mathjax: true
 </head>
 
 <script>
+  if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+  }
+
+  window.addEventListener('beforeunload', function () {
+    sessionStorage.setItem('scrollPosition', window.scrollY);
+  });
+
+  window.addEventListener('DOMContentLoaded', function () {
+  
+    if (window.location.hash === '#1M+club') {
+      history.replaceState(null, '', window.location.pathname + window.location.search);
+    }
+
+    const scrollPosition = sessionStorage.getItem('scrollPosition');
+    if (scrollPosition) {
+      window.scrollTo(0, parseInt(scrollPosition, 10));
+    }
+  });
+</script>
+
+<script>
   // Show the "Back to Top" button when the user scrolls down
   window.onscroll = function() {
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
