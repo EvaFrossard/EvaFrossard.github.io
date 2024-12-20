@@ -220,7 +220,7 @@ So what do we considered being an **efficient recovery** ? Since we do not want 
 More than 16 weeks and our model will sadly announce that you have one foot in the grave, and that Youtuber might not be a durable hobbie for you... sad, but your mom told you so years ago!
 Here, using our tools, our goal is to put you out of the woods before this deadline and if declines didn't end in 4 months, our program will consider that your recovery has failed. Sorry ! 
 
-## What are the factors available to analyse your decline  ? 
+## Can we predict your chance of efficient recovery based on your stats pre-decline ? 
 
 <div class="flourish-embed flourish-election" data-src="visualisation/20802367"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20802367/thumbnail" width="100%" alt="election visualization" /></noscript></div>
 
@@ -232,9 +232,9 @@ What will be the first metric is actually very naive but still shows some result
 
 <div style="display: flex; align-items: center;">
   <p style="flex: 1; margin-right: 20px;">
-    <b>Best categories to have a decline in ? </b> Little podium: News & Politics (the 24/24 activity might be in your favor here), Gaming, Travels and Events... 
+    <b>Best categories to have a decline in ? </b> Little podium: <span style="color: #004AAD;">News & Politics</span> (the 24/24 activity might be in your favor here), <span style="color: #004AAD;">Gaming</span>, <span style="color: #004AAD;">Travels and Events</span>... 
     <br>
-    On the other side, <b>the underperformers</b> are music -where rap is often quite unforgivable- and Pets and Animals. 
+    On the other side, <b>the underperformers</b> are <span style="color: #b51a00;">Music</span> -where rap is often quite unforgivable- and <span style="color: #b51a00;">Pets and Animals</span>. 
 
   </p>
   <img src="/assets/img/podium.png" alt="Description of image" style="width: 150px;">
@@ -260,20 +260,20 @@ So what about **views and subscribers** ? Is being a renowned Youtuber providing
   </p>
 </div>
 
-Okay, we've been introduced to the holy quatuor: **categories, fame, activity of your channel and duration of video** to see if they provided us info on your channel chances to regain its previous flourishment. Let's now get into how YOU can impact the health of your channel, meaning how YOU can react ans use those metrics in your favour. We will start by citing all the different strategies we have observed (yes the same strategies you have probably been wracking your brain with), before putting our lab coat and taking our calculator to see if those methods are truly useful. 
+Okay, we've been introduced to the holy quatuor: **categories, fame, activity of your channel and duration of video** to see if they provided us info on your channel chances to regain its previous flourishment. We have noticed that it is possible to see overall trends, but nothing precise nor statistically relevant.  
+Let's now get into how YOU can impact the health of your channel, meaning how YOU can react ans use those metrics in your favour. We will start by citing all the different strategies we have observed (yes the same strategies you have probably been wracking your brain with), before putting our lab coat and taking our calculator to see if those methods are truly useful. 
 
-## What are the possible strategies observed when facing a decline ? 
+## Qualitative analysis: what are the possible strategies observed when facing a decline ? 
 
-Taking advantage of all the data that we have at hand, our research team identified the key metrics that measure creator's reactions in times of
-crisis, and will now walk you through them. Take notes !
+Taking advantage of all the data that we have at hand, our research team identified the types of key metrics that **measure creator's reactions in times of crisis**, and we will now walk you through them. Take notes !
 
 ### Upload frequency
 
-You might have thought that getting **more active on the platform** would make you regain your audience or at least will make you gain a new public, because the Youtube algorithm would put you forward. 
+You might have thought that getting **more active on the platform** would make you regain your audience or at least will bring you a new public, because the Youtube algorithm would put you forward.
 
-Maybe you've considered **taking a break**, make them wait a little and be more desirable (we see you mister pick-me) before making a big come back, maybe ? 
+Maybe you've considered **taking a break**, make them wait a little and be more desirable (we see you mister pick-me) before making a big come back ? 
 
-Or you are just a chill guy, you also want your audience to just be chill guys and be alike you, and you didn't want to force yourself to post or take an unwanted break... so you just **kept uploading at the same rythm**. 
+Or you are just a chill guy, you also want your audience to just be chill guys, and you didn't want to force yourself to post or take an unwanted break... so you just **kept uploading at the same rythm**. 
 
 **Thus, we have 3 separate groups:**
 
@@ -298,7 +298,7 @@ Or you are just a chill guy, you also want your audience to just be chill guys a
 <div style="display: flex; align-items: center; flex-direction: row;">
   <img src="/assets/img/pic_durationvid.png" alt="Description of image" style="width: 150px; margin-right: 20px;">
   <p style="flex: 1;">
-    Keeping up with durations, here we are focusing on the length of videos. More in the Shorts mindsets or into the long documentary styles videos. Or maybe you like your comedy sketch around the 5min, or maybe it's the cash coming with the monetization and the <a href="https://www.reddit.com/r/PartneredYoutube/comments/4v6bmy/why_so_many_youtubers_are_making_their_videos/" target="_blank">multiple ads in over 10min videos</a> (yes, we see you Uncle Scroodge!). 
+    Keeping up with durations, here we will be focusing on the length of videos. More in the Shorts mindsets or into the long documentary styles videos. Or maybe you like your comedy sketch around the 5min, or conversely, it's the cash coming with the monetization and the <a href="https://www.reddit.com/r/PartneredYoutube/comments/4v6bmy/why_so_many_youtubers_are_making_their_videos/" target="_blank">multiple ads in over 10min videos</a> (yes, we see you Uncle Scroodge!). Changing video duration will therefore be studied to help you maximise your chance of recovery.
   </p>
 </div>
 
@@ -308,22 +308,27 @@ A third and more daring reaction is to experiment and go out of your comfort zon
 
 <div style="display: flex; align-items: center;">
   <p style="flex: 1; margin-right: 20px;">
-    <b>So how did we measure that ?</b> Well we could have used titles and description but this would have required a massive computation strength... and our computer just couldn't handle it. <b>But we did better !</b> We used an awesome feature given by Youtube... <b>TAGS</b>. Those help direct to your channel people that have similar interest and would watch videos with the same topic. Tags are fully customizable so can be as precise as 'Daily vlogs of an esthetician in Utah' and as vague as 'Gaming'. 
+    <b>So how xan we measure that ?</b> Well we could have used titles and description of videos but this would have required a massive computation power... and our computer just couldn't handle it. <b>But we did better !</b> We used an awesome feature given by Youtube... <b>TAGS</b>. Those help direct to your channel people that have similar interest and would watch videos with the same topic. Tags are fully customizable so can be as precise as 'Daily vlogs of an esthetician in Utah' and as vague as 'Gaming'. 
   </p>
   <img src="/assets/img/tags.png" alt="Description of image" style="width: 150px;">
 </div>
 
-Getting this data allows us determine whether the reactions include changing the topics of interest, and we will use these statistics to find the best strategy. Burning question: **How to determine topics based on tags?**
+Getting this data allowed us to determine whether the reactions include changing the topics of interest, and we will use these statistics to find the best strategy. Burning question: **How to determine topics based on tags?**
 
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
-  Using <b>Latent Dirichlet Allocation</b> (a natural language processing technique), we are able to extract the main topic of a channel based on the tags <b>before</b> and <b>during</b> crises. The results obtained give us the words that have been put into the same category, but to obtain an overall topic name, we passed the lists through the LLM <b>Ollama</b>. We use 20 different categories to remain broad and not be too sensitive to small content changes.
+  Using <b>Latent Dirichlet Allocation</b>, we are able to extract the main topic of a channel based on the tags <b>before</b> and <b>during</b> crises. The results obtained give us the words that have been put into the same category, but to obtain an overall topic name, we passed the lists through the LLM <b>Ollama</b>. We use 20 different categories to remain broad and not be too sensitive to small content changes.
 </div>
 
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>Latent Dirichlet Allocation</b></summary>     
-      <b>Unsupervised classification of documents</b>, similar to clustering on numeric data, which finds some natural groups of items (topics). The aim of LDA is to find topics a document (seen as a 'bag of words') belongs to, based on the words in it. Each topic is characterized by a list of words (the tokens with the greatest probabilities of appearing in the document). The LDA can be used to reduce the complexity of text data by representing documents in terms of a small number of topics instead of all individual words.
-
+      <b>Unsupervised Machine Learning technique to perform classification of documents</b>, similar to clustering on numeric data, which finds some natural groups of items (topics). It is part of Natural Language Processing (NLP) techniques. The aim of LDA is to find topics a document (seen as a 'bag of words') belongs to, based on the words in it. Each topic is characterized by a list of words (the tokens with the greatest probabilities of appearing in the document). Before applying LDA, the following techniques are performed: 
+      <ul>
+        <li> Tokenization: converting the sequence into small parts </li>
+        <li> Stop-word Removal </li>
+        <li> Lemmatization: Reducing words to their root forms for exemple dancing, dances becomes dance </li>
+        <li> Vectorization: Representing text numerically, here with Bag of Words</li>
+      </ul> 
    </details>
 </div>
 
