@@ -12,7 +12,7 @@ mathjax: true
 
 ![](/assets/img/comments_intro.png)
 
-### Does that sound (too) familiar ? Then you might just need our help...
+### Does that sound (too) familiar? Then you might just need our help...
 
 <hr>
 
@@ -112,7 +112,6 @@ mathjax: true
                 As community managers, we can guarantee you that <u>you are not alone</u>, but you just made the <b>BEST</b> decision of your career by coming to us. Our team of experts is here to 
                 dedicate their talents to make YOU regain your popularity, without judgement and with full trust, in a record time. May it be from a big controversy or a simple popularity 
                 decline, our goal is to <b>develop a data-driven strategy for navigating the aftermath of public disinterest using insights from YouTube’s ecosystem</b>. 
-               
             </p>
         </div>
         <div class="image">
@@ -139,7 +138,7 @@ creators on YouTube and other platforms. Eager to offer them unforeseen solution
 
 ## Why should you trust us ?
 
-Why us and not some wanabee adviser on YouTube ? Well, because we based all our work on a scientific, multi-dimensional, and extensive dataset... **YouNiverse**[1]. This dataset, released in 2021 is a precious ingredient in our recipe, because Youtube is such a colossal platform that it is quite discouraging to try and sample it. With data from over 136k channels and 72.9M videos published between May 2005 and October 2019. Cool, right ? Well that's our biggest asset in this quest for recovery. It is a long, tidious process, with the main negative aspect being the fact that he only sampled english-speaking videos... oups. Lots of things to say about this great dataset, if you're eager to know just check the below easter egg :)))
+Why us and not some wanabee adviser on YouTube ? Well, because we based all our work on a scientific, multi-dimensional, and extensive dataset... **YouNiverse** (see more information in the tab Ressources). This dataset, released in 2021 is a precious ingredient in our recipe, because Youtube is such a colossal platform that it is quite discouraging to try and sample it. It is composed of data samples from over 136k channels and 72.9M videos published between May 2005 and October 2019. Cool, right ? Well that's our biggest asset in this quest for recovery. It is a long, tedious process, with the main negative aspect being the fact that only english-speaking videos were integrated into the database... oups. Lots of things to say about this great dataset, if you're eager to know just check the below easter egg were:)))
 
 ![](/assets/img/fakeytb.jpeg)
 
@@ -149,24 +148,30 @@ Why us and not some wanabee adviser on YouTube ? Well, because we based all our 
 
 <div style="display: flex; align-items: center;">
   <p style="flex: 1; margin-right: 20px;">
-    Let's keep it real, there are very few chances you're actively losing subscribers (or maybe you are actually a famous Youtuber and you did fumble, you can go check out our <a href="#1M+club" style="color: red; font-weight: bold;" >bad buzz section</a>;)). If you're not in the middle of a controversy and cancel culture hasn't got the best of you, chances are you are just experiencing a decline. In most cases, your situation will fix by itself. <b>However, if this has been going on for more than a month, maybe you should check out our analytical tool ! </b>
+    Let's keep it real, there are very few chances you're actively losing subscribers (or maybe you are actually a famous Youtuber and you did fumble, you should go check out our <a href="#1M+club" style="color: red; font-weight: bold;" >bad buzz section</a> ;)). If you're not in the middle of a controversy and cancel culture hasn't got the best of you, chances are you are just experiencing a <b>decline</b>. In most cases, your situation will fix by itself. However, if this has been going on for more than a month, maybe you should check out our analytical tool !
   </p>
   <img src="/assets/img/curve_icon.jpg" alt="Description of image" style="width: 150px;">
 </div>
 
-Since Youtube hasn't stopped gaining new users, we have reached the conclusion that very few channels will actively face a decrease in their total subscriber count. However, we can detect decline by noticing in your stats a significant slowdown in the growth rate of your subscribers, which may indicate potential issues such as reduced engagement or a negative reception by the audience. 
+Since Youtube hasn't stopped gaining new users, we have reached the conclusion that very few channels will actively face a <b>decrease in their total subscriber count</b>. However, we can detect decline by noticing in your stats a significant slowdown in the growth rate of your subscribers, which may indicate potential issues such as reduced engagement or a negative reception by the audience. 
 
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
-  To go further, we compared the actual growth rate of channels against the <b>rolling growth average</b> rate.
+  To go further, we compared the actual growth rate of every channel in the dataset channels their <b>rolling growth average</b> rate.
 </div>
 
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; margin-top: 2;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>Rolling average</b></summary>     
-        <b> Why ?</b> Because the rolling average acts as a smoothed baseline, calculated using a defined window (we arbitrarily used a 'window' of 20 weeks), which helps to identify deviations from the expected trend. When the growth of your channel falls below the rolling average, it suggests that the channel's performance has dipped relative to its typical trend. 
+        <b> Why ?</b> Because the rolling average acts as a smoothed baseline, calculated using a defined window (we arbitrarily used a 'window' of 20 weeks), which helps to identify deviations from the expected trend. When the growth of your channel falls below the rolling average, it suggests that the channel's performance has dipped relative to its typical trend. <br>
+        Here, a simple moving avergae was implemented as followed:
+          \[
+              SMA_k = \frac{p_{n-k+1} + p_{n-k+2} + \cdots + p_n}{k} 
+  = \frac{1}{k} \sum_{i=n-k+1}^{n} p_i \]
+
    </details>
 </div>
 
+Here is a little exemple of how a channel subscribers graph looks like:
 <div style="width: 100%; max-width: 800px; margin: 0 auto;">
     <iframe 
         src="/assets/data/plot_lancet.html" 
@@ -176,14 +181,14 @@ Since Youtube hasn't stopped gaining new users, we have reached the conclusion t
     </iframe>
 </div>
 
-As you can see here, the channel of this mysterious Lance Stewart underwent 2 declines represented by the colored purple zones. Not a good job Lance....
+As you can see here, the channel of the Mr. Random Lance Stewart underwent 2 declines represented by the colored purple zones. Not a good job Lance...
 
 After playing around with parameters, we have decided on the following:
 
-- a **minimum duration of a decline of 8 weeks**: you could be on holidays without it being a decline !
-- if the decline was 'intense', meaning that there was a 80% growth difference between growth index of your channel and the rolling average, we consider that the channel underwent a **massive backlash**, and may it be shorter or longer than 2 months, it should be counted as a decline (and a big one, what did you do ?)
+- a **minimum duration of a decline of 8 weeks**: you could be on holidays without it being a decline ! This allowed us to reduce considerably the ammount of datas that was unusable due to its size and the computation power it was requiring.
+- if the decline was 'intense', meaning that there was a 80%  difference between growth index of your channel and the rolling average, we consider that the channel underwent a **massive backlash**, and may it be shorter or longer than 2 months, it should be counted as a decline (and a big one, what did you do ?)
 
-After doing so, a little update on what our database is: we had 74788 channels that had declines, with more than 121998 episodes... see ? You're really not alone ! And more than enough to pursue our study ! 
+After doing so, a little update on what our database consisted of: we had **74788 channels** that underwent declines, with more than **121998 episodes**... See ? You're really not alone ! And more than enough to pursue our study ! 
 
 <body>
   <div class="table">
@@ -202,9 +207,9 @@ After doing so, a little update on what our database is: we had 74788 channels t
     </div>
 </body>
 
-From our data, if your experiencing a decline, you might just be in it for more than 3 months... and maybe even forever ! Let's get those number down for you...
+From our data, if your experiencing a decline, you might just be in it for more than 3 months... and maybe even forever ! Let's get this number down for you in the net...
 
-To make you visualise a bit more, here is a little glimpse at the biggest Youtubers' declines, so you can see how well our detection works (with a little drama too...)! If you're one of those big Youtubers we mentionned before, or even one of the one present in the carrousel (Jake Paul is that you ?!?), don't hesitate to go check out your <a href="#1M+club" style="color: red; font-weight: bold;" >dedicated section</a>.
+To make you visualise a bit more, here is a little glimpse at the biggest Youtubers' declines, so you can see how well our **decline detection** works (with a little drama too...)! If you're one of those big Youtubers we mentionned before, or even one of the one present in the below pannels (Jake Paul is that you ?!?), don't hesitate to go check out your <a href="#1M+club" style="color: red; font-weight: bold;" >dedicated section</a>.
 
 <div class="flourish-embed flourish-cards" data-src="visualisation/20775803"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20775803/thumbnail" width="100%" alt="cards visualization" /></noscript></div>
 
