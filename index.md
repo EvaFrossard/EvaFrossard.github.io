@@ -1012,16 +1012,26 @@ If you’re considering making a shift, we recommend focusing on topics that hav
   <br>
 
   <br>
-  Not really what you would expect... we do understand your disappointement. <b>Clickbait videos</b> are the only type of videos that could have a positive impact on your recovery rate, and you might consider that selling your soul to the devil. But do not worry yet, these results have to be observed considering that they might suffer from a <b>baseline bias</b>. Let us explain... For example, one could think seeing the matched data that apology video are pointless, but it could also just mean that your pears that had to undergo this tough exercise where knee down in the mud, suffering from controversy so big that there was no possible buy out from the public eye. <br>
-  <br>
-  
+    <div style="display: flex; align-items: center;">
+    <p style="flex: 1; margin-right: 20px;">
+      Not really what you would expect... we do understand your disappointement. <b>Clickbait videos</b> are the only type of videos that could have a positive impact on your recovery rate, and you might consider that selling your soul to the devil. But do not worry yet, these results have to be observed considering that they might suffer from a <b>baseline bias</b>. Let us explain... For example, one could think seeing the matched data that apology video are pointless, but it could also just mean that your pears that had to undergo this tough exercise where knee down in the mud, suffering from controversy so big that there was no possible buy out from the public eye. <br>
+    </p>
+    <img src="/assets/img/clickbait.png" alt="" style="width: 150px;">
+  </div>
+
   And maybe it's not the only type of video your heart (or wallet, or brain!) tells you to make. Maybe you want to make an apology video, and maybe also having a break to comeback a few months later... BUT you don't know if it's a good idea. We got you! In the next session, we will elaborate <b>data driven strategies that you can adopt to bail you out of your misery !</b><br>
   <br>
 
   <h3><span style="color: #b51a00;">The (Exclusive) Strategy to Adopt</span></h3>
   <br>
 
-  Let's first define what we mean by <b>"strategy"</b>. In our case, a strategy is a combination of the different types of videos that a big youtuber can upload during a crisis. For example, you could decide to upload at least one tearful apology video, one clickbait visually eye-traumatising one and one video with friends (or all of the latter in the same video... a happy teary mess). This strategy would be considered as <b>"Apology + Clickbait + Featuring"</b>. In this situation, you let your heart open and you keep in mind that other types of videos are possible, you're just not 100% sure on the final pathway you will employ. <br>
+  <div style="display: flex; align-items: center;">
+    <img src="/assets/img/strategy.png" alt="Note on the plot" style="width: 100px;">
+    <p style="flex: 1; margin-left: 15px;">
+      Let's first define what we mean by <b>"strategy"</b>. In our case, a strategy is a combination of the different types of videos that a big youtuber can upload during a crisis. For example, you could decide to upload at least one tearful apology video, one clickbait visually eye-traumatising one and one video with friends (or all of the latter in the same video... a happy teary mess). This strategy would be considered as <b>"Apology + Clickbait + Featuring"</b>. In this situation, you let your heart open and you keep in mind that other types of videos are possible, you're just not 100% sure on the final pathway you will employ.
+    </p>
+  </div>
+
   <br>
 
   Secondly, we define an <b>"exclusive strategy"</b> as a strategy where you decide to upload videos of certain types and to NOT upload any other type (you're just a loner, or you're a human with ethics, yes joke intended). For our previous example (Apology, Clickbait and Featuring), this would be considered as the <b>EXCLUSIVE</b> strategy "Apology + Clickbait + Featuring". <br>
