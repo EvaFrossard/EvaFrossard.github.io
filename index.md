@@ -364,7 +364,7 @@ As you can see, everything is possible when it comes to changing the topic of yo
 
 ## All of those factors... but which one matters ! 
 
-We have so far just listed the possible reactions, an easy task... but **which ones do work**? We are going to experiment with a couple of methods to find out about it: <span style="color: #432750;">Pearson's correlation, logistic regression, t-tests</span> and others...
+We have so far just listed the possible reactions, an easy task... but **which ones do work**? We are going to experiment with a couple of methods to find out about it: <span style="color: #432750;"><b>Pearson's correlation, logistic regression, t-tests</b></span> and others...
 
 To simplify the analysis, we will gather all the possible reactions into 5 categories:
 <ul>
@@ -380,7 +380,7 @@ To simplify the analysis, we will gather all the possible reactions into 5 categ
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>Pearson's correlation</b></summary>     
-      Measurement of both the strength and direction of a linear relationship between two continuous variables. It ranges from  \[-1\] showing perfect negative correlation and \[1\] for perfect positive correlation. 
+      Measurement of both the strength and direction of a linear relationship between two continuous variables. It ranges from -1 showing perfect negative correlation to 1 for perfect positive correlation. 
       \[
       \rho_{X,Y} = \frac{\operatorname{cov}(X,Y)}{\sigma_X \sigma_Y}
       \]
@@ -390,9 +390,12 @@ To simplify the analysis, we will gather all the possible reactions into 5 categ
 
 <br>
 
-<div class="flourish-embed flourish-heatmap" data-src="visualisation/20877783"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20877783/thumbnail" width="70%" alt="heatmap visualization" /></noscript></div>
+<div class="flourish-embed flourish-heatmap" data-src="visualisation/20888610"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20888610/thumbnail" width="100%" alt="heatmap visualization" /></noscript></div>
 
-TODO: analyse correlation
+
+
+
+
 
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
   First of all, here are the results of a <b>Logistic regression</b> of recovery on the reactions. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery. Before performing it, we standardize our attributes to put them  all on the same scale, and be able to compare coefficients better. 
