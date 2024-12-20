@@ -133,7 +133,7 @@ creators on YouTube and other platforms. Eager to offer them unforeseen solution
     <li> How do we define decline for Youtubers ? How do we define a recovery ?</li>
     <li> Is a Youtube channel category affecting the effective response strategies after a decline?</li>
     <li> What timing and content strategies are best for re-engagement following public backlash? Should you change your posting strategy?</li>
-    <li> In the case of a ‘bad buzz’ for bigger Youtubers, how to define it using statistics? Are apology videos really useful?</li>
+    <li> In the case of a ‘bad buzz’ for [bigger Youtubers](#1M+club), how to define it using statistics? Are apology videos really useful?</li>
   </ol>
 </div>
 
@@ -149,7 +149,7 @@ Why us and not some wanabee adviser on YouTube ? Well, because we based all our 
 
 <div style="display: flex; align-items: center;">
   <p style="flex: 1; margin-right: 20px;">
-    Let's keep it real, there are very few chances you're actively losing subscribers (or maybe you are actually a famous Youtuber and you did fumble, you can go check out our [bad buzz section](#1M+club) ;)). If you're not in the middle of a controversy and cancel culture hasn't got the best of you, chances are you are just experiencing a decline. In most cases, your situation will fix by itself. <b>However, if this has been going on for more than a month, maybe you should check out our analytical tool ! </b>
+    Let's keep it real, there are very few chances you're actively losing subscribers (or maybe you are actually a famous Youtuber and you did fumble, you can go check out our <a href="#1M+club">bad buzz section</a>;)). If you're not in the middle of a controversy and cancel culture hasn't got the best of you, chances are you are just experiencing a decline. In most cases, your situation will fix by itself. <b>However, if this has been going on for more than a month, maybe you should check out our analytical tool ! </b>
   </p>
   <img src="/assets/img/curve_icon.jpg" alt="Description of image" style="width: 150px;">
 </div>
