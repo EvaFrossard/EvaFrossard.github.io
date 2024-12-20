@@ -213,28 +213,28 @@ To make you visualise a bit more, here is a little glimpse at the biggest Youtub
 
 <div class="flourish-embed flourish-cards" data-src="visualisation/20775803"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20775803/thumbnail" width="100%" alt="cards visualization" /></noscript></div>
 
-Okay, okay, we might just be rubbing salt into the wound right now with loss and declines, let's talk about more positive things... the recovery ! 
+Okay, okay, we might just be rubbing salt into the wound right now with loss, declines, failures... let's talk about more positive things... the **recovery** ! 
 
 So what do we considered being an **efficient recovery** ? Since we do not want you to fall into the unknown for too long, but we still consider normal that a recovery is not happening in a flash, we consider that your recovery was successful if it happened <b>in the span of 16 weeks, or 4 months</b>. Yes, that's the median, and that may seem not very ambitious BUT Youtube is not a forgiving space, and we would consider ourselves happy if you do better than half of the population. 
 
 More than 16 weeks and our model will sadly announce that you have one foot in the grave, and that Youtuber might not be a durable hobbie for you... sad, but your mom told you so years ago!
-Here, using our tools, our goal is to put you out of the woods before this deadline and if declines didn't end in 4 months, our program will consider that your recovery has failed...
+Here, using our tools, our goal is to put you out of the woods before this deadline and if declines didn't end in 4 months, our program will consider that your recovery has failed. Sorry ! 
 
 ## What are the factors available to analyse your decline  ? 
 
 <div class="flourish-embed flourish-election" data-src="visualisation/20802367"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20802367/thumbnail" width="100%" alt="election visualization" /></noscript></div>
 
-Okay, here is the state-of-the-art with some stats about recovery, not good right ? We can't hide the evidences: **by our standards, the majority fails to recover**. No time for thumbnail fine-tuning and title brainstorming here. As the stakes are high and time is running out, we have decided to focus on the most important metrics that can help you recover from a decline, let's explore them ! 
+Okay, here is the state-of-the-art with some stats about recovery... not good right ? We can't hide the evidences: **by our standards, the majority fails to recover efficiently**. No time for thumbnail fine-tuning and title brainstorming here. As the stakes are high and time is running out, we have decided to focus on the most important metrics that can help you recover from a decline, let's explore them ! 
 
-So what could be the first metric is actually very naive but still shows some results: it's the **category**. You might have thought this was an insignificant parameter when you opened your channel years ago (shout out to the 12 years old you), and even if your content doesn't fit with the category name today... well the latter might still play a role.
+What will be the first metric is actually very naive but still shows some results: it's the **category**. You might have thought this was an insignificant parameter when you opened your channel years ago (shout out to the 12 years old you), and even if your content doesn't fit with the category name today... well the latter might still play a role.
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/20801957"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20801957/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
 <div style="display: flex; align-items: center;">
   <p style="flex: 1; margin-right: 20px;">
-    <b>Best categories to have a decline in ? </b> Little podium: News & Politics (the 24/24 activity might be in your favor here), Gaming and Travels and Events... 
+    <b>Best categories to have a decline in ? </b> Little podium: News & Politics (the 24/24 activity might be in your favor here), Gaming, Travels and Events... 
     <br>
-    On the other side, <b>the big losers</b> are music -where controversial music is probably quite unforgivable- and Pets and Animals. 
+    On the other side, <b>the underperformers</b> are music -where rap is often quite unforgivable- and Pets and Animals. 
 
   </p>
   <img src="/assets/img/podium.png" alt="Description of image" style="width: 150px;">
@@ -242,13 +242,13 @@ So what could be the first metric is actually very naive but still shows some re
 
 Interesting metric, but don't start sweating just yet, we're just getting started... 
 
-So what about **views and subscribers** ? Is being a renowned Youtuber providing you with more chances to recover efficiently ? Well... not really quite the opposite. Yet again, trends are not too scarred, but even though we see the usual 60-40 proportions appearing, we also see that small channels (under 3000 subscribers) seem to recover better than your usual <a href="#1M+club" style="color: red; font-weight: bold;">golden trophee youtubers</a>? 
+So what about **views and subscribers** ? Is being a renowned Youtuber providing you with more chances to recover efficiently ? Well... not really, quite the opposite truthfully. Yet again, the two trends are not too scarred, but even though we see the usual 60-40 proportions appearing, we also see that small channels (under 3000 subscribers) seem to recover better than your usual <a href="#1M+club" style="color: red; font-weight: bold;">golden trophee youtuber</a>? 
 
 ![](/assets/img/Subs&views_plot.png)
 
 <div style="display: flex; align-items: center;">
   <p style="flex: 1; margin-right: 20px;">
-    About <b>activities</b> (whether you post once a day, once a week, every now and then), this metric doesn't display any noticeable trend, and we can't really conclude that the try harder has more chances of getting out of the woods than the chill guy.
+    Moving on to <b>activities</b> (whether you post once a day, once a week, every now and then). This metric doesn't display any noticeable trend, and we can't really conclude that the try harder has more chances of getting out of the woods than the chill guy. Maybe some other modelling will help us get to the bottom of it, just be patient. 
   </p>
   <img src="/assets/img/activity_plot.png" alt="Description of image" style="width: 400px;">
 </div>
@@ -260,7 +260,7 @@ So what about **views and subscribers** ? Is being a renowned Youtuber providing
   </p>
 </div>
 
-Okay, we've used the holy quatuor: **categories, fame, activity of your channel and duration of video** to see if they provided us info on your channel chances to regain it's previous flourishment. Let's now get into how YOU can impact the health of your channel, meaning how YOU can react. We will start by citing all the different strategies we have observed (yes the same strategies you have probably been wracking your brain with), before putting our lab coat and taking our calculator to see if those methods are truly useful. 
+Okay, we've been introduced to the holy quatuor: **categories, fame, activity of your channel and duration of video** to see if they provided us info on your channel chances to regain its previous flourishment. Let's now get into how YOU can impact the health of your channel, meaning how YOU can react ans use those metrics in your favour. We will start by citing all the different strategies we have observed (yes the same strategies you have probably been wracking your brain with), before putting our lab coat and taking our calculator to see if those methods are truly useful. 
 
 ## What are the possible strategies observed when facing a decline ? 
 
