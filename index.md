@@ -810,7 +810,7 @@ If you’re considering making a shift, we recommend focusing on topics that hav
 
 <!--NICO-->
 
-<div id ='1M+club'style="text-align: center;">
+<div id ="1M+club" style="text-align: center;">
   <img src="/assets/img/1mclub.png" alt="Description" width="500">
 </div>
 
