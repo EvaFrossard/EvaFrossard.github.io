@@ -703,125 +703,125 @@ On average, channels that change their video topics experience a slight increase
 While this is encouraging, we have to emphasize that **this approach can have mixed results**, and the impact on your recovery rate will depend heavily on the types of topics you choose to pivot to. **It is not about if you change or not, it is from where and to where you change !**
 Let's investigate using a interactive Sankey diagram showing topic transitions and their recovery rates, colored by recovery rate (cooler colors represent higher recovery rates).
 
-  <!-- Sankey Plot -->
-  <div id="sankey-plot" style="flex: 5; min-width: 400px; max-width: 100%;">
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script type="text/javascript">
-      // Function to map normalized recovery rate to color (coolwarm)
-      function rate_to_color(rate) {
-        const cmap = ['#3b4cc0', '#4a63d3', '#5a78e4', '#6c8ff1', '#7ea1fa', '#92b4fe',  '#a3c2fe', '#b6cefa', '#c6d6f1', '#d6dce4', '#e3d9d3', '#efcfbf',  '#f5c2aa', '#f7b194', '#f59f80', '#ef886b', '#e57058', '#d75445',  '#c73635', '#b40426'];  // Cool to Warm colors
-        const normalized = Math.min(Math.max(rate, 0), 1);
-        const idx = Math.floor(normalized * (cmap.length - 1));
-        return cmap[idx];
-      }
+ <div id="sankey-plot" style="width:100%; height:600px;"></div>
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<script type="text/javascript">
+  // Function to map normalized recovery rate to color (coolwarm)
+  function rate_to_color(rate) {
+    const cmap = ['#3b4cc0', '#4a63d3', '#5a78e4', '#6c8ff1', '#7ea1fa', '#92b4fe',  '#a3c2fe', '#b6cefa', '#c6d6f1', '#d6dce4', '#e3d9d3', '#efcfbf',  '#f5c2aa', '#f7b194', '#f59f80', '#ef886b', '#e57058', '#d75445',  '#c73635', '#b40426'];  // Cool to Warm colors
+    const normalized = Math.min(Math.max(rate, 0), 1);
+    const idx = Math.floor(normalized * (cmap.length - 1));
+    return cmap[idx];
+  }
 
 
-      // Load the JSON file dynamically
-      fetch("/assets/data/topic_transitions_sankey.json")
-        .then(response => response.json())
-        .then(data => {
-          // Normalize recovery rates and invert them for color mapping
-          let min_rate = Math.min(...data.map(d => d.recovery_rate));
-          let max_rate = Math.max(...data.map(d => d.recovery_rate));
-          
-          // Normalize and invert recovery rates
-          data.forEach(d => {
-            d.normalized_rate = (d.recovery_rate - min_rate) / (max_rate - min_rate);
-            d.inverted_rate = 1 - d.normalized_rate; // Inverted for cool-to-warm effect
-            d.link_color = rate_to_color(d.inverted_rate); // Color based on inverted rate
+  // Load the JSON file dynamically
+  fetch("/assets/data/topic_transitions_sankey.json")
+    .then(response => response.json())
+    .then(data => {
+      // Normalize recovery rates and invert them for color mapping
+      let min_rate = Math.min(...data.map(d => d.recovery_rate));
+      let max_rate = Math.max(...data.map(d => d.recovery_rate));
+      
+      // Normalize and invert recovery rates
+      data.forEach(d => {
+        d.normalized_rate = (d.recovery_rate - min_rate) / (max_rate - min_rate);
+        d.inverted_rate = 1 - d.normalized_rate; // Inverted for cool-to-warm effect
+        d.link_color = rate_to_color(d.inverted_rate); // Color based on inverted rate
+      });
+
+      // Generate nodes and labels, ensuring they are distinct
+      let nodes_before = [...new Set(data.map(d => d.Topic_before))];
+      let nodes_after = [...new Set(data.map(d => d.Topic_after))];
+      
+      // Create distinct labels for "Before" and "After"
+      let nodes = nodes_before.map(node => node + " (Before)").concat(nodes_after.map(node => node + " (After)"));
+
+      let node_indices = {};
+      nodes.forEach((node, idx) => node_indices[node] = idx);
+
+      // Prepare Sankey diagram data
+      let sources = data.map(d => node_indices[d.Topic_before + " (Before)"]);
+      let targets = data.map(d => node_indices[d.Topic_after + " (After)"]);
+      let values = data.map(d => d.count);
+      let link_colors = data.map(d => d.link_color);
+      let hover_texts = data.map(d => {
+        return `Transition: ${d.Topic_before} → ${d.Topic_after}<br>Recovery Rate: ${d.recovery_rate.toFixed(2)}%<br>Count: ${d.count}`;
+      });
+
+      // Set x positions manually for "Before" and "After" nodes
+      let x_positions = [];
+      x_positions = x_positions.concat(new Array(nodes_before.length).fill(0));  // Before nodes at x=0
+      x_positions = x_positions.concat(new Array(nodes_after.length).fill(1));   // After nodes at x=1
+
+      // Create the Sankey diagram with Plotly
+      let sankey_data = [{
+        type: "sankey",
+        node: {
+          pad: 15,
+          thickness: 10,
+          line: { color: "black", width: 0.5 },
+          label: nodes,
+          color: "#004AAD",
+          x: x_positions,  // Use x_positions array for manual positioning
+        },
+        link: {
+          source: sources,
+          target: targets,
+          value: values,
+          color: link_colors,
+          customdata: hover_texts,
+          hovertemplate: '%{customdata}<extra></extra>'
+        }
+      }];
+
+      // Create the Plotly layout for the Sankey diagram
+      let layout = {
+        hovermode: "closest",  // Closest hover behavior
+        title: "Topic Transitions and Recovery Rates",
+        font_size: 12,
+        height: 800,
+        xaxis: { showgrid: false, zeroline: false }, // Hide grid and zero line for clarity
+        yaxis: { showgrid: false, zeroline: false }, // Hide grid and zero line for clarity
+      };
+
+      let plotDiv = document.getElementById("sankey-plot");
+
+      // Render the initial Sankey diagram
+      Plotly.newPlot(plotDiv, sankey_data, layout);
+
+      // Add hover effect
+      plotDiv.on('plotly_hover', function(data) {
+        if (data.points[0].source || data.points[0].target) {
+          // Hovering over a flow
+          let hoveredFlow = data.points[0].pointNumber;
+          let currentLinkColors = link_colors.map((color, index) => {
+            return (index === hoveredFlow) ? color : 'rgba(200,200,200,0.2)';
           });
-
-          // Generate nodes and labels, ensuring they are distinct
-          let nodes_before = [...new Set(data.map(d => d.Topic_before))];
-          let nodes_after = [...new Set(data.map(d => d.Topic_after))];
-          
-          // Create distinct labels for "Before" and "After"
-          let nodes = nodes_before.map(node => node + " (Before)").concat(nodes_after.map(node => node + " (After)"));
-
-          let node_indices = {};
-          nodes.forEach((node, idx) => node_indices[node] = idx);
-
-          // Prepare Sankey diagram data
-          let sources = data.map(d => node_indices[d.Topic_before + " (Before)"]);
-          let targets = data.map(d => node_indices[d.Topic_after + " (After)"]);
-          let values = data.map(d => d.count);
-          let link_colors = data.map(d => d.link_color);
-          let hover_texts = data.map(d => {
-            return `Transition: ${d.Topic_before} → ${d.Topic_after}<br>Recovery Rate: ${d.recovery_rate.toFixed(2)}%<br>Count: ${d.count}`;
+          Plotly.restyle(plotDiv, {'link.color': [currentLinkColors]});
+        } else {
+          // Hovering over a node
+          let hoveredNode = data.points[0].pointNumber;
+          let currentLinkColors = link_colors.map((color, index) => {
+            // Highlight outgoing flows for "before" nodes, incoming flows for "after" nodes
+            return (sources[index] === hoveredNode || targets[index] === hoveredNode) ? color : 'rgba(200,200,200,0.2)';
           });
+          Plotly.restyle(plotDiv, {'link.color': [currentLinkColors]});
+        }
+      });
 
-          // Set x positions manually for "Before" and "After" nodes
-          let x_positions = [];
-          x_positions = x_positions.concat(new Array(nodes_before.length).fill(0));  // Before nodes at x=0
-          x_positions = x_positions.concat(new Array(nodes_after.length).fill(1));   // After nodes at x=1
+      // Reset colors on hover out
+      plotDiv.on('plotly_unhover', function() {
+        Plotly.restyle(plotDiv, {'link.color': [link_colors]});
+      });
 
-          // Create the Sankey diagram with Plotly
-          let sankey_data = [{
-            type: "sankey",
-            node: {
-              pad: 15,
-              thickness: 10,
-              line: { color: "black", width: 0.5 },
-              label: nodes,
-              color: "#004AAD",
-              x: x_positions,  // Use x_positions array for manual positioning
-            },
-            link: {
-              source: sources,
-              target: targets,
-              value: values,
-              color: link_colors,
-              customdata: hover_texts,
-              hovertemplate: '%{customdata}<extra></extra>'
-            }
-          }];
-
-          // Create the Plotly layout for the Sankey diagram
-          let layout = {
-            hovermode: "closest",  // Closest hover behavior
-            title: "Topic Transitions and Recovery Rates",
-            font_size: 12,
-            height: 800,
-            xaxis: { showgrid: false, zeroline: false }, // Hide grid and zero line for clarity
-            yaxis: { showgrid: false, zeroline: false }, // Hide grid and zero line for clarity
-          };
-
-          let plotDiv = document.getElementById("sankey-plot");
-
-          // Render the initial Sankey diagram
-          Plotly.newPlot(plotDiv, sankey_data, layout);
-
-          // Add hover effect
-          plotDiv.on('plotly_hover', function(data) {
-            if (data.points[0].source || data.points[0].target) {
-              // Hovering over a flow
-              let hoveredFlow = data.points[0].pointNumber;
-              let currentLinkColors = link_colors.map((color, index) => {
-                return (index === hoveredFlow) ? color : 'rgba(200,200,200,0.2)';
-              });
-              Plotly.restyle(plotDiv, {'link.color': [currentLinkColors]});
-            } else {
-              // Hovering over a node
-              let hoveredNode = data.points[0].pointNumber;
-              let currentLinkColors = link_colors.map((color, index) => {
-                // Highlight outgoing flows for "before" nodes, incoming flows for "after" nodes
-                return (sources[index] === hoveredNode || targets[index] === hoveredNode) ? color : 'rgba(200,200,200,0.2)';
-              });
-              Plotly.restyle(plotDiv, {'link.color': [currentLinkColors]});
-            }
-          });
-
-          // Reset colors on hover out
-          plotDiv.on('plotly_unhover', function() {
-            Plotly.restyle(plotDiv, {'link.color': [link_colors]});
-          });
-
-          // // Render the plot
-          // Plotly.newPlot("sankey-plot", sankey_data, layout);
-        })
-        .catch(error => console.error('Error loading the JSON data:', error));
-    </script>
-  </div>
+      // // Render the plot
+      // Plotly.newPlot("sankey-plot", sankey_data, layout);
+    })
+    .catch(error => console.error('Error loading the JSON data:', error));
+</script>
 
   <!-- PNG Image -->
 
