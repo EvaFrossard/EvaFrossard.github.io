@@ -572,11 +572,6 @@ Finally, some long awaited results ! The balanced data suggests that whilst **in
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>Welch's t-test analysis</b></summary>     
     A Welch's t-test is used to determine whether a difference between two groups is likely due to random chance or if it reflects a statistically significant difference in the populations, when the two popualtion variances are not equal. A t-test calculates a statistic called the <b>t-value</b>, which measures how much the two means differ, relative to the variability in the data. 
-    $$ t = \frac{\bar{X_1} - \bar{X_2}}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}} $$
-    \[
-    \text{With } \bar{X} \text{ the sample mean from the samples, and } s \text{ the unbiased estimator of the variance.}
-    \]
-
     \[
       t = \frac{\bar{X_1} - \bar{X_2}}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}
     \]
