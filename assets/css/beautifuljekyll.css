@@ -30,6 +30,10 @@ html {
   font-size: 100%
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--body-font);
   font-size: 1.125rem;
