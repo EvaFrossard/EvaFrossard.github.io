@@ -261,9 +261,9 @@ So what about **views and subscribers** ? Is being a renowned Youtuber providing
 </div>
 
 Okay, we've been introduced to the holy quatuor: **categories, fame, activity of your channel and duration of video** to see if they provided us info on your channel chances to regain its previous flourishment. We have noticed that it is possible to see overall trends, but nothing precise nor statistically relevant.  
-Let's now get into how YOU can impact the health of your channel, meaning how YOU can react ans use those metrics in your favour. We will start by citing all the different strategies we have observed (yes the same strategies you have probably been wracking your brain with), before putting our lab coat and taking our calculator to see if those methods are truly useful. 
+Let's now get into how **YOU** can impact the health of your channel, meaning how **YOU** can react ans use those metrics in your favour. We will start by citing all the different strategies we have observed (yes the same strategies you have probably been wracking your brain with), before putting our lab coat and taking our calculator to see if those methods are truly useful. 
 
-## Qualitative analysis: what are the possible strategies observed when facing a decline ? 
+## What are the possible strategies observed when facing a decline qualitatively? 
 
 Taking advantage of all the data that we have at hand, our research team identified the types of key metrics that **measure creator's reactions in times of crisis**, and we will now walk you through them. Take notes !
 
@@ -335,22 +335,22 @@ Getting this data allowed us to determine whether the reactions include changing
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; margin-top: 2;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>Ollama</b></summary>     
-      <b>Type of large language model (LLM)</b>, locally loaded into a computer, we here used the model Mistral but we will explain more about it later, in the bad buzz section.
+      <b>Type of large language model (LLM)</b>, locally loaded into a computer. We here used the model Mistral but we will explain more about it later, in the bad buzz section.
    </details>
 </div>
 
-After using the Latent Dirichlet Allocation, we obtained the following **20 categories** named by the LLM:
+After using the Latent Dirichlet Allocation, we obtained the following **20 categories** named by the LLM. Don't hesitate to click on the bubble for more details on the words they include.
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/20798533"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20798533/thumbnail" width="100%" alt="hierarchy visualization" /></noscript></div>
 
-A little bit of explanation: each topic contains a set of **15 words and their probabilities of appearing within that topic**. The selection of 20 topics offers a balance betweeen coherence and interpretability, ensuring that each topic is distinct yet not too niche to be irrelevant. With these parameters, we obtained a **coherence score of 58%**, that could be improved if we decided to create more topics (the best coherence score we obtained was 65% with 55 topics), but we decided to stick to 20 topics for our analysis, to take the trade-off between granularity and interpretability into account.
+A little bit of explanation: each topic contains a set of **15 words and their probabilities of appearing within that topic**. The selection of 20 topics offers a balance betweeen coherence and interpretability, ensuring that each topic is distinct yet not too niche to be irrelevant. You migt have noticed some inconsistencies such as the letter 'u' in Politics, and that requires a bit more of explanation. With these parameters, we obtained a **coherence score of 58%**, that could be improved if we decided to create more topics (the best coherence score we obtained was 65% with 55 topics), but we decided to stick to 20 topics for our analysis, to take the trade-off between granularity and interpretability into account.
 
-The 20-topic model captures a **broad spectrum of interests**, ranging from Politics to Fortnite Gameplay. While some of the topics seem to capture content categories very well, like the topic "Movie Reviews" that contains words like "movie", "review", "trailer" and "film" and that revolves around content creators who analyze or review films, there is also some overlap between different topics, for example in the topic "Art and Spirituality" that also contains the words "golf" and "f1" and therefore may also touch on certain hobbies or sports.  However, these 20 topics are distinct enough to provide meaningful classifications that will support an analysis of the topic transitions and their correlation with recovery.
+The 20-topic model captures a **broad spectrum of interests**, ranging from Politics to Fortnite Gameplay. While some of the topics seem to capture content categories very well, like the topic "Movie Reviews" that contains words like "movie", "review", "trailer" and "film" revolving around content creators who analyze or review films, there is also some overlap between different topics, for example in the topic "Art and Spirituality" that also contains the words "golf" and "f1" and therefore may also touch on certain hobbies or sports. However, these 20 topics are distinct enough to provide meaningful classifications that will support an analysis of the topic transitions and their correlation with recovery.
 
 
 <div style="display: flex; align-items: center;">
   <p style="flex: 1; margin-right: 20px;">
-    Using this natural processing language, we are able to determine whether the reactions to decline include <b>changing topics of interest</b>. Before entering into the maths of it, just have fun looking at all the topic transition and we will use these statistics to find the best strategy and YES the transition between Pokemon and Politics does exists!
+    Using this Natural Language Processing technique, we are able to determine whether the reactions to decline include <b>changing topics of interest</b>. Before entering into the maths of it, just have fun looking at all the topic transition in the chord diagram and we will use these statistics to find the best strategy and YES the transition between Pokemon and Politics does exists!
 
   </p>
   <img src="/assets/img/pokemon.png" alt="Description of image" style="width: 150px;">
@@ -358,14 +358,13 @@ The 20-topic model captures a **broad spectrum of interests**, ranging from Poli
 
 <div class="flourish-embed flourish-chord" data-src="visualisation/20782429"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20782429/thumbnail" width="100%" alt="chord visualization" /></noscript></div>
 
-
 As you can see, everything is possible when it comes to changing the topic of your videos! However, since some changes occur more frequently than others, we don't have enough data to give you meaningful analysis of every transition (sorry for those who wanted to go from News to League of Legends :)). We will thus focus on the **most common topic transitions**, with more than 30 occurences in our database:
 
 <div class="flourish-embed flourish-chord" data-src="visualisation/20781676"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20781676/thumbnail" width="100%" alt="chord visualization" /></noscript></div>
 
 ## All of those factors... but which one matters ! 
 
-We have so far just listed the possible reactions, an easy task... but which one do work ? We are going to experiment with a couple of methods to find out about it: Pearson's correlation, logistic regression, t-tests and others...
+We have so far just listed the possible reactions, an easy task... but **which ones do work**? We are going to experiment with a couple of methods to find out about it: <span style="color: #432750;">Pearson's correlation, logistic regression, t-tests</span> and others...
 
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
   Let's start by figuring out if some have some linear relationship. To do so, we are going to perform <b>Pearson's correlation</b> between every pair of reaction, and visualize them performing a correlation matrix.
@@ -383,7 +382,6 @@ We have so far just listed the possible reactions, an easy task... but which one
 <div class="flourish-embed flourish-heatmap" data-src="visualisation/20877783"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20877783/thumbnail" width="70%" alt="heatmap visualization" /></noscript></div>
 
 TODO: analyse correlation
-
 
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
   First of all, here are the results of a <b>Logistic regression</b> of recovery on the reactions. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery. Before performing it, we standardize our attributes to put them  all on the same scale, and be able to compare coefficients better. 
