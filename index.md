@@ -642,8 +642,8 @@ Now, about video duration ! Are you feeling more Spielberg or TikTok star ? Whil
 <div style="border: 2px solid red; padding: 10px; display: inline-block; border-radius: 15px">
   <b>Let's get you onto a little recipe, shall we ?</b>
   <ol>
-      <li> Start by determining your upload frequency by computing your average uploads per week or per month </li>
-      <li> ⁠Adjust your frequency using our little guide to align your upload schedule with recovery trends. </li>
+      <li> Start by determining your average duration of video before you stats started declining (over around 10 videos) </li>
+      <li> ⁠Adjust your frequency using our little guide to align your ideal duration with recovery trends. </li>
   </ol>
 </div>  
 
