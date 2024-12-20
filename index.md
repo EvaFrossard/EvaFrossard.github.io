@@ -256,7 +256,7 @@ So what about **views and subscribers** ? Is being a renowned Youtuber providing
 <div style="display: flex; align-items: center; flex-direction: row;">
   <img src="/assets/img/mean_video_duration_start_decline.png" alt="Description of image" style="width: 400px; margin-right: 20px;">
   <p style="flex: 1;">
-    Finally, about the <b>length of your videos</b>, we obtain some unforeseen results. Channels that were producing on average 'short' videos (below 10min) before their decline seem to have less chance of recovery. Again, small difference, but the lazy you that might do junk posting of quick efficient videos might not be winning here !  
+    Finally, about the <b>length of your videos</b>, we obtain some disappointing results. The 60/40 distribution is very appearant and there are no unexpected behaviours. Video duration doesn't seem to be a good criteria, but only the analysis will tell us...
   </p>
 </div>
 
