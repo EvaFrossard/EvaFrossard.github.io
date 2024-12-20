@@ -1181,12 +1181,6 @@ pre {
   cursor: pointer;
   /* Makes the button clickable */
 }
-
-#back-to-top span {
-  display: block;
-  /* Ensures the arrow stays centered */
-}
-
 #back-to-top:hover {
   background-color: #004aad;
 }
