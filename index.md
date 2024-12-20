@@ -631,12 +631,13 @@ This being a very generic results, we will dive deeper into all of those subject
 
 Good news! Our detailed analysis reveals that increasing your upload frequency is more effective than reducing it. **So what does it mean to increase upload frequency ?**
 
-<!-- 
-After identifying the most influential features affecting the recovery of YouTube creators, let’s dig a bit deeper into their implications to extract actionable insights. Let’s focus on the most impactful feature and explore it comprehensively.
-Should You Increase or Decrease Uploading Frequency During a Decline?
-A key question for creators facing a decline is:
-“As a YouTuber, should I upload more content or less? And if I need to adjust my frequency, how should I do it?”
- --->
+<iframe src='https://flo.uri.sh/visualisation/20874403/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:400px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/20874403/?utm_source=embed&utm_campaign=visualisation/20874403' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+
+This graph is very straight forward and can be interpreted easily: posting more will give you more chances to recover ! However, even if it's not precised in the graph, that shouldn't be detrimental to quality... Maybe you could consider trying a Vlogmas situation where everyday something comes out ? It has shown its success... whilst reinforcing your community. 
+
+### Video duration
+
+Now, about video duration ! Are you feeling more Spielberg or TikTok star ? While our regression analysis suggests that duration has a limited impact on recovery, we decided to investigate further, looking for hidden patterns.
 
 <div style="border: 2px solid red; padding: 10px; display: inline-block; border-radius: 15px">
   <b>Let's get you onto a little recipe, shall we ?</b>
@@ -648,20 +649,7 @@ A key question for creators facing a decline is:
 
 <div class="flourish-embed flourish-quiz" data-src="visualisation/20839812"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20839812/thumbnail" width="100%" alt="quiz visualization" /></noscript></div>
 
-This quizz is based on the following graph:
-
-<iframe src='https://flo.uri.sh/visualisation/20874403/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:400px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/20874403/?utm_source=embed&utm_campaign=visualisation/20874403' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
-
-We can see that the lowest recovery rate corresponds to the channels posting less than 0.5 times per week and then increases with the frequency. The upload frequencies above 5 videos per week beat all records with an average recovery rate of 52.1%. Maintaining a consistent publication schedule is beneficial for keeping your audience engaged and improving your chances of recovering from your decline, but be careful not to compromise content quality!
-
-TODO: add icon 
-
-### Video duration
-
-Now, about video duration ! Are you feeling more Spielberg or TikTok star ? While our regression analysis suggests that duration has a limited impact on recovery, we decided to investigate further, looking for hidden patterns.
-
 <iframe src='https://flo.uri.sh/visualisation/20874600/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:400px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/20874600/?utm_source=embed&utm_campaign=visualisation/20874600' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
-
 
 In conclusion, our team of experts is confident in saying that you do not need to adjust their average length significantly. However, creators producing videos that last between <b>15 to 20 minutes show a slightly higher probability of recovery</b>. This duration may resonate better with your audience, not too long (sorry but you might bore people) whilst still providing interesting content ! <b> While this insight is subtle, it can guide creators aiming to maximize their recovery potential.</b>
 
@@ -1004,8 +992,6 @@ If you’re considering making a shift, we recommend focusing on topics that hav
   And here is what we obtain, the grail... <br>
   <br>
   <div class="flourish-embed flourish-chart" data-src="visualisation/20886512"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20886512/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
-  <br>
-
   <br>
     <div style="display: flex; align-items: center;">
     <p style="flex: 1; margin-right: 20px;">
