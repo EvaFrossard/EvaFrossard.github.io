@@ -1184,6 +1184,23 @@ If you’re considering making a shift, we recommend focusing on topics that hav
 
 ## Let's wrap it up: Conclusion
 
+Congrats !
+
+You tagged along the whole manual ! You must really be desperate... but we appreciate your company. If we had to sum it up, we would say that declines are harder to recover that one might have imagine, and the proof lies in data. Indeed, a big part of the interpretation wasn't as significant as you and us would have wanted BUT we have still managed to make some accurate conclusions. 
+
+The first one being that your center of interest is a determinant of how your channel will fluctuate around declines, and our dear musicians are struggling more than your geeky gamer, when facing the Youtube algorithm. 
+
+Another thing to take away: posting more (whilst of course maintaining quality) will always be a good idea, whatever your popularity. You can try to fine-tune your video duration, change your topic but inherently what will count is your every-day posting. 
+
+If you're one of the lucky 1M+ group, stakes are different and strategies must be taken. Unfortunately, being honest and transparent, taking times for yourself and make apologies doesn't seem to be the move... which says a lot.
+
+As much as we do wish for you to recover from the decline you're going through, we also don't want you to lose sight on what really matters: your creativity, which can only be brought out if you're a fulfilled individual and content creator... and we are not sure that clickbaiting is how you're going to get there. You know what we advise, you've seen the stats and the strategies to opt for, but question yourself on if you think losing a few hundred subscribers is worth changing your whole system. But that is a way more philosophical question that we will leave you hanging with. 
+
+Thanks for following our guide, we're happy to be part of the amazing YouTube ecosystem with you.
+
+See you around !
+
+<hr>
 
 ## Ethical consideration
 
