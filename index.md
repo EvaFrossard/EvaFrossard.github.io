@@ -996,11 +996,10 @@ If you’re considering making a shift, we recommend focusing on topics that hav
   The LLM analyzed cautiously the title of all the <b>107,618</b> videos uploaded by these big youtubers during their respective crisis. The following plot shows how many videos fall into each of these categories among this considerable amount of videos, according to the LLM, based on their title.<br />
   <br />
 
-  TODO: plot(apology=198,clickbait=78351,break=568,comeback=902,featuring=4150,decline_addressed=2675)
-  
+  <div class="flourish-embed flourish-chart" data-src="visualisation/20880620"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20880620/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
-  We can already see that the most common strategy (maybe because it's the easiest ?) is to spam clickbait videos. But is it the most effective strategies ? The response lies only in the data...<br />
-  <br />
+  We can already see that the most common strategy (maybe because it's the easiest and no public humiliaiton?) seems to be <b>spamming clickbait videos</b>. But is it the most effective strategies ? The response lies only in the data...<br>
+  <br>
 
   <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
   Again, in order to get some unbiased results and make the proportion of recoveries meaningful, we performed <b>propensity score matching</b> on our decline dataset for big youtubers to observe the impact of each type of video. This is mandatory since the amount of channels uploading videos of these types is nothing compared to those you don't.
