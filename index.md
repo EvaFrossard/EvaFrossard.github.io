@@ -407,7 +407,13 @@ After those inconclusive results, we do not lose faith ! We move on to performin
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>Logistic Regression</b></summary>     
-    Supervised Machine Learning model where the latter log odds as a linear function of X. It is fitted for binary classification which applies here (Recovered: yes/no)
+    Supervised Machine Learning model where the latter log odds as a linear function of X. It is fitted for binary classification which applies here (Recovered: yes/no).
+    <p>
+      \( p(x) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x)}} \)</span>
+    </p>
+    <p>
+      where \( \beta_0 = -\frac{\mu}{s} \) and is known as the intercept (it is the vertical intercept or y-intercept of the line \( y = \beta_0 + \beta_1 x \)), and \( \beta_1 = \frac{1}{s} \) (inverse scale parameter or rate parameter). These are the y-intercept and slope of the log-odds as a function of \( x \).
+    </p>
    </details>
 </div>
 
