@@ -88,10 +88,12 @@ mathjax: true
   };
 
   // Scroll to the top when the button is clicked
-  document.getElementById("back-to-top").onclick = function() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    return false;
-  };
+  document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.getElementById("back-to-top");
+    if (btn) {
+      btn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  });
 </script>
 
 <head>
@@ -728,9 +730,13 @@ On average, channels that change their video topics experience a slight increase
 While this is encouraging, we have to emphasize that **this approach can have mixed results**, and the impact on your recovery rate will depend heavily on the types of topics you choose to pivot to. **It is not about if you change or not, it is from where and to where you change !**
 Let's investigate using a interactive Sankey diagram showing topic transitions and their recovery rates, colored by recovery rate (cooler colors represent higher recovery rates).
 
- <div id="sankey-plot" style="width:100%; height:600px;"></div>
+<div id="sankey-plot" style="width:100%; height:600px;"></div>
 
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<div style="text-align: center; margin-top: 175px;">
+  <img src="/assets/img/legend_sankey.jpeg" alt="Description" width="400">
+</div>
+
+<script src="https://cdn.plot.ly/plotly-2.35.1.min.js"></script>
 
 <script type="text/javascript">
   // Function to map normalized recovery rate to color (coolwarm)
@@ -740,7 +746,6 @@ Let's investigate using a interactive Sankey diagram showing topic transitions a
     const idx = Math.floor(normalized * (cmap.length - 1));
     return cmap[idx];
   }
-
 
   // Load the JSON file dynamically
   fetch("/assets/data/topic_transitions_sankey.json")
