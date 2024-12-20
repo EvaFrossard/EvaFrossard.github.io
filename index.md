@@ -163,11 +163,10 @@ Since Youtube hasn't stopped gaining new users, we have reached the conclusion t
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>Rolling average</b></summary>     
         <b> Why ?</b> Because the rolling average acts as a smoothed baseline, calculated using a defined window (we arbitrarily used a 'window' of 20 weeks), which helps to identify deviations from the expected trend. When the growth of your channel falls below the rolling average, it suggests that the channel's performance has dipped relative to its typical trend. <br>
-        Here, a simple moving avergae was implemented as followed:
+        Here, a simple moving average was implemented as followed:
           \[
-              SMA_k = \frac{p_{n-k+1} + p_{n-k+2} + \cdots + p_n}{k} 
-  = \frac{1}{k} \sum_{i=n-k+1}^{n} p_i \]
-
+              SMA_k = \frac{p_{n-k+1} + p_{n-k+2} + \cdots + p_n}{k} = \frac{1}{k} \sum_{i=n-k+1}^{n} p_i 
+          \]
    </details>
 </div>
 
@@ -399,16 +398,16 @@ To simplify the analysis, we will gather all the possible reactions into 5 categ
   </p>
 </div>
 
-After those inconclusive results, we do not lose hope ! We move on to performing a 
+After those inconclusive results, we do not lose faith ! We move on to performing a Machine Learning Model in the hope of predicting the probability of the event 'Recovered', which will also help us obtaining coefficients for all reactions and their influence on the event. 
 
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
-  First of all, here are the results of a <b>Logistic regression</b> of recovery on the reactions. Basically, this means that we make use of all the data we have to compute the average impact of each reaction on the recovery. Before performing it, we standardize our attributes to put them  all on the same scale, and be able to compare coefficients better. 
+  The model chosen is a <b>Logistic regression</b> of the recovery on the reactions. Therefore, we will make use of all the data we have to compute the average impact of each reaction on the recovery. Before performing it, we standardize our attributes to put them all on the same scale, and be able to compare coefficients better. 
 </div>
 
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; margin-top: 0;">
   <details open> 
     <summary style = "font-size: 18px; cursor: pointer;"><b>Logistic Regression</b></summary>     
-    Supervised learning Machine Learning model where the latter log odds as a linear function of X.
+    Supervised Machine Learning model where the latter log odds as a linear function of X. It is fitted for binary classification which applies here (Recovered: yes/no)
    </details>
 </div>
 
