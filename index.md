@@ -889,28 +889,27 @@ If you’re considering making a shift, we recommend focusing on topics that hav
 
   <br>
   
-  Let’s face it — you wouldn’t still be reading this unless you’d royally messed up, would you? You’ve stepped on the internet landmine, and now your channel is caught in the crosshairs of a… <b>BAD BUZZ</b> 😱. <br>
+  Let’s face it — you wouldn’t still be reading this unless you’d royally messed up, would you? You’ve stepped on a landmine, and now your channel is caught in the crosshairs of a… <b>BAD BUZZ</b> 😱. <br>
   
   <br>
 
-  If you’ve scrolled through the previous sections and <b>still can’t find a fix</b>, it’s because your situation requires more than the usual “post more consistently” or “engage with your audience” advice. But fear not! While the internet’s collective fury can feel like a raging storm, we’ve armed ourselves with data analysis and research to help you turn this ship around.
+  If you’ve scrolled through the previous sections and <b>still can’t find a fix</b>, it’s because your situation requires more than the usual “post more consistently” or “engage with your audience” advice. But fear not! While the internet’s collective fury can feel like a raging storm, we’ve armed ourselves with data analysis and researchers to help you turn this ship around.
   
-
   <h3><span style="color: #b51a00;">The Challenges of a Big YouTuber in a Crisis</span></h3>
 
   From now on, our analysis will be focusing on the top <b>4%</b> (2955 out of 74788) of channels (that have had suffered from a decline) — the people just like you, the crème de la crème, in other words the ones with more than 1 million subscribers. You're no stranger to it all, you are the most visible but also the most vulnerable to public backlash. <br>
 
   <br>
 
-  When a big YouTuber like you faces a crisis, <b>the stakes are high</b>. The potential loss of subscribers, sponsors, and revenue can be catastrophic, in others words we know you spend your entire day scrolling on Youtube analytics. But the good news is that you are also the ones with the most influence and thus power in their upload content, so <b>recovery is possible (YAY !)</b> !   <br>
+  When a big YouTuber like you faces a crisis, <b>the stakes are high</b>. The potential loss of subscribers, sponsors, and revenue can be catastrophic, we are very much aware that you spend your entire day scrolling on Youtube analytics. But the good news is that you are also the ones with the most influence and thus power in their upload content, so <b>recovery is possible (YAY)</b> !   <br>
 
   <br>
 
   <div style="display: flex; align-items: center;">
     <p style="flex: 1; margin-right: 20px;">
-      Our analysis of your peers has revealed some <b>fascinating trends</b>. Whether it’s a Twitter faux pas, a controversial statement, or a scandal you never saw coming, the strategies for clawing back your reputation vary dramatically depending on the moves you make right now. (Insert dramatic pause for effect. You’re feeling the pressure, aren’t you?). But hey, before you run off to film a tearful apology, let’s talk about why some YouTubers manage to recover from their digital nightmares while others end up in the dreaded “what did they become?” category.   
+      Our analysis of your peers has revealed some <b>fascinating trends</b>. Whether it’s a Twitter faux pas, a controversial statement, or a scandal you never saw coming, the strategies for clawing back your reputation vary dramatically depending on the moves you make right now (Insert dramatic pause for effect. You’re feeling the pressure, aren’t you?). But hey, before you run off to film a tearful apology, let’s talk about why some YouTubers manage to recover from their digital nightmares while others end up in the dreaded “what did they become?” category.   
     </p>
-  <img src="/assets/img/controversy.png" alt="Description of image" style="width: 300px;">
+  <img src="/assets/img/yelling.png" alt="Description of image" style="width: 300px;">
   </div>
 
   <h3><span style="color: #b51a00;">The Recovery Rates of Big YouTubers</span></h3>
@@ -918,7 +917,7 @@ If you’re considering making a shift, we recommend focusing on topics that hav
   <div style="display: flex; align-items: center;">
     <img src="/assets/img/subscribe.png" alt="" style="width: 150px; margin-left: 20px;">
     <p style="flex: 1; margin-left: 20px;">
-      We’re not going to leave you hanging with just data and no solutions. <b>Let’s reclaim that subscribe button together.</b> For this, we needed to analyze the recovery rates of these big YouTubers based on the type of video they uploaded. First thing you need to know is that not all of your colleagues have recovered from their bad buzz efficiently.
+      We’re not going to leave you hanging with just data and no solutions. <b>Let’s reclaim that subscribe button together!</b> For this, we needed to analyze the recovery rates of these big YouTubers based on the type of video they uploaded. First thing you need to know is that not all of your colleagues have recovered from their bad buzz efficiently.
     </p>
   </div>
   
@@ -929,7 +928,7 @@ If you’re considering making a shift, we recommend focusing on topics that hav
   One could think that that’s not good news, but you have to see the glass <b>half full</b>. What it actually shows is that when focusing only on big YouTubers, the recovery rate is not better... but also not worse !<br>
   <br>
 
-  Just like we did before this case study, let's get more precise and show the recovery rates of your fellow trend setters based on the category of their channel, don't hesitate to refresh your memory by clicking on All channels: <br />
+  Just like we did before this case study, let's get more precise and show the recovery rates of your fellow trend setters based on the category of their channel, don't hesitate to refresh your memory by clicking on All channels button. <br />
 
   <div id="flourish-container">
     <div id="flourish-BY" class="flourish-embed flourish-election" data-src="visualisation/20860572"></div>
@@ -996,9 +995,9 @@ If you’re considering making a shift, we recommend focusing on topics that hav
   <div style="display: flex; align-items: center;">
     <img src="/assets/img/podium.png" alt="Description of image" style="width: 150px;">
     <p style="flex: 1; margin-left: 20px;">
-      <b>This time, the winners are ...</b> At the very top of the podium, the category <span style="color: #004AAD;">"Travel & Events"</span> confirms its stronger than average forgivability  but this with a shoking <b>100%</b> recovery rate, followed by <span style="color: #004AAD;">"Autos & Vehicles"</span> with a solid <b>90%</b>, you might just be over the moon if you make road trips videos ;) 
+      <b>This time, the winners are ...</b> At the very top of the podium, the category <span style="color: #004AAD;">"Travel & Events"</span> confirms its better than average forgivability with a shoking <b>100%</b> recovery rate, followed by <span style="color: #004AAD;">"Autos & Vehicles"</span> with a solid <b>90%</b>, you might just be over the moon if you make road trips videos ;) 
       <br>
-      Sadly, there is also a <b>almost-there</b>... the <span style="color: #B40426;">"Music"</span> category! Again, this category seems to be a non-forgiving place, with a very modest recovery rate of <b>16.85%</b> (two times lower than with all channels).
+      Sadly, there is also an <b>outcast</b>... the <span style="color: #B40426;">"Music"</span> category! Again, this category seems to be a non-forgiving place, with a very modest recovery rate of <b>16.85%</b> (two times lower than with all channels).
       <br>
     </p>
   </div>
@@ -1012,8 +1011,8 @@ If you’re considering making a shift, we recommend focusing on topics that hav
     <img src="/assets/img/switch.png" alt="Note on the plot" style="width: 150px;">
   </div>
 
-    <br>
-  While those findings are already interesting, there are only the tip of the iceberg. Any hypothesis on what makes these difference that big. No need to worry... we have the answer for you !<br>
+  <br>
+  While those findings are already interesting, there are only the tip of the iceberg. Any hypothesis on what makes these difference that big? No need to wrack your brain... we have the answer for you !<br>
   <br>
 
 
@@ -1047,7 +1046,7 @@ If you’re considering making a shift, we recommend focusing on topics that hav
   And guess what? Our findings are as wild as the comment section on your latest video !<br>
   <br>
 
-  The LLM analyzed cautiously the title of all the <b>107,618</b> videos uploaded by these big youtubers during their respective crisis. The following plot shows how many videos fall into each of these categories among this considerable amount of videos, according to the LLM, based on their title.<br />
+  The LLM analysed cautiously the title of all the <b>107,618</b> videos uploaded by these big youtubers during their respective crisis. The following plot shows how many videos fall into each of these categories among this considerable amount of videos, according to the LLM, based on their title.<br />
   <br />
 
   <div class="flourish-embed flourish-chart" data-src="visualisation/20880620"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20880620/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
@@ -1066,12 +1065,12 @@ If you’re considering making a shift, we recommend focusing on topics that hav
   <br>
     <div style="display: flex; align-items: center;">
     <p style="flex: 1; margin-right: 20px;">
-      Not really what you would expect... we do understand your disappointement. <b>Clickbait videos</b> are the only type of videos that could have a positive impact on your recovery rate, and you might consider that selling your soul to the devil. But do not worry yet, these results have to be observed considering that they might suffer from a <b>baseline bias</b>. Let us explain... For example, one could think seeing the matched data that apology video are pointless, but it could also just mean that your pears that had to undergo this tough exercise where knee down in the mud, suffering from controversy so big that there was no possible buy out from the public eye. <br>
+      Not really what you would expect... we do understand your disappointement. <b>Clickbait videos</b> are the only type of videos that could have a positive impact on your recovery rate, and you might consider that selling your soul to the devil. But do not worry yet, these results have to be observed considering that they might suffer from a <b>baseline bias</b>. Let us explain: for example, one could think seeing the matched data that apology videos are pointless, but it could also just mean that your pears that had to undergo this tough exercise were knee down in the mud, suffering from controversy so big that there was no possible buy out from the public eye. <br>
     </p>
     <img src="/assets/img/clickbait.png" alt="" style="width: 150px;">
   </div>
 
-  And maybe it's not the only type of video your heart (or wallet, or brain!) tells you to make. Maybe you want to make an apology video, and maybe also having a break to comeback a few months later... BUT you don't know if it's a good idea. We got you! In the next session, we will elaborate <b>data driven strategies that you can adopt to bail you out of your misery !</b><br>
+  And maybe it's not the only type of video your heart (or wallet, or brain!) tells you to make. Maybe you want to make an apology video, and maybe also having a break to comeback a few months later... BUT you don't know if it's a good idea. We got you! In the next section, we will elaborate <b>data driven strategies that you can adopt to bail you out of your misery !</b><br>
   <br>
 
   <h3><span style="color: #b51a00;">The (Exclusive) Strategy to Adopt</span></h3>
@@ -1080,16 +1079,16 @@ If you’re considering making a shift, we recommend focusing on topics that hav
   <div style="display: flex; align-items: center;">
     <img src="/assets/img/strategy.png" alt="Note on the plot" style="width: 100px;">
     <p style="flex: 1; margin-left: 15px;">
-      Let's first define what we mean by <b>"strategy"</b>. In our case, a strategy is a combination of the different types of videos that a big youtuber can upload during a crisis. For example, you could decide to upload at least one tearful apology video, one clickbait visually eye-traumatising one and one video with friends (or all of the latter in the same video... a happy teary mess). This strategy would be considered as <b>"Apology + Clickbait + Featuring"</b>. In this situation, you let your heart open and you keep in mind that other types of videos are possible, you're just not 100% sure on the final pathway you will employ.
+      Let's first define what we mean by <b>"strategy"</b>. In our case, a strategy is a combination of the different types of videos that a big youtuber can upload during a crisis. For example, you could decide to upload at least one tearful apology video, one clickbait visually eye-traumatising one and one video with friends (or all of the latter in the same video... a happy teary mess). This strategy would be considered as <b>"Apology + Clickbait + Featuring"</b>. In this situation, your heart is still open on which type of videos to make in addition to those and you're not 100% sure on the final pathway you will employ.
     </p>
   </div>
 
   <br>
 
-  Secondly, we define an <b>"exclusive strategy"</b> as a strategy where you decide to upload videos of certain types and to NOT upload any other type (you're just a loner, or you're a human with ethics, yes joke intended). For our previous example (Apology, Clickbait and Featuring), this would be considered as the <b>EXCLUSIVE</b> strategy "Apology + Clickbait + Featuring". <br>
+  Secondly, we define an <b>"exclusive strategy"</b> as a strategy where you decide to upload videos of certain types and to NOT upload any other type (you're just a loner, you hate admitting when you're wrong, or you're a human with ethics, yes joke intended). From our previous example (Apology, Clickbait and Featuring), this would be considered as the <b>EXCLUSIVE</b> strategy "Apology + Clickbait + Featuring". <br>
   <br>
 
-  Let's now see which exclusive or not strategies are the most adopted by the 1M+ club, and most importantly which ones are the most efficient. For this, we've gathered the proportion of youtubers that have adopted each (exclusive) strategy, and the associated recovery rate. All you have to do is to click on the circle(s) of the strategy you want to adopt. If you are more into an exclusive strategy, just switch to the second graph, and select your exclusive strategy exactly the same way. The graph is designed so you can play around with the different strategies and see how they would impact your recovery rate. Have some fun with it, experiment with the combinations, until you find <b>YOUR</b> best fit. <br>
+  Let's now see which exclusive or not strategies are the most adopted by the 1M+ club, and most importantly which ones are the most efficient. For this, we've gathered the proportion of Youtubers that has adopted each (exclusive) strategy, and the associated recovery rate. All you have to do is to click on the circle(s) of the strategy you want to adopt. If you are more into an exclusive strategy, just switch to the second graph, and select your exclusive strategy exactly the same way. The graph is designed so you can play around with the different pathways and see how they would impact your recovery rate. Have some fun with it, experiment with the combinations, until you find <b>YOUR</b> best fit. <br>
   <br>
 
   <b>Select a graph and enjoy:</b>
@@ -1211,7 +1210,7 @@ If you’re considering making a shift, we recommend focusing on topics that hav
   <br>
 
   <ul>
-    <li><b><span style="color: #004AAD;">The "GO!"s:</span></b> The most efficient (and widely adopted) strategies are the ones that include the <b>clickbait</b> videos with a recovery rate of almost always <b>50%</b>. Combining this and a video that addresses your bad buzz seems to be the best duo if you wanted to start with two differents strategy. <br><br></li>
+    <li><b><span style="color: #004AAD;">The "GO!"s:</span></b> The most efficient (and widely adopted) strategies are the ones that include the <b>clickbait</b> videos with a recovery rate of almost always <b>50%</b>. Combining this and a video that addresses your bad buzz seems to be the best duo. <br><br></li>
     <li><b><span style="color: #b51a00;">The "NO!"s:</span></b> Apologizing in a video definitely seems to be counterproductive (recovery rate of 37%). All the worst recovery rates contain videos of this type. Even if your better judgment tells you to do it, it might be better to avoid begging for forgiveness. <br></li>
   </ul>
 
@@ -1220,8 +1219,8 @@ If you’re considering making a shift, we recommend focusing on topics that hav
   <ul>
     <li><b>The case of Clickbait:</b> A key observation on the proportions is that the <b>majority</b> of your colleagues did not limit themselves to only clickbait videos since the proportion falls down from 76% to 31% when we make the strategy exclusive. However, it keeps the highest recovery rate (52.2%) amongst the other exclusive single-type strategies. <br><br></li>
     <li><b>The troubled waters:</b> On the other hand, we quickly notice that a lot of exclusive combinations have never been tested by our top 4% youtubers. This is the case for the <b>"Break + Comeback"</b> strategy (yes we know, not a rocket science combination). We wouldn't invite you to try them out, but we know some of you may have taste for challenge and adventure. <br /><br /></li>
-    <li><b>Saving your apologies by clickbaiting:</b> A major point is that when combined with <b>"Clickbait"</b> (only), the <b>"Apology"</b> video comes out of nowhere to demonstrate the fabulous recovery rate of <b>100%</b>. But don't get too much enthusiastic about this result, the proportion of youtubers that have adopted this strategy is very low- however, it is still encouraging if that's what you had in mind. <br /><br /></li>
-    <li><b>Multi-type strategies:</b> The only multi-type strategies that have already been widely adopted are the <b>"Clickbait + Featuring"</b> (<b>12%</b>  of the big youtubers tried this) and the <b>"Clickbait + Bad Buzz Addressed" (5%)</b> strategies. And whilst the first one seems not to be optimal (only 49% of them recovered), the <b>"Clickbait + Bad Buzz Addressed"</b> demonstrates a recovery rate of 54%, giving you more than a 50% chance of saving your channel. Bring it on ! <br /></li>
+    <li><b>Saving your apologies by clickbaiting:</b> A major point is that when combined with <b>"Clickbait"</b> (only), the <b>"Apology"</b> video comes out of nowhere to demonstrate the fabulous recovery rate of <b>100%</b>. But don't get too enthusiastic about this result, the proportion of Youtubers that have adopted this strategy is very low- however, it is still encouraging if that's what you had in mind. <br /><br /></li>
+    <li><b>Multi-type strategies:</b> The only multi-type strategies that have already been widely adopted are the <b>"Clickbait + Featuring"</b> (<b>12%</b>  of the big youtubers tried this) and the <b>"Clickbait + Bad Buzz Addressed" (5%)</b> strategies. And whilst the first one doesn't seem to be optimal (only 49% of them recovered), the <b>"Clickbait + Bad Buzz Addressed"</b> demonstrates a recovery rate of 54%, giving you more than a 50% chance of saving your channel. Bring it on ! <br /></li>
   </ul>
   </p>
 </div>
@@ -1230,13 +1229,13 @@ If you’re considering making a shift, we recommend focusing on topics that hav
 
 **Congrats!**
 
-You tagged along the whole manual ! You must really be desperate... but we appreciate your company. If we had to sum it up, we would say that declines are harder to recover that one might have imagine, and the proof lies in data. Indeed, a big part of the interpretation wasn't as significant as you and us would have wanted BUT we have still managed to make some accurate conclusions. 
+You tagged along the whole manual! You must really be desperate... but we appreciate your company. If we had to sum it up, we would say that declines are harder to recover that one might have imagine, and the proof lies in the data. Indeed, a big part of the interpretation wasn't as significant as you and us would have wanted BUT we have still managed to make some accurate conclusions. 
 
 The first one being that your **center of interest** is a determinant of how your channel will fluctuate around declines, and our dear musicians are struggling more than your geeky gamer, when facing the Youtube algorithm. 
 
 Another thing to take away: **posting more** (whilst of course maintaining quality) will always be a good idea, whatever your popularity. You can try to fine-tune your video duration, change your topic but inherently what will count is your every-day posting. 
 
-If you're one of the lucky 1M+ group, stakes are different and strategies must be taken. Unfortunately, being honest and transparent, taking times for yourself and make apologies doesn't seem to be the move... which says a lot.
+If you're one of the lucky 1M+ group, stakes are different and strategies must be taken. Unfortunately, being honest and transparent, taking times for yourself and making apologies doesn't seem to be the move... which says a lot.
 
 As much as we do wish for you to recover from the decline you're going through, we also don't want you to lose sight on what really matters: **your creativity**, which can only be brought out if you're a fulfilled individual and content creator... and we are not sure that clickbaiting is how you're going to get there. You know what we advise, you've seen the stats and the strategies to opt for, but question yourself on if you think losing a few hundred subscribers is worth changing your whole system. But that is a way more philosophical question that we will leave you hanging with. 
 
