@@ -652,13 +652,18 @@ Now, about video duration ! Are you feeling more Spielberg or TikTok star ? Whil
 The questionnaire is based on the following graph:
 <iframe src='https://flo.uri.sh/visualisation/20874600/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:400px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/20874600/?utm_source=embed&utm_campaign=visualisation/20874600' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
-In conclusion, our team of experts is confident in saying that the ideal video length maximising recovery is between 20 and 30 minutes. This duration may resonate better with your audience, not too long (sorry but you might bore people) whilst still providing interesting content ! <b> While this insight is subtle, it can guide creators aiming to maximize their recovery potential. </b>However, the increase in chances in quite dim for videos over 15min, so you shouldn't bother too much squeezing your content. 
+<div style="display: flex; align-items: center;">
+  <p style="flex: 1; margin-right: 20px;">
+    In conclusion, our team of experts is confident in saying that the ideal video length maximising recovery is between <b>20 and 30 minutes</b>. This duration may resonate better with your audience, not too long (sorry but you might bore people) whilst still providing interesting content ! <b> While this insight is subtle, it can guide creators aiming to maximize their recovery potential. </b>However, the increase in chanwces in quite dim for videos over 15min, so you shouldn't bother too much squeezing your content. . 
+  </p>
+  <img src="/assets/img/cadrant.png" alt="Description of image" style="width: 150px;">
+</div>
 
-In this analysis of video durations and frequencies, we used Propensity Score Matching to ensure fair comparisons between the different strategies. Since Youtubers differ in many ways (channel size, category, publication schedule, ...) and we don't want to compare channels with vastly different characteristics, we used PSM to match the channels of each duration or frequency bin with similar channels in the remaining database and ensure that any observed differences in recovery rates are more likely due to upload frequency or mean video duration than other confounding factors.
+In this analysis of video durations and frequencies, we used **Propensity Score Matching** to ensure fair comparisons between the different strategies. Since Youtubers differ in many ways (channel size, category, publication schedule, ...) and we don't want to compare channels with vastly different characteristics, we used PSM to match the channels of each duration or frequency bin with similar channels in the remaining database and ensure that any observed differences in recovery rates are more likely due to upload frequency or mean video duration than other confounding factors.
 
 As a side note, since the data from the YouNiverse stopped being sampled in 2019, we do not have any data on new updates Youtube introduce... and this include the great invention of the **Youtube Shorts**. This Tiktok wanabee might be a key for your Youtube rising fame if you're into short and dynamic videos ! Just fyi...
 
-TODO: add icon
+
 
 ### A deep dive into topic transitions
 
@@ -671,7 +676,6 @@ TODO: add icon
 </div>
 
 On average, channels that change their video topics experience a slight increase in recovery rates compared to those that do not.
-<!--  t-test ? something to prove it --> 
 While this is encouraging, we have to emphasize that **this approach can have mixed results**, and the impact on your recovery rate will depend heavily on the types of topics you choose to pivot to. **It is not about if you change or not, it is from where and to where you change !**
 Let's investigate using a interactive Sankey diagram showing topic transitions and their recovery rates, colored by recovery rate (cooler colors represent higher recovery rates)
 
