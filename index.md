@@ -204,7 +204,7 @@ After doing so, a little update on what our database is: we had 74788 channels t
 
 From our data, if your experiencing a decline, you might just be in it for more than 3 months... and maybe even forever ! Let's get those number down for you...
 
-To make you visualise a bit more, here is a little glimpse at the biggest Youtubers' declines, so you can see how well our detection works (with a little drama too...)! If you're one of those big Youtubers we mentionned before, or even one of the one present in the carrousel (Jake Paul is that you ?), don't hesitate to go check out your <a href="#1M+club" style="color: red; font-weight: bold;" >dedicated section</a>.
+To make you visualise a bit more, here is a little glimpse at the biggest Youtubers' declines, so you can see how well our detection works (with a little drama too...)! If you're one of those big Youtubers we mentionned before, or even one of the one present in the carrousel (Jake Paul is that you ?!?), don't hesitate to go check out your <a href="#1M+club" style="color: red; font-weight: bold;" >dedicated section</a>.
 
 <div class="flourish-embed flourish-cards" data-src="visualisation/20775803"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20775803/thumbnail" width="100%" alt="cards visualization" /></noscript></div>
 
@@ -237,7 +237,7 @@ So what could be the first metric is actually very naive but still shows some re
 
 Interesting metric, but don't start sweating just yet, we're just getting started... 
 
-So what about **views and subscribers** ? Is being a renowned Youtuber providing you with more chances to recover efficiently ? Well... not really quite the opposite. Yet again, trends are not too scarred, but even though we see the usual 60-40 proportions appearing, we also see that small channels (under x subscribers) seem to recover better than your usual golden trophee youtubers ? 
+So what about **views and subscribers** ? Is being a renowned Youtuber providing you with more chances to recover efficiently ? Well... not really quite the opposite. Yet again, trends are not too scarred, but even though we see the usual 60-40 proportions appearing, we also see that small channels (under 3000 subscribers) seem to recover better than your usual <a href="#1M+club" style="color: red; font-weight: bold;">golden trophee youtubers</a>? 
 
 ![](/assets/img/Subs&views_plot.png)
 
@@ -659,8 +659,7 @@ The questionnaire is based on the following graph:
 
 In this analysis of video durations and frequencies, we used **Propensity Score Matching** to ensure fair comparisons between the different strategies. Since Youtubers differ in many ways (channel size, category, publication schedule, ...) and we don't want to compare channels with vastly different characteristics, we used PSM to match the channels of each duration or frequency bin with similar channels in the remaining database and ensure that any observed differences in recovery rates are more likely due to upload frequency or mean video duration than other confounding factors.
 
-As a side note, since the data from the YouNiverse stopped being sampled in 2019, we do not have any data on new updates Youtube introduce... and this include the great invention of the **Youtube Shorts**. This Tiktok wanabee might be a key for your Youtube rising fame if you're into short and dynamic videos ! Just fyi...
-
+As a side note, since the data from the YouNiverse stopped being sampled in 2019, we do not have any data on new updates Youtube introduce... and this include the great invention of the **Youtube Shorts**. This Tiktok wanabee might be a key for your Youtube rising fame if you're into short and dynamic videos ! Just an fyi...
 
 
 ### A deep dive into topic transitions
@@ -811,12 +810,12 @@ If you’re considering making a shift, we recommend focusing on topics that hav
 
 <!--NICO-->
 
-<div style="text-align: center;">
+<div id ='1M+club'style="text-align: center;">
   <img src="/assets/img/1mclub.png" alt="Description" width="500">
 </div>
 
 <div style="border: 0px solid red; padding: 10px; display: inline-block;"><p> 
-  <h2 id='1M+club'> <span style="color: #b51a00;"> Part of the very exclusive 1 million + subscribers and suffering from a decline ? </span> </h2>
+  <h2> <span style="color: #b51a00;"> Part of the very exclusive 1 million + subscribers and suffering from a decline ? </span> </h2>
 
   <br>
   
