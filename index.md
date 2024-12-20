@@ -998,29 +998,28 @@ If you’re considering making a shift, we recommend focusing on topics that hav
 
   <div class="flourish-embed flourish-chart" data-src="visualisation/20880620"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20880620/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
-  We can already see that the most common strategy (maybe because it's the easiest and no public humiliaiton?) seems to be <b>spamming clickbait videos</b>. But is it the most effective strategies ? The response lies only in the data...<br>
+  We can already see that the most common strategy (maybe because it's the easiest and no public humiliation?) seems to be <b>spamming clickbait videos</b>. But is it the most effective strategies ? The response lies only in the data...<br>
   <br>
 
   <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
-  Again, in order to get some unbiased results and make the proportion of recoveries meaningful, we performed <b>propensity score matching</b> on our decline dataset for big youtubers to observe the impact of each type of video. This is mandatory since the amount of channels uploading videos of these types is nothing compared to those you don't.
+  Again, in order to get some unbiased results and make the proportion of recoveries meaningful, we performed <b>propensity score matching</b> on our decline dataset for big youtubers to observe the impact of each type of video. Just like before, this is performed because the features from the declines are not perfectly balanced.
   </div>
-  <br />
+  <br>
 
-  And here is what you could not wait to see...<br />
-  <br />
-
+  And here is what we obtain, the grail... <br>
+  <br>
   TODO:PLOT PSMATCHING WHEN CHANGED (WAITING FOR FEU VERT DE NATHAN)
-  <br />
+  <br>
 
-  <br />
-  This is a bit disappointing we know... clickbait videos is the only type of videos that seems to have a positive impact on the recovery rate of big youtubers, that's not what your heart tells you to do. But don't worry, these results have to be observed considering that they might suffer from a baseline bias. For example, one could think that the apology video that you surely want to make for the sake of your conscience would have a terrible impact on your recovery chances, but it could be because the channels that make apology videos are the ones that are in the worst situation. <br />
-  <br />
+  <br>
+  Not really what you would expect... we do understand your disappointement. <b>Clickbait videos</b> are the only type of videos that could have a positive impact on your recovery rate, and you might consider that selling your soul to the devil. But do not worry yet, these results have to be observed considering that they might suffer from a <b>baseline bias</b>. Let us explain... For example, one could think seeing the matched data that apology video are pointless, but it could also just mean that your pears that had to undergo this tough exercise where knee down in the mud, suffering from controversy so big that there was no possible buy out from the public eye. <br>
+  <br>
   
-  And maybe it's not the only type of video your heart (or brain!) tells you to make. Maybe you want to make a clickbait video, but also an apology video, and a featuring video, and a comeback video, and ... BUT you don't know if it's a good idea. We got you! Just read the next section to know more about the strategies to adopt !<br />
+  And maybe it's not the only type of video your heart (or wallet, or brain!) tells you to make. Maybe you want to make an apology video, and maybe also having a break to comeback a few months later... BUT you don't know if it's a good idea. We got you! In the next session, we will elaborate <b>data driven strategies that you can adopt to bail you out of you rmisery </b><br>
+  <br>
 
-  <br />
-  <h3>The (Exclusive) Strategy to Adopt</h3>
-  <br />
+  <h3><span style="color: #b51a00;">The (Exclusive) Strategy to Adopt</span></h3>
+  <br>
   Let's first define what we mean by <b>"strategy"</b>. In our case, a strategy is a combination of the different types of videos that a big youtuber can upload during a crisis. For example, you could decide to upload at least one apology video, at least one clickbait video and at least one collaboration video (note that one video could be an apology, clickbait and a featuring at the same time, because why not ?); and you don't close the door to the other types of videos (among the our 6 video types of interest), you are just not sure yet. This would be considered as the strategy "Apology + Clickbait + Featuring". <br />
   <br />
 
