@@ -581,7 +581,7 @@ Finally, some long awaited results ! The balanced data suggests that whilst **in
       t = \frac{\bar{X_1} - \bar{X_2}}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}
     \]
     <p>
-      with \( \bar{X} the sample mean from the samples, and s the unbiased estimator of the variance \)
+      with \( \bar{X}\) the sample mean from the samples, and \(s\) the unbiased estimator of the variance
     </p>
     Then, the probability of obtaining a result at least as extreme as the one observed (p-value) is computed and compared to a chosen significance level. In this whole project, we always used a significance level of 0.05 and discarded the null hypothesis, stating that there is no difference in recovery rates between the two group, whenever the p-value is less than this significance level.
    </details>
