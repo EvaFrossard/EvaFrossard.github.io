@@ -26,6 +26,7 @@ layout: null
 
 /* --- General --- */
 
+
 html {
   font-size: 100%
 }
@@ -1152,4 +1153,25 @@ pre {
   #nav-search-text {
     display: inline-block;
   }
+}
+
+
+/* Style for the Back to Top Button */
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 50%;
+  padding: 10px 15px;
+  font-size: 20px;
+  display: none;
+  transition: opacity 0.3s ease;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#back-to-top:hover {
+  background-color: #004aad;
 }

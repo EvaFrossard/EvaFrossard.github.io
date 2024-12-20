@@ -77,6 +77,23 @@ mathjax: true
     </style>
 </head>
 
+<script>
+  // Show the "Back to Top" button when the user scrolls down
+  window.onscroll = function() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      document.getElementById("back-to-top").style.display = "block";
+    } else {
+      document.getElementById("back-to-top").style.display = "none";
+    }
+  };
+
+  // Scroll to the top when the button is clicked
+  document.getElementById("back-to-top").onclick = function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    return false;
+  };
+</script>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1237,5 +1254,3 @@ Most of the interactive graphs have been done using [flourish](https://flourish.
 [5] Picture Logan Paul: <https://www.nbcnews.com/tech/logan-paul-announces-buy-back-nfts-cryptozoo-rcna132390>
 
 [6] 3 pictures about upload frequency: AI generated using Dali
-
-Color code: #004AAD
