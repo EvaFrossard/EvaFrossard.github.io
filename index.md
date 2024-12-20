@@ -371,6 +371,7 @@ To simplify the analysis, we will gather all the possible reactions into 5 categ
 - **Duration of videos** with Posted_longer_videos and Posted_shorter_videos
 - **Topic_change** based on the tags
 
+
 <div style="border-left: 4px solid #432750; padding-left: 20px; font-size: 18px; background-color: #D2C0DD">
   Let's start by figuring out if some reactions have some linear relationship. To do so, we are going to compute <b>Pearson's correlation coefficients </b> between every pair of reactions, and visualize them using a correlation matrix.
 </div>
