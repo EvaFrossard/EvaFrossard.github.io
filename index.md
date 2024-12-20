@@ -573,11 +573,16 @@ Finally, some long awaited results ! The balanced data suggests that whilst **in
     <summary style = "font-size: 18px; cursor: pointer;"><b>Welch's t-test analysis</b></summary>     
     A Welch's t-test is used to determine whether a difference between two groups is likely due to random chance or if it reflects a statistically significant difference in the populations, when the two popualtion variances are not equal. A t-test calculates a statistic called the <b>t-value</b>, which measures how much the two means differ, relative to the variability in the data. 
     $$ t = \frac{\bar{X_1} - \bar{X_2}}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}} $$
-
     \[
     \text{With } \bar{X} \text{ the sample mean from the samples, and } s \text{ the unbiased estimator of the variance.}
     \]
 
+    \[
+      t = \frac{\bar{X_1} - \bar{X_2}}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}
+    \]
+    <p>
+      with \( \bar{X} the sample mean from the samples, and s the unbiased estimator of the variance \)
+    </p>
     Then, the probability of obtaining a result at least as extreme as the one observed (p-value) is computed and compared to a chosen significance level. In this whole project, we always used a significance level of 0.05 and discarded the null hypothesis, stating that there is no difference in recovery rates between the two group, whenever the p-value is less than this significance level.
    </details>
 </div>
