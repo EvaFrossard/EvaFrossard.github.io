@@ -1015,21 +1015,22 @@ If you’re considering making a shift, we recommend focusing on topics that hav
   Not really what you would expect... we do understand your disappointement. <b>Clickbait videos</b> are the only type of videos that could have a positive impact on your recovery rate, and you might consider that selling your soul to the devil. But do not worry yet, these results have to be observed considering that they might suffer from a <b>baseline bias</b>. Let us explain... For example, one could think seeing the matched data that apology video are pointless, but it could also just mean that your pears that had to undergo this tough exercise where knee down in the mud, suffering from controversy so big that there was no possible buy out from the public eye. <br>
   <br>
   
-  And maybe it's not the only type of video your heart (or wallet, or brain!) tells you to make. Maybe you want to make an apology video, and maybe also having a break to comeback a few months later... BUT you don't know if it's a good idea. We got you! In the next session, we will elaborate <b>data driven strategies that you can adopt to bail you out of you rmisery </b><br>
+  And maybe it's not the only type of video your heart (or wallet, or brain!) tells you to make. Maybe you want to make an apology video, and maybe also having a break to comeback a few months later... BUT you don't know if it's a good idea. We got you! In the next session, we will elaborate <b>data driven strategies that you can adopt to bail you out of your misery !</b><br>
   <br>
 
   <h3><span style="color: #b51a00;">The (Exclusive) Strategy to Adopt</span></h3>
   <br>
-  Let's first define what we mean by <b>"strategy"</b>. In our case, a strategy is a combination of the different types of videos that a big youtuber can upload during a crisis. For example, you could decide to upload at least one apology video, at least one clickbait video and at least one collaboration video (note that one video could be an apology, clickbait and a featuring at the same time, because why not ?); and you don't close the door to the other types of videos (among the our 6 video types of interest), you are just not sure yet. This would be considered as the strategy "Apology + Clickbait + Featuring". <br />
-  <br />
 
-  Secondly, we define an <b>"exclusive strategy"</b> as a strategy where you decide to upload video(s) of certan types and to NOT upload any other type (among the our 6 video types of interest) because you are sure you don’t want to stoop to that. For our previous example (the strategies adopted or Apology, Clickbait and Featuring), this would be considered as the <b>EXCLUSIVE</b> strategy "Apology + Clickbait + Featuring". <br />
-  <br />
+  Let's first define what we mean by <b>"strategy"</b>. In our case, a strategy is a combination of the different types of videos that a big youtuber can upload during a crisis. For example, you could decide to upload at least one tearful apology video, one clickbait visually eye-traumatising one and one video with friends (or all of the latter in the same video... a happy teary mess). This strategy would be considered as <b>"Apology + Clickbait + Featuring"</b>. In this situation, you let your heart open and you keep in mind that other types of videos are possible, you're just not 100% sure on the final pathway you will employ. <br>
+  <br>
 
-  Let's now see which (exclusive) strategies are the more adopted by the big youtubers, and which ones are the most efficient. For this, we've gathered the proportion of youtubers that have adopted each (exclusive) strategy, and the associated recovery rate. All you have to do is to click on the circle(s) of the strategy you want to adopt. If you are more into an exclusive strategy, just switch to the second graph, and select your exclusive strategy exactly the same way.<br />
-  <br />
+  Secondly, we define an <b>"exclusive strategy"</b> as a strategy where you decide to upload videos of certain types and to NOT upload any other type (you're just a loner, or you're a human with ethics, yes joke intended). For our previous example (Apology, Clickbait and Featuring), this would be considered as the <b>EXCLUSIVE</b> strategy "Apology + Clickbait + Featuring". <br>
+  <br>
 
-  Select a graph and enjoy:
+  Let's now see which exclusive or not strategies are the most adopted by the 1M+ club, and most importantly which ones are the most efficient. For this, we've gathered the proportion of youtubers that have adopted each (exclusive) strategy, and the associated recovery rate. All you have to do is to click on the circle(s) of the strategy you want to adopt. If you are more into an exclusive strategy, just switch to the second graph, and select your exclusive strategy exactly the same way.<br>
+  <br>
+
+  <b>Select a graph and enjoy:</b>
 
   <select id="graphSelector" onchange="updateData()" style = "margin-left: 40px;">
     <option value="graph1">Strategies Proportion and Recovery Rate</option>
